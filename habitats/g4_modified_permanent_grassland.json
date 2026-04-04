@@ -1,0 +1,371 @@
+{
+  "record_type": "habitat",
+  "schema_version": "2.0",
+  "created": "2026-04-04",
+  "created_by": "Caroline Grindrod / Claude (Anthropic)",
+
+  "ukhab_identity": {
+    "ukhab_level2": "g",
+    "ukhab_level2_name": "Grassland",
+    "ukhab_level3": "g4",
+    "ukhab_level3_name": "Modified grassland",
+    "ukhab_level4": "g4",
+    "ukhab_level4_name": "Modified permanent grassland",
+    "ukhab_level5": null,
+    "secondary_codes": [],
+    "habitat_name": "Modified permanent grassland",
+    "parent_category": "Grassland",
+    "bap_priority": false,
+    "geographic_tags": ["lowland", "upland_fringe", "uk_wide"],
+    "sources": [
+      {
+        "ref_id": "UKHAB-v2.01-2023",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "UK Habitat Classification v2.01",
+        "author_org": "UKHab Ltd",
+        "year": 2023,
+        "url": "https://ukhab.org/ukhab-documentation/",
+        "accessed_date": "2026-04-04",
+        "specific_claim": "g4 definition — modified permanent grassland; improved or semi-improved grassland that has been subject to agricultural improvement but is not a temporary ley",
+        "confidence": "high"
+      }
+    ]
+  },
+
+  "ecology": {
+    "description": "Modified permanent grassland (g4) covers a wide spectrum of improved and semi-improved permanent swards that have been subject to agricultural modification — through reseeding, fertilisation, drainage, or cultivation — but are not classified as temporary leys. This is the largest single grassland category on UK farms by area. It encompasses recently reseeded fields now classified as permanent (typically >5 years since last reseed), long-established improved permanent pastures managed with fertiliser and grazing, and old permanent pastures that were improved at some point in the past but have since partially reverted toward a more diverse sward composition. The UKHab code g4 therefore masks enormous ecological variation: a field reseeded 6 years ago and managed with 150 kg N/ha/yr sits in the same code as a field last ploughed in 1965 with unrecorded botanical history and decades of soil biological development. This variation is the primary reason the is_permanent_pasture flag and years_unimproved fields are critical for accurate ecological and production assessment.",
+    "is_production_sward": true,
+    "is_permanent_pasture": "VARIABLE — see permanent_pasture_note",
+    "permanent_pasture_note": "g4 can be either a recently modified ley classified as permanent, or genuinely old permanent pasture never reseeded within living memory or recorded history. These have fundamentally different ecological values despite sharing a UKHab code. Consultants must assess and record is_permanent_pasture and years_unimproved for each field individually. Old permanent pasture within g4 should receive ecological_value_grade 3–4 (approaching semi-natural), not grade 1–2. Do not conflate g4 with low ecological value — the field history determines this.",
+    "years_unimproved": "VARIABLE — assess per field. Range from 5 years (recently modified, still classified permanent) to 50+ years (old permanent pasture, unknown reseeding history).",
+    "ecological_value_grade": "VARIABLE — see permanent_pasture_note. Recently modified g4: grade 1–2. Long-established permanent pasture within g4: grade 3–4. Assess per field.",
+    "ecological_value_notes": "Ecological value of g4 is directly proportional to time since last cultivation and intensity of management since. Recently reseeded g4 has minimal ecological value — dominated by improved species, low plant diversity, low invertebrate value. Old permanent pasture within g4 may support significant soil biology, mycorrhizal networks, and botanical interest that took decades to develop — its ecological value may approach g3c (other neutral grassland) even where species composition still appears modified. The production-ecology trade-off is explicit here: old permanent pasture in g4 will consistently underperform fresh leys in DM production, but sacrificing it for a reseed destroys irreplaceable soil biological capital. Design around it — do not reseed unless absolutely necessary.",
+    "condition_indicators_good": [
+      "Perennial ryegrass and/or improved fescues dominant but with increasing botanical diversity over time",
+      "Good basal ground cover — dense sward with minimal bare ground",
+      "Some white clover present — indicator of reasonable soil fertility and pH",
+      "Absence of dominant rush (Juncus) or sedge species — drainage functional",
+      "For old permanent pasture: presence of fine-leaved grasses (Agrostis, Festuca), forbs (yarrow, plantain, buttercup) — indicators of ecological value developing",
+      "Evidence of earthworm activity — cast presence, soil structure responsive to probe"
+    ],
+    "condition_indicators_poor": [
+      "Rush (Juncus effusus or J. acutiflorus) dominant — drainage impeded or compaction",
+      "Dominant annual meadow grass (Poa annua) — overgrazing, compaction, poor management",
+      "Yorkshire fog (Holcus lanatus) >30% cover — fertility imbalance or undergrazing",
+      "Bare ground >10% — poaching, compaction, or nutrient deficiency",
+      "Bracken encroachment in upland fringe g4 — management deficit",
+      "Dock (Rumex spp.) dominant — fertility imbalance, poor grazing management",
+      "Sward all of one height — either set-stocked to a uniform low height or rank and ungrazed"
+    ],
+    "ecosystem_functions": [
+      "Forage production — primary function. DM yield lower than temporary ley but consistent year-round production from permanent root systems",
+      "Soil carbon storage — permanent grassland accumulates significantly more soil organic carbon than temporary leys due to undisturbed root systems and soil biology; older permanent pasture particularly high",
+      "Soil biology — mycorrhizal networks, earthworm populations, and bacterial communities develop over decades in undisturbed permanent grassland; these are lost on cultivation",
+      "Water regulation — permanent sward intercepts rainfall and reduces runoff more effectively than arable or recently reseeded land",
+      "Biodiversity — increases significantly with age and reduced management intensity; old permanent pasture may approach semi-natural grassland value",
+      "Cultural value — old permanent pasture carries historical land use records in its botanical composition and soil; irreplaceable once lost"
+    ],
+    "sources": [
+      {
+        "ref_id": "UK-NEA-GRASSLAND-CH6",
+        "source_level": 1,
+        "source_type": "peer_reviewed",
+        "title": "UK National Ecosystem Assessment Technical Report — Chapter 6: Grasslands",
+        "author_org": "UNEP-WCMC / UK NEA",
+        "year": 2011,
+        "url": "http://uknea.unep-wcmc.org/",
+        "accessed_date": "2026-04-04",
+        "specific_claim": "Agriculturally improved grassland with fertiliser produces ~10–12 t DM/ha/yr. Semi-natural grassland 2–8 t/ha = less than 30% of improved yield. Digestibility and nutrient content lower in semi-natural vs improved. Livestock on species-rich pasture produce better quality meat with higher omega-3 concentrations.",
+        "confidence": "high"
+      },
+      {
+        "ref_id": "SCIENCEDIRECT-GRASSLAND-FUTURES-2018",
+        "source_level": 1,
+        "source_type": "peer_reviewed",
+        "title": "Grassland futures in Great Britain — Productivity assessment and scenarios for land use change opportunities",
+        "author_org": "ScienceDirect (Science of the Total Environment)",
+        "year": 2018,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0048969718311550",
+        "accessed_date": "2026-04-04",
+        "specific_claim": "UK benchmark productivities: temporary grassland 12.5 t/ha, permanent grassland 8.7 t/ha, rough grazing 2.8 t/ha (2010 data accounting for productivity gains).",
+        "confidence": "high"
+      },
+      {
+        "ref_id": "AHDB-GRASSLAND-RESEEDING",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "Grassland reseeding",
+        "author_org": "AHDB",
+        "year": 2023,
+        "url": "https://ahdb.org.uk/knowledge-library/grassland-reseeding",
+        "accessed_date": "2026-04-04",
+        "specific_claim": "Improved grassland in most of UK capable of >12 t DM/ha but current average ~7 t DM/ha. Increasing proportion reseeded each year increases grass grown and profitability.",
+        "confidence": "high"
+      }
+    ]
+  },
+
+  "condition_grade_system": {
+    "condition_grade_criteria_type": "production",
+    "condition_grade_descriptors": [
+      {
+        "grade": 1,
+        "label": "Good / Recently modified, well managed",
+        "description": "Sward modified within last 10 years (reseeded, oversown, or heavily improved). Improved grasses dominant >70%. Good basal cover. Responsive to fertiliser. White clover present. Managed with regular inputs. Production approaching lower end of temporary ley performance."
+      },
+      {
+        "grade": 2,
+        "label": "Moderate / Established permanent sward",
+        "description": "Permanent sward, typically 10–30 years since last modification. Mix of improved and native grasses. Some botanical diversity developing. Fertiliser response good but declining from fresh ley levels. White clover variable. Weed grasses present but not dominant. Production solidly in permanent grassland range."
+      },
+      {
+        "grade": 3,
+        "label": "Mixed / Ageing permanent sward",
+        "description": "Long-established permanent sward. Native grasses (bents, fescues) increasingly significant alongside improved species. Botanical diversity increasing — forbs beginning to appear. Reduced fertiliser response. Rush or sedge encroachment possible in wetter areas. Production declining toward semi-natural baseline. Ecological value beginning to develop."
+      },
+      {
+        "grade": 4,
+        "label": "Poor / Degraded or ecologically transitional",
+        "description": "Weed grasses or problem species dominant — rushes, docks, Yorkshire fog. OR: very old permanent pasture approaching semi-natural composition with high ecological value but low production. IMPORTANT: Grade 4 has two distinct scenarios — degraded productive sward (low value, reseed warranted) vs ecologically valuable old permanent pasture (high value, do not reseed). Distinguish these explicitly in field assessment."
+      },
+      {
+        "grade": 5,
+        "label": "Transitional / Reclassify",
+        "description": "Sward has transitioned to a composition better described by another UKHab code. Reclassify as g3c (other neutral grassland) if botanically diverse and species-rich; g1b (upland acid grassland) if acidic and grass-heath transitional; f2b (rush pasture) if rush-dominated. Do not retain g4 classification if semi-natural composition is established."
+      }
+    ],
+    "grade_field_indicators": [
+      "Improved grass cover (%) — PRG, hybrid ryegrass, Italian ryegrass; declining % indicates ageing or degrading sward",
+      "Native/weed grass cover (%) — annual meadow grass, Yorkshire fog, bent grasses, mat grass; increasing % indicates sward ageing or degradation",
+      "Rush cover (%) — Juncus effusus or J. acutiflorus; >10% indicates drainage or compaction issue",
+      "White clover presence — stolon visible and productive? Loss indicates pH, fertility, or management issue",
+      "Forb diversity — how many non-grass species visible? Increasing diversity in old sward = ecological value developing",
+      "Earthworm activity — cast presence; probe soil for structure and biological activity",
+      "Fertiliser response history — does the sward respond to N applications? Poor response indicates weed grass dominance or soil issue",
+      "Field history — when was it last reseeded or ploughed? Record in years_unimproved field; unknown = flag as unknown, not zero"
+    ],
+    "sources": [
+      {
+        "ref_id": "AHDB-GRASSLAND-RESEEDING",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "Grassland reseeding",
+        "author_org": "AHDB",
+        "year": 2023,
+        "url": "https://ahdb.org.uk/knowledge-library/grassland-reseeding",
+        "accessed_date": "2026-04-04",
+        "specific_claim": "Sown species decrease at ~10%/year; reseed warranted before sown species fall below 50%; weed grasses respond poorly to nitrogen",
+        "confidence": "high"
+      },
+      {
+        "ref_id": "FORFARMERS-RESEEDING",
+        "source_level": 5,
+        "source_type": "university_extension",
+        "title": "What are the benefits of reseeding?",
+        "author_org": "ForFarmers UK",
+        "year": 2024,
+        "url": "https://www.forfarmers.co.uk/news-knowledge/what-are-the-benefits-of-reseeding",
+        "accessed_date": "2026-04-04",
+        "specific_claim": "Yield potential falls to as much as 50% after five years; sown species decrease ~10%/year; new varieties give 33% more yield than typical 5-year ley",
+        "confidence": "good",
+        "notes": "L5 — industry guidance. Figures consistent with AHDB data."
+      }
+    ]
+  },
+
+  "forage_yield_by_grade": [
+    {
+      "grade": 1,
+      "kg_dm_ha_yr_min": 7000,
+      "kg_dm_ha_yr_max": 10000,
+      "confidence": "good",
+      "notes": "Well-anchored by multiple L1-L2 sources. AHDB: UK average improved grassland ~7 t DM/ha; capable of >12 t with management — 7–10 t is realistic for well-managed permanent sward that is not a fresh ley. ScienceDirect 2018 (L1): UK benchmark permanent grassland 8.7 t/ha. Agrii: reseeded grassland ~8,750 kg DM/ha vs tired pasture ~7,000 kg — Grade 1 g4 sits between these. Upper end (10 t) requires good management and fertiliser input."
+    },
+    {
+      "grade": 2,
+      "kg_dm_ha_yr_min": 5000,
+      "kg_dm_ha_yr_max": 8000,
+      "confidence": "good",
+      "notes": "Agrii: tired/old pasture ~7,000 kg DM/ha. UK NEA: semi-natural grassland 2–8 t/ha. Grade 2 sits in the middle — established permanent sward with declining improved species but not yet weed-dominated. 5–8 t range consistent with multiple sources for ageing permanent grassland."
+    },
+    {
+      "grade": 3,
+      "kg_dm_ha_yr_min": 3000,
+      "kg_dm_ha_yr_max": 6000,
+      "confidence": "medium",
+      "notes": "Native grasses and forbs increasingly significant. Fertiliser response declining. UK NEA gives semi-natural grassland lower bound at 2 t/ha, upper bound 8 t/ha — Grade 3 sits in the lower-middle of this range. Production significantly below improved grassland average."
+    },
+    {
+      "grade": 4,
+      "kg_dm_ha_yr_min": 2000,
+      "kg_dm_ha_yr_max": 5000,
+      "confidence": "medium",
+      "notes": "DUAL SCENARIO — see condition grade descriptors. (a) Degraded productive sward: rush, dock, or weed grass dominated — very low production, below UK NEA semi-natural baseline. (b) Old permanent pasture with high ecological value: DM yield in this range but with soil biological capital and botanical diversity that far exceeds production value. The yield figure is similar for both scenarios; the management response is completely different. Flag which scenario applies in field assessment notes.",
+      "permanent_pasture_flag": "If this is old permanent pasture (years_unimproved >30), do NOT treat Grade 4 yield as a reseed trigger. Ecological value grade should be assessed separately and may be 4–5 (high). Design the grazing system around it."
+    }
+  ],
+
+  "forage_yield_literature": {
+    "min_kg_dm_ha_yr": 2000,
+    "max_kg_dm_ha_yr": 12000,
+    "benchmark_kg_dm_ha_yr": 8700,
+    "uk_average_kg_dm_ha_yr": 7000,
+    "confidence": "good",
+    "notes": "Best-sourced yield range in the toolbox alongside c1b. Multiple independent L1-L2 sources converge: AHDB average 7 t DM/ha; ScienceDirect benchmark 8.7 t/ha; UK NEA improved with fertiliser 10–12 t/ha. The spread reflects the wide g4 spectrum — from recently modified (approaching c1b performance) to old permanent pasture (approaching semi-natural baseline). The benchmark figure of 8.7 t/ha (ScienceDirect, L1) is the most reliable single reference point for a well-managed permanent sward.",
+    "sources": [
+      {
+        "ref_id": "SCIENCEDIRECT-GRASSLAND-FUTURES-2018",
+        "source_level": 1,
+        "source_type": "peer_reviewed",
+        "title": "Grassland futures in Great Britain — Productivity assessment and scenarios for land use change opportunities",
+        "author_org": "ScienceDirect (Science of the Total Environment)",
+        "year": 2018,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0048969718311550",
+        "accessed_date": "2026-04-04",
+        "specific_claim": "UK benchmark permanent grassland productivity 8.7 t/ha (2010, accounting for productivity gains). Temporary grassland 12.5 t/ha. Rough grazing 2.8 t/ha.",
+        "confidence": "high"
+      },
+      {
+        "ref_id": "AHDB-GRASSLAND-RESEEDING",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "Grassland reseeding",
+        "author_org": "AHDB",
+        "year": 2023,
+        "url": "https://ahdb.org.uk/knowledge-library/grassland-reseeding",
+        "accessed_date": "2026-04-04",
+        "specific_claim": "Improved grassland capable of >12 t DM/ha; UK current average ~7 t DM/ha across all improved grassland types",
+        "confidence": "high"
+      },
+      {
+        "ref_id": "UK-NEA-GRASSLAND-CH6",
+        "source_level": 1,
+        "source_type": "peer_reviewed",
+        "title": "UK National Ecosystem Assessment Technical Report — Chapter 6: Grasslands",
+        "author_org": "UNEP-WCMC / UK NEA",
+        "year": 2011,
+        "url": "http://uknea.unep-wcmc.org/",
+        "accessed_date": "2026-04-04",
+        "specific_claim": "Improved grassland with fertiliser ~10–12 t DM/ha/yr. Semi-natural grassland 2–8 t/ha = less than 30% of improved yield.",
+        "confidence": "high"
+      },
+      {
+        "ref_id": "AGRII-RESEEDING-GUIDE",
+        "source_level": 5,
+        "source_type": "university_extension",
+        "title": "How to get the most out of a grassland reseed this spring",
+        "author_org": "Agrii",
+        "year": 2023,
+        "url": "https://www.agrii.co.uk/news-and-media/news/grassland-reseed-this-spring/",
+        "accessed_date": "2026-04-04",
+        "specific_claim": "Reseeded grassland ~8,750 kg DM/ha vs tired/old pasture ~7,000 kg DM/ha. ME: reseed 11.5 MJ/kg DM vs old grass 10.5 MJ/kg DM.",
+        "confidence": "good",
+        "notes": "L5 — industry agronomist guidance. Figures consistent with AHDB and ScienceDirect data."
+      }
+    ]
+  },
+
+  "nutritional_quality_by_grade": [
+    {
+      "grade": 1,
+      "me_mj_kg_dm_min": 10.5,
+      "me_mj_kg_dm_max": 11.5,
+      "me_notes": "Lower than fresh c1b ley due to higher proportion of native grasses and older sward composition. Agrii: old/tired grassland ME 10.5 MJ/kg DM vs reseed 11.5 MJ/kg DM. Grade 1 g4 sits at the upper end of this range — recently modified, well-managed permanent sward. UK NEA: digestibility lower in permanent vs temporary grassland.",
+      "crude_protein_pct_dm_min": 12,
+      "crude_protein_pct_dm_max": 18,
+      "cp_notes": "Dependent on sward composition and N inputs. Higher with good clover content and fertiliser management. Native grasses generally lower CP than improved ryegrass varieties.",
+      "confidence": "good",
+      "sources": [
+        {
+          "ref_id": "AGRII-RESEEDING-GUIDE",
+          "source_level": 5,
+          "source_type": "university_extension",
+          "title": "How to get the most out of a grassland reseed this spring",
+          "author_org": "Agrii",
+          "year": 2023,
+          "url": "https://www.agrii.co.uk/news-and-media/news/grassland-reseed-this-spring/",
+          "accessed_date": "2026-04-04",
+          "specific_claim": "ME 11.5 MJ/kg DM from reseed vs 10.5 MJ/kg DM for old grass",
+          "confidence": "good"
+        },
+        {
+          "ref_id": "UK-NEA-GRASSLAND-CH6",
+          "source_level": 1,
+          "source_type": "peer_reviewed",
+          "title": "UK National Ecosystem Assessment Technical Report — Chapter 6",
+          "author_org": "UNEP-WCMC / UK NEA",
+          "year": 2011,
+          "url": "http://uknea.unep-wcmc.org/",
+          "accessed_date": "2026-04-04",
+          "specific_claim": "Digestibility and nutrient content lower in semi-natural vs improved grassland. Livestock on species-rich pasture produce better quality meat with higher omega-3 concentrations.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "me_mj_kg_dm_min": 10.0,
+      "me_mj_kg_dm_max": 11.0,
+      "cp_pct_dm_min": 10,
+      "cp_pct_dm_max": 16,
+      "confidence": "medium",
+      "notes": "Established permanent sward with mix of improved and native grasses. ME declining as weed grasses increase. White clover variable — protein contribution less reliable."
+    },
+    {
+      "grade": 3,
+      "me_mj_kg_dm_min": 9.0,
+      "me_mj_kg_dm_max": 10.5,
+      "cp_pct_dm_min": 8,
+      "cp_pct_dm_max": 14,
+      "confidence": "low",
+      "notes": "Estimated. Native grasses dominant — ME approaching semi-natural baseline. Forb diversity increasing may add micronutrient value not captured in ME figure."
+    },
+    {
+      "grade": 4,
+      "me_mj_kg_dm_min": 8.0,
+      "me_mj_kg_dm_max": 10.0,
+      "cp_pct_dm_min": 8,
+      "cp_pct_dm_max": 14,
+      "confidence": "low",
+      "notes": "Estimated. DUAL SCENARIO: degraded sward — ME at lower end, poor quality. Old permanent pasture — ME similar but meat quality potentially higher (omega-3, mineral content from diverse sward — UK NEA). The headline ME figure does not capture the full nutritional story for old permanent pasture grazed by ruminants."
+    }
+  ],
+
+  "management": {
+    "optimal_grazing_animals": [
+      {"breed": "Any cattle breed appropriate to field conditions", "notes": "Permanent grassland suits mixed grazing systems. For old permanent pasture, native and hardy breeds preferred — lower poaching risk, better suited to variable sward quality."},
+      {"breed": "Any sheep breed appropriate to field conditions", "notes": "Sheep well-suited to permanent grassland grazing. For old permanent pasture with developing forb diversity, avoid very high sheep stocking rates which can selectively remove botanically valuable species."},
+      {"breed": "Ponies and horses", "notes": "Well-suited to old permanent grassland — create structural diversity through selective grazing and poaching. Risk of sward degradation at high density."}
+    ],
+    "timing_windows": {
+      "general": "Year-round grazing typical. Avoid heavy grazing in wet conditions on permanent sward — poaching damage to old permanent pasture particularly serious as soil biological structure slow to recover.",
+      "old_permanent_pasture_note": "For old permanent pasture within g4 — manage for botanical diversity, not maximum utilisation. Consider late spring/summer cutting or hay if developing toward g3c — this builds plant diversity. Avoid ploughing or reseeding under any circumstances without explicit ecological justification."
+    },
+    "intensity_guidance": "Depends entirely on grade and permanent pasture status. Grade 1 recently-modified g4: manage as productive grassland — rotational grazing, fertiliser input appropriate. Grade 3–4 old permanent pasture: lower intensity, conservation-aware management — reduce N inputs, consider cutting regime to build botanical diversity, target higher ecological value grade over time rather than production grade.",
+    "reseed_decision_note": "CRITICAL: For g4 fields, reseed decision must always consider permanent pasture status first. If years_unimproved is unknown or >20 years — seek botanical and soil biological assessment before reseeding. The DM yield difference between old permanent pasture and a fresh ley does not compensate for the loss of soil biological capital accumulated over decades. Design the system around the permanent pasture — use it for its year-round availability and lower-input requirement rather than trying to match fresh ley yields.",
+    "monitoring_protocol": "Annual: sward composition assessment — % improved grasses, % native grasses, % forbs, % problem species. Record and track year-on-year. For old permanent pasture: annual botanical walk noting species present; flag any new species appearing as ecological value developing. 5-yearly: full botanical survey if ecological transition suspected — determines whether reclassification to g3c or other semi-natural code is appropriate."
+  },
+
+  "data_completeness": {
+    "fields_fully_populated": [
+      "ukhab_identity",
+      "ecology",
+      "condition_grade_system",
+      "forage_yield_literature",
+      "management"
+    ],
+    "fields_partially_populated": [
+      "forage_yield_by_grade — Grades 1–2 good confidence; Grades 3–4 medium/low",
+      "nutritional_quality_by_grade — Grade 1 good confidence; Grades 2–4 medium/low",
+      "is_permanent_pasture and ecological_value_grade — must be assessed per field, cannot be populated generically"
+    ],
+    "fields_pending_research": [
+      "Permanent pasture research session (Phase 2A) — ecological value, soil biology timescales, DM production data for old permanent pasture specifically. Sources: NE, NatureScot, SRUC. This is the next dedicated research session.",
+      "Mineral and micronutrient data for old permanent pasture swards — UK NEA references omega-3 uplift but quantified mineral data not retrieved in this session",
+      "SAC Technical Note TN639 — flagged in build notes as a key source for g4; not retrieved in this session. Should be fetched in permanent pasture research session."
+    ],
+    "overall_confidence": "good (yield); medium (nutritional quality); variable (ecological value — field-dependent)",
+    "honest_assessment": "g4 yield data is the best-anchored of the three production sward records — multiple independent L1-L2 sources converge on 7–8.7 t DM/ha for permanent improved grassland. The ecological value dimension is explicitly flagged as field-dependent and cannot be populated generically. The permanent pasture dual-value problem is documented in the record and will be resolved in the dedicated permanent pasture research session. This record is fit for client-facing use on the production dimensions. The permanent pasture assessment guidance is essential for any g4 field and must be communicated to consultants using the toolbox."
+  }
+}
