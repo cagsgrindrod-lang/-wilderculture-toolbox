@@ -1,0 +1,149 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — heath group batch; built from field sheet 08 (Montane) via the Crosswalk. v3.3 Level-5 keyed. h1c6 (mountain willow scrub) deferred to the Upland Scrub sheet.",
+  "ukhab_identity": {
+    "ukhab_level2": "h", "ukhab_level2_name": "Heathland and shrub",
+    "ukhab_level3": "h1", "ukhab_level3_name": "Dwarf shrub heath",
+    "ukhab_level4": "h1c", "ukhab_level4_name": "Mountain heaths and willow scrub",
+    "ukhab_level5": "h1c5", "ukhab_level5_name": "Alpine and subalpine heaths (Annex I H4060)",
+    "wilderculture_subtype": null,
+    "composite_pk": "h1c5",
+    "composite_pk_note": "v3.3 Level-5 keyed. h1c6 (mountain willow scrub, H4080) is the sibling Level-5 code and is handled with the Upland Scrub sheet (09), not here.",
+    "secondary_codes": [], "secondary_codes_notes": "None at type level.",
+    "habitat_name": "Montane heath (alpine & subalpine)", "parent_category": "Heathland and shrub",
+    "bap_priority": true, "annex1_habitat": "H4060 Alpine and subalpine heaths",
+    "geographic_tags": ["montane", "above_treeline", "scottish_highlands", "internationally_significant", "near_natural"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (Level-5 list per CIEEM guidance)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "h1c = Mountain heaths and willow scrub; h1c5 = Alpine and subalpine heaths (H4060); h1c6 = Mountain willow scrub (H4080).", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["U10 Carex bigelowii–Racomitrium lanuginosum moss-heath (the flagship)", "U7, U8 (montane Nardus/Carex–Polytrichum communities)", "H13–H17 (prostrate montane Calluna/Vaccinium heaths)"],
+    "nvc_communities_notes": "A suite of cold-adapted communities: prostrate dwarf-shrub heaths, siliceous alpine grass- and moss-heaths, dwarf-herb and snowbed communities, and (rarest) montane willow scrub.",
+    "phase1_equivalent": "Montane / summit heath (no exact Phase 1 unit; nearest D / E montane communities)",
+    "bng_metric_habitat_name": "Heathland and shrub — Mountain heaths and willow scrub",
+    "wild_sheet_ref": "Habitat-08-Montane",
+    "sources": [
+      {"ref_id": "AVERIS-ALPINE", "source_level": 1, "source_type": "peer_reviewed", "title": "An Illustrated Guide to British Upland Vegetation / alpine-habitats literature (Racomitrium moss-heath U10)", "author_org": "Averis et al.", "year": 2004, "url": null, "accessed_date": "2026-06-27", "specific_claim": "U10 Racomitrium moss-heath is a near-natural, internationally important, oceanic alpine habitat, once far more widespread than now.", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "The habitats of the high tops, above the natural treeline — true mountain ground. In UKHab they fall under mountain heaths and willow scrub and are, almost uniquely in this series, genuine climax communities like blanket bog: there is no successional 'next'. A suite of cold-adapted communities, with the Racomitrium moss-heath (U10) as the flagship — near-natural, internationally important, and a measure of how much montane ground has already been degraded (many now grass-dominated summits were once moss-heath).",
+    "condition_indicators_good": ["An intact, undisturbed moss or dwarf-shrub carpet — deep springy Racomitrium, or a tight prostrate heather mat", "Arctic-alpine specialists present", "Little bare ground; no erosion scars; no graminoid invasion — mossy and undisturbed"],
+    "condition_indicators_poor": ["Loss of moss and dwarf shrubs, replaced by grasses (the signature of both heavy grazing and nitrogen enrichment)", "Trampling damage and footpath erosion", "Bare, eroding soil on steeper slopes", "At the largest scale, whole summits converted from moss-heath to grass-heath"],
+    "ecosystem_functions": ["Refuge for arctic-alpine relict flora and montane specialist fauna (e.g. dotterel)", "Slow cold-climate soil and moss-carpet processes; erosion resistance where intact", "A near-natural climax — its value is its intactness, not any productive output"],
+    "whole_system_role": "The climax for its altitude and near-natural — the roof of the system. Its chief threats (nitrogen deposition, climate) arrive from outside the fence, not from management within it.",
+    "successional_neighbours": [
+      {"habitat_code": "montane scrub / treeline (h1c6, scrub, woodland)", "direction": "downward (the missing belt — restoration prize)", "note": "Below the montane heath should lie a treeline ecotone of montane scrub (dwarf birch, montane willow, juniper) grading into high woodland. In most of Britain this is grazed/burnt away, leaving an abrupt unnatural edge. Restoring it is the single biggest wilder opportunity here."},
+      {"habitat_code": "grass-heath (degraded)", "direction": "toward (on damage)", "note": "Heavy grazing and nitrogen enrichment convert moss-heath/dwarf-shrub heath to grass-heath."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-08-MONTANE", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 08 — Montane Habitats", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Climax status, Racomitrium flagship, threats-from-outside-the-fence framing, treeline restoration.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Intact moss/dwarf-shrub carpet; arctic-alpine specialists present; no graminoid invasion or erosion."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Pressure lifted; moss/dwarf shrubs re-establishing (slow, N-constrained)."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Partial graminoid invasion; moss carpet thinning; some trampling."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Moss/dwarf shrubs largely replaced by grass; trampling/erosion; bare soil."},
+      {"grade": 5, "label": "Destroyed", "description": "Summit converted to grass-heath or eroded — function gone (recovery very slow, N-limited)."}
+    ],
+    "grade_field_indicators": ["Racomitrium / dwarf-shrub carpet integrity", "graminoid invasion extent", "arctic-alpine specialist presence", "trampling/footpath erosion", "bare/eroding soil", "summit-scale moss-heath → grass-heath conversion"],
+    "sources": [
+      {"ref_id": "NE-CCAM-MONTANE", "source_level": 2, "source_type": "govt_statutory", "title": "Natural England Climate Change Adaptation Manual — montane habitats", "author_org": "Natural England", "year": 2024, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Defines montane habitat condition; moss-heath → grass-heath conversion is the key degradation signal (heavy grazing + nitrogen).", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Thin, acid mountain soils — skeletal rankers and shallow peats over summits/plateaux, with rock, scree and fellfield", "base_status": "acid (base-rich on the Breadalbane montane calcareous ground)", "climate": "Cold, exposed, snow-affected — the most severe upland conditions and the defining control on the zone", "altitude_range_m": "Above the natural treeline; broadly >600 m in England, variable elsewhere, to the highest summits", "aspect_exposure": "Extreme exposure; freeze-thaw and snow-lie matter more than simple wetness", "bioclimate_notes": "Overwhelmingly the Eastern Highlands and higher West Highlands & Islands; small precious fragments in the Lake District Fells, Yorkshire Dales high tops and Southern Uplands."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading (Protect & Restore — near-natural climax). The Regenerate target convention does not apply.",
+      "water": {"dial_position": 40, "state": "Thin skeletal soils / shallow peat", "descriptor": "Exposure, freeze-thaw and snow-lie matter more than simple wetness."},
+      "earth": {"dial_position": 50, "pedogenic_process": "slow cold pedogenesis (podzolic / peaty pockets)", "descriptor": "Thin rankers; very slow cycling under cold-limited, low-rate decomposition."},
+      "air": {"dial_position": 30, "redox_state": "Aerobic, thin soils", "exposure_bioclimate": "Extreme — wind, frost, the bioclimatic ceiling that defines the whole zone", "descriptor": "Soils aerobic and thin; the real 'air' story is above-ground exposure."},
+      "fire": {"dial_position": 8, "npp_level": "Very low", "descriptor": "Cold, short season; slow-growing mosses and dwarf shrubs; minimal throughput — effectively a non-forage habitat."}
+    },
+    "successional_envelope": {
+      "current_stage": "Climax (the roof) — for its altitude there is no further stage",
+      "range_of_natural_variability": ["Intact moss-heath / prostrate dwarf-shrub heath (climax)", "Grass-converted (heavy grazing + N deposition)", "Eroded fellfield where trampled/steep"],
+      "successional_pathway": "Inverted like bog — movement happens only through damage, not development. The one direction that matters is downward: the missing treeline scrub belt (dwarf birch, montane willow, juniper) that should grade up to it has been grazed/burnt out. Restoring that belt is the wilder prize."
+    },
+    "energy_flow_role": "The climax for its altitude and near-natural; very low throughput. Its value is intactness and as a refuge for arctic-alpine biodiversity, not energy contribution.",
+    "wild_zone": "Protect & Restore",
+    "wild_zone_rationale": "Protect & Restore almost by definition — near-natural, climax, internationally important, effectively irreplaceable. Intact montane/moss-heath is a flagship of the zone alongside blanket bog. Degraded, grass-converted montane ground sits in Regenerate (with honesty about slow, N-constrained recovery). The missing treeline scrub belt below is the prime Bioregionally Wilder restoration target.",
+    "disturbance_regime": "Minimal — grazing here is a pressure, not a tool. The biggest threats (nitrogen deposition, climate change) arrive from outside the fence and are not fixable at the farm gate. Restoration disturbance is treeline scrub re-establishment below, not stocking.",
+    "wild_management_target": {"type": "state_target", "detail": "Maintain the intact moss/dwarf-shrub carpet and arctic-alpine specialists by lifting grazing and trampling pressure to near nil. The Bioregionally Wilder work is treeline/montane-scrub restoration on the ground immediately below. Recovery of degraded ground is slow and constrained by continuing nitrogen deposition.", "integrity_indicators": ["Racomitrium / dwarf-shrub carpet vs grass balance", "dotterel presence (the clearest sign the high moss-heath is intact)", "arctic-alpine specialist presence", "absence of trampling/erosion scars"]},
+    "ecological_value_grade": 5,
+    "ecological_value_notes": "Among the highest-value habitats in the toolbox — near-natural climax, internationally important, effectively irreplaceable. Holds arctic-alpine relict flora and montane bird specialists (dotterel, ptarmigan, snow bunting). Southern fragments matter disproportionately.",
+    "value_axes": {"rarity_irreplaceability": {"score": 5, "notes": "Arctic-alpine relicts with nowhere higher to go; internationally important; fragments outside the Highlands are precious and effectively irreplaceable."}, "diversity": {"score": 4, "notes": "Specialist arctic-alpine flora and a distinct montane bird/invertebrate assemblage."}, "energy_flow_contribution": {"score": 2, "notes": "Very low throughput; value is intactness and refuge, not flow."}},
+    "naturalistic_lu_ha": null, "naturalistic_lu_ha_note": "Not populated — the right grazing level is close to none; grazing is pressure, not use.",
+    "mosaic_role": null, "mosaic_role_note": "Not a grazing-mosaic patch — to be guarded, not grazed.",
+    "preferential_grazing_magnet": false, "preferential_grazing_magnet_note": "Non-forage; grazing and trampling degrade rather than maintain it.",
+    "process_indicators": ["Racomitrium / dwarf-shrub vs grass balance", "dotterel and montane-specialist presence", "trampling/footpath erosion extent", "treeline / montane-scrub re-establishment below"],
+    "process_indicators_note": "The treeline-restoration indicator is the Bioregionally Wilder measure; the rest track condition under lifted pressure.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-08-MONTANE", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 08 — Montane", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Elemental reading, climax status, zone, treeline restoration.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — near-natural montane climax",
+    "overall_palatability_score": 1,
+    "overall_palatability_notes": "At the very top of the hill and the very bottom of the ladder — essentially nothing here is worth grazing, and the habitat is so slow-growing and fragile that grazing/trampling degrade rather than maintain it. Unlike the grasslands, grazing here is purely a pressure.",
+    "forage_yield_by_grade": [
+      {"grade": 1, "kg_dm_ha_yr": {"min": 0, "max": 500}, "confidence": "estimated", "notes": "NON-FORAGE habitat — figure nominal/negligible. The correct grazing level is near nil; do not treat as a grazing resource."}
+    ],
+    "forage_yield_literature": {"min": 0, "max": 500, "confidence": "estimated", "notes": "Forage is nil by the nature of the habitat; no grazing-planning figure is sought.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — non-forage; grazing is pressure to be removed, not a managed offtake.",
+    "conservation_lu_ha": {
+      "value": "Near nil — reduce/remove grazing. No agency stocking prescription: on good montane ground the right grazing level is close to none, and grazing is treated as a pressure rather than a managed density.",
+      "scheme": "n/a — pressure-reduction habitat, not a stocked one",
+      "confidence": "good",
+      "basis_note": "NE/JNCC/NatureScot guidance treats montane heath as a protect-and-reduce-pressure habitat. Where stock or deer reach the accessible plateaux, reduce to near nil; deer management on accessible ground is the main lever. Note that actual deer use of the most exposed summits can be low, so pressure concentrates on accessible montane ground rather than the high tops.",
+      "sources": [
+        {"ref_id": "NE-CCAM-MONTANE", "source_level": 2, "source_type": "govt_statutory", "title": "Natural England Climate Change Adaptation Manual — montane habitats", "author_org": "Natural England", "year": 2024, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Montane heath is a reduce-pressure habitat; grazing/trampling degrade it; nitrogen deposition is the chief driver of Racomitrium decline.", "confidence": "good"},
+        {"ref_id": "NATURESCOT-MONTANE", "source_level": 2, "source_type": "govt_statutory", "title": "NatureScot montane / alpine habitat guidance", "author_org": "NatureScot", "year": 2025, "url": "https://www.nature.scot/", "accessed_date": "2026-06-27", "specific_claim": "Reduce or remove grazing on montane ground; manage deer on accessible plateaux.", "confidence": "good"}
+      ]
+    },
+    "palatability_rank": "Very Low",
+    "nutritional_quality_note": "Not relevant — the habitat is not a grazing resource.",
+    "seasonal_forage_curve": {"spring": "Negligible", "summer": "Negligible", "autumn": "Negligible", "winter": "Negligible"}
+  },
+  "management": {
+    "optimal_grazing_animals": [{"breed": "None — reduce/remove grazing", "species": "—", "grade": "—", "notes": "Grazing is a pressure here, not a use."}],
+    "unsuitable_animals": [
+      {"breed": "Sheep / deer at density on accessible plateaux", "species": "sheep/deer", "reason": "Convert moss-heath to grass; trample fragile carpets — reduce to near nil."}
+    ],
+    "timing_windows": {"preferred_season": "n/a — the aim is near-nil grazing year-round on good montane ground", "rationale": "Slow-growing, fragile climax; grazing/trampling degrade it", "avoid": "Any meaningful grazing/trampling pressure on intact ground", "per_species_notes": "Deer management on accessible plateaux is the main lever; manage footpaths/recreation on busy hills."},
+    "intensity_guidance": "Near nil — see conservation_lu_ha. Management is pressure reduction, not a stocking rate. The two greatest threats (nitrogen deposition, climate) are emissions/policy matters, not farm-gate levers.",
+    "restoration_note": "The most distinctly Wilderculture action is just below the montane ground: re-establishing the montane scrub and treeline ecotone (dwarf birch, montane willows, juniper) so the natural transition from woodland up to mountain heath can re-form — a long, deer-management-dependent project, and the Bioregionally Wilder prize here.",
+    "regulatory_note": "No place for muirburn at this altitude — purely destructive here. Do not plant trees on the montane heath itself (trees belong below the natural treeline; afforesting the tops is the same error as planting deep peat). Burning-on-peat law as for the other upland sheets (England 30 Sep 2025 regs; Scotland 2024 Act) — verify before any contract.",
+    "monitoring_protocol": "Racomitrium/dwarf-shrub vs grass balance, arctic-alpine specialist presence, dotterel presence/productivity, trampling/erosion extent; treeline-scrub re-establishment below. Nitrogen-deposition context noted as a driver beyond site control.",
+    "bng_unit_value": {"value_note": "Very high distinctiveness — priority, near-natural, internationally important (H4060). Among the highest-value habitats; recovery is slow and N-constrained.", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Mountain heaths and willow scrub very high distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Racomitrium lanuginosum", "Carex bigelowii", "Calluna vulgaris (prostrate)", "Vaccinium myrtillus", "Empetrum nigrum", "Juncus trifidus", "Cladonia spp. (lichens)"],
+    "key_positive_indicators": ["intact deep Racomitrium / tight prostrate dwarf-shrub carpet", "arctic-alpine specialists present (Salix herbacea, Silene acaulis, Loiseleuria procumbens, Alchemilla alpina)", "montane willow scrub on ungrazed ledges (Salix lapponum, S. lanata, S. myrsinites)"],
+    "key_negative_indicators": ["graminoid invasion (grass replacing moss/dwarf shrubs)", "summit-scale moss-heath → grass-heath conversion", "trampling/footpath erosion", "bare eroding soil"],
+    "integrity_indicators_fauna": ["dotterel (flagship — breeds on high moss-heath, tied to Racomitrium/stiff-sedge ground; declined >50% in recent decades; its decline is the alarm bell for the zone)", "ptarmigan, snow bunting; golden plover, dunlin, ring ouzel on the lower fringe; mountain hare", "mountain ringlet butterfly, northern dart moth, rare montane spiders and beetles"],
+    "target_species_composition": ["intact moss/dwarf-shrub carpet", "arctic-alpine specialists", "no graminoid dominance"],
+    "note": "Skeleton only — full species records and joins in Phase 2B. The Breadalbane base-rich montane rarities overlap the upland calcareous grassland at altitude (capture the cross-link)."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (h1c5 verified, v3.3 Level-5 keyed; h1c6 willow scrub deferred to Scrub sheet)", "wild_assessment from a high-confidence sheet", "zone and threats framing (P&R; threats from outside the fence)"],
+    "fields_partially_populated": ["forage/conservation density — non-forage; near-nil grazing, no stocking prescription (correctly)", "species_list/fauna — skeleton"],
+    "fields_pending_research": ["Quantified nitrogen-deposition thresholds for Racomitrium (Phase 2B / external evidence)", "Montane willow scrub detail when building the Upland Scrub sheet (h1c6)", "Treeline-restoration linkage to the Woodland/Scrub records"],
+    "overall_confidence": "high",
+    "notes": "Built from a high-confidence sheet onto a verified Level-5 code. The defining points: a genuine climax (like bog) where grazing is pressure not tool; the biggest threats (N deposition, climate) arrive from outside the fence; and the great Bioregionally Wilder prize is restoring the missing treeline scrub belt below. Completes the heath-and-bog group with f1a, h1b5 and h1b6."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "h1c5 alpine/subalpine heaths.", "confidence": "high"},
+    {"ref_id": "NE-CCAM-MONTANE", "source_level": 2, "source_type": "govt_statutory", "title": "NE Climate Change Adaptation Manual — montane", "author_org": "Natural England", "year": 2024, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Montane condition, N-deposition driver, pressure reduction.", "confidence": "good"},
+    {"ref_id": "AVERIS-ALPINE", "source_level": 1, "source_type": "peer_reviewed", "title": "British upland/alpine vegetation (Racomitrium moss-heath U10)", "author_org": "Averis et al.", "year": 2004, "url": null, "accessed_date": "2026-06-27", "specific_claim": "U10 status and decline.", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-08-MONTANE", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 08 — Montane", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Climax status, threats framing, treeline restoration.", "confidence": "good"}
+  ]
+}

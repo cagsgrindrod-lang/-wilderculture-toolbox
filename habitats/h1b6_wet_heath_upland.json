@@ -1,0 +1,157 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — heath group batch; built from field sheet 02 (Wet Heath) via the Crosswalk. v3.3 Level-5 keyed.",
+  "ukhab_identity": {
+    "ukhab_level2": "h", "ukhab_level2_name": "Heathland and shrub",
+    "ukhab_level3": "h1", "ukhab_level3_name": "Dwarf shrub heath",
+    "ukhab_level4": "h1b", "ukhab_level4_name": "Upland heathland",
+    "ukhab_level5": "h1b6", "ukhab_level5_name": "Wet heathland with cross-leaved heath; upland (Annex I H4010)",
+    "wilderculture_subtype": null,
+    "composite_pk": "h1b6",
+    "composite_pk_note": "v3.3: keyed on the Level-5 code. Sibling of h1b5 (dry heath) under the shared Level-4 parent h1b.",
+    "secondary_codes": [], "secondary_codes_notes": "Where the ground is deeper waterlogged peat it is blanket bog (f1a), not wet heath — read the peat depth.",
+    "habitat_name": "Wet heath (upland)", "parent_category": "Heathland and shrub",
+    "bap_priority": true, "annex1_habitat": "H4010 Northern Atlantic wet heaths with Erica tetralix",
+    "geographic_tags": ["upland", "north_britain", "oceanic_west", "uk_wide"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (Level-5 list per CIEEM guidance and applied surveys)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "h1b6 = Wet heathland with cross-leaved heath; upland (H4010), under h1b Upland heathland. Confirmed across applied UKHab surveys.", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["M15 Trichophorum cespitosum–Erica tetralix wet heath (common N & W form)", "M16 Erica tetralix–Sphagnum compactum wet heath"],
+    "nvc_communities_notes": "M-series (mire) communities — wet heath straddles heath and mire. Classification names the vegetation, not forage value.",
+    "phase1_equivalent": "D2 Wet dwarf shrub heath",
+    "bng_metric_habitat_name": "Heathland and shrub — Upland heathland",
+    "bng_metric_note": "Much wet heath is hydrologically damaged blanket bog; NE favourable-condition guidance reclassifies peat of 10–30 cm as wet heath to be restored as such.",
+    "wild_sheet_ref": "Habitat-02-Wet-Heath",
+    "sources": [
+      {"ref_id": "NVC-RODWELL-MIRES", "source_level": 1, "source_type": "peer_reviewed", "title": "British Plant Communities, Vol. 2 — Mires and heaths (M15, M16)", "author_org": "Rodwell, J.S. (ed.)", "year": 1991, "url": null, "accessed_date": "2026-06-27", "specific_claim": "M15/M16 are the wet-heath NVC communities.", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "Dwarf shrub heath in its wet form, on waterlogged, acid ground — typically shallow peat or peaty gley under about 0.5 m. The middle band of the moisture gradient: deeper waterlogged peat is blanket bog; improved drainage drifts toward dry heath. An edaphic plagioclimax held by waterlogging as much as by grazing/burning, and much of it is hydrologically damaged bog.",
+    "condition_indicators_good": ["A living, wet Sphagnum carpet and intact wet surface — the headline sign", "A mix of dwarf shrubs (cross-leaved heath, heather) with Molinia and cotton-grass present but not dominant", "Sundews, bog asphodel, deergrass woven through; cross-leaved heath not grazed", "No bare, drying or eroding peat"],
+    "condition_indicators_poor": ["Overgrazed: dwarf shrubs browsed out, grazed cross-leaved heath, Sphagnum lost, surface poached (especially cattle out over winter)", "Under-grazed: rank Molinia tussock swamping the dwarf shrubs", "Hydrologically damaged: drained/burnt, drying, peat exposed, Sphagnum gone, Molinia dominant — often damaged blanket bog"],
+    "ecosystem_functions": ["Carbon storage in shallow peat (and restoration potential where it is damaged bog)", "Water retention on impeded-drainage ground", "Spring Molinia flush — a brief energy pulse and the basis of the grazing strategy", "Habitat for the large heath butterfly and breeding waders (curlew, snipe)"],
+    "whole_system_role": "A wet transitional plagioclimax; much of it is hydrologically damaged bog. Restoring saturation pushes it back toward peat accumulation rather than forward to scrub.",
+    "successional_neighbours": [
+      {"habitat_code": "f1a (blanket bog)", "direction": "toward (wetter/deeper peat) — and restoration target", "note": "Where it is damaged bog, the wilder move is rewetting back toward functioning blanket bog."},
+      {"habitat_code": "h1b5 (dry heath)", "direction": "toward (if drained/drier)", "note": "Improved drainage drifts wet heath toward dry heath."},
+      {"habitat_code": "Molinia mire / wet woodland", "direction": "toward (degraded vs released)", "note": "Degraded → Molinia-dominated mire/grassland; on suitable non-peat margins, released → bog myrtle & willow scrub → wet woodland (downy birch, willow, alder)."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-02-WET-HEATH", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 02 — Wet Heath", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Ecology, succession, the Molinia double-edge, condition indicators.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Living wet Sphagnum carpet; dwarf shrubs with Molinia/cotton-grass present but not dominant; cross-leaved heath ungrazed."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Rewetting/destocking underway; Sphagnum and dwarf shrubs returning."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Molinia increasing or dwarf shrubs thinning; surface drying."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Rank Molinia dominance, or overgrazed/poached with Sphagnum lost and peat exposed."},
+      {"grade": 5, "label": "Destroyed / reclassify", "description": "Drained/eroded to Molinia grassland or bare peat — reclassify (often damaged bog → rewet)."}
+    ],
+    "grade_field_indicators": ["living Sphagnum cover", "dwarf-shrub vs Molinia balance", "cross-leaved heath browse level", "cotton-grass/deergrass presence", "poaching / bare drying peat", "drainage condition"],
+    "sources": [
+      {"ref_id": "NE-MOORLAND-CONDITION", "source_level": 2, "source_type": "govt_statutory", "title": "Natural England moorland condition guidance (wet heath)", "author_org": "Natural England", "year": 2025, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Heather/grass-dominated wet heath is treated as poor condition, with rewetting the recommended response.", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Acid; shallow peat or peaty gley over impeded-drainage substrate", "base_status": "acid", "climate": "High rainfall (precipitation > evapotranspiration); far more extensive in the oceanic west", "altitude_range_m": "~200–500", "aspect_exposure": "Flatter ground and gentle slopes where water sits", "bioclimate_notes": "Big extents in the West Highlands & Islands, wetter Lake District Fells, Scottish Southern Uplands."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading (Protect & Restore default for good wet heath; describe the degraded state for Regenerate parcels).",
+      "water": {"dial_position": 75, "state": "Waterlogged, impeded drainage", "descriptor": "Wetter than dry heath, shallower peat than bog — the middle of the moisture gradient."},
+      "earth": {"dial_position": 75, "pedogenic_process": "gleying / peat_accumulation (transitional)", "descriptor": "Acid, anaerobic, organic matter accumulating on shallow peat; the mineral cycle largely arrested."},
+      "air": {"dial_position": 75, "redox_state": "Low redox in the waterlogged surface", "exposure_bioclimate": "Exposed oceanic", "descriptor": "Anaerobic surface; bog myrtle's nitrogen fixation a local exception."},
+      "fire": {"dial_position": 20, "npp_level": "Low (spring Molinia pulse)", "descriptor": "Low production overall; the spring Molinia flush is a brief energy pulse, then little throughput."}
+    },
+    "successional_envelope": {
+      "current_stage": "Edaphic plagioclimax (held by waterlogging + grazing/burning)",
+      "range_of_natural_variability": ["Wet Sphagnum-rich heath (favourable)", "Molinia-dominated mire/grassland (degraded)", "Rewetted toward blanket bog (where damaged bog)", "Bog myrtle/willow scrub → wet woodland (released, non-peat margins)"],
+      "successional_pathway": "dry heath ← wet heath → blanket bog (moisture gradient). Degraded → Molinia mire/grassland. Released on appropriate ground → bog myrtle & willow scrub → wet woodland. Restoring saturation pushes it back toward peat accumulation, not forward to scrub."
+    },
+    "energy_flow_role": "Low throughput; the spring Molinia flush a brief pulse. Where it is damaged bog, its real latent value is carbon storage on restoration.",
+    "wild_zone": "Protect & Restore",
+    "wild_zone_rationale": "DEFAULT for good wet Sphagnum-rich heath. Molinia-dominated or overgrazed heath → Regenerate. Where the ground is hydrologically damaged blanket bog, the Bioregionally Wilder move is rewetting back toward functioning bog (and bog myrtle/willow/wet woodland on suitable non-peat margins). Assign per parcel; read the peat depth.",
+    "disturbance_regime": "Supplied but specific — light cattle grazing through the spring Molinia window (≈May–July), then stock off. Also held by waterlogging. Sheep alone fail (they browse heather, leave Molinia).",
+    "wild_management_target": {"type": "state_target", "detail": "Maintain a wet Sphagnum surface with dwarf shrubs in the game and Molinia checked, via light cattle grazing in the spring window and stock off the wet surface for most of the year. For damaged-bog parcels the Regenerate route is rewetting, not a stocking rate. Re-grade trigger applies.", "integrity_indicators": ["living Sphagnum carpet", "dwarf-shrub persistence", "Molinia not dominant", "large heath butterfly present"]},
+    "ecological_value_grade": 4,
+    "ecological_value_notes": "Priority habitat; wet Sphagnum-rich heath supports the large heath butterfly and breeding waders, and holds carbon. Damaged/Molinia-dominated wet heath carries strong restoration (rewetting) value.",
+    "value_axes": {"rarity_irreplaceability": {"score": 3, "notes": "Priority habitat; H4010 rarer than blanket bog in England, but extensive in the oceanic west."}, "diversity": {"score": 3, "notes": "Specialist wet-surface flora and fauna in good condition; low where Molinia-dominated."}, "energy_flow_contribution": {"score": 2, "notes": "Low throughput; latent carbon-storage value where it is damaged bog."}},
+    "naturalistic_lu_ha": null, "naturalistic_lu_ha_note": "Not populated under the P&R default; operative figure is conservation_lu_ha.",
+    "mosaic_role": "browse", "mosaic_role_note": "Provides a seasonal (spring Molinia) cattle-browse window in a wilder mosaic; otherwise near-ungrazed.",
+    "preferential_grazing_magnet": false, "preferential_grazing_magnet_note": "Only seasonally — the spring Molinia flush draws cattle May–July; outside that window there is little worth eating.",
+    "process_indicators": ["Sphagnum recovery", "Molinia balance", "dwarf-shrub persistence", "water table / peat surface condition"],
+    "process_indicators_note": "Central to Regenerate (Molinia control / rewetting) parcels.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-02-WET-HEATH", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 02 — Wet Heath", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Elemental dials, succession, zone, the cattle/Molinia strategy.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — semi-natural plagioclimax",
+    "overall_palatability_score": 2,
+    "overall_palatability_notes": "Below dry heath, and sharply seasonal rather than uniformly low. Cross-leaved heath, mature Molinia and deergrass are poor-to-worthless. The one genuine window is the spring-into-early-summer Molinia flush (May–July), good cattle feed and the basis of the whole grazing strategy.",
+    "forage_yield_by_grade": [
+      {"grade": 1, "kg_dm_ha_yr": {"min": 1500, "max": 3000}, "confidence": "estimated", "notes": "Low-productivity semi-natural wet heath; nominal — grazing is via conservation_lu_ha in a narrow spring window, not a DM budget."},
+      {"grade": 3, "kg_dm_ha_yr": {"min": 1000, "max": 2500}, "confidence": "estimated", "notes": "Estimated; Molinia bulk is largely unpalatable outside spring."}
+    ],
+    "forage_yield_literature": {"min": 800, "max": 3000, "confidence": "estimated", "notes": "Semi-natural; conservation-density grazed in a spring window. Figures nominal.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — conservation-density grazing, not DM × utilisation.",
+    "conservation_lu_ha": {
+      "value": "England: good condition <0.04 GLU/ha, stock off ≥6 months autumn/winter (CUP8 ≤0.16, CUP9 ≤0.08, CUP10 ≤0.04). Scotland (TN686): wet heath 0.05–0.10 LU/ha. NatureScot: 0.25–0.5 ewes (~0.037–0.075 LU)/ha, reduce by ≥half, remove all stock over winter.",
+      "scheme": "GLU (England) and LU (Scotland) — SCHEME-TIED, NOT AVERAGED or compared",
+      "confidence": "good",
+      "basis_note": "All three sources converge on the practical line: wet heath is grazed lighter than dry heath, in a short spring–summer window, with stock off the wet surface for most of the year, and the precise figure agreed with the adviser. Heather/grass-dominated wet heath is treated as poor condition with rewetting recommended. Figures verified June 2026; England GLU and Scotland LU never averaged.",
+      "sources": [
+        {"ref_id": "NE-DEFRA-MOORLAND-CUP-2025", "source_level": 2, "source_type": "govt_statutory", "title": "Defra / Natural England moorland grazing actions (CUP8/9/10)", "author_org": "Defra / Natural England (GOV.UK)", "year": 2025, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Wet heath good condition <0.04 GLU/ha, stock off ≥6 months; CUP tiers ≤0.16/0.08/0.04.", "confidence": "high"},
+        {"ref_id": "SAC-FAS-TN686", "source_level": 2, "source_type": "govt_statutory", "title": "TN686 — Conservation Grazing of Semi-Natural Habitats", "author_org": "SAC / Farm Advisory Service", "year": 2024, "url": "https://www.fas.scot/", "accessed_date": "2026-06-27", "specific_claim": "Wet heath (M15, M16) 0.05–0.10 LU/ha.", "confidence": "high"},
+        {"ref_id": "NATURESCOT-MOORLAND", "source_level": 2, "source_type": "govt_statutory", "title": "NatureScot / Rural Payments moorland management supporting guidance", "author_org": "NatureScot", "year": 2025, "url": "https://www.nature.scot/", "accessed_date": "2026-06-27", "specific_claim": "Wet heaths typically support 0.25–0.5 ewes (~0.037–0.075 LU)/ha; reduce by ≥half and ideally remove all stock over autumn/winter.", "confidence": "high"}
+      ]
+    },
+    "palatability_rank": "Low",
+    "nutritional_quality_note": "Wet peaty soils poor in cobalt, copper and selenium; on flushed ground molybdenum can lock up copper (induced deficiency). Species-level figures flagged thin — verify before use.",
+    "seasonal_forage_curve": {"spring": "The window — Molinia flush (May–July), good cattle feed", "summer": "Declining as Molinia matures and stems", "autumn": "Low — stock should be off", "winter": "Negligible — stock off the wet surface"}
+  },
+  "management": {
+    "optimal_grazing_animals": [
+      {"breed": "Hardy cattle (light, spring window)", "species": "cattle", "grade": "C–E", "notes": "This is where cattle earn their place — light spring grazing through the Molinia window keeps the grass in check and dwarf shrubs in the game, which sheep alone cannot do. Virtual fencing (NoFence) useful for holding cattle on Molinia blocks."}
+    ],
+    "unsuitable_animals": [
+      {"breed": "Sheep alone", "species": "sheep", "reason": "Selectively browse heather and leave the Molinia — the wrong tool here."},
+      {"breed": "Cattle/ponies over winter", "species": "cattle/ponies", "reason": "Poach the soft peat surface and browse dwarf shrubs when nothing else is on offer — keep off the wet surface in the wet months."}
+    ],
+    "timing_windows": {"preferred_season": "Light seasonal grazing in spring/early summer only — cattle on Molinia ≈ May–July", "rationale": "Use the one palatable window; outside it there is little worth eating, which is why stock should be elsewhere", "avoid": "Autumn/winter grazing (poaching); cattle on the soft surface in wet months", "per_species_notes": "Remove stock ≥6 months over autumn/winter; account for and control wild deer."},
+    "intensity_guidance": "See conservation_lu_ha — scheme-tied, never averaged; lighter than dry heath, in a spring window, figure agreed with the adviser. Read the peat depth: where it is damaged bog, plan to rewet rather than graze it as heath.",
+    "regulatory_note": "LIVE LEGAL AREA — verified current to 27 June 2026, re-check before any contract. Burning on peat: England's strengthened Heather and Grass Burning Regulations in force 30 Sep 2025 (deep peat 30 cm threshold; extended to all upland deep peat); Scotland's muirburn licensing under the Wildlife Management and Muirburn (Scotland) Act 2024. Note: burning Molinia-dominated heath makes the Molinia worse. Do not drain (drainage is what converts wet heath/bog to Molinia).",
+    "monitoring_protocol": "Living Sphagnum cover, dwarf-shrub vs Molinia balance, cross-leaved heath browse level, poaching/bare peat, water table. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "High distinctiveness — priority habitat (upland heathland / H4010 wet heath).", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Upland heathland high distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Erica tetralix", "Calluna vulgaris", "Molinia caerulea", "Trichophorum cespitosum", "Eriophorum vaginatum", "Eriophorum angustifolium", "Sphagnum spp.", "Myrica gale"],
+    "key_positive_indicators": ["living wet Sphagnum carpet", "cross-leaved heath ungrazed", "Drosera spp. (sundews)", "dwarf-shrub/Molinia balance with Molinia not dominant"],
+    "key_negative_indicators": ["rank Molinia tussock dominance", "grazed cross-leaved heath", "Sphagnum lost / surface poached", "bare drying peat"],
+    "toxicity_flags": [{"species": "Narthecium ossifragum (bog asphodel)", "issue": "saponins / photosensitisation (alveld) in sheep, mainly lambs on wet ground; real but variable — flagged thin"}],
+    "integrity_indicators_fauna": ["large heath butterfly Coenonympha tullia (larvae on hare's-tail cotton-grass — the classic wet-heath/bog integrity indicator)", "curlew, snipe (needs soft wet surface to probe), meadow pipit, red grouse on drier hummocks; hen harrier, short-eared owl over", "black darter dragonfly, emperor moth, bog-pool invertebrates"],
+    "target_species_composition": ["dwarf shrubs with cross-leaved heath", "Molinia/cotton-grass present not dominant", "intact Sphagnum surface"],
+    "note": "Skeleton only — full species records and joins in Phase 2B. Bog myrtle (Myrica gale) as a local N-fixer worth capturing."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (h1b6 verified, v3.3 Level-5 keyed)", "wild_assessment from a high-confidence sheet", "conservation grazing figures scheme-tied across three sources (NE/TN686/NatureScot), verified June 2026", "burning/drainage regulation verified current"],
+    "fields_partially_populated": ["wild_zone — P&R default, per-parcel (Molinia-dominated → Regenerate; damaged bog → rewet)", "forage/nutrition — low-yield seasonal; nominal figures; grades estimated", "species_list/fauna — skeleton"],
+    "fields_pending_research": ["Species-level mineral data incl. molybdenum/copper interaction (Phase 2B)", "Bog asphodel toxicity remains poorly characterised — keep flagged", "Scotland muirburn detail re-verify before contract"],
+    "overall_confidence": "high",
+    "notes": "Built from a high-confidence sheet onto a verified Level-5 code. The Molinia double-edge (best summer feed AND headline degradation species — entirely timing/pressure) is the key management nuance. Much wet heath is damaged bog; read peat depth before treating it as heath. Sibling of h1b5."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "h1b6 wet heath (upland).", "confidence": "high"},
+    {"ref_id": "NE-DEFRA-MOORLAND-CUP-2025", "source_level": 2, "source_type": "govt_statutory", "title": "Defra/NE moorland grazing actions", "author_org": "Defra / Natural England", "year": 2025, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Wet heath <0.04 GLU/ha.", "confidence": "high"},
+    {"ref_id": "SAC-FAS-TN686", "source_level": 2, "source_type": "govt_statutory", "title": "TN686", "author_org": "SAC / FAS", "year": 2024, "url": "https://www.fas.scot/", "accessed_date": "2026-06-27", "specific_claim": "Wet heath 0.05–0.10 LU/ha.", "confidence": "high"},
+    {"ref_id": "NATURESCOT-MOORLAND", "source_level": 2, "source_type": "govt_statutory", "title": "NatureScot moorland guidance", "author_org": "NatureScot", "year": 2025, "url": "https://www.nature.scot/", "accessed_date": "2026-06-27", "specific_claim": "0.25–0.5 ewes/ha; remove stock over winter.", "confidence": "high"},
+    {"ref_id": "WILD-SHEET-02-WET-HEATH", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 02 — Wet Heath", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Ecology, elemental reading, management.", "confidence": "good"}
+  ]
+}

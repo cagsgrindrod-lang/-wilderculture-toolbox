@@ -1,0 +1,151 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — heath group batch; built from field sheet 01 (Dry Heath) via the Crosswalk. v3.3: keyed on the most-specific UKHab code (Level 5).",
+  "ukhab_identity": {
+    "ukhab_level2": "h", "ukhab_level2_name": "Heathland and shrub",
+    "ukhab_level3": "h1", "ukhab_level3_name": "Dwarf shrub heath",
+    "ukhab_level4": "h1b", "ukhab_level4_name": "Upland heathland",
+    "ukhab_level5": "h1b5", "ukhab_level5_name": "Dry heaths; upland (Annex I H4030)",
+    "wilderculture_subtype": null,
+    "composite_pk": "h1b5",
+    "composite_pk_note": "v3.3: keyed on the most-specific UKHab code. h1b5 (dry) and h1b6 (wet) share Level 4 (h1b Upland heathland) and are distinguished at Level 5, so each is keyed on its Level-5 code. No wilderculture_subtype needed — UKHab provides the distinction.",
+    "secondary_codes": [], "secondary_codes_notes": "Halve grazing density where bracken (secondary code 14) is encroaching — recorded per parcel.",
+    "habitat_name": "Dry heath (upland)", "parent_category": "Heathland and shrub",
+    "bap_priority": true, "annex1_habitat": "H4030 European dry heaths",
+    "geographic_tags": ["upland", "north_britain", "uk_wide"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (Level-5 list per CIEEM heathland restoration guidance and applied surveys)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "h = Heathland and shrub, h1 = Dwarf shrub heath, h1b = Upland heathland, h1b5 = Dry heaths; upland (H4030). Confirmed across multiple applied UKHab surveys.", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["H12 Calluna vulgaris–Vaccinium myrtillus heath (classic dry heath, N & E)", "H10 Calluna–Erica cinerea heath (wetter, oceanic W)", "H9 Calluna–Deschampsia flexuosa (drift on heavily grazed/burnt ground)"],
+    "nvc_communities_notes": "Classification names the vegetation, not forage value; the forage layer is bolted on from grassland/forage science.",
+    "phase1_equivalent": "D1.1 Dry dwarf shrub heath (acid)",
+    "bng_metric_habitat_name": "Heathland and shrub — Upland heathland",
+    "wild_sheet_ref": "Habitat-01-Dry-Heath",
+    "sources": [
+      {"ref_id": "NVC-RODWELL-HEATHS", "source_level": 1, "source_type": "peer_reviewed", "title": "British Plant Communities, Vol. 2 — Mires and heaths (H9, H10, H12)", "author_org": "Rodwell, J.S. (ed.)", "year": 1991, "url": null, "accessed_date": "2026-06-27", "specific_claim": "H10/H12 are the upland dry-heath NVC communities; H9 a degradation drift.", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "Dwarf shrub heath on free-draining, acid, podzolic soils above the moorland line — upland heathland, a priority habitat. A plagioclimax held below the natural treeline by grazing and (historically) burning. The moment the ground waterlogs it has moved into wet heath, then blanket bog.",
+    "condition_indicators_good": ["Dwarf shrubs dominant but not a Calluna monoculture — bilberry, bell heather, cowberry mixed through", "A range of heather ages (pioneer, building, mature, some degenerate) — the structural mosaic is the single best sign", "Fine grasses (Festuca, Agrostis) and forbs in the gaps", "Good moss/lichen layer, little bare ground, bilberry shoots present not browsed to stubs"],
+    "condition_indicators_poor": ["Overgrazed/over-burnt: grasses taking over (Nardus, Deschampsia, Molinia at edges); heather browsed into tight drumstick topiary", "Bracken creeping in; bare peat or mineral soil; erosion", "Under-managed: rank, leggy, even-aged heather collapsing open with no age structure (wildfire fuel load)"],
+    "ecosystem_functions": ["Winter standing browse — evergreen dwarf shrubs feed stock when grass has gone", "Anthelmintic effect — Calluna condensed tannins at moderate levels suppress gut worms (too high, they bind protein)", "Structural mosaic supporting grouse, merlin and specialist invertebrates", "Modest soil carbon and slow acid nutrient cycling on podzols"],
+    "whole_system_role": "A low-to-moderate productivity plagioclimax below the treeline; contributes structure and winter standing biomass but modest energy to the wider system. The mosaic of heath and grassy flushes is the asset, not any one patch.",
+    "successional_neighbours": [
+      {"habitat_code": "g1b (acid grassland)", "direction": "toward (if overgrazed/over-burnt)", "note": "Heavy continuous sheep convert heath to Festuca–Agrostis, then Nardus/Deschampsia grassland — hard to reverse."},
+      {"habitat_code": "h1c5 (montane)", "direction": "toward (above treeline)", "note": "Above the natural treeline, heath grades into prostrate montane heath — a genuine climax."},
+      {"habitat_code": "scrub / native woodland", "direction": "toward (if released, wilder)", "note": "Released from grazing/burning: juniper/gorse scrub → birch/rowan → pinewood (east) or oak-birch (west)."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-01-DRY-HEATH", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 01 — Dry Heath", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Ecology, succession, forage value, condition indicators, anthelmintic tannins.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Mixed dwarf shrubs with full heather age structure; grasses/forbs in gaps; good moss/lichen; bilberry shoots intact."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Structure rebuilding after past over-/under-management; dwarf shrubs returning."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Even-aged or grass-encroached; reduced dwarf-shrub diversity."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Grass-dominant (Nardus/Deschampsia/Molinia) or drumstick-browsed heather; bracken; bare ground."},
+      {"grade": 5, "label": "Destroyed / reclassify", "description": "Converted to acid grassland (g1b) or eroded — reclassify."}
+    ],
+    "grade_field_indicators": ["heather age-class structure", "dwarf-shrub diversity (bilberry, bell heather, cowberry)", "fine grass/forb presence in gaps", "Nardus/Deschampsia/Molinia dominance", "bracken encroachment", "bare ground/erosion"],
+    "sources": [
+      {"ref_id": "NE-MOORLAND-CONDITION", "source_level": 2, "source_type": "govt_statutory", "title": "Natural England moorland condition / favourable condition guidance", "author_org": "Natural England", "year": 2025, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Structural age mosaic and dwarf-shrub diversity define favourable dry heath condition.", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Acid parent material; free-draining podzols", "base_status": "acid", "climate": "Cool exposed upland; both eastern (drier) and oceanic western (H10) forms", "altitude_range_m": "~300–600", "aspect_exposure": "Drier slopes and well-drained brows, not wet flats", "bioclimate_notes": "All six bioregions; big managed expanses in the Eastern Highlands and Northern English Borderlands."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading (Protect & Restore default for good heath). For a Regenerate (degraded) parcel, describe its current degraded state.",
+      "water": {"dial_position": 25, "state": "Free-draining, dry regime", "descriptor": "Free-draining acid soils on drier slopes; waterlogging means it has already become wet heath."},
+      "earth": {"dial_position": 55, "pedogenic_process": "podzolisation", "descriptor": "Acid leaching washes iron/aluminium/nutrients down-profile, leaving an impoverished, often bleached topsoil; slow acid cycling, not locked as peat."},
+      "air": {"dial_position": 28, "redox_state": "Aerobic, reasonable redox", "exposure_bioclimate": "Exposed cool upland", "descriptor": "Aerobic free-draining soils; nitrogen tight on leached acid ground."},
+      "fire": {"dial_position": 28, "npp_level": "Low–moderate", "descriptor": "Evergreen dwarf shrubs capture modest energy slowly; little passes onward as forage beyond winter browse."}
+    },
+    "successional_envelope": {
+      "current_stage": "Plagioclimax (held below treeline by grazing/burning)",
+      "range_of_natural_variability": ["Structured dry heath with age mosaic", "Grass-converted (overgrazed) toward acid grassland", "Rank even-aged collapse (undergrazed)", "Scrub/woodland succession if released; montane heath above treeline"],
+      "successional_pathway": "bare rock/mineral soil → lichens & pioneer acid grass → Festuca–Agrostis grassland → dry heath → juniper/gorse scrub → birch & rowan → pinewood (east) / oak-birch (west). Above the natural treeline → montane heath (climax)."
+    },
+    "energy_flow_role": "Low-to-moderate productivity plagioclimax; structure and winter standing biomass, modest energy onward.",
+    "wild_zone": "Protect & Restore",
+    "wild_zone_rationale": "DEFAULT for good structural heath. Per the sheet: good structural heath → Protect & Restore; degraded heath → Regenerate; letting it climb back toward scrub and treeline is the Bioregionally Wilder move. Assign per parcel on condition.",
+    "disturbance_regime": "Supplied — light, long, summer-led grazing (ideally cattle-led/mixed), historically burning. Held below the treeline by this disturbance; lifting it allows scrub/treeline succession.",
+    "wild_management_target": {"type": "state_target", "detail": "Maintain a varied-age dwarf-shrub structural mosaic with fine grasses/forbs in the gaps; avoid both overgrazing (grass conversion) and under-management (rank even-aged collapse). Re-grade trigger: two seasons a band above/below.", "integrity_indicators": ["heather age-class diversity", "bilberry shoot recovery", "scrub/tree regeneration at margins (wilder parcels)"]},
+    "ecological_value_grade": 4,
+    "ecological_value_notes": "Priority habitat with real structural and faunal value (red grouse, merlin, specialist moths and the bilberry bumblebee), though widespread in the uplands. Degraded heath retains restoration value.",
+    "value_axes": {"rarity_irreplaceability": {"score": 3, "notes": "Priority habitat but extensive in the uplands; recoverable."}, "diversity": {"score": 3, "notes": "Structural and faunal diversity in good condition; low where grass-converted."}, "energy_flow_contribution": {"score": 2, "notes": "Modest throughput; winter browse and structure its contributions."}},
+    "naturalistic_lu_ha": null, "naturalistic_lu_ha_note": "Not populated under the P&R default; operative grazing figure is conservation_lu_ha.",
+    "mosaic_role": "browse", "mosaic_role_note": "In a wilder mosaic, heath provides winter browse and structure; the grassy flushes within it carry the grazing.",
+    "preferential_grazing_magnet": false, "preferential_grazing_magnet_note": "Heath itself is low-palatability; animals target the grassy flushes, browsing heath mainly in winter.",
+    "process_indicators": ["heather age-class structure", "bilberry recovery", "scrub/treeline regeneration at margins"],
+    "process_indicators_note": "Relevant to wilder/Regenerate parcels aiming to release toward scrub and treeline.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-01-DRY-HEATH", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 01 — Dry Heath", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Elemental dials, succession, zone placement.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — semi-natural plagioclimax",
+    "overall_palatability_score": 2,
+    "overall_palatability_notes": "Low on the upland ladder; the exception is winter, when heather's evergreen standing crop beats dead grass. Young heather/bilberry shoots palatable; old woody heather poor. The grassy matrix (Festuca/Agrostis) is where the grazing value lives.",
+    "forage_yield_by_grade": [
+      {"grade": 1, "kg_dm_ha_yr": {"min": 1500, "max": 3000}, "confidence": "estimated", "notes": "Low-productivity semi-natural heath; figure nominal — grazing capacity is better expressed via conservation_lu_ha. Forage concentrated in the grassy gaps and winter browse."},
+      {"grade": 3, "kg_dm_ha_yr": {"min": 1000, "max": 2000}, "confidence": "estimated", "notes": "Estimated; declines as structure is lost."}
+    ],
+    "forage_yield_literature": {"min": 800, "max": 3000, "confidence": "estimated", "notes": "Semi-natural heath is low-yield and grazed via conservation densities, not DM budgets; figures nominal.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — semi-natural P&R/Regenerate habitat grazed to a conservation density, not via DM × utilisation.",
+    "conservation_lu_ha": {
+      "value": "England: good condition <0.08 GLU/ha; fragmented/degraded <0.04 GLU/ha (halve where bracken encroaching). Scotland (TN686): dry heath 0.10–0.15 LU/ha.",
+      "scheme": "GLU (England) and LU (Scotland) — SCHEME-TIED, NOT AVERAGED or compared",
+      "confidence": "good",
+      "basis_note": "Natural England moorland guidance: dry heath in good condition <0.08 GLU/ha (~one ewe/ha or one cow/12 ha — very light); degraded <0.04; halve where bracken encroaching. New English scheme tiers as named actions (CUP8 moderate, CUP9 low, CUP10 limited), the per-site GLU/ha agreed with the NE adviser — no fixed national number. SAC/FAS TN686: dry heath (H9/H10/H12/H16) 0.10–0.15 LU/ha. The unit definitions differ; do not average. Practical line: very lightly grazed, summer-led, stock off over winter, figure site-set with the adviser. Figures verified June 2026.",
+      "sources": [
+        {"ref_id": "NE-DEFRA-MOORLAND-CUP-2025", "source_level": 2, "source_type": "govt_statutory", "title": "Defra / Natural England moorland grazing actions (CUP8/9/10)", "author_org": "Defra / Natural England (GOV.UK)", "year": 2025, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Dry heath good <0.08 GLU/ha; degraded <0.04; halve for bracken; per-site figure agreed with adviser.", "confidence": "high"},
+        {"ref_id": "SAC-FAS-TN686", "source_level": 2, "source_type": "govt_statutory", "title": "TN686 — Conservation Grazing of Semi-Natural Habitats", "author_org": "SAC / Farm Advisory Service", "year": 2024, "url": "https://www.fas.scot/", "accessed_date": "2026-06-27", "specific_claim": "Dry heath 0.10–0.15 LU/ha.", "confidence": "high"}
+      ]
+    },
+    "palatability_rank": "Low",
+    "nutritional_quality_note": "Acid podzols poor in cobalt and copper (manganese often high) — stock on heather-dominated ground are classic cobalt/copper deficiency candidates. Calluna carries anthelmintic condensed tannins (beneficial at moderate intake). Species-level mineral figures flagged thin — verify before use.",
+    "seasonal_forage_curve": {"spring": "Moderate — young heather/bilberry shoots; fine grasses greening", "summer": "Moderate — grazing the grassy flushes", "autumn": "Low", "winter": "The exception — evergreen heather standing browse beats dead grass"}
+  },
+  "management": {
+    "optimal_grazing_animals": [
+      {"breed": "Hardy cattle (cattle-led or mixed)", "species": "cattle", "grade": "C–E", "notes": "Take rough grasses, trample niches, browse heather less selectively — hold condition where heavy sheep degrade heath to grass."},
+      {"breed": "Hill sheep (in mixed, light systems)", "species": "sheep", "grade": "C–E", "notes": "Sheep alone, at density, convert heath to grassland — keep light and mixed."}
+    ],
+    "unsuitable_animals": [{"breed": "Heavy continuous sheep stocking", "species": "sheep", "reason": "Selective browsing converts heath to grassland — hard to reverse."}],
+    "timing_windows": {"preferred_season": "Long, light, summer-led grazing — at least 5–6 months across the season", "rationale": "Dry heath wants steady light presence, not short heavy bursts (the opposite of mob grazing)", "avoid": "Winter grazing at summer rate; short heavy bursts; sensitive bird windows (e.g. curlew ~mid-April–early June)", "per_species_notes": "Take stock off ≥4 months over autumn/winter (≥6 on fragmented/degraded heath); pull cattle off soft margins early."},
+    "intensity_guidance": "See conservation_lu_ha — scheme-tied (England GLU, Scotland LU), never averaged; halve where bracken encroaching; set the actual figure with the agency adviser against breed and condition.",
+    "regulatory_note": "LIVE LEGAL AREA — verified current to 27 June 2026, re-check before any contract. Burning on deep peat: England's strengthened Heather and Grass Burning Regulations came into force 30 Sep 2025 (deep peat redefined 40 cm → 30 cm, extended to all upland deep peat, licensing tightened); Scotland's muirburn licensing under the Wildlife Management and Muirburn (Scotland) Act 2024. Do not fertilise, lime or drain (feeds the grasses). Verify current regulations before writing any burning into a contract option.",
+    "monitoring_protocol": "Heather age-class structure, dwarf-shrub diversity, fine-grass/forb presence, Nardus/Deschampsia/Molinia and bracken encroachment, bilberry browse level, bare ground/erosion. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "High distinctiveness — priority habitat (upland heathland / H4030).", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Upland heathland is high distinctiveness. Confirm exact label against live metric.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Calluna vulgaris", "Vaccinium myrtillus", "Erica cinerea", "Empetrum nigrum", "Vaccinium vitis-idaea", "Festuca ovina", "Agrostis capillaris"],
+    "key_positive_indicators": ["Full heather age mosaic", "Vaccinium myrtillus shoots intact (not browsed to stubs)", "Fine palatable grasses (Festuca/Agrostis) in gaps", "good moss/lichen layer"],
+    "key_negative_indicators": ["Nardus stricta dominance (unpalatable, high silica — degradation signal)", "Deschampsia flexuosa / Molinia ingress", "drumstick-browsed heather", "Pteridium aquilinum (bracken)", "bare peat/mineral soil"],
+    "integrity_indicators_fauna": ["red grouse (heather obligate), merlin (nests in tall heather), hen harrier, short-eared owl, ring ouzel, whinchat, stonechat", "emperor & fox moth caterpillars (critical grouse-chick food), green hairstreak (on bilberry), bilberry bumblebee Bombus monticola (upland integrity signal)", "adder, common lizard"],
+    "target_species_composition": ["Dwarf shrubs dominant with diversity", "fine grasses/forbs in gaps", "minimal Nardus/bracken/bare ground"],
+    "note": "Skeleton only — full species records and the Habitat↔Species join (incl. anthelmintic tannin data) in Phase 2B."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (h1b5 verified, v3.3 Level-5 keyed)", "wild_assessment from a high-confidence field sheet", "conservation grazing figures scheme-tied (NE GLU / TN686 LU), verified June 2026", "burning regulation verified current"],
+    "fields_partially_populated": ["wild_zone — P&R default, per-parcel (degraded → Regenerate)", "forage/nutrition — low-yield semi-natural; nominal figures, operative figure is conservation_lu_ha; grades estimated", "species_list/fauna — skeleton"],
+    "fields_pending_research": ["Species-level mineral and tannin data (Phase 2B)", "Full species records and joins (Phase 2B)", "Scotland muirburn detail re-verify before contract"],
+    "overall_confidence": "high",
+    "notes": "Built from a high-confidence sheet onto a verified Level-5 code. P&R default with per-parcel zone (degraded → Regenerate; release toward scrub/treeline → Bioregionally Wilder). Elemental reading is current-state. One of the h1b pair (with h1b6 wet heath)."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "h1b5 dry heath (upland).", "confidence": "high"},
+    {"ref_id": "NE-DEFRA-MOORLAND-CUP-2025", "source_level": 2, "source_type": "govt_statutory", "title": "Defra/NE moorland grazing actions (CUP8/9/10)", "author_org": "Defra / Natural England", "year": 2025, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Dry heath grazing densities (GLU).", "confidence": "high"},
+    {"ref_id": "SAC-FAS-TN686", "source_level": 2, "source_type": "govt_statutory", "title": "TN686 Conservation Grazing of Semi-Natural Habitats", "author_org": "SAC / FAS", "year": 2024, "url": "https://www.fas.scot/", "accessed_date": "2026-06-27", "specific_claim": "Dry heath 0.10–0.15 LU/ha.", "confidence": "high"},
+    {"ref_id": "WILD-SHEET-01-DRY-HEATH", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 01 — Dry Heath", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Ecology, elemental reading, management.", "confidence": "good"}
+  ]
+}
