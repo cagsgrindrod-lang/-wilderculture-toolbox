@@ -1,0 +1,302 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.2",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — first semi-natural record, built from field sheet 03 (Blanket Bog) reconciled via the Crosswalk. Keyed at Level 4 (f1a); valid under v3.2 and forward-compatible with the proposed v3.3 most-specific-code keying.",
+  "ukhab_identity": {
+    "ukhab_level2": "f",
+    "ukhab_level2_name": "Wetland",
+    "ukhab_level3": "f1",
+    "ukhab_level3_name": "Bog",
+    "ukhab_level4": "f1a",
+    "ukhab_level4_name": "Blanket bog",
+    "ukhab_level5": null,
+    "ukhab_level5_states": {
+      "f1a5": "Blanket bog (active, peat-forming) — Annex I H7130",
+      "f1a6": "Degraded blanket bog (eroding / Sphagnum lost)"
+    },
+    "ukhab_level5_note": "f1a5 (active) and f1a6 (degraded) are UKHab v2.01 Level-5 codes that represent CONDITION states of the same habitat, not different habitats. Held here in ukhab_condition rather than as separate records: f1a5 maps to favourable condition, f1a6 to unfavourable/degraded. Record keyed at f1a (Level 4).",
+    "wilderculture_subtype": null,
+    "composite_pk": "f1a",
+    "composite_pk_note": "Single-type Level-4 code; PK degenerates to f1a.",
+    "secondary_codes": [],
+    "secondary_codes_notes": "None at type level.",
+    "habitat_name": "Blanket bog",
+    "parent_category": "Wetland",
+    "bap_priority": true,
+    "annex1_habitat": "H7130 Blanket bog (priority)",
+    "geographic_tags": ["upland", "north_britain", "uk_wide", "internationally_significant"],
+    "sources": [
+      {
+        "ref_id": "UKHAB-v2.01-2023",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "UK Habitat Classification v2.01 (Level-5 list per CIEEM heathland/peatland restoration guidance and applied surveys)",
+        "author_org": "UKHab Ltd",
+        "year": 2023,
+        "url": "https://ukhab.org/ukhab-documentation/",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "f = Wetland, f1 = Bog, f1a = Blanket bog (Level 4). Level-5 states f1a5 active blanket bog (Annex I H7130) and f1a6 degraded blanket bog, confirmed in multiple applied UKHab surveys.",
+        "confidence": "high"
+      }
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["M17 Trichophorum–Eriophorum blanket mire", "M18 Erica tetralix–Sphagnum papillosum mire", "M19 Calluna–Eriophorum blanket mire", "M20 Eriophorum vaginatum (hare's-tail) mire — species-poor/degraded form", "M1–M3 bog pools"],
+    "nvc_communities_notes": "M17–M19 are the characteristic blanket-mire communities; M20 indicates degradation. The classification names the vegetation, not forage value — which here is the point, as forage is marginal.",
+    "phase1_equivalent": "E1.6.1 Blanket sphagnum bog (E1.7 wet modified bog where degraded)",
+    "bng_metric_habitat_name": "Wetland — Blanket bog",
+    "bng_metric_note": "High distinctiveness, priority habitat. Active blanket bog is among the highest-value habitats in the metric.",
+    "wild_sheet_ref": "Habitat-03-Blanket-Bog",
+    "sources": [
+      {
+        "ref_id": "NVC-RODWELL-MIRES",
+        "source_level": 1,
+        "source_type": "peer_reviewed",
+        "title": "British Plant Communities, Vol. 2 — Mires and heaths (M17–M20)",
+        "author_org": "Rodwell, J.S. (ed.)",
+        "year": 1991,
+        "url": null,
+        "accessed_date": "2026-06-27",
+        "specific_claim": "M17–M20 are the blanket-mire NVC communities. Standard reference.",
+        "confidence": "good"
+      }
+    ]
+  },
+  "ecology": {
+    "description": "An ombrotrophic (rain-fed) peatland — a mire, not a dwarf-shrub heath, and a different UKHab top-level category. Defined by deep peat (>0.5 m, often several metres), permanently waterlogged and fed only by rainfall. When healthy it actively forms peat, laying down carbon year on year. Unlike the heaths (held by grazing and burning), blanket bog is held by climate and water; its value is the carbon and water it holds and the peat it builds, not forage.",
+    "condition_indicators_good": [
+      "Wet, living, Sphagnum-dominated surface with hummock-and-hollow microtopography, ideally bog pools",
+      "Water table at or just below the surface",
+      "Full suite of specialists — cotton-grasses, sundews, cranberry, bog asphodel",
+      "No bare peat, no erosion gullies or haggs — wet and actively building"
+    ],
+    "condition_indicators_poor": [
+      "Drained — grips or ditches cut across the surface",
+      "Bare, eroding peat — haggs and gullies",
+      "Sphagnum lost; dominance by Molinia, hare's-tail, or a dried-out heather monoculture",
+      "A burnt surface — the bog has flipped from carbon sink to source"
+    ],
+    "ecosystem_functions": [
+      "Carbon storage and sequestration — a vast store, and an active sink when healthy; the single most important upland carbon habitat",
+      "Water regulation and storage — slows the flow from the hills, reducing downstream flood risk",
+      "Peat formation — accumulating over thousands of years while the surface stays wet",
+      "Internationally important breeding-wader habitat"
+    ],
+    "whole_system_role": "The climax for its climate and self-perpetuating. A near-non-contributor to the landscape energy/forage budget, but the dominant carbon and water store on the hill. Britain holds a globally significant share of the world resource (~13% of global blanket bog), so these uplands matter on a world scale.",
+    "successional_neighbours": [
+      {"habitat_code": "f1a6 (degraded state)", "direction": "toward (only on damage)", "note": "Drainage, burning, overgrazing or climatic drying degrade it — first to Molinia or hare's-tail dominance, then to bare eroding peat (haggs and gullies)."},
+      {"habitat_code": "f1a (restored)", "direction": "from degraded (via rewetting)", "note": "Rewetting and revegetation return degraded bog toward the active, peat-forming state."}
+    ],
+    "sources": [
+      {
+        "ref_id": "IUCN-PEATLAND-PROGRAMME",
+        "source_level": 2,
+        "source_type": "ngo_technical",
+        "title": "IUCN UK Peatland Programme — peatland condition, carbon and the sink-to-source flip",
+        "author_org": "IUCN UK Peatland Programme",
+        "year": 2025,
+        "url": "https://www.iucn-uk-peatlandprogramme.org/",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Healthy peatland sequesters carbon; damaged/drained peatland emits it (sink to source). Sphagnum abundance and diversity is the best single measure of bog health.",
+        "confidence": "good"
+      }
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null,
+    "condition_grade_note": "Assigned per parcel. f1a5 (active) corresponds to favourable condition; f1a6 (degraded) to unfavourable/declining.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable (active — f1a5)", "description": "Wet, Sphagnum-dominated, peat-forming surface; hummock/hollow; water table at surface; no bare peat."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Rewetting underway; Sphagnum returning; erosion stabilising."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Drained or moderately degraded; Molinia/hare's-tail increasing; Sphagnum reduced."},
+      {"grade": 4, "label": "Unfavourable declining (degraded — f1a6)", "description": "Bare eroding peat, haggs/gullies; Sphagnum largely lost; carbon source."},
+      {"grade": 5, "label": "Destroyed / reclassify", "description": "Peat body lost or afforested; function gone."}
+    ],
+    "grade_field_indicators": ["Sphagnum cover and diversity", "water table position", "bare peat / erosion extent", "hummock-hollow microtopography", "Molinia / hare's-tail / heather dominance", "presence of grips or ditches"],
+    "sources": [
+      {
+        "ref_id": "NE-FCS-BLANKET-BOG-2025",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "Definition of Favourable Conservation Status for Blanket Bog (RP2967)",
+        "author_org": "Natural England",
+        "year": 2025,
+        "url": "https://www.gov.uk/government/publications",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Sets favourable condition for blanket bog; peat of 30 cm or more supports blanket bog habitat (ecological 30 cm threshold adopted 2025).",
+        "confidence": "high"
+      }
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {
+      "parent_material_geology": "Deep ombrotrophic peat (>0.5 m, often several metres) over various substrates",
+      "base_status": "acid",
+      "climate": "Cool and very wet oceanic; broadly >1,000 mm rainfall/yr",
+      "altitude_range_m": "Climate-driven; broadly 200–700 m and above (from near sea level in the far NW)",
+      "aspect_exposure": "Flat to gently sloping; exposed oceanic bioclimate",
+      "bioclimate_notes": "Held by climate and water, not by management. All six target bioregions hold it; Britain's share is globally significant."
+    },
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading (Protect & Restore zone): a neutral reading of what the land is doing. (The Regenerate target-state convention does NOT apply here — this describes the existing climax state.)",
+      "water": {"dial_position": 95, "state": "Permanently waterlogged, ombrotrophic", "descriptor": "Water table at or just below the surface, rain-fed not groundwater-fed — the defining variable of the whole habitat."},
+      "earth": {"dial_position": 95, "pedogenic_process": "peat_accumulation", "descriptor": "Peat accumulation under anaerobiosis (paludification): decomposition suppressed, organic matter stored as deep peat, the mineral cycle switched off and stored as carbon."},
+      "air": {"dial_position": 92, "redox_state": "Anaerobic, strongly negative redox", "exposure_bioclimate": "Cool, wet, exposed oceanic", "descriptor": "Soil oxygen near zero — the anoxia that drives peat accumulation."},
+      "fire": {"dial_position": 8, "npp_level": "Low / slow", "descriptor": "Low, slow production; little energy passes onward as forage. A vast carbon store precisely because what is fixed is not respired away."}
+    },
+    "successional_envelope": {
+      "current_stage": "Climax (self-perpetuating) for its climate",
+      "range_of_natural_variability": [
+        "Healthy active bog (climax) — builds on itself, peat accumulating over millennia while the surface stays wet",
+        "On damage: Molinia / hare's-tail dominance",
+        "On further damage: bare, eroding peat (haggs and gullies)"
+      ],
+      "successional_pathway": "Inverted from the heaths: there is no natural 'next' while it stays wet. Movement happens only on damage (drain, burn, overgraze, or climatic drying). The wilder move on deep peat is restoring the wet peat-forming surface — never planting it over; afforesting deep peat dries and oxidises the carbon store."
+    },
+    "energy_flow_role": "The climax for its climate and self-perpetuating; a near-non-contributor to the landscape energy/forage budget, but the dominant carbon and water store on the hill.",
+    "wild_zone": "Protect & Restore",
+    "wild_zone_rationale": "Active, wet, Sphagnum-rich blanket bog is the flagship of Protect & Restore — arguably the single most important habitat in that zone. Degraded, drained or eroding bog sits in Regenerate, with the route through being rewetting (not grazing). Large-scale restored, functioning peatland is the Bioregionally Wilder picture. Per-parcel: assign on condition.",
+    "disturbance_regime": "Minimal / none — held by climate and water, not handed to grazing. Good bog requires no grazing prescription. Restoration disturbance = rewetting works (grip/gully blocking), not stocking.",
+    "wild_management_target": {
+      "type": "state_target",
+      "detail": "Maintain (or restore to) a wet, living, Sphagnum-dominated, peat-forming surface with the water table at the surface. For degraded (f1a6) parcels the Regenerate route is rewetting and revegetation, not a stocking rate. Re-grade trigger: two seasons measured a band above/below → re-grade.",
+      "integrity_indicators": ["Sphagnum cover and diversity recovering", "water table at/near surface", "bare peat revegetating", "breeding waders present (golden plover, dunlin)", "spring cranefly emergence (the food thread to wader chicks)", "carbon status moving source → sink"]
+    },
+    "ecological_value_grade": 5,
+    "ecological_value_notes": "Among the highest-value habitats in the toolbox. Irreplaceable carbon store (peat accumulates ~1 mm/yr — a metre is ~1,000 years), internationally important breeding-wader assemblage, and a globally rare habitat of which Britain holds a major share. Degraded bog still holds high restoration value.",
+    "value_axes": {
+      "rarity_irreplaceability": {"score": 5, "notes": "Globally rare; Britain holds ~13% of world blanket bog; the peat body is effectively irreplaceable on human timescales."},
+      "diversity": {"score": 4, "notes": "Specialist flora (Sphagnum suite, sundews, cranberry, cloudberry) plus an internationally important wader and invertebrate assemblage."},
+      "energy_flow_contribution": {"score": 3, "notes": "Low forage/energy THROUGHPUT, but the dominant carbon and water STORAGE role on the hill — its real contribution is storage, not flow."}
+    },
+    "naturalistic_lu_ha": null,
+    "naturalistic_lu_ha_note": "Not populated under the Protect & Restore default — the operative grazing figure is conservation_lu_ha (near-nil). Restored functioning peatland is the Bioregionally Wilder picture but still carries near-nil naturalistic grazing.",
+    "mosaic_role": null,
+    "mosaic_role_note": "Not a grazing-mosaic patch — near-ungrazed by design. Its landscape role is carbon/water storage, not disturbance.",
+    "preferential_grazing_magnet": false,
+    "preferential_grazing_magnet_note": "The opposite of a magnet — low palatability is protective; treating bog as a grazing resource is what damages it.",
+    "process_indicators": ["Sphagnum cover/diversity (best single bog-health measure)", "water table position", "bare-peat extent and revegetation", "breeding-wader presence and productivity", "cranefly emergence", "carbon flux sink vs source (e.g. Agrecalc)"],
+    "process_indicators_note": "Populated despite the state target because bog restoration is monitored by process measures; central to Regenerate (rewetting) parcels.",
+    "sources": [
+      {
+        "ref_id": "WILD-SHEET-03-BLANKET-BOG",
+        "source_level": 7,
+        "source_type": "practitioner_framework",
+        "title": "Wilderculture Habitat Toolbox field sheet 03 — Blanket Bog (elemental reading, succession, zone)",
+        "author_org": "Wilderculture CIC",
+        "year": 2026,
+        "url": null,
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Source for the elemental dials, successional logic, zone placement and integrity indicators. Overlay/framework layer; ecological claims cross-referenced to L1–L2 sources.",
+        "confidence": "good"
+      }
+    ]
+  },
+  "forage": {
+    "is_production_sward": false,
+    "is_permanent_pasture": false,
+    "years_unimproved": "n/a — semi-natural peatland climax",
+    "overall_palatability_score": 1,
+    "overall_palatability_notes": "Essentially a non-forage habitat — sits at the very bottom of the upland ladder, below wet heath. The only real bite is the spring cotton-grass flush. Low palatability is protective; treating bog as a grazing resource is precisely what damages it.",
+    "forage_yield_by_grade": [
+      {"grade": 1, "kg_dm_ha_yr": {"min": 500, "max": 1500}, "confidence": "estimated", "notes": "NON-FORAGE habitat — figure is nominal/marginal, not a grazing-planning input. Use conservation_lu_ha (near-nil) instead. Most standing biomass (Sphagnum, sedge) has no forage value."}
+    ],
+    "forage_yield_literature": {
+      "min": 0,
+      "max": 1500,
+      "confidence": "estimated",
+      "notes": "Forage is marginal by the nature of the habitat; no meaningful DM-yield literature is sought because bog is not a grazing resource. The operative grazing figure is the direct conservation_lu_ha.",
+      "sources": []
+    },
+    "forage_yield_actual": [],
+    "dm_data_source_type": "literature",
+    "dm_basis": "gross",
+    "utilisation_factor": null,
+    "utilisation_factor_note": "Not applicable — Protect & Restore habitat; LU is a direct conservation density, not derived from DM × utilisation (which would double-count).",
+    "conservation_lu_ha": {
+      "value": "England (good condition): <0.04 GLU/ha; Scotland: <0.05 LU/ha, dropping to <0.02 LU/ha where restoration is underway",
+      "scheme": "GLU (England) and LU (Scotland) — SCHEME-TIED, NOT AVERAGED",
+      "confidence": "good",
+      "basis_note": "Natural England: blanket bog in good condition does not require grazing; where stock are present, <0.04 GLU/ha with removal for at least 6 months over autumn/winter. SAC/FAS TN686: blanket and raised bog (M17–M19) <0.05 LU/ha, <0.02 LU/ha where restoring. The figures all point the same way — almost nothing. England (GLU) and Scotland (LU) figures are held separately and never compared or averaged.",
+      "sources": [
+        {"ref_id": "NE-DEFRA-MOORLAND-GRAZING-2025", "source_level": 2, "source_type": "govt_statutory", "title": "Defra / Natural England moorland management and grazing actions", "author_org": "Defra / Natural England (GOV.UK)", "year": 2025, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Blanket bog in good condition does not require grazing; where present, <0.04 GLU/ha with ≥6 months removal autumn/winter. Heather/grass-dominated bog treated as poor condition, rewetting recommended.", "confidence": "high"},
+        {"ref_id": "SAC-FAS-TN686", "source_level": 2, "source_type": "govt_statutory", "title": "Technical Note TN686 — Conservation Grazing of Semi-Natural Habitats", "author_org": "SAC / Farm Advisory Service", "year": 2024, "url": "https://www.fas.scot/", "accessed_date": "2026-06-27", "specific_claim": "Blanket and raised bog (M17, M18, M19) <0.05 LU/ha, <0.02 LU/ha where restoration is underway. Figures verified June 2026.", "confidence": "high"}
+      ]
+    },
+    "palatability_rank": "Very Low",
+    "nutritional_quality_note": "Marginal and not relevant — deep-peat deficiency picture (poor in cobalt, copper, selenium). Since the habitat should barely be grazed, mineral/nutrition status matters less than the fact that this is not a place to run stock for nutrition.",
+    "seasonal_forage_curve": {
+      "spring": "Marginal — the cotton-grass flush is the only real bite; an important early shoot where it occurs",
+      "summer": "Negligible",
+      "autumn": "Negligible — all stock should be off",
+      "winter": "Negligible — all stock off"
+    }
+  },
+  "management": {
+    "optimal_grazing_animals": [
+      {"breed": "None — good bog needs no grazing", "species": "—", "grade": "—", "notes": "Where any light grazing occurs: summer-only sheep."}
+    ],
+    "unsuitable_animals": [
+      {"breed": "Cattle", "species": "cattle", "reason": "Cattle poach deep peat badly and carry a high risk of surface damage — keep off the wet surface."},
+      {"breed": "Any stock in autumn/winter", "species": "all", "reason": "Take all stock off over autumn and winter (≥6 months); the surface is most vulnerable when wettest."}
+    ],
+    "timing_windows": {
+      "preferred_season": "Summer only where any grazing occurs; nil is the aim on good bog",
+      "rationale": "Protection and restoration, not a stocking rate — good bog does not require grazing to maintain it",
+      "avoid": "Autumn/winter grazing; cattle on the wet surface; any overgrazing",
+      "per_species_notes": "Account for wild deer, which also work this ground; control deer where pressure is high."
+    },
+    "intensity_guidance": "See conservation_lu_ha — scheme-tied (England GLU <0.04; Scotland LU <0.05, <0.02 restoring), never averaged. The right answer is close to none. Management is protection and restoration, not setting a stocking rate.",
+    "restoration_note": "The real work: rewetting (block grips and ditches, dam erosion gullies, raise the water table to the surface), revegetate bare peat, restore Sphagnum, reduce/stop burning, control deer. Healthy bog sequesters carbon; damaged bog emits it — the sink-to-source flip is the most powerful single argument in the upland carbon story.",
+    "regulatory_note": "LIVE LEGAL AREA — verified current to 27 June 2026, re-check before any contract. ENGLAND: the strengthened Heather and Grass Burning (England) Regulations came into force 30 September 2025 — deep peat redefined from 40 cm to 30 cm, the burning ban extended beyond protected sites (SSSI/SAC/SPA) to all upland deep peat, total protected area more than tripled to ~676,628 ha, and licensing tightened (burning only as a last resort, by licence). SCOTLAND: muirburn licensing under the Wildlife Management and Muirburn (Scotland) Act 2024. Afforestation of deep peat is damaging (dries/oxidises the store) and subject to consent. Drainage requires consent.",
+    "monitoring_protocol": "Sphagnum cover/diversity, water table position, bare-peat/erosion extent, breeding-wader presence and productivity, cranefly emergence; carbon sink/source status via Agrecalc or equivalent.",
+    "bng_unit_value": {
+      "value_note": "HIGH distinctiveness — priority habitat (Annex I H7130). Among the highest BNG values; active bog and successful restoration both score strongly.",
+      "confidence": "good",
+      "sources": [
+        {"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Blanket bog is high distinctiveness in the metric. Exact current label/score to confirm against the live metric.", "confidence": "medium"}
+      ]
+    }
+  },
+  "species_list": {
+    "key_constants": ["Sphagnum papillosum", "Sphagnum capillifolium", "Sphagnum medium", "Eriophorum vaginatum", "Eriophorum angustifolium", "Calluna vulgaris", "Erica tetralix", "Trichophorum cespitosum"],
+    "key_positive_indicators": ["Sphagnum dominance and diversity (the keystone and best health measure)", "Drosera rotundifolia (sundew)", "Pinguicula vulgaris (butterwort)", "Vaccinium oxycoccos (cranberry)", "Rubus chamaemorus (cloudberry — northern bog)", "intact hummock-hollow microtopography"],
+    "key_negative_indicators": ["Molinia caerulea dominance", "Eriophorum vaginatum monoculture (degradation signal)", "bare eroding peat", "dried-out Calluna monoculture"],
+    "toxicity_flags": [
+      {"species": "Andromeda polifolia (bog rosemary)", "issue": "grayanotoxins — poisonous; stock almost always avoid it; a good sign of intact bog"},
+      {"species": "Narthecium ossifragum (bog asphodel)", "issue": "saponins / photosensitisation (alveld) — real but variable, mainly affecting lambs (flagged thin)"}
+    ],
+    "integrity_indicators_fauna": ["Golden plover (above all), dunlin, curlew, snipe, greenshank (far north) — internationally important breeding waders", "red grouse, merlin, hen harrier, short-eared owl", "large heath butterfly, black darter and other dragonflies, raft spider", "craneflies — adult emergence in spring is the critical food for golden plover and dunlin chicks; dry the bog and the emergence (and the chicks) collapse"],
+    "target_species_composition": ["Sphagnum-dominated surface", "full cotton-grass / specialist suite", "minimal Molinia / bare peat"],
+    "note": "Skeleton only — full species records and the Habitat↔Species join built in Phase 2B. The cranefly→wader food thread is a key integrity relationship to capture there."
+  },
+  "data_completeness": {
+    "fields_fully_populated": [
+      "ukhab_identity — f1a verified; f1a5/f1a6 Level-5 condition states recorded",
+      "wild_assessment — elemental reading, succession, zone, integrity indicators from a high-confidence field sheet",
+      "conservation grazing figures — scheme-tied (NE GLU / TN686 LU), verified June 2026, never averaged",
+      "regulatory position — England deep-peat burning ban verified current (in force 30 Sep 2025; 30 cm threshold)"
+    ],
+    "fields_partially_populated": [
+      "forage/nutrition — marginal by the nature of the habitat (non-forage); figures nominal and flagged, operative grazing figure is conservation_lu_ha",
+      "species_list / fauna integrity — skeleton; full records in Phase 2B",
+      "bng_metric exact label/score — to confirm against the live metric"
+    ],
+    "fields_pending_research": [
+      "Scotland muirburn licensing detail (2024 Act) — re-verify specifics before contract use",
+      "Per-site carbon flux figures (Agrecalc) — site-level, Phase 2B",
+      "Full species records and the cranefly→wader food relationship (Phase 2B)"
+    ],
+    "overall_confidence": "high",
+    "notes": "First semi-natural record, and a strong one: a high-confidence field sheet reconciled to a clean UKHab code (f1a), with the live legal fact (deep-peat burning) verified current rather than carried forward. Protect & Restore flagship; elemental reading is CURRENT-state (not the Regenerate target convention). f1a5/f1a6 handled as condition states within one record. Degraded parcels route through Regenerate via rewetting. Zone is per-parcel on condition."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "f1a blanket bog; f1a5/f1a6 Level-5 states.", "confidence": "high"},
+    {"ref_id": "NE-DEFRA-BURNING-REGS-2025", "source_level": 2, "source_type": "govt_statutory", "title": "Burning banned on England's deep peat to protect wildlife (strengthened Heather and Grass Burning Regulations)", "author_org": "Defra / Natural England (GOV.UK)", "year": 2025, "url": "https://www.gov.uk/government/news/burning-banned-on-englands-deep-peat-to-protect-wildlife", "accessed_date": "2026-06-27", "specific_claim": "Strengthened deep-peat burning ban in force 30 Sep 2025; deep peat redefined 40 cm → 30 cm; extended to all upland deep peat; protected area tripled to ~676,628 ha.", "confidence": "high"},
+    {"ref_id": "SAC-FAS-TN686", "source_level": 2, "source_type": "govt_statutory", "title": "TN686 — Conservation Grazing of Semi-Natural Habitats", "author_org": "SAC / Farm Advisory Service", "year": 2024, "url": "https://www.fas.scot/", "accessed_date": "2026-06-27", "specific_claim": "Blanket/raised bog <0.05 LU/ha, <0.02 restoring.", "confidence": "high"},
+    {"ref_id": "IUCN-PEATLAND-PROGRAMME", "source_level": 2, "source_type": "ngo_technical", "title": "IUCN UK Peatland Programme", "author_org": "IUCN UK Peatland Programme", "year": 2025, "url": "https://www.iucn-uk-peatlandprogramme.org/", "accessed_date": "2026-06-27", "specific_claim": "Carbon sink-to-source flip; Sphagnum as the health measure.", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-03-BLANKET-BOG", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 03 — Blanket Bog", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Elemental reading, succession, zone, integrity indicators.", "confidence": "good"}
+  ]
+}
