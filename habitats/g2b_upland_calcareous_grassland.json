@@ -1,0 +1,153 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — grassland group batch; built from field sheet 05 (Upland Calcareous Grassland) via the Crosswalk. v3.3 keyed on most-specific UKHab code.",
+  "ukhab_identity": {
+    "ukhab_level2": "g", "ukhab_level2_name": "Grassland",
+    "ukhab_level3": "g2", "ukhab_level3_name": "Calcareous grassland",
+    "ukhab_level4": "g2b", "ukhab_level4_name": "Upland calcareous grassland",
+    "ukhab_level5": null,
+    "ukhab_level5_states": {"g2b5": "Alpine and subalpine calcareous grasslands (H6170)", "g2b6": "Species-rich grassland with mat-grass in upland areas (H6230)", "g2b7": "Dry grasslands and scrub on chalk or limestone; upland (H6210)"},
+    "ukhab_level5_note": "Keyed at g2b (Level 4); the field sheet spans CG9–CG14. The three Level-5 Annex I types (g2b5 alpine, g2b6 species-rich mat-grass/Nardus, g2b7 dry calcareous) are recorded per parcel. g2b6 is where the acid sheet's species-rich Nardus belongs.",
+    "wilderculture_subtype": null,
+    "composite_pk": "g2b", "composite_pk_note": "Single Level-4 type; PK = g2b.",
+    "secondary_codes": [], "secondary_codes_notes": "None at type level.",
+    "habitat_name": "Upland calcareous grassland", "parent_category": "Grassland",
+    "bap_priority": true, "annex1_habitat": "H6170 (alpine/subalpine), H6210 (dry calcareous), H6230 (species-rich Nardus) — per Level-5 type",
+    "geographic_tags": ["upland", "north_britain", "rare", "geology_restricted", "internationally_significant"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (master data sheet + applied surveys)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "g2 = Calcareous grassland; g2b = Upland calcareous grassland (g2a lowland). L5: g2b5 alpine/subalpine (H6170), g2b6 species-rich mat-grass (H6230), g2b7 dry calcareous upland (H6210). Confirmed in UKHab master data sheet and applied surveys (e.g. g2b6).", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["CG9 Sesleria caerulea (blue moor-grass) grassland — northern limestone", "CG10–CG12 base-influenced Festuca–Agrostis swards (overlap species-rich Nardus / g2b6)", "CG13–CG14 Dryas octopetala (mountain avens) communities at altitude"],
+    "nvc_communities_notes": "CG9–CG14. CG10–CG12 overlap the species-rich Nardus grassland flagged on the acid sheet — that valuable, base-influenced sward keys to g2b6 here, NOT to ordinary g1b acid grassland.",
+    "phase1_equivalent": "B3.1/B3.2 Calcareous grassland (unimproved/semi-improved)",
+    "bng_metric_habitat_name": "Grassland — Upland calcareous grassland",
+    "wild_sheet_ref": "Habitat-05-Upland-Calcareous-Grassland",
+    "sources": [
+      {"ref_id": "NVC-RODWELL-GRASS", "source_level": 1, "source_type": "peer_reviewed", "title": "British Plant Communities, Vol. 3 — Grasslands (CG9–CG14)", "author_org": "Rodwell, J.S. (ed.)", "year": 1992, "url": null, "accessed_date": "2026-06-27", "specific_claim": "CG9–CG14 are the upland calcareous grassland communities.", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "Species-rich grassland on thin, lime-rich soils over base-rich rock, above the upper limit of agricultural enclosure (~250–300 m up, into the sub-montane and montane zones). The richest open grassland in the uplands — the best examples hold more than 60 species in 4 m² — and genuinely rare, only some 22,000–25,000 ha in the whole UK. A jewel, not a backdrop. Base-rich rock is mostly limestone but also calcareous sandstones, basic igneous rocks (Borrowdale Volcanics) and lime-rich Highland schists.",
+    "condition_indicators_good": ["Short, open, species-rich turf with high cover and diversity of forbs — thyme, rock-rose, the calcicoles", "Some bare soil gaps and rock outcrops (they matter for specialist plants and invertebrates)", "Arctic-alpines where altitude allows; a good bryophyte layer", "Grazed but not eroded — the shorter, greener flush against the hill"],
+    "condition_indicators_poor": ["Overgrazed: erosion, bare soil and scree, loss of all but remote ledge species, dominance by a few grazing-tolerant plants", "Undergrazed/neglected: coarsening, rank grass and litter build-up, scrub invading (hawthorn, juniper, ash), short turf and soil gaps closing over", "Litter build-up itself reduces the calcareous influence", "Either extreme loses the habitat"],
+    "ecosystem_functions": ["The mineral and diversity high point of the uplands — the clean, nutritious end of the whole system (calcium plentiful, cobalt/copper deficiency reversed)", "Habitat for nationally/internationally important arctic-alpine and rare-plant assemblages (Teesdale, Breadalbane)", "Rich invertebrate fauna tied to the flowers and the lime (northern brown argus, rich snail fauna)", "Waxcap habitat in old unimproved turf"],
+    "whole_system_role": "A grazing-maintained plagioclimax and the mineral and diversity high point of the uplands. It needs disturbance (grazing) actively supplied to hold it — uniquely in the series, BOTH over- and under-grazing degrade it.",
+    "successional_neighbours": [
+      {"habitat_code": "tall herb / scrub (hawthorn, juniper, ash)", "direction": "toward (if undergrazed/released)", "note": "Released from grazing it heads to tall herb, scrub, then upland mixed ash wood — but stop grazing entirely and the open-turf specialists are lost as litter builds and scrub closes over."},
+      {"habitat_code": "upland mixed ash woodland", "direction": "toward (the limestone climax)", "note": "The wooded climax on limestone — genuinely valuable, but not to be reached by simple abandonment given the open-turf interest."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-05-CALCAREOUS", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 05 — Upland Calcareous Grassland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Jewel status, rarity (~22–25k ha), the Goldilocks grazing logic, mineral status, arctic-alpine assemblages.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel — degrades at BOTH ends of the grazing spectrum.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Short open species-rich turf; high forb/calcicole diversity; some bare gaps; arctic-alpines where altitude allows; grazed not eroded."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Grazing balance being restored (up or down); diversity returning; scrub controlled."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Either slightly coarsening (under-grazed) or slightly grazing-worn; diversity reduced."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Overgrazed (erosion, ledge-only species) OR undergrazed (rank grass, litter, scrub invasion)."},
+      {"grade": 5, "label": "Destroyed", "description": "Eroded to scree, or scrubbed/wooded over with open-turf specialists lost, or improved/ploughed."}
+    ],
+    "grade_field_indicators": ["forb/calcicole cover and diversity", "sward height and openness (bare gaps)", "scrub/litter encroachment (under-grazing)", "erosion/bare scree (over-grazing)", "arctic-alpine presence", "bryophyte layer"],
+    "sources": [
+      {"ref_id": "NE-CALCAREOUS-CONDITION", "source_level": 2, "source_type": "govt_statutory", "title": "Natural England / JNCC calcareous grassland condition guidance", "author_org": "Natural England / JNCC", "year": 2025, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Both over- and under-grazing degrade calcareous grassland; favourable condition is short, open, forb-rich turf.", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Limestone, calcareous sandstone, basic igneous rock (Borrowdale Volcanics), calc-schist", "base_status": "base-rich (calcareous) — the richest mineral status in the series", "climate": "Exposed sub-montane to montane", "altitude_range_m": "Above the enclosure limit (~250–300 m) into the montane zone", "aspect_exposure": "Thin free-draining (often droughty) soils over base-rich rock", "bioclimate_notes": "Geology-dictated, so patchy and concentrated: Craven limestone, North Pennines/Teesdale (sugar-limestone arctic-alpines), Cumbria/Borrowdale Volcanics, Breadalbane calc-schist."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading. Predominantly Protect & Restore (a near-irreplaceable jewel). Scrubbed-over/overgrazed parcels read as their current degraded state.",
+      "water": {"dial_position": 25, "state": "Free-draining thin soils; dry, sometimes droughty", "descriptor": "Thin soils over base-rich rock; the dry end."},
+      "earth": {"dial_position": 20, "pedogenic_process": "brunification on base-rich parent material", "descriptor": "Calcium-rich, well-structured and freely cycling — the richest mineral status of any habitat in the series."},
+      "air": {"dial_position": 20, "redox_state": "Aerobic, high redox", "exposure_bioclimate": "Exposed sub-montane to montane", "descriptor": "The lime keeps the soil biologically active."},
+      "fire": {"dial_position": 40, "npp_level": "Moderate production, exceptional diversity per m²", "descriptor": "Sits near the diverse end of the humped-back curve, not the productive peak."}
+    },
+    "successional_envelope": {
+      "current_stage": "Grazing-maintained plagioclimax — the mineral/diversity high point",
+      "range_of_natural_variability": ["Short open species-rich turf (favourable)", "Coarsened/scrub-invaded (under-grazed)", "Eroded/ledge-only (over-grazed)", "Tall herb → scrub → upland mixed ash wood (the limestone climax)"],
+      "successional_pathway": "calcareous grassland → tall herb & scrub (hawthorn, juniper, ash) → upland mixed ash woodland. The defining tension: stop grazing entirely and you LOSE the open-turf specialists. Unlike acid grassland (where relaxing grazing is mostly recovery), this needs SOME grazing to hold its diversity — the clearest upland case where succession is not simply to be welcomed."
+    },
+    "energy_flow_role": "Moderate production but exceptional diversity; the clean, nutritious, mineral-rich high point of the uplands. Preferentially grazed, so it carries disproportionate grazing pressure for its small area.",
+    "wild_zone": "Protect & Restore",
+    "wild_zone_rationale": "Predominantly Protect & Restore — rare, irreplaceable, the botanical jewel. Scrubbed-over (under-grazed) or overgrazed ground sits in Regenerate, but the route through is RESTORING THE GRAZING BALANCE, not abandonment. The ash-wood climax is a Bioregionally Wilder option on some ground — but the open-turf specialists mean you do not simply let it go. This is the habitat that most resists the 'remove the stock and let it go' version of rewilding.",
+    "disturbance_regime": "Actively supplied and balanced — the Goldilocks case. Needs MODERATE grazing held between a floor and a ceiling. Cattle/mixed preferred over heavy sheep (sheep graze flowers selectively and crop too hard); inappropriate/heavy cattle trample thin soils. Both the animal and the intensity are judged to a middle band.",
+    "wild_management_target": {"type": "state_target", "detail": "Hold moderate grazing with BOTH a floor and a ceiling; favour cattle/mixed with a flowering-and-seeding window (lighter/no grazing through main flowering, aftermath grazed, or a conservation rotation); keep some bare soil/rock gaps; control scrub where open turf is the priority; protect rare-plant assemblages specifically by name. The 'less is more' instinct that serves bog and heath does NOT transfer here.", "integrity_indicators": ["forb/calcicole diversity and sward openness", "arctic-alpine and rare-plant assemblages (Teesdale/Breadalbane)", "northern brown argus and rich snail fauna", "absence of both scrub invasion and erosion"]},
+    "ecological_value_grade": 5,
+    "ecological_value_notes": "Among the very highest in the toolbox — the botanical jewel of the uplands. Rare (~22–25k ha UK), the richest open sward (>60 species/4 m²), nationally/internationally important arctic-alpine assemblages, and the best mineral status of any upland habitat.",
+    "value_axes": {"rarity_irreplaceability": {"score": 5, "notes": "Genuinely rare and geology-restricted; arctic-alpine assemblages effectively irreplaceable; small total area."}, "diversity": {"score": 5, "notes": "The richest open grassland in the uplands — >60 species/4 m²."}, "energy_flow_contribution": {"score": 3, "notes": "Moderate production; the diverse, not productive, end of the curve — but the nutritious, mineral-rich grazing high point."}},
+    "naturalistic_lu_ha": null, "naturalistic_lu_ha_note": "Not a 'remove stock' habitat — it needs moderate grazing held. The operative figure is a moderate, floor-and-ceiling conservation density (adviser-set).",
+    "mosaic_role": "lawn", "mosaic_role_note": "The most sought-after grazing on the open hill — the preferential 'lawn' — which is exactly why it carries disproportionate pressure and needs a ceiling as well as a floor.",
+    "preferential_grazing_magnet": true, "preferential_grazing_magnet_note": "TRUE and strongly so — top of the palatability ladder, the shorter greener flush stock pick out at a distance and concentrate on. Its palatability is both why it matters and why it is at risk.",
+    "process_indicators": ["forb/calcicole diversity trajectory", "sward openness / bare-gap maintenance", "scrub encroachment (under-grazing) vs erosion (over-grazing)", "rare-plant and northern brown argus persistence"],
+    "process_indicators_note": "Both ends of the grazing spectrum are failure modes — monitor the floor AND the ceiling.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-05-CALCAREOUS", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 05 — Upland Calcareous Grassland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Elemental reading, Goldilocks grazing, zone, integrity indicators.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — semi-natural; never to be improved",
+    "overall_palatability_score": 5,
+    "overall_palatability_notes": "The top of the palatability ladder, above fescue-bent acid grassland — the most sought-after grazing on the open hill, and nutritious with it (the herb richness makes it good grazing, not just diverse). Read it off the ground as the shorter, greener flush against the rougher hill.",
+    "forage_yield_by_grade": [
+      {"grade": 1, "kg_dm_ha_yr": {"min": 2000, "max": 4000}, "confidence": "estimated", "notes": "Moderate production, exceptional quality. Figure nominal — this is a conservation-grazed jewel managed to a moderate density (floor AND ceiling), not a yield target."}
+    ],
+    "forage_yield_literature": {"min": 1500, "max": 4000, "confidence": "estimated", "notes": "Moderate yield, high quality; managed by conservation density not DM budget. Figures nominal.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — conservation grazing to a moderate floor-and-ceiling density, not DM × utilisation.",
+    "conservation_lu_ha": {
+      "value": "Moderate — adviser-set and condition-dependent, with NO single clean figure, but uniquely with BOTH a floor and a ceiling that matter. Undergrazing is as real a risk as overgrazing.",
+      "scheme": "GLU (England) / LU (Scotland) — scheme-tied, never averaged",
+      "confidence": "moderate",
+      "basis_note": "The principle differs from every other sheet: the aim is MODERATE grazing held between a floor and a ceiling — the 'less is more' instinct of bog/heath does not transfer, because removing stock lets scrub and litter swamp the open turf. Set with the adviser; hold both ends. TN686 covers the calcareous communities. Figures verified June 2026.",
+      "sources": [
+        {"ref_id": "SAC-FAS-TN686", "source_level": 2, "source_type": "govt_statutory", "title": "TN686 — Conservation Grazing of Semi-Natural Habitats", "author_org": "SAC / Farm Advisory Service", "year": 2024, "url": "https://www.fas.scot/", "accessed_date": "2026-06-27", "specific_claim": "Calcareous grassland conservation grazing — moderate, condition-dependent; floor and ceiling both matter.", "confidence": "good"},
+        {"ref_id": "NE-DEFRA-GRASSLAND-2025", "source_level": 2, "source_type": "govt_statutory", "title": "Defra / Natural England grassland grazing actions", "author_org": "Defra / Natural England (GOV.UK)", "year": 2025, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Moderate grazing with flowering/seeding window; adviser-set per site.", "confidence": "good"}
+      ]
+    },
+    "palatability_rank": "Very High (top of the upland ladder)",
+    "nutritional_quality_note": "THE standout, and the positive counterpoint to every other sheet — the lime-rich end: calcium plentiful, the cobalt/copper deficiency story largely reversed, antinutrients minimal. The one upland habitat where mineral nutrition for stock is genuinely good.",
+    "seasonal_forage_curve": {"spring": "Good and early", "summer": "Good — but build in a flowering/seeding window (lighter/no grazing)", "autumn": "Aftermath grazing brings the turf down for next season", "winter": "Light; protect thin soils from poaching"}
+  },
+  "management": {
+    "optimal_grazing_animals": [
+      {"breed": "Cattle or mixed (with seasonal relaxation)", "species": "cattle", "grade": "C–E", "notes": "Preferred over heavy sheep — a relaxed regime lets more plants flower and set seed. But heavy/inappropriate cattle trample the thin soils — judge both animal and intensity to a middle band."}
+    ],
+    "unsuitable_animals": [
+      {"breed": "Heavy sheep stocking", "species": "sheep", "reason": "Selectively graze the flowers and crop too hard, stripping diversity."},
+      {"breed": "No grazing / abandonment", "species": "none", "reason": "The unusual one — removing stock is NOT the safe default; scrub and litter swamp the open turf and the specialists are lost."}
+    ],
+    "timing_windows": {"preferred_season": "Graze to keep turf short, but build in a flowering and seeding window — often lighter/no grazing through main flowering (late spring/summer), aftermath grazed", "rationale": "Hold diversity by letting plants flower and seed while keeping the sward open", "avoid": "Heavy continuous grazing through flowering; total abandonment; grazing rare-plant ground at the wrong time", "per_species_notes": "Where arctic-alpines/rare plants are present, time grazing around them specifically; curlew window where they breed."},
+    "intensity_guidance": "Moderate — hold both a floor and a ceiling (see conservation_lu_ha). This is the one habitat in the series where undergrazing is as dangerous as overgrazing; set the stocking with the adviser and hold both ends.",
+    "regulatory_note": "Do not fertilise, lime, reseed or plough. Burning not appropriate to this habitat. Many sites are SSSI/SAC with designated-site/agri-environment consents — check before any management change. Protect rare-plant assemblages specifically and by name where they occur.",
+    "monitoring_protocol": "Forb/calcicole diversity, sward height/openness, scrub and litter (under-grazing), erosion (over-grazing), arctic-alpine and rare-plant persistence, northern brown argus, bryophyte layer. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "Very high distinctiveness — priority, rare, Annex I per Level-5 type. Among the highest BNG values; effectively irreplaceable where arctic-alpines occur.", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Upland calcareous grassland very high distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Festuca ovina", "Agrostis capillaris", "Sesleria caerulea (blue moor-grass, CG9)", "Briza media", "Koeleria macrantha", "Avenula pratensis", "Thymus polytrichus", "Helianthemum nummularium"],
+    "key_positive_indicators": ["high forb/calcicole cover — wild thyme, common rock-rose, salad burnet, fairy flax, limestone bedstraw, mountain everlasting", "the specialities: bird's-eye primrose (Primula farinosa), spring gentian (Gentiana verna, Teesdale), mountain avens (Dryas octopetala)", "open turf with bare soil/rock gaps; good bryophyte layer", "arctic-alpine rarities where altitude allows"],
+    "key_negative_indicators": ["coarsening rank grass and litter build-up (under-grazing)", "scrub invasion (hawthorn, juniper, ash)", "erosion/bare scree and ledge-only flora (over-grazing)", "dominance by a few grazing-tolerant plants"],
+    "integrity_indicators_fauna": ["northern brown argus (the upland specialist, on rock-rose), small pearl-bordered fritillary, mountain ringlet (grassy montane)", "rich snail fauna (lime-supported)", "wheatear, ring ouzel on limestone edges, black grouse on grassland-scrub transitions", "waxcaps in old unimproved turf"],
+    "integrity_indicators_flora": ["The arctic-alpine and rare-plant assemblages of Teesdale and Breadalbane are themselves the headline integrity indicator — nationally and internationally important; the plants ARE the jewel."],
+    "target_species_composition": ["short open forb-rich turf", "calcicole and (where altitude allows) arctic-alpine diversity", "no scrub/litter or erosion"],
+    "note": "Skeleton only — full species records and joins in Phase 2B. Protect named rare-plant assemblages specifically; capture the g2b6 species-rich-Nardus link to the acid sheet."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (g2b verified; g2b5/g2b6/g2b7 L5 types recorded; species-rich-Nardus link)", "wild_assessment from a high-confidence sheet", "the Goldilocks (floor-and-ceiling) grazing principle", "mineral-status standout"],
+    "fields_partially_populated": ["conservation_lu_ha — moderate, floor-and-ceiling, adviser-set (moderate confidence by nature)", "forage grades — estimated", "species_list/fauna/flora — skeleton (rare-plant assemblages to detail in Phase 2B)"],
+    "fields_pending_research": ["Site-level rare-plant assemblage records (Teesdale/Breadalbane) — Phase 2B", "Per-Level-5-type condition thresholds", "Northern brown argus and snail-fauna records"],
+    "overall_confidence": "high",
+    "notes": "The botanical jewel and the toolbox's clearest Goldilocks case: BOTH over- and under-grazing degrade it, so the 'remove the stock' rewilding instinct must not be applied. Predominantly Protect & Restore. The one upland habitat with genuinely good stock mineral nutrition. g2b6 is where the acid sheet's species-rich Nardus belongs."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "g2b upland calcareous grassland; g2b5/g2b6/g2b7.", "confidence": "high"},
+    {"ref_id": "SAC-FAS-TN686", "source_level": 2, "source_type": "govt_statutory", "title": "TN686", "author_org": "SAC / FAS", "year": 2024, "url": "https://www.fas.scot/", "accessed_date": "2026-06-27", "specific_claim": "Calcareous conservation grazing — floor and ceiling.", "confidence": "good"},
+    {"ref_id": "NVC-RODWELL-GRASS", "source_level": 1, "source_type": "peer_reviewed", "title": "British Plant Communities Vol. 3 (CG9–CG14)", "author_org": "Rodwell (ed.)", "year": 1992, "url": null, "accessed_date": "2026-06-27", "specific_claim": "CG9–CG14 communities.", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-05-CALCAREOUS", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 05 — Upland Calcareous Grassland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Jewel/Goldilocks framing, elemental reading, management.", "confidence": "good"}
+  ]
+}
