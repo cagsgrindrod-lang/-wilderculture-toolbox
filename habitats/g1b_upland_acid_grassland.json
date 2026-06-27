@@ -1,0 +1,154 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — grassland group batch; built from field sheet 04 (Acid Grassland) via the Crosswalk. v3.3 keyed on most-specific UKHab code.",
+  "ukhab_identity": {
+    "ukhab_level2": "g", "ukhab_level2_name": "Grassland",
+    "ukhab_level3": "g1", "ukhab_level3_name": "Acid grassland",
+    "ukhab_level4": "g1b", "ukhab_level4_name": "Upland acid grassland",
+    "ukhab_level5": null,
+    "ukhab_level5_states": {"g1b5": "Montane acid grasslands (H6150)", "g1b6": "Other upland acid grassland"},
+    "ukhab_level5_note": "Record keyed at g1b (Level 4); the field sheet spans the whole upland acid grassland habitat. g1b5/g1b6 are sub-states recorded per parcel.",
+    "wilderculture_subtype": null,
+    "composite_pk": "g1b", "composite_pk_note": "Single Level-4 type; PK = g1b.",
+    "secondary_codes": [], "secondary_codes_notes": "Scattered bracken over acid grassland is recorded as secondary code 14 on this habitat; dense bracken is the separate primary habitat g1c.",
+    "habitat_name": "Upland acid grassland", "parent_category": "Grassland",
+    "bap_priority": true, "annex1_habitat": "Mostly none at type level (ordinary acid grassland is not Annex I); species-rich montane g1b5 relates to H6150. NB species-rich Nardus (H6230) keys to g2b6, not here.",
+    "geographic_tags": ["upland", "north_britain", "uk_wide", "widespread"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (master data sheet + applied surveys)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "g = Grassland, g1 = Acid grassland, g1b = Upland acid grassland (g1a lowland dry, g1c bracken, g1d other lowland). L5: g1b5 montane (H6150), g1b6 other upland. Confirmed in UKHab master data sheet and applied surveys (e.g. 'Other Upland Acid Grassland g1b6').", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["U4 Festuca ovina–Agrostis capillaris–Galium saxatile (fescue-bent — the good, palatable sward)", "U5 Nardus stricta–Galium saxatile (mat-grass — low value, unpalatable)", "U6 Juncus squarrosus–Festuca ovina (heath rush — wet/peaty, low value)"],
+    "nvc_communities_notes": "CRITICAL DISTINCTION: ordinary species-poor mat-grass (U5) here is a degradation endpoint of g1b. Species-RICH Nardus grassland (CG10/CG11, Annex I H6230) is a different, valuable habitat that keys to g2b6 (upland calcareous grassland), NOT to g1b — never confuse the two.",
+    "phase1_equivalent": "B1.1/B1.2 Acid grassland (unimproved/semi-improved)",
+    "bng_metric_habitat_name": "Grassland — Upland acid grassland",
+    "wild_sheet_ref": "Habitat-04-Acid-Grassland",
+    "sources": [
+      {"ref_id": "NVC-RODWELL-GRASS", "source_level": 1, "source_type": "peer_reviewed", "title": "British Plant Communities, Vol. 3 — Grasslands (U4, U5, U6)", "author_org": "Rodwell, J.S. (ed.)", "year": 1992, "url": null, "accessed_date": "2026-06-27", "specific_claim": "U4 fescue-bent, U5 Nardus, U6 Juncus squarrosus are the upland acid grassland communities.", "confidence": "good"},
+      {"ref_id": "NATURESCOT-RR1391", "source_level": 2, "source_type": "govt_statutory", "title": "NatureScot Research Report 1391 — habitat classification correspondences", "author_org": "NatureScot", "year": 2025, "url": "https://www.nature.scot/doc/naturescot-research-report-1391", "accessed_date": "2026-06-27", "specific_claim": "Species-rich mat-grass (U4c) can be UKHab g2b6; equating it with g1b6 is incorrect — supports keeping species-rich Nardus under g2b6.", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "Grass-dominated sward on acid, nutrient-poor soils — the great green swathe of the heavily-grazed uplands, much of what is loosely called the 'green desert'. Largely a grazing-derived plagioclimax, and a great deal of it is degraded heath, bog or wetland pushed to grass by long-term overgrazing, burning and drainage. The most genuine forage value of the upland habitats — but it splits sharply by NVC type, from the best grazing on the hill (fescue-bent) to the worst (mat-grass).",
+    "condition_indicators_good": ["Varied sward — fescue-bent dominant but woven through with other grasses and, crucially, forbs and dwarf shrubs", "Tormentil, heath bedstraw, violets; mountain pansy in better ground", "Springy close turf with soft mosses beneath; no mat-grass dominance, no bare ground/erosion", "Dwarf shrubs beginning to return — a sign of recovery, not a problem"],
+    "condition_indicators_poor": ["Mat-grass (Nardus) dominance — the tough monoculture of the overgrazed hill; or heath rush dominance on wet ground", "Green-desert sward — no forbs, no structure", "Heavily overgrazed close-cropped turf with erosion; or, where abandoned, rank ungrazed tussock", "Loss of dwarf shrubs altogether — heath grazed clean off the ground"],
+    "ecosystem_functions": ["The most productive open-hill grazing (on the fescue-bent sward) — the palatability benchmark the heath/bog sheets refer to", "Mosaic value — open grazed ground within heath/bog mosaics for foraging, basking, nesting", "Waxcap and grassland-fungi habitat in old, unimproved, unfertilised turf (cannot be recreated quickly)", "Restoration springboard — the largest single area of recoverable upland ground"],
+    "whole_system_role": "A grazing-derived plagioclimax and very often a degradation endpoint of heath or bog. The productive mid-succession ground the Regenerate layer works with — and the biggest single opportunity on the WILD map.",
+    "successional_neighbours": [
+      {"habitat_code": "h1b5 (dry heath)", "direction": "from (degradation) / toward (recovery)", "note": "Recovery: reduce grazing on fescue-bent and dwarf shrubs/heath return. Degradation: overgrazing drives heath down to grassland, then to mat-grass (the floor)."},
+      {"habitat_code": "scrub / native woodland", "direction": "toward (if released, right soil)", "note": "Released on the right ground it goes on to scrub and woodland."},
+      {"habitat_code": "f1a (blanket bog)", "direction": "toward (rewet, where it is degraded bog)", "note": "Where peaty acid grassland is really degraded bog, the wilder move is rewetting, not scrub — read the soil first."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-04-ACID-GRASSLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 04 — Acid Grassland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Ecology, the fescue-bent/mat-grass split, degraded-origin framing, succession, waxcaps.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel — and this is the most condition-variable habitat in the series.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Varied fescue-bent sward with forbs and returning dwarf shrubs; no mat-grass dominance; waxcaps in old turf."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Mat-grass reducing under cattle; forbs/dwarf shrubs returning."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Mixed sward with significant mat-grass; few forbs."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Mat-grass/heath-rush dominance (green desert); or overgrazed eroding turf; or rank abandoned tussock."},
+      {"grade": 5, "label": "Destroyed / improved", "description": "Fertilised/reseeded to modified grassland (g4) — reclassify; or eroded."}
+    ],
+    "grade_field_indicators": ["fescue-bent vs Nardus/Juncus balance", "forb diversity (tormentil, heath bedstraw, mountain pansy)", "dwarf-shrub return", "waxcap assemblage", "bare ground/erosion", "improvement signs (fertiliser/reseed)"],
+    "sources": [
+      {"ref_id": "NE-MOORLAND-CONDITION", "source_level": 2, "source_type": "govt_statutory", "title": "Natural England moorland/grass-moorland condition guidance", "author_org": "Natural England", "year": 2025, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Treats species-rich grass moorland as light grazing and overgrazed grass moorland as ground to reduce density on.", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Acid rocks, sands and gravels", "base_status": "acid", "climate": "Exposed upland; both drier eastern and wetter western forms", "altitude_range_m": "Wide band — near sea level to ~750–900 m (the most altitudinally spread habitat in the series)", "aspect_exposure": "Free-draining slopes carry fescue-bent; peatier/wetter ground carries mat-grass and heath rush", "bioclimate_notes": "All six bioregions; the most extensive open habitat in many. Species-rich Nardus a feature of the oceanic west (keys to g2b6)."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading (the sheet's neutral framing). Zone is per-parcel: degraded mat-grass/green-desert = Regenerate (the heart of the zone); recovering fescue-bent = Regenerate↔Protect & Restore; species-rich Nardus (g2b6) = Protect & Restore. The Regenerate target may be recovery of productive fescue-bent grazing OR release to heath/scrub OR rewetting — set by the underlying soil.",
+      "water": {"dial_position": 35, "state": "Mostly free-draining (fescue-bent); wetter on peaty Nardus/Juncus forms", "descriptor": "Free-draining on the better ground; impeded on the peaty mat-grass/heath-rush forms."},
+      "earth": {"dial_position": 50, "pedogenic_process": "acid brown-podzolic leaching", "descriptor": "Leached, moderately impoverished acid brown-podzolic soils; the mineral cycle runs but slowly and acid."},
+      "air": {"dial_position": 30, "redox_state": "Generally aerobic, reasonable redox", "exposure_bioclimate": "Exposed upland", "descriptor": "Aerobic; nitrogen-poor on the leached acid soils."},
+      "fire": {"dial_position": 45, "npp_level": "Moderate (fescue-bent) to low (mat-grass)", "descriptor": "The most productive of the open-hill habitats on the fescue-bent sward; the mat-grass forms are low and unpalatable. Moderate throughput."}
+    },
+    "successional_envelope": {
+      "current_stage": "Grazing-derived plagioclimax — and very often a degradation endpoint, one step below heath on the recovery path",
+      "range_of_natural_variability": ["Fescue-bent grassland (productive, palatable)", "Mat-grass (Nardus) dominance — the floor of the whole system", "Heath-rush dominance on wet ground", "Recovering toward heath/scrub/woodland (right soil) or rewetting (degraded bog)"],
+      "successional_pathway": "bare ground → pioneer grass → fescue-bent acid grassland → heath → scrub → woodland. Degradation mirror: heath → fescue-bent → mat-grass dominance (the floor). Reduce grazing on fescue-bent and dwarf shrubs return; read the soil before choosing scrub vs rewet."
+    },
+    "energy_flow_role": "Productive mid-succession ground; the open-hill grazing draw. The largest acreage of degraded ground in the uplands and the central opportunity of the Regenerate zone.",
+    "wild_zone": "Regenerate",
+    "wild_zone_rationale": "DEFAULT Regenerate — mat-grass and overgrazed green-desert grassland is the largest area of degraded upland ground and the heart of the Regenerate zone, the biggest single opportunity on the WILD map. Good, varied, recovering fescue-bent grassland sits between Regenerate and Protect & Restore depending on trajectory. Species-rich Nardus (CG10/CG11 = g2b6) is Protect & Restore. The Bioregionally Wilder move is to let it climb back to heath/scrub/woodland where soil allows, or rewet where it is degraded bog. Assign per parcel.",
+    "disturbance_regime": "Grazing-supplied and grazing-derived. The lever is the choice of animal: cattle/mixed knock back mat-grass and build diversity; sheep alone spread mat-grass and block dwarf-shrub return. To recover fescue-bent from mat-grass: cattle in, sheep numbers down.",
+    "wild_management_target": {"type": "state_target", "detail": "For Regenerate parcels: recover fescue-bent sward diversity and (where the soil suits) allow dwarf-shrub/heath return, using cattle-led grazing to knock back Nardus. For degraded-bog parcels: rewet. Re-grade trigger applies. NB the productive-grazing target and the wilder release target diverge by soil — decide deliberately.", "integrity_indicators": ["fescue-bent vs mat-grass balance", "forb diversity / mountain pansy", "dwarf-shrub return", "waxcap assemblage in old turf"]},
+    "ecological_value_grade": 3,
+    "ecological_value_notes": "Genuinely variable (2–4 by type). Ordinary species-poor mat-grass green-desert is low value but high RESTORATION value; varied fescue-bent with forbs and an old-turf waxcap assemblage is moderate-to-high. The very richest forms (species-rich Nardus) sit under g2b6 and are higher again. Score 3 reflects the typical/middle case; flag the spread.",
+    "value_axes": {"rarity_irreplaceability": {"score": 2, "notes": "Extensive and widespread; ordinary forms readily recoverable. Old unfertilised waxcap turf is the exception — not quickly recreated."}, "diversity": {"score": 3, "notes": "Low in mat-grass monoculture; moderate in varied fescue-bent with forbs."}, "energy_flow_contribution": {"score": 3, "notes": "The most productive open-hill grazing on fescue-bent; low on mat-grass."}},
+    "naturalistic_lu_ha": null, "naturalistic_lu_ha_note": "Not populated; the Regenerate grazing figure is conservation_lu_ha / adviser-set. The wilder release target is reduced grazing toward heath/scrub.",
+    "mosaic_role": "lawn", "mosaic_role_note": "Fescue-bent acid grassland is the grazed 'lawn' of the open-hill mosaic — the sward animals choose first; mat-grass is the avoided patch that spreads under sheep.",
+    "preferential_grazing_magnet": true, "preferential_grazing_magnet_note": "TRUE for the fescue-bent form — preferentially grazed, chosen first over heath and bog. NOT true of the mat-grass/heath-rush forms (near the bottom of the ladder).",
+    "process_indicators": ["mat-grass vs fescue-bent trajectory", "forb/dwarf-shrub return", "waxcap assemblage", "soil check: degraded bog vs mineral (sets recovery direction)"],
+    "process_indicators_note": "Central to the Regenerate work — this is the toolbox's largest restoration canvas.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-04-ACID-GRASSLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 04 — Acid Grassland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Elemental reading, zone (heart of Regenerate), the cattle/mat-grass lever, palatability split.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — semi-natural plagioclimax (improvement reclassifies to g4)",
+    "overall_palatability_score": 3,
+    "overall_palatability_notes": "A single habitat name spans almost the entire palatability range. Fescue-bent (U4) is the preferentially grazed sward — top of the open-hill ladder, the benchmark. Mat-grass (U5/Nardus) and heath rush (U6) are near the very bottom — Nardus arguably the least palatable thing on the hill. 'Acid grassland' as a label is close to useless for grazing planning until you separate fescue-bent from mat-grass.",
+    "forage_yield_by_grade": [
+      {"grade": 1, "kg_dm_ha_yr": {"min": 2500, "max": 4500}, "confidence": "estimated", "notes": "Varied fescue-bent sward — the most productive open-hill grazing; still UNIMPROVED, so well below improved-grassland figures. Use conservation_lu_ha for stocking."},
+      {"grade": 4, "kg_dm_ha_yr": {"min": 1000, "max": 2500}, "confidence": "estimated", "notes": "Mat-grass/heath-rush dominance — low yield and largely unpalatable regardless of bulk."}
+    ],
+    "forage_yield_literature": {"min": 1000, "max": 4500, "confidence": "estimated", "notes": "Genuinely variable; the fescue-bent vs mat-grass split dominates. CRITICAL: do not apply improved-grassland figures (see conservation_lu_ha warning).", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable to the unimproved semi-natural sward — grazed to a conservation/adviser-set density, not via DM × utilisation. (If a parcel were improved to g4 it would move to the production convention.)",
+    "conservation_lu_ha": {
+      "value": "Most situational figure in the series — adviser-set and condition-dependent. England: species-rich grass moorland treated as light grazing <0.08 GLU/ha; overgrazed grass moorland = reduce density. More productive fescue-bent carries more than open-hill mat-grass, but the figure is set with the adviser.",
+      "scheme": "GLU (England) / LU (Scotland) — scheme-tied, never averaged",
+      "confidence": "moderate",
+      "basis_note": "CRITICAL WARNING — the broad grassland stocking figures often quoted (~1–4 LU/ha) are for PRODUCTIVE or IMPROVED grassland and DO NOT apply to unimproved upland acid grassland. Never carry that number onto the open hill. Unimproved upland acid grassland is grazed lightly; more than heath, but the number is the most context-dependent of any habitat so far. TN686 covers the acid grassland communities; set the actual figure with the agency adviser against condition and the fescue-bent/mat-grass balance. Figures verified June 2026.",
+      "sources": [
+        {"ref_id": "NE-DEFRA-MOORLAND-2025", "source_level": 2, "source_type": "govt_statutory", "title": "Defra / Natural England moorland management and grazing actions", "author_org": "Defra / Natural England (GOV.UK)", "year": 2025, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Species-rich grass moorland <0.08 GLU/ha; overgrazed grass moorland to reduce; broad 1–4 LU/ha is improved-grassland only.", "confidence": "high"},
+        {"ref_id": "SAC-FAS-TN686", "source_level": 2, "source_type": "govt_statutory", "title": "TN686 — Conservation Grazing of Semi-Natural Habitats", "author_org": "SAC / Farm Advisory Service", "year": 2024, "url": "https://www.fas.scot/", "accessed_date": "2026-06-27", "specific_claim": "Covers acid grassland communities; stocking condition-dependent.", "confidence": "good"}
+      ]
+    },
+    "palatability_rank": "Split — High (fescue-bent U4) to Very Low (mat-grass U5 / heath rush U6)",
+    "nutritional_quality_note": "Same acid-soil cobalt/copper deficiency picture, but fescue-bent acid grassland is the BEST of the open-hill grazing nutritionally, so deficiency risk is least acute here of the open habitats. Species-level figures flagged thin — verify.",
+    "seasonal_forage_curve": {"spring": "Good on fescue-bent (early bite, sweet vernal)", "summer": "Good on fescue-bent; mat-grass poor throughout", "autumn": "Declining", "winter": "Low — take stock off wet peaty mat-grass/heath-rush ground to avoid poaching"}
+  },
+  "management": {
+    "optimal_grazing_animals": [
+      {"breed": "Hardy cattle (cattle-led or mixed)", "species": "cattle", "grade": "C–E", "notes": "Take mat-grass and rougher grasses while young, hold back Nardus dominance, create structure — the lever for recovering fescue-bent ground."},
+      {"breed": "Hill sheep (in mixed systems)", "species": "sheep", "grade": "C–E", "notes": "Useful in mixed grazing; sheep ALONE spread mat-grass and block dwarf-shrub return."}
+    ],
+    "unsuitable_animals": [{"breed": "Sheep alone at density", "species": "sheep", "reason": "By avoiding mat-grass they let it spread, and selective browsing prevents dwarf shrubs returning — the green-desert mechanism."}],
+    "timing_windows": {"preferred_season": "Growing-season grazing; light grazing can run longer on drier fescue-bent ground", "rationale": "More flexible than heath/bog — the sward is more productive and robust", "avoid": "Wintering stock on wet peaty mat-grass/heath-rush ground (poaching); curlew window (~mid-April–early June) where they breed", "per_species_notes": "Take stock off wet/peaty ground over winter; cattle the key lever against Nardus."},
+    "intensity_guidance": "See conservation_lu_ha — the most situational figure in the series; adviser-set. Use cattle specifically to knock back Nardus. NEVER apply improved-grassland (1–4 LU/ha) figures to unimproved acid grassland.",
+    "regulatory_note": "Do NOT fertilise, lime or reseed unimproved acid grassland — it is the open habitat most at risk of agricultural improvement, and improvement destroys it (reclassifies to g4). Do not drain peaty acid grassland. Burning on peaty ground subject to the same legal bright lines as the other sheets (England 30 Sep 2025 deep-peat regs; Scotland 2024 muirburn Act) — verify before any contract.",
+    "monitoring_protocol": "Fescue-bent vs Nardus/Juncus balance, forb diversity, dwarf-shrub return, waxcap assemblage, bare ground/erosion, improvement signs. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "Medium distinctiveness as upland acid grassland (low where species-poor; species-rich montane and old waxcap turf higher). NB species-rich Nardus value sits under g2b6.", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Upland acid grassland medium distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Festuca ovina", "Agrostis capillaris", "Anthoxanthum odoratum", "Nardus stricta", "Deschampsia flexuosa", "Juncus squarrosus", "Potentilla erecta", "Galium saxatile"],
+    "key_positive_indicators": ["fescue-bent dominance with forbs (tormentil, heath bedstraw, dog-violet)", "mountain pansy (Viola lutea) and wild thyme in better/base-influenced ground", "returning dwarf shrubs", "waxcap and grassland-fungi assemblage in old turf"],
+    "key_negative_indicators": ["Nardus stricta dominance (mat-grass — the overgrazing signal and the floor)", "Juncus squarrosus dominance on wet ground", "green-desert sward with no forbs", "bare ground/erosion or rank abandoned tussock"],
+    "integrity_indicators_fauna": ["meadow pipit, skylark, wheatear (on close-cropped turf with rocks/burrows), golden plover, curlew, twite (western)", "hen harrier, short-eared owl, kestrel, merlin hunting over", "waxcaps and grassland fungi (the standout integrity indicator of long-undisturbed, unfertilised sward)"],
+    "target_species_composition": ["fescue-bent dominant with forb diversity", "dwarf shrubs returning", "minimal Nardus/bare ground"],
+    "note": "Skeleton only — full species records and joins in Phase 2B. Capture the waxcap assemblage as a key integrity relationship and the species-rich-Nardus → g2b6 cross-link."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (g1b verified; species-rich-Nardus → g2b6 cross-link captured)", "wild_assessment from a high-confidence sheet", "the fescue-bent/mat-grass palatability split", "the improved-vs-unimproved stocking warning"],
+    "fields_partially_populated": ["conservation_lu_ha — deliberately a range/adviser-set (moderate confidence), the most situational in the series", "forage grades — estimated, split by type", "species_list/fauna — skeleton"],
+    "fields_pending_research": ["Site-level fescue-bent vs mat-grass mapping (Phase 2B)", "Waxcap assemblage records (Phase 2B)", "TN686 acid-grassland community figures detail"],
+    "overall_confidence": "high",
+    "notes": "The heart of the Regenerate zone — the largest restoration canvas in the toolbox. Key nuance: one habitat name spans top-to-bottom palatability, so the fescue-bent/mat-grass split must drive any grazing plan. Species-rich Nardus is a DIFFERENT habitat (g2b6, P&R) — never conflate with degraded U5. Default zone Regenerate, strongly per-parcel."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "g1b upland acid grassland.", "confidence": "high"},
+    {"ref_id": "NE-DEFRA-MOORLAND-2025", "source_level": 2, "source_type": "govt_statutory", "title": "Defra/NE moorland grazing actions", "author_org": "Defra / Natural England", "year": 2025, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Grass-moorland grazing; improved-only 1–4 LU/ha warning.", "confidence": "high"},
+    {"ref_id": "SAC-FAS-TN686", "source_level": 2, "source_type": "govt_statutory", "title": "TN686", "author_org": "SAC / FAS", "year": 2024, "url": "https://www.fas.scot/", "accessed_date": "2026-06-27", "specific_claim": "Acid grassland conservation grazing.", "confidence": "good"},
+    {"ref_id": "NATURESCOT-RR1391", "source_level": 2, "source_type": "govt_statutory", "title": "NatureScot RR1391 classification correspondences", "author_org": "NatureScot", "year": 2025, "url": "https://www.nature.scot/", "accessed_date": "2026-06-27", "specific_claim": "Species-rich mat-grass → g2b6, not g1b.", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-04-ACID-GRASSLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 04 — Acid Grassland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Ecology, zone, management.", "confidence": "good"}
+  ]
+}
