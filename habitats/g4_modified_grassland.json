@@ -1,0 +1,330 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.2",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — fresh v3.2 build; supersedes the v2.0 record. UKHab name corrected to 'Modified grassland'; g4 confirmed terminal at Level 3.",
+  "ukhab_identity": {
+    "ukhab_level2": "g",
+    "ukhab_level2_name": "Grassland",
+    "ukhab_level3": "g4",
+    "ukhab_level3_name": "Modified grassland",
+    "ukhab_level4": "g4",
+    "ukhab_level4_name": "Modified grassland",
+    "ukhab_level5": null,
+    "wilderculture_subtype": null,
+    "composite_pk": "g4",
+    "composite_pk_note": "v3.2 composite PK is ukhab_level4 + wilderculture_subtype; where a UKHab code has a single functional type (as here) the subtype is null and the key degenerates to the code alone. NOTE: g4 'Modified grassland' is terminal at Level 3 in UKHab v2.01 — there is no Level 4 subdivision; surveys and the Biodiversity Metric use g4 directly as the mapped habitat, so it is recorded at ukhab_level4 as the operative code with level3 = level4 = g4.",
+    "secondary_codes": [],
+    "secondary_codes_notes": "None at type level. Per-parcel surveys may attach management or species-related secondary codes.",
+    "habitat_name": "Modified permanent grassland",
+    "parent_category": "Grassland",
+    "bap_priority": false,
+    "geographic_tags": ["lowland", "upland_fringe", "uk_wide"],
+    "sources": [
+      {
+        "ref_id": "UKHAB-v2.01-2023",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "UK Habitat Classification v2.01",
+        "author_org": "UKHab Ltd",
+        "year": 2023,
+        "url": "https://ukhab.org/ukhab-documentation/",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Grassland Level 3 codes are g1 Acid, g2 Calcareous, g3 Neutral, g4 Modified. g4 'Modified grassland' has no Level 4 subdivision and is used as the operative/mapped code. Coding alternates letter/number (g3b5), confirming a trailing-suffix Level 4 would be g4-letter, none of which exists.",
+        "confidence": "high"
+      },
+      {
+        "ref_id": "UKHAB-VERIF-WINDBURN-2024",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "Windburn Wind Farm — UKHab/NVC Habitat Report (uses 'Modified Grassland (UKHab g4)')",
+        "author_org": "Windburn Wind Farm EIA",
+        "year": 2024,
+        "url": "https://windburnwindfarm.co.uk/content/files/Windburn-Wind-Farm-Volume-4a-Technical-Appendix-8.1-NVC_UKHab-Report-1.pdf",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Applied survey confirms g4 used directly as the Modified Grassland mapped code with no Level 4 suffix.",
+        "confidence": "high"
+      }
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["MG6 (Lolium perenne–Cynosurus cristatus) as the improved-pasture analogue; MG7 where rye-grass dominant; transitional toward MG5/MG9/MG10 in longer-established, less-improved stands"],
+    "nvc_communities_notes": "Modified grassland is defined by agricultural modification rather than an NVC community; the analogues above span the modified↔semi-improved range. Recorded as guidance, not a parcel classification.",
+    "phase1_equivalent": "B4 Improved grassland / B2.2 Semi-improved neutral grassland (depending where on the continuum a parcel sits)",
+    "bng_metric_habitat_name": "Grassland — Modified grassland",
+    "bng_metric_note": "Low distinctiveness in the Biodiversity Metric. Long-established, botanically recovering stands may merit reassessment toward 'Other neutral grassland' (g3c) on survey — a per-parcel judgement.",
+    "wild_sheet_ref": null,
+    "wild_sheet_ref_note": "Sheet-less production-spectrum grassland (no semi-natural field sheet).",
+    "sources": [
+      {
+        "ref_id": "PHASE1-JNCC-B4",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "Handbook for Phase 1 Habitat Survey (B4 Improved / B2.2 Semi-improved grassland)",
+        "author_org": "JNCC",
+        "year": 2010,
+        "url": null,
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Modified grassland maps to Phase 1 B4/B2.2 across its range. Standard reference, not independently re-verified this session.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "ecology": {
+    "description": "A wide spectrum of improved and semi-improved permanent swards subject to agricultural modification — reseeding, fertilising, draining or heavy grazing — but which are not temporary leys. Spans recently modified, ryegrass-dominated production swards through to long-established permanent pasture with increasing botanical diversity. Ecological character is set by time since last cultivation and management intensity since.",
+    "condition_indicators_good": [
+      "Perennial ryegrass and/or improved fescues present but with increasing botanical diversity over time",
+      "Dense basal ground cover with minimal bare ground",
+      "Stable, well-drained sward without rush invasion or poaching",
+      "Some neutral-grassland forbs returning in longer-established stands"
+    ],
+    "condition_indicators_poor": [
+      "Soft/sharp rush (Juncus effusus / J. acutiflorus) dominant — impeded drainage or compaction",
+      "Annual meadow-grass (Poa annua) dominant — overgrazing, compaction, poor management",
+      "Docks, thistles, ragwort establishing in open sward",
+      "Bare ground and poaching from over-grazing"
+    ],
+    "ecosystem_functions": [
+      "Forage production — primary function; lower peak DM than a fresh ley but consistent year-round production from permanent root systems",
+      "Soil carbon storage — permanent, uncultivated swards hold more soil organic carbon than rotational leys (a key permanent-pasture value)",
+      "Soil structure and stability — undisturbed permanent root systems resist erosion and compaction recovery",
+      "Increasing pollinator and invertebrate resource with time since modification"
+    ],
+    "whole_system_role": "The working permanent grassland of most farms: a production sward across a value continuum. Recently modified stands behave like a lower-yielding ley; long-established stands accrue soil-carbon and biodiversity value approaching semi-natural grassland. Its role — and its WILD zone — depend on where on that continuum a parcel sits.",
+    "successional_neighbours": [
+      {"habitat_code": "c1b", "direction": "from", "note": "A ley left down long enough, or a reseed not renewed, becomes modified permanent grassland."},
+      {"habitat_code": "g3c", "direction": "toward (over time, low input)", "note": "Long-established, low-input modified grassland recovers botanically toward other neutral grassland (g3c)."},
+      {"habitat_code": "g1c / rush pasture", "direction": "toward (if drainage fails)", "note": "Compaction or failed drainage drives rush invasion."}
+    ],
+    "sources": [
+      {
+        "ref_id": "UK-NEA-GRASSLAND-CH6",
+        "source_level": 1,
+        "source_type": "peer_reviewed",
+        "title": "UK National Ecosystem Assessment Technical Report — Chapter 6: Grasslands",
+        "author_org": "UK NEA",
+        "year": 2011,
+        "url": null,
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Permanent grassland holds greater soil carbon and lower digestibility than temporary grassland; improved grassland with fertiliser yields 10–12 t DM/ha. Carried from verified v2.0 sourcing; primary not re-fetched this session.",
+        "confidence": "good"
+      }
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null,
+    "condition_grade_note": "Assigned per parcel. Descriptors below define the production-criteria scale for modified grassland.",
+    "condition_grade_criteria_type": "production",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Excellent / optimal", "description": "Dense, productive sward; good ground cover; no rush/weed dominance; well-drained."},
+      {"grade": 2, "label": "Good", "description": "Productive with minor weed-grass or localised rush/poaching."},
+      {"grade": 3, "label": "Moderate", "description": "Patchy productivity; rush or weed-grass spreading; drainage/compaction issues emerging."},
+      {"grade": 4, "label": "Poor", "description": "Rush- or weed-dominated; low productivity; significant bare ground/poaching."},
+      {"grade": 5, "label": "Degraded / reclassify", "description": "Sward function lost; reclassify (e.g. to rush pasture) or restore."}
+    ],
+    "grade_field_indicators": ["sward density and ground cover", "rush cover (Juncus spp.)", "weed-grass / Poa annua cover", "docks/thistles/ragwort", "poaching and bare ground", "drainage status"],
+    "sources": [
+      {
+        "ref_id": "AHDB-GRASSLAND-PRODUCTIVITY",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "Improving grassland productivity (UK average and potential yields)",
+        "author_org": "AHDB",
+        "year": 2023,
+        "url": "https://ahdb.org.uk/knowledge-library",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "UK average grassland ~7 t DM/ha, capable of >12 t with management; sward condition (rush, weed grasses, ground cover) drives productivity grade.",
+        "confidence": "good"
+      }
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {
+      "parent_material_geology": "Variable — improved over a wide range of substrates",
+      "base_status": "neutral",
+      "climate": "Temperate oceanic; lowland to upland-fringe",
+      "altitude_range_m": "0–~400",
+      "aspect_exposure": "Enclosed agricultural ground, generally sheltered; extends higher and wetter than leys",
+      "bioclimate_notes": "Drainage status is the key local variable — impeded drainage tips modified grassland toward rush pasture."
+    },
+    "elemental_conditions": {
+      "convention_note": "REGENERATE TARGET STATE (default zone; Schema v3.2 convention): dials describe the productive target. NOTE the actual current state of a g4 parcel varies widely along the modified↔semi-natural continuum — for a parcel assigned Protect & Restore, describe the current state instead.",
+      "water": {"dial_position": 55, "state": "Variable; target well-drained, moisture-retentive", "descriptor": "Target: free-draining but moisture-retentive soil. Real parcels often sit lower (impeded drainage, rush risk)."},
+      "earth": {"dial_position": 62, "pedogenic_process": "brunification", "descriptor": "Target: stable, aggregated permanent topsoil with accruing organic matter; permanent swards build soil carbon."},
+      "air": {"dial_position": 68, "redox_state": "Aerobic (gleying where drainage impeded)", "exposure_bioclimate": "Sheltered–moderate", "descriptor": "Target: aerated rooting zone; compaction and waterlogging are the common departures."},
+      "fire": {"dial_position": 70, "npp_level": "High (below a fresh ley)", "descriptor": "Target: solid primary production from permanent root systems — consistent rather than peak."}
+    },
+    "successional_envelope": {
+      "current_stage": "Permanent modified sward; position on the modified↔semi-natural continuum varies by parcel",
+      "range_of_natural_variability": [
+        "Recently modified, ryegrass-dominated production sward (near-ley)",
+        "Mid-spectrum permanent pasture with returning forbs",
+        "Long-established, low-input permanent pasture recovering toward other neutral grassland (g3c)",
+        "Rush-invaded sward where drainage/compaction fails"
+      ],
+      "successional_pathway": "Two-way: continued improvement holds it production-side; low input and time move it toward semi-natural neutral grassland; drainage failure moves it toward rush pasture."
+    },
+    "energy_flow_role": "Consistent, moderate-to-high primary production with year-round throughput from permanent roots; soil-carbon accrual is a distinguishing energy/storage role versus a rotational ley.",
+    "wild_zone": "Regenerate",
+    "wild_zone_rationale": "DEFAULT ONLY — flag for per-parcel confirmation. As a working production sward the typical assignment is Regenerate (lift soil function, structure and sward quality). BUT g4 is the most zone-variable habitat in the set: a recently reseeded parcel is firmly Regenerate, while a long-established, botanically recovering permanent pasture with soil-carbon value may belong in Protect & Restore. Assign per parcel against the successional position and ecological value.",
+    "disturbance_regime": "Supplied — grazing/cutting, fertilising, drainage; the manager holds the dial. In a Protect & Restore parcel the aim shifts to maintaining the recovering state.",
+    "wild_management_target": {
+      "type": "state_target",
+      "detail": "Default (Regenerate): maintain/lift productive sward function — ground cover, drainage, fertility, controlling rush and weeds. For a Protect & Restore parcel: hold and extend the botanical recovery and soil-carbon store with low-intensity grazing. Re-grade trigger: two seasons measured a band above/below → re-grade.",
+      "integrity_indicators": []
+    },
+    "ecological_value_grade": 2,
+    "ecological_value_notes": "REPRESENTATIVE/typical value only — genuinely VARIABLE per parcel (range 1–4). Recently modified g4: grade 1–2 (minimal value, ryegrass-dominated). Long-established permanent pasture within g4: grade 3–4 (botanical recovery, pollinator resource and soil-carbon value). Value is directly proportional to time since last cultivation. Assess per field; do not apply the headline grade 2 to a long-established stand.",
+    "value_axes": {
+      "rarity_irreplaceability": {"score": 1, "notes": "Common and replaceable, though old permanent pasture's soil-carbon store is slow to rebuild once lost."},
+      "diversity": {"score": 2, "notes": "Variable — low in recently modified swards (1), moderate (3) in long-established pasture."},
+      "energy_flow_contribution": {"score": 2, "notes": "Steady primary production plus soil-carbon storage; the storage role rises with sward age."}
+    },
+    "naturalistic_lu_ha": null,
+    "naturalistic_lu_ha_note": "Not applicable under the Regenerate default. (If a parcel is assigned Bioregionally Wilder, populate.)",
+    "mosaic_role": null,
+    "mosaic_role_note": "Not applicable under the Regenerate default.",
+    "preferential_grazing_magnet": false,
+    "preferential_grazing_magnet_note": "False under the default; productive g4 can be a grazing draw in a mixed holding but is not a wilder-mosaic patch.",
+    "process_indicators": [],
+    "process_indicators_note": "Empty under the Regenerate default (state target).",
+    "sources": [
+      {
+        "ref_id": "WILD-METHOD-STATEMENT",
+        "source_level": 7,
+        "source_type": "practitioner_framework",
+        "title": "WILD Method Statement — The Science Behind WILD",
+        "author_org": "Wilderculture CIC",
+        "year": 2026,
+        "url": null,
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Framework basis for the dials, the per-parcel zone judgement and the target-state convention. Overlay layer, not L1–L3 core data.",
+        "confidence": "good"
+      }
+    ]
+  },
+  "forage": {
+    "is_production_sward": true,
+    "is_permanent_pasture": true,
+    "years_unimproved": "variable — 5 (recently modified) to 50+ (old permanent pasture); assess per field",
+    "overall_palatability_score": 4,
+    "overall_palatability_notes": "Good but below a fresh ley — higher proportion of native grasses and older sward composition. Palatability falls as rush/weed grasses increase.",
+    "forage_yield_by_grade": [
+      {"grade": 1, "kg_dm_ha_yr": {"min": 7000, "max": 10000}, "confidence": "good", "notes": "GROSS production. Well-anchored: AHDB UK average ~7 t DM/ha, >12 t achievable with management; ScienceDirect 2018 (L1) benchmark 8.7 t/ha; Agrii reseed ~8.75 t vs tired ~7 t. Grade 1 = well-managed permanent sward (not a fresh ley). Apply utilisation_factor for utilisable/LU."},
+      {"grade": 2, "kg_dm_ha_yr": {"min": 5500, "max": 7500}, "confidence": "good", "notes": "Typical/average permanent pasture (around the UK 7 t mean and below)."},
+      {"grade": 3, "kg_dm_ha_yr": {"min": 4000, "max": 5500}, "confidence": "medium", "notes": "Tired pasture, weed-grass ingress; estimated from the decline trajectory."},
+      {"grade": 4, "kg_dm_ha_yr": {"min": 2500, "max": 4000}, "confidence": "estimated", "notes": "Estimated — rush/weed-dominated, low productivity."},
+      {"grade": 5, "kg_dm_ha_yr": {"min": 2000, "max": 3000}, "confidence": "estimated", "notes": "Estimated — degraded; reclassify candidate."}
+    ],
+    "forage_yield_literature": {
+      "min": 2000,
+      "max": 12000,
+      "benchmark": 8700,
+      "uk_average": 7000,
+      "confidence": "good",
+      "notes": "GROSS DM/ha/yr. Among the best-sourced ranges in the toolbox: multiple independent L1–L2 sources converge (AHDB average 7 t; ScienceDirect benchmark 8.7 t; UK NEA improved-with-fertiliser 10–12 t). The wide spread reflects the g4 spectrum — recently modified (approaching ley performance) to old permanent pasture (approaching semi-natural baseline). The ~10 t commonly quoted for good permanent pasture is utilised; store gross and apply utilisation.",
+      "sources": [
+        {"ref_id": "SCIENCEDIRECT-GRASSLAND-FUTURES-2018", "source_level": 1, "source_type": "peer_reviewed", "title": "Grassland futures in Great Britain — productivity assessment and scenarios", "author_org": "ScienceDirect", "year": 2018, "url": "https://www.sciencedirect.com/", "accessed_date": "2026-06-27", "specific_claim": "UK benchmark permanent grassland productivity ~8.7 t DM/ha. Carried from verified v2.0 sourcing.", "confidence": "good"},
+        {"ref_id": "AHDB-GRASSLAND-PRODUCTIVITY", "source_level": 2, "source_type": "govt_statutory", "title": "Improving grassland productivity", "author_org": "AHDB", "year": 2023, "url": "https://ahdb.org.uk/knowledge-library", "accessed_date": "2026-06-27", "specific_claim": "UK average ~7 t DM/ha; >12 t achievable with management.", "confidence": "good"},
+        {"ref_id": "AGRII-RESEED", "source_level": 5, "source_type": "industry_grey", "title": "Reseeding returns (DM and ME of reseed vs tired pasture)", "author_org": "Agrii", "year": 2023, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Reseeded grassland ~8,750 kg DM/ha vs tired pasture ~7,000 kg; ME 11.5 vs 10.5 MJ/kg DM. Industry source.", "confidence": "medium"}
+      ]
+    },
+    "forage_yield_actual": [],
+    "dm_data_source_type": "literature",
+    "dm_basis": "gross",
+    "utilisation_factor": {
+      "by_grade": [
+        {"grade": 1, "factor": 0.75},
+        {"grade": 2, "factor": 0.68},
+        {"grade": 3, "factor": 0.62},
+        {"grade": 4, "factor": 0.55},
+        {"grade": 5, "factor": 0.50}
+      ],
+      "default_factor": 0.70,
+      "confidence": "good",
+      "notes": "Permanent pasture is more often set-stocked than rotational, so realistic utilisation tends to sit below a managed ley (AHDB: set-stocked <50%, rotational 60–70%, paddock 75–80%). Default 0.70 assumes reasonable rotational management; lower for set-stocked. Ground-truth per farm.",
+      "sources": [
+        {"ref_id": "AHDB-UTILISATION", "source_level": 2, "source_type": "govt_statutory", "title": "Utilisation is key to a successful grazing system", "author_org": "AHDB", "year": 2024, "url": "https://ahdb.org.uk/news/utilisation-is-key-to-a-successful-grazing-system", "accessed_date": "2026-06-27", "specific_claim": "Utilisation by grazing system: set-stocked <50%, rotational 60–70%, paddock 75–80%.", "confidence": "high"}
+      ]
+    },
+    "conservation_lu_ha": null,
+    "conservation_lu_ha_note": "Null under the Regenerate default (LU derived via utilisation). For a g4 parcel assigned Protect & Restore, a direct conservation_lu_ha should be populated instead.",
+    "palatability_rank": "Med-High",
+    "nutritional_quality_by_grade": [
+      {"grade": 1, "me_mj_kg_dm": {"min": 10.5, "max": 11.5}, "crude_protein_pct_dm": {"min": 12, "max": 18}, "d_value": {"min": 64, "max": 72}, "confidence": "good", "notes": "Below a fresh ley due to native-grass proportion and older sward. Agrii: tired pasture ME ~10.5 vs reseed ~11.5. CP depends on clover content and N inputs."},
+      {"grade": 2, "me_mj_kg_dm": {"min": 10.0, "max": 11.0}, "crude_protein_pct_dm": {"min": 11, "max": 15}, "d_value": {"min": 60, "max": 68}, "confidence": "good", "notes": "Typical permanent pasture."},
+      {"grade": 3, "me_mj_kg_dm": {"min": 9.0, "max": 10.0}, "crude_protein_pct_dm": {"min": 9, "max": 13}, "d_value": {"min": 55, "max": 63}, "confidence": "medium", "notes": "Tired/weed-grass sward; estimated."},
+      {"grade": 4, "me_mj_kg_dm": {"min": 8.0, "max": 9.0}, "crude_protein_pct_dm": {"min": 8, "max": 11}, "d_value": {"min": 50, "max": 58}, "confidence": "estimated", "notes": "Estimated — rush/weed-dominated."},
+      {"grade": 5, "me_mj_kg_dm": {"min": 7.5, "max": 8.5}, "crude_protein_pct_dm": {"min": 7, "max": 10}, "d_value": {"min": 46, "max": 54}, "confidence": "estimated", "notes": "Estimated — degraded."}
+    ],
+    "nutritional_quality_sources": [
+      {"ref_id": "AGRII-RESEED", "source_level": 5, "source_type": "industry_grey", "title": "Reseeding returns (ME of reseed vs tired pasture)", "author_org": "Agrii", "year": 2023, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Old/tired grassland ME ~10.5 MJ/kg DM vs reseed ~11.5.", "confidence": "medium"},
+      {"ref_id": "UK-NEA-GRASSLAND-CH6", "source_level": 1, "source_type": "peer_reviewed", "title": "UK NEA — Grasslands (digestibility)", "author_org": "UK NEA", "year": 2011, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Digestibility lower in permanent than temporary grassland.", "confidence": "good"}
+    ],
+    "seasonal_forage_curve": {
+      "spring": "Moderate–high — permanent roots give reliable early growth",
+      "summer": "Moderate — growth steadier but lower-peak than a ley; dips in drought (shallower improved roots)",
+      "autumn": "Moderate — useful autumn growth",
+      "winter": "Low — minimal growth; permanent sward tolerates deferred/winter grazing better than a ley"
+    }
+  },
+  "management": {
+    "optimal_grazing_animals": [
+      {"breed": "Beef cattle and sucklers", "species": "cattle", "grade": "A–D", "notes": "Permanent pasture suits a wide range incl. hardier types; breed-level matching via the Animal entity."},
+      {"breed": "Sheep (ewes, store/finishing lambs)", "species": "sheep", "grade": "A–D", "notes": "Well-matched; mixed grazing helps sward and parasite management."}
+    ],
+    "unsuitable_animals": [
+      {"breed": "None strictly unsuitable", "species": "—", "reason": "g4 is a forgiving working sward; matching is about efficiency and sward goals, not exclusion."}
+    ],
+    "timing_windows": {
+      "preferred_season": "Year-round grazing potential; rotational April–October with deferred/winter grazing tolerated",
+      "rationale": "Permanent root systems tolerate a wider grazing window than a ley",
+      "avoid": "Winter poaching on wet ground (rush invasion risk); over-grazing that opens the sward to weeds",
+      "per_species_notes": "Mixed cattle/sheep grazing aids sward structure and breaks parasite cycles."
+    },
+    "intensity_guidance": "Stocking is SCHEME-TIED and never averaged. Derive LU/ha from utilised DM ÷ 5.5 t per LU: at grade 1, gross 7–10 t × ~0.70 utilisation ≈ 4.9–7.0 t utilised ≈ ~0.9–1.3 LU/ha as a planning figure (lower than a ley). England: GLU (Natural England/ELM); Scotland: LU (SAC/FAS TN686). Take each from its own scheme — do not average. For a Protect & Restore parcel, use a conservation_lu_ha instead.",
+    "monitoring_protocol": "Plate meter / sward stick; track rush and weed-grass cover, ground cover and drainage; watch for botanical recovery indicators in long-established stands (may trigger reassessment toward g3c or a zone change). Apply the re-grade trigger.",
+    "reseed_decision_note": "The reseed-vs-retain choice is central to g4: reseeding lifts yield/ME but resets soil carbon and any botanical recovery. Weigh production gain against the soil-carbon and biodiversity value of an established sward — a Regenerate-vs-Protect decision in microcosm.",
+    "bng_unit_value": {
+      "value_note": "Low distinctiveness (Grassland — Modified grassland). Long-established, recovering stands may reassess higher on survey; the soil-carbon value of old permanent pasture is not captured by the metric.",
+      "confidence": "good",
+      "sources": [
+        {"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Modified grassland (g4) is low distinctiveness. Exact current label to confirm against the live metric.", "confidence": "medium"}
+      ]
+    }
+  },
+  "species_list": {
+    "key_constants": ["Lolium perenne", "Holcus lanatus", "Agrostis stolonifera", "Trifolium repens"],
+    "key_positive_indicators": ["Returning neutral-grassland forbs (e.g. Ranunculus acris, Plantago lanceolata, Centaurea nigra in older stands)", "Good clover content", "Diverse grass sward in long-established pasture"],
+    "key_negative_indicators": ["Juncus effusus / J. acutiflorus (rush)", "Poa annua dominance", "Rumex spp. (docks)", "Cirsium / Senecio jacobaea (ragwort)"],
+    "target_species_composition": ["Productive grasses with clover (Regenerate parcels)", "Increasing forb diversity (Protect & Restore parcels)", "Rush and weed cover minimised"],
+    "note": "Skeleton only — full species records and the Habitat↔Species join built in Phase 2B. The positive-indicator set differs by zone: production indicators for Regenerate parcels, recovery indicators for Protect & Restore parcels."
+  },
+  "data_completeness": {
+    "fields_fully_populated": [
+      "ukhab_identity — corrected this session: g4 confirmed terminal at Level 3, official name 'Modified grassland', single-type (subtype null)",
+      "forage yield (grades 1–2) and nutrition — well-sourced L1–L2 (UK NEA, ScienceDirect 2018, AHDB)",
+      "utilisation_factor (L2: AHDB)"
+    ],
+    "fields_partially_populated": [
+      "wild_zone — Regenerate DEFAULT only; g4 is the most zone-variable habitat (per-parcel confirmation required)",
+      "ecological_value_grade — set to representative 2 but genuinely VARIABLE 1–4 along the modified↔semi-natural continuum",
+      "forage/nutrition grades 3–5 — estimated; cross_references NVC/Phase1 from standard refs (medium)",
+      "elemental_conditions — Regenerate target-state dials, framework-reasoned"
+    ],
+    "fields_pending_research": [
+      "Per-parcel zone and ecological-value assignment (inherent to g4 — cannot be fixed at type level)",
+      "Re-fetch of UK NEA and ScienceDirect 2018 primaries (carried from verified v2.0 sourcing)",
+      "Soil-carbon figures for old vs recently modified permanent pasture (Phase 2B)",
+      "Per-farm ground-truthing of utilisation and derived LU/ha"
+    ],
+    "overall_confidence": "good",
+    "notes": "Forage evidence is among the strongest in the toolbox. The defining feature of g4 is its breadth: one UKHab code spanning a production-to-semi-natural continuum, so ecological value and WILD zone are explicitly per-parcel and flagged as such rather than fixed. Identity corrected (g4 terminal at L3; official name restored). Gross-vs-utilised separated. Completes the production trio (c1b ryegrass, c1b herbal, g4)."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "g4 Modified grassland; terminal at L3.", "confidence": "high"},
+    {"ref_id": "UK-NEA-GRASSLAND-CH6", "source_level": 1, "source_type": "peer_reviewed", "title": "UK National Ecosystem Assessment — Grasslands", "author_org": "UK NEA", "year": 2011, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Permanent grassland carbon/digestibility; improved yield 10–12 t.", "confidence": "good"},
+    {"ref_id": "SCIENCEDIRECT-GRASSLAND-FUTURES-2018", "source_level": 1, "source_type": "peer_reviewed", "title": "Grassland futures in Great Britain", "author_org": "ScienceDirect", "year": 2018, "url": "https://www.sciencedirect.com/", "accessed_date": "2026-06-27", "specific_claim": "Benchmark permanent grassland productivity ~8.7 t DM/ha.", "confidence": "good"},
+    {"ref_id": "AHDB-GRASSLAND-PRODUCTIVITY", "source_level": 2, "source_type": "govt_statutory", "title": "Improving grassland productivity", "author_org": "AHDB", "year": 2023, "url": "https://ahdb.org.uk/knowledge-library", "accessed_date": "2026-06-27", "specific_claim": "UK average ~7 t DM/ha; >12 t achievable.", "confidence": "good"}
+  ]
+}
