@@ -1,0 +1,146 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — grassland group batch; built from field sheet 06 (Bracken) via the Crosswalk. v3.3. NOTE: code corrected from the Crosswalk — bracken is the PRIMARY Level-4 code g1c, not merely secondary code 14.",
+  "habitat_class": "problem / encroachment habitat",
+  "ukhab_identity": {
+    "ukhab_level2": "g", "ukhab_level2_name": "Grassland",
+    "ukhab_level3": "g1", "ukhab_level3_name": "Acid grassland",
+    "ukhab_level4": "g1c", "ukhab_level4_name": "Bracken",
+    "ukhab_level5": null,
+    "wilderculture_subtype": null,
+    "composite_pk": "g1c",
+    "composite_pk_note": "CROSSWALK CORRECTION: the Crosswalk treated bracken as secondary code 14 over the underlying habitat. UKHab v2.01 has bracken as a PRIMARY Level-4 code, g1c ('Grassland — Bracken', primary), confirmed in the UKHab master data sheet, the BNG code list and multiple applied surveys. Secondary code 14 is for SCATTERED bracken over another habitat; a mapped dense bracken stand is the primary habitat g1c.",
+    "secondary_codes": [], "secondary_codes_notes": "Where bracken is scattered (not dominant) over another habitat, record THAT habitat as primary + secondary code 14, and link this sheet for guidance. Dense stands = g1c primary.",
+    "habitat_name": "Bracken", "parent_category": "Grassland (acid grassland group)",
+    "bap_priority": false, "annex1_habitat": "None",
+    "geographic_tags": ["upland", "lower_mid_slopes", "oceanic_west", "expanding", "encroachment"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (master data sheet + BNG code list + applied surveys)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "g1c = Bracken, a PRIMARY Level-4 code under g1 Acid grassland. Confirmed: UKHab master data sheet ('Bracken g1c'); BNG code list ('Grassland - Bracken g1c primary'); applied surveys (Windburn 'Bracken UKHab g1c'; Derbyshire Habitat Asset Register 'g1c Bracken, no secondary code assigned').", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["U20 Pteridium aquilinum–Galium saxatile community"],
+    "nvc_communities_notes": "U20 is the bracken community. The underlying/displaced habitat is usually acid grassland (g1b) or heath.",
+    "phase1_equivalent": "C1.1 Bracken (continuous)",
+    "bng_metric_habitat_name": "Grassland — Bracken",
+    "bng_metric_note": "Low distinctiveness; the management aim is usually less of it, or conversion to grassland/heath or woodland.",
+    "wild_sheet_ref": "Habitat-06-Bracken",
+    "sources": [
+      {"ref_id": "NVC-RODWELL-U20", "source_level": 1, "source_type": "peer_reviewed", "title": "British Plant Communities — U20 bracken community", "author_org": "Rodwell, J.S. (ed.)", "year": 1992, "url": null, "accessed_date": "2026-06-27", "specific_claim": "U20 Pteridium aquilinum–Galium saxatile is the bracken NVC community.", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "Dense stands of bracken (Pteridium aquilinum), our most widespread large fern. In UKHab simply 'bracken' (g1c); dense bracken is the mapped concern. NOT a target habitat in the way heaths and grasslands are — an aggressive native that behaves as an invader, forming dense single-species stands that shade out almost everything beneath. The encroachment habitat: it advances onto acid grassland, heath and bracken-grassland margins, preferentially on the deeper, drier, free-draining slopes — the better soils, the very ground that would otherwise be the best grazing or the best woodland site.",
+    "condition_indicators_good": ["NB 'good condition' is almost a contradiction — the usual aim is less of it. The single diagnostic: is anything living beneath the fronds?", "Tolerable/valuable: open, broken bracken with a diverse ground flora beneath (the western bluebell type)", "Light bracken in a mosaic giving cover and structure; scattered, not dominant — even valuable for fritillaries"],
+    "condition_indicators_poor": ["Dense, closed, deep-litter monoculture — tall fronds, thick litter, bare ground beneath, no ground flora (the 'bracken desert')", "An advancing front pushing onto grassland and heath", "Tick-laden", "Dead litter only beneath"],
+    "ecosystem_functions": ["High primary production — but locked into an unpalatable, toxic, near-monospecific stand, so little passes usefully up the food web (a near trophic dead-end)", "Bracken–violet mosaics: critical for high brown and dark green fritillaries (larvae on violets beneath; litter provides warm microclimate)", "Western/oceanic open bracken can shelter a relict woodland ground flora (the 'ghost of a wood')", "Marks deep fertile brown-earth soils — potential native woodland sites"],
+    "whole_system_role": "A successional bully on good ground: high energy capture but a near trophic dead-end. The deep, fertile soils mark it as potential woodland — the better long-term destination.",
+    "successional_neighbours": [
+      {"habitat_code": "g1b (acid grassland) / heath", "direction": "from (it encroaches onto these) / toward (if cleared & grazed)", "note": "Occupies a band that would otherwise be grassland or heath; knocking it back returns grassland/heath."},
+      {"habitat_code": "native woodland (w1)", "direction": "toward (the real way out on good soils)", "note": "Tree establishment is one of the real ways out — once a canopy closes, bracken is shaded out for good. Often the better destination on the deep brown earths."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-06-BRACKEN", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 06 — Bracken", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Problem-habitat framing, toxicity, the fritillary/relict-flora nuances, woodland-soil association, 'look before you clear'.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel — but framed inversely (less is usually better). The diagnostic is what lives beneath the fronds.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Tolerable / valuable", "description": "Open, broken bracken with diverse ground flora beneath (western bluebell type) or light bracken-violet mosaic — leave."},
+      {"grade": 2, "label": "Mixed", "description": "Patchy bracken with some surviving understorey; advancing slowly."},
+      {"grade": 3, "label": "Encroaching", "description": "Thickening stands, understorey declining, front advancing onto grassland/heath."},
+      {"grade": 4, "label": "Problem", "description": "Dense closed deep-litter monoculture, bare ground beneath, no ground flora — the 'bracken desert'."},
+      {"grade": 5, "label": "Entrenched / tick-laden front", "description": "Extensive, decades-stable, displacing productive ground and woodland sites."}
+    ],
+    "grade_field_indicators": ["ground-flora presence/diversity beneath the canopy (the key diagnostic)", "stand density and litter depth", "advancing front onto grassland/heath", "tick burden", "presence of violets / relict woodland flora (raises value)"],
+    "sources": [
+      {"ref_id": "WILD-SHEET-06-BRACKEN", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 06 — Bracken", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Condition framed by what lies beneath the fronds.", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Deep, free-draining, drier acid-to-neutral soils — brown earths", "base_status": "acid to neutral", "climate": "Heavy in the oceanic west; expanding with warming", "altitude_range_m": "Lower and mid slopes, broadly up to ~600 m, spreading upward as climate warms", "aspect_exposure": "Sheltered, well-drained slopes and in-bye margins; avoids waterlogged ground and very thin soils (frost-sensitive rhizome)", "bioclimate_notes": "All six bioregions; expanding almost everywhere — warming and the loss of chemical control (asulam withdrawal) both pushing it."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading. Zone is Regenerate (a control/conversion target); the elemental reading describes the bracken stand as it is.",
+      "water": {"dial_position": 25, "state": "Deep, free-draining, drier brown-earth soils", "descriptor": "Bracken avoids waterlogging; the frost-sensitive rhizome favours sheltered, well-drained slopes."},
+      "earth": {"dial_position": 25, "pedogenic_process": "brunification (brown earths — fertile)", "descriptor": "Among the deeper, better soils, freely cycling and fertile — exactly why bracken (and potential woodland) thrives. Deep frond litter builds organic matter."},
+      "air": {"dial_position": 25, "redox_state": "Aerobic, well-drained, good redox", "exposure_bioclimate": "Sheltered slopes", "descriptor": "Aerobic, well-drained."},
+      "fire": {"dial_position": 75, "npp_level": "High primary production", "descriptor": "Dense tall fronds capture a great deal of energy — but it is locked into an unpalatable, toxic, near-monospecific stand, so little passes usefully up the food web."}
+    },
+    "successional_envelope": {
+      "current_stage": "Successional bully — a stable, species-poor stand that holds for decades, on ground that would otherwise be grassland, heath or woodland",
+      "range_of_natural_variability": ["Dense bracken (stable, species-poor)", "Open/broken bracken with relict flora or violet mosaic (valuable)", "Cleared → grassland/heath", "Through to native woodland (canopy shades it out — permanent)"],
+      "successional_pathway": "grassland/heath → dense bracken (stable). Ways out: dense bracken → cleared & grazed → grassland; OR dense bracken → native woodland (canopy closes, bracken shaded out for good — often the better route on the good soils). Left alone it simply persists; doing nothing is rarely the answer."
+    },
+    "energy_flow_role": "High energy capture, near trophic dead-end. The good underlying soils mark it as potential woodland — the better long-term destination.",
+    "wild_zone": "Regenerate",
+    "wild_zone_rationale": "Bracken-dominated ground is a Regenerate target and doing nothing is rarely the answer — knock it back to grassland/heath, or (often better on the good brown-earth soils) push it through to native woodland, which is the Bioregionally Wilder move and shades bracken out permanently. EXCEPTION: open bracken with a relict woodland ground flora, or light bracken-violet mosaics that fritillaries depend on, are NOT waste ground — do not blanket-clear them (look before you clear).",
+    "disturbance_regime": "Control-led — cutting/rolling/bruising to weaken the rhizome (repeated, over years), grazing of cleared ground, or tree establishment to close a canopy. Chemical control much harder since asulam (Asulox) withdrawal — verify current approvals.",
+    "wild_management_target": {"type": "state_target", "detail": "Convert dense bracken to grassland/heath (cleared & grazed) or — preferably on the deep brown earths — to native woodland. Retain and protect open bracken-violet mosaics (fritillaries) and relict-woodland-flora stands. Re-grade trigger applies (here, reduction is the favourable direction).", "integrity_indicators": ["ground-flora recovery beneath/after clearance", "fritillary (high brown / dark green) presence where bracken-violet mosaics retained", "woodland establishment where that is the route", "retreat of the advancing front"]},
+    "ecological_value_grade": 2,
+    "ecological_value_notes": "Low, but nuanced — not a flat 1. Dense bracken is essentially a problem (toxic, trophic dead-end, displaces productive/woodland ground). BUT bracken-violet mosaics are rare and critical habitat for two of our most threatened butterflies, and western relict-flora stands carry genuine conservation value. Value sits in the structure and what lies beneath, not the bracken itself.",
+    "value_axes": {"rarity_irreplaceability": {"score": 1, "notes": "Abundant and expanding — the opposite of rare."}, "diversity": {"score": 2, "notes": "Near-monoculture where dense; but bracken-violet mosaics and relict-flora stands locally support rare species."}, "energy_flow_contribution": {"score": 2, "notes": "High capture, near dead-end trophically — energy does not pass usefully up the web."}},
+    "naturalistic_lu_ha": null, "naturalistic_lu_ha_note": "Not a grazing resource — toxic. Not stocked.",
+    "mosaic_role": null, "mosaic_role_note": "Not a grazing-mosaic patch. The one positive structural role is LIGHT bracken in a mosaic providing cover/structure and the fritillary microclimate — but dense bracken removes ground from the system.",
+    "preferential_grazing_magnet": false, "preferential_grazing_magnet_note": "The opposite — toxic and avoided; where it dominates it removes that ground from grazing entirely.",
+    "process_indicators": ["ground-flora presence beneath/after clearance", "fritillary presence (retained mosaics)", "front advance/retreat", "woodland establishment on good soils"],
+    "process_indicators_note": "Reduction and conversion are the favourable directions; retain the valuable exceptions.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-06-BRACKEN", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 06 — Bracken", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Zone (Regenerate/control), woodland route, fritillary and relict-flora exceptions.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a",
+    "overall_palatability_score": 1,
+    "overall_palatability_notes": "Bottom of the ladder and below it — not merely unpalatable but TOXIC. Stock avoid it; where it dominates it removes ground from grazing altogether by overtopping and shading the grasses beneath. Its spread is a direct loss of grazing — the core farming case for control. Caveat: hungry stock will take the young spring croziers, which are the most dangerous.",
+    "forage_yield_by_grade": [
+      {"grade": 4, "kg_dm_ha_yr": {"min": 0, "max": 0}, "confidence": "high", "notes": "NON-FORAGE and actively NEGATIVE — toxic. No grazing value; the bulk is unavailable and harmful. Not a stocking input."}
+    ],
+    "forage_yield_literature": {"min": 0, "max": 0, "confidence": "high", "notes": "Forage value is nil/negative by the nature of the habitat (toxic). Not grazed.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — not a grazing resource.",
+    "conservation_lu_ha": {
+      "value": "n/a — not a stocked habitat. Where livestock are present on adjacent ground, keep hungry stock OFF spring bracken (croziers) and provide alternative feed.",
+      "scheme": "n/a — toxic/control habitat",
+      "confidence": "high",
+      "basis_note": "Bracken is not grazed. The relevant management is control/conversion, and the welfare line is keeping stock (and people) away from the toxin, especially the young spring croziers.",
+      "sources": []
+    },
+    "palatability_rank": "Toxic — below the ladder",
+    "toxicity_detail": "Poisonous. Contains ptaquiloside (a carcinogen) — linked to enzootic haematuria (bladder cancer) in cattle, bright blindness in sheep, and a human cancer risk via spores and contaminated milk and water. Also contains thiaminase, which destroys thiamine (vitamin B1) — hitting horses and monogastrics hardest but affecting cattle too. Young spring croziers are both the most likely to be browsed and the most carcinogenic. The toxin leaches into water and the food chain.",
+    "nutritional_quality_note": "Not relevant as forage — the headline is the toxin, not the mineral picture.",
+    "seasonal_forage_curve": {"spring": "Croziers — most dangerous; keep hungry stock off", "summer": "Dense canopy, avoided", "autumn": "Senescing", "winter": "Dead litter only"}
+  },
+  "management": {
+    "optimal_grazing_animals": [{"breed": "n/a — not grazed", "species": "—", "grade": "—", "notes": "Light winter sheep grazing of cleared ground can suppress tree/scrub regrowth, but bracken itself is a control target, not a grazing resource."}],
+    "unsuitable_animals": [{"breed": "Hungry stock on spring bracken", "species": "all (esp. horses/monogastrics for thiaminase; cattle/sheep for ptaquiloside)", "reason": "Croziers are toxic and carcinogenic; stock eat them when short of feed."}],
+    "timing_windows": {"preferred_season": "Control operations (cutting/rolling/bruising) in the growing season, repeated over years to exhaust the rhizome", "rationale": "Mechanical control weakens the rhizome; needs repetition", "avoid": "Leaving hungry stock on spring croziers; blanket-clearing violet-rich or relict-flora stands", "per_species_notes": "Tick burden is high — a livestock, wildlife and human health consideration."},
+    "intensity_guidance": "Control/convert, don't graze. Push to native woodland on the good brown earths (the permanent solution); knock back to grassland/heath elsewhere; retain valuable bracken-violet and relict-flora mosaics.",
+    "regulatory_note": "Chemical control is much harder since the herbicide asulam (Asulox), which managed bracken for ~60 years, was withdrawn — VERIFY current approvals/options before planning chemical control. Mechanical control (cutting/rolling/bruising) and conversion to woodland are the mainstays. Where clearance is near watercourses, note the ptaquiloside water-contamination risk.",
+    "monitoring_protocol": "Ground-flora beneath the canopy (the key diagnostic), stand density/litter, advancing front, fritillary presence in retained mosaics, woodland establishment, tick burden.",
+    "bng_unit_value": {"value_note": "Low distinctiveness. The BNG aim is usually conversion to a higher-value habitat (grassland/heath/woodland).", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Bracken low distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Pteridium aquilinum (dominant)"],
+    "key_positive_indicators": ["a diverse ground flora beneath the fronds (open/western stands) — Hyacinthoides non-scripta (bluebell), Anemone nemorosa (wood anemone), Allium ursinum (wild garlic), Viola spp. (violets)", "violets present (the fritillary larval food)", "light, broken, mosaic structure rather than closed monoculture"],
+    "key_negative_indicators": ["dense closed canopy with deep litter and bare ground beneath (no ground flora)", "advancing front onto grassland/heath", "high tick load"],
+    "toxicity_flags": [{"species": "Pteridium aquilinum (bracken)", "issue": "ptaquiloside (carcinogen — enzootic haematuria, bright blindness; human risk via spores/milk/water) and thiaminase (destroys vitamin B1). Spring croziers most toxic. Toxin leaches to water/food chain."}],
+    "integrity_indicators_fauna": ["high brown fritillary and dark green fritillary (larvae on violets beneath bracken; litter gives warm microclimate — blanket clearance drove the high brown's collapse, now one of our most threatened butterflies)", "whinchat, tree pipit, ring ouzel, twite use bracken edges/cover; adders bask along margins; small mammals work the litter", "NEGATIVE: prime tick habitat (livestock/wildlife/human health)"],
+    "target_species_composition": ["reduced bracken with recovering ground flora", "retained violet/fritillary mosaics where present", "or progression to native woodland understorey"],
+    "note": "Skeleton only — full species records in Phase 2B. The high brown fritillary dependence on bracken-violet mosaics is the single most important 'do not blanket-clear' relationship to capture."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity — CORRECTED to g1c primary (not secondary 14), verified across multiple sources", "toxicity detail (ptaquiloside, thiaminase)", "the fritillary / relict-flora 'look before you clear' nuance", "wild_assessment (Regenerate/control; woodland route)"],
+    "fields_partially_populated": ["forage — deliberately nil/negative (toxic)", "species_list — skeleton"],
+    "fields_pending_research": ["Current chemical-control approvals post-asulam withdrawal — verify before any control contract", "Fritillary mosaic mapping (Phase 2B)", "Site-level woodland-conversion suitability of underlying soils"],
+    "overall_confidence": "high",
+    "notes": "The series' special case — a 'problem/encroachment' habitat rather than a target. KEY CORRECTION: bracken is the primary code g1c, not secondary code 14 (that's for scattered bracken over another habitat). The two nuances that stop it being simply 'clear it all': bracken-violet mosaics (rare fritillaries) and western relict woodland flora. On the good brown-earth soils, the wilder route is native woodland."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "g1c Bracken — primary Level-4 code.", "confidence": "high"},
+    {"ref_id": "LANDAPP-BNG-CODES", "source_level": 2, "source_type": "ngo_technical", "title": "UKHab codes for BNG (Land App)", "author_org": "Land App / UKHab", "year": 2023, "url": "https://thelandapp.com/", "accessed_date": "2026-06-27", "specific_claim": "'Grassland - Bracken g1c primary'.", "confidence": "high"},
+    {"ref_id": "WILD-SHEET-06-BRACKEN", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 06 — Bracken", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Problem-habitat framing, toxicity, nuances, control/woodland routes.", "confidence": "good"}
+  ]
+}
