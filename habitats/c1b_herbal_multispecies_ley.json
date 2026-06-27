@@ -1,0 +1,343 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.2",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — fresh v3.2 build; supersedes the v2.0 'c1b7' record (c1b7 retired as a non-UKHab code)",
+  "ukhab_identity": {
+    "ukhab_level2": "c",
+    "ukhab_level2_name": "Cropland",
+    "ukhab_level3": "c1",
+    "ukhab_level3_name": "Arable and horticulture",
+    "ukhab_level4": "c1b",
+    "ukhab_level4_name": "Temporary grass and clover leys",
+    "ukhab_level5": null,
+    "wilderculture_subtype": "herbal_multi_species_ley",
+    "composite_pk": "c1b + herbal_multi_species_ley",
+    "composite_pk_note": "v3.2: primary key is ukhab_level4 + wilderculture_subtype. UKHab classifies all sown grass/legume/herb leys (simple and multi-species alike) as c1b; this toolbox separates them as functional subtypes because their forage, palatability and ecological value differ. The sibling record is c1b + ryegrass_clover_ley.",
+    "secondary_codes": [],
+    "secondary_codes_notes": "UKHab has no standard primary or secondary code that specifically denotes a herbal/multi-species ley. Some applied registers differentiate c1b by management-intensity secondary codes (e.g. intensively vs less-intensively managed), but there is no bespoke 'herbal ley' code. The functional distinction is therefore carried by wilderculture_subtype, not by a UKHab code. (Flagged for review — see data_completeness.)",
+    "habitat_name": "Herbal / multi-species ley",
+    "parent_category": "Cropland",
+    "bap_priority": false,
+    "geographic_tags": ["lowland", "upland_fringe", "uk_wide"],
+    "sources": [
+      {
+        "ref_id": "UKHAB-v2.01-2023",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "UK Habitat Classification v2.01 (statutory classification underpinning the Biodiversity Metric)",
+        "author_org": "UKHab Ltd",
+        "year": 2023,
+        "url": "https://ukhab.org/ukhab-documentation/",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "All sown grass/legume/herb leys, including multi-species/herbal leys, fall under c1b 'Temporary grass and clover leys'. Level 4 cropland codes under c1 are c1a, c1b, c1c, c1d, c1f. No code 'c1b7' exists; coding alternates letter/number so a trailing number would denote Level 5 (none defined for c1b).",
+        "confidence": "high"
+      },
+      {
+        "ref_id": "UKHAB-FAQ-CODING-2023",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "UKHab FAQs — coding structure (levels alternate letter/number, e.g. g3b5; secondary codes add detail)",
+        "author_org": "UKHab Ltd",
+        "year": 2023,
+        "url": "https://www.ukhab.org/faqs/",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Levels 2–5 are coded with alternating letters and numbers; further detail is added via secondary codes, not new primary codes. Confirms c1b7 cannot be a Level 4 code.",
+        "confidence": "high"
+      },
+      {
+        "ref_id": "UKHAB-ASSETREG-DERBYS",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "UKHab classes mapped in the Habitat Asset Register (c1b differentiated by management-intensity secondary codes)",
+        "author_org": "Derbyshire County Council",
+        "year": 2023,
+        "url": "https://www.derbyshire.gov.uk/site-elements/documents/pdf/environment/conservation/lnr/appendix-3-ukhab-classes-mapped-in-the-habitat-asset-register.pdf",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "c1b is differentiated in practice by secondary codes (intensively vs less-intensively managed), not by suffixed primary codes — supporting the subtype approach.",
+        "confidence": "high"
+      }
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["No NVC equivalent (sown multi-species agricultural sward); even less NVC-aligned than a simple ley"],
+    "nvc_communities_notes": "Herbal/multi-species leys are engineered seed mixtures with no semi-natural NVC analogue. Recorded as none rather than forcing a fit.",
+    "phase1_equivalent": "B4 Improved grassland (agricultural ley)",
+    "bng_metric_habitat_name": "Cropland — Temporary grass and clover leys",
+    "bng_metric_note": "The Biodiversity Metric does not distinguish herbal leys from simple leys — both are c1b, low distinctiveness. The added ecological value of a herbal ley is real but not captured by BNG (a 'two values' case).",
+    "wild_sheet_ref": null,
+    "wild_sheet_ref_note": "Sheet-less production sward (Regenerate zone).",
+    "sources": [
+      {
+        "ref_id": "PHASE1-JNCC-B4",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "Handbook for Phase 1 Habitat Survey (B4 Improved grassland)",
+        "author_org": "JNCC",
+        "year": 2010,
+        "url": null,
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Agricultural leys map to Phase 1 B4. Standard reference, not independently re-verified this session.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "ecology": {
+    "description": "A sown grassland containing at least three functional groups — grasses, legumes and herbs — typically six or more species. Grasses commonly include perennial ryegrass, timothy, cocksfoot and fescues; legumes white and red clover, sainfoin and birdsfoot trefoil; herbs chicory, plantain, yarrow and burnet. Deep-rooting components confer drought resilience and mineral access, and several legumes/herbs (sainfoin, birdsfoot trefoil, chicory) carry secondary compounds with anthelmintic (anti-parasitic) activity.",
+    "condition_indicators_good": [
+      "All sown functional groups present and persisting — no single species dominating to exclusion of others",
+      "Deep-rooting herbs (chicory, plantain) maintained (>~15% cover each) and actively growing",
+      "Legume component strong (clovers/sainfoin) sustaining nitrogen supply and protein",
+      "Even multi-species structure with floral resource for pollinators"
+    ],
+    "condition_indicators_poor": [
+      "Herb species (chicory, plantain, sainfoin) declining or lost — sward reverting to grass-dominant",
+      "Aggressive grass dominating (>70% cover) — functional diversity collapsing (common under intensive grazing/high N)",
+      "Legumes lost — nitrogen and protein advantage gone",
+      "Docks, thistles or weed grasses establishing in gaps"
+    ],
+    "ecosystem_functions": [
+      "Forage production comparable to PRG/white-clover ley at substantially reduced nitrogen input; mid-season growth when ryegrass slumps",
+      "Biological nitrogen fixation via clovers/sainfoin (legume proportion can explain a large share of herbage N yield)",
+      "Drought resilience and mineral access via deep-rooting herbs",
+      "Anthelmintic forage — secondary compounds (condensed tannins in sainfoin/birdsfoot, sesquiterpene lactones in chicory) associated with reduced parasite burden",
+      "Pollinator nectar/pollen resource (chicory, clovers, sainfoin, birdsfoot trefoil)",
+      "Soil structure building via diverse rooting depths"
+    ],
+    "whole_system_role": "The regenerative production sward of choice in the Regenerate zone: high output at low N with soil, drought-resilience, animal-health and biodiversity co-benefits. Higher ecological value than a simple ley, though still a sown agricultural sward.",
+    "successional_neighbours": [
+      {"habitat_code": "c1b (ryegrass_clover_ley subtype)", "direction": "toward (if herbs/legumes lost)", "note": "Loss of the herb and legume components reverts a herbal ley toward a grass-dominant simple ley; herbs are the least persistent group under intensive grazing."},
+      {"habitat_code": "g4", "direction": "toward (if undermanaged)", "note": "Neglect drifts toward modified/semi-improved grassland."}
+    ],
+    "sources": [
+      {
+        "ref_id": "SD-INTENSIVE-BEEF-2022",
+        "source_level": 1,
+        "source_type": "peer_reviewed",
+        "title": "Multispecies swards outperform perennial ryegrass under intensive beef grazing (3-yr)",
+        "author_org": "ScienceDirect (Agriculture, Ecosystems & Environment)",
+        "year": 2022,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167880922004844",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "MSS show potential for higher DM from lower N than ryegrass; legumes persist well but herbs do not under intensive rotational grazing.",
+        "confidence": "good"
+      }
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null,
+    "condition_grade_note": "Assigned per parcel. Descriptors below define the production-criteria scale for a herbal ley, framed on functional-group balance.",
+    "condition_grade_criteria_type": "production",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Excellent / optimal", "description": "All functional groups present and balanced; herbs and legumes well represented; even, vigorous, diverse sward."},
+      {"grade": 2, "label": "Good", "description": "Productive with early signs of functional-group imbalance (some herb or legume decline)."},
+      {"grade": 3, "label": "Moderate", "description": "Grass beginning to dominate; herbs/legumes clearly reduced; diversity narrowing."},
+      {"grade": 4, "label": "Poor", "description": "Grass-dominant; herbs largely lost, legumes sparse; functioning as a simple grass sward."},
+      {"grade": 5, "label": "Degraded / reclassify", "description": "Multi-species character lost; reclassify (to the ryegrass_clover_ley subtype or g4)."}
+    ],
+    "grade_field_indicators": ["functional-group presence (grass/legume/herb)", "herb cover % (chicory, plantain)", "legume cover %", "grass dominance %", "weed ingress"],
+    "sources": [
+      {
+        "ref_id": "TOMS-DUCHY-ROTHAMSTED-2022",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "Toolbox of Multi-species Swards (TOMS)",
+        "author_org": "Duchy College Rural Business School / Rothamsted Research North Wyke",
+        "year": 2022,
+        "url": "https://www.multispeciessward.co.uk/",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Functional-group balance and persistence are the basis for assessing MSS condition; herbs are the least persistent group.",
+        "confidence": "good"
+      }
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {
+      "parent_material_geology": "Variable — sown on cultivable soil; deep-rooting components tolerate a wider range than a simple ley",
+      "base_status": "neutral",
+      "climate": "Temperate oceanic; lowland to upland-fringe",
+      "altitude_range_m": "0–~300",
+      "aspect_exposure": "Sheltered, cultivable ground",
+      "bioclimate_notes": "Performs at lower nitrogen than a simple ley; high N actively suppresses the legume and herb components."
+    },
+    "elemental_conditions": {
+      "convention_note": "REGENERATE TARGET STATE (Schema v3.2 convention): dials describe the productive target the layer aims for, not a current measured state.",
+      "water": {"dial_position": 62, "state": "Well-drained, moisture-retentive with deep-root access", "descriptor": "Target: aggregated soil holding moisture in structure; deep herb roots reach water in dry spells (drought resilience)."},
+      "earth": {"dial_position": 72, "pedogenic_process": "brunification", "descriptor": "Target: well-structured, biologically active fertile topsoil; diverse rooting depths building structure."},
+      "air": {"dial_position": 75, "redox_state": "Aerobic / oxidising", "exposure_bioclimate": "Sheltered", "descriptor": "Target: well-aerated soil supporting root respiration and legume nitrogen fixation."},
+      "fire": {"dial_position": 84, "npp_level": "Very high (season-spread)", "descriptor": "Target: high photosynthesis with growth spread across the season — legumes and herbs carry mid-season when ryegrass slows."}
+    },
+    "successional_envelope": {
+      "current_stage": "Sown productive multi-species sward held at an early, high-production stage (arrested succession)",
+      "range_of_natural_variability": [
+        "Balanced multi-species ley maintained by appropriate grazing/cutting and low N",
+        "If grazed too hard / over-fertilised: herb loss, then legume loss, toward grass dominance",
+        "If abandoned: coarse grassland and scrub colonisation over time"
+      ],
+      "successional_pathway": "Held by managed disturbance and low N. The characteristic decline is functional-group loss (herbs first, then legumes) toward a grass-dominant simple ley; the multi-species state does not self-maintain."
+    },
+    "energy_flow_role": "Very high net primary production with greater seasonal spread than a simple ley, and a somewhat broader food web (pollinator support). Most energy is still harvested rather than cycled through a diverse community.",
+    "wild_zone": "Regenerate",
+    "wild_zone_rationale": "A production sward whose purpose is high output at low nitrogen while building soil function, animal health and some biodiversity — the defining Regenerate aims. Treated to maintain functional-group balance, not protected or rewilded.",
+    "disturbance_regime": "Supplied — grazing/cutting and periodic reseed; the manager holds the dial. Grazing must be managed to let herbs persist (avoid over-tight residuals).",
+    "wild_management_target": {
+      "type": "state_target",
+      "detail": "Maintain the multi-species target state: functional-group balance (grasses ~40–50%, legumes ~30%, herbs ~20%), legume-driven nitrogen supply, herb persistence. Keep nitrogen low (high N suppresses legumes/herbs). Re-grade trigger: two seasons measured a band above/below → re-grade.",
+      "integrity_indicators": []
+    },
+    "ecological_value_grade": 2,
+    "ecological_value_notes": "Higher than a simple ley (grade 1): floral diversity, pollinator resource and structural diversity give real ecological value, though it remains a sown agricultural sward. Per the 'two values' principle this value is not captured by the BNG/UKHab condition descriptors and should be recognised separately.",
+    "value_axes": {
+      "rarity_irreplaceability": {"score": 1, "notes": "Ubiquitous and fully replaceable; re-sown at will."},
+      "diversity": {"score": 3, "notes": "Moderate — multi-species composition and pollinator resource, well above a monoculture ley but below semi-natural grassland."},
+      "energy_flow_contribution": {"score": 2, "notes": "High, season-spread primary production with some pollinator support; trophic complexity still limited."}
+    },
+    "naturalistic_lu_ha": null,
+    "naturalistic_lu_ha_note": "Not applicable — Bioregionally Wilder field. c1b herbal ley is a Regenerate production sward.",
+    "mosaic_role": null,
+    "mosaic_role_note": "Not applicable — a managed production sward, not a wilder-mosaic patch.",
+    "preferential_grazing_magnet": false,
+    "preferential_grazing_magnet_note": "False in context (a managed sward, not a mosaic component).",
+    "process_indicators": [],
+    "process_indicators_note": "Empty by design — Regenerate uses a state target.",
+    "sources": [
+      {
+        "ref_id": "WILD-METHOD-STATEMENT",
+        "source_level": 7,
+        "source_type": "practitioner_framework",
+        "title": "WILD Method Statement — The Science Behind WILD",
+        "author_org": "Wilderculture CIC",
+        "year": 2026,
+        "url": null,
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Framework basis for elemental dials, zone and the Regenerate target-state reading. Overlay layer, not L1–L3 core data.",
+        "confidence": "good"
+      }
+    ]
+  },
+  "forage": {
+    "is_production_sward": true,
+    "is_permanent_pasture": false,
+    "years_unimproved": 0,
+    "overall_palatability_score": 5,
+    "overall_palatability_notes": "Highly palatable — chicory, plantain and legumes are well taken. Added animal-health benefit from anthelmintic compounds. Bloat risk lower than a high pure-clover sward but present with high legume content; manage introduction.",
+    "forage_yield_by_grade": [
+      {"grade": 1, "kg_dm_ha_yr": {"min": 10000, "max": 13000}, "confidence": "medium", "contested": true, "notes": "GROSS production, well-managed farm-scale herbal ley. CONTESTED magnitude — flag in client-facing use. Germinal 4-yr trial (industry, L6): 9-component MSS 47.1 t/4yr (~11.8 t/yr) vs PRG+clover 44.0 t/4yr (~11.0 t/yr) and PRG monoculture 35.4 t/4yr; very diverse (16-component) mixes yield ~6 t less. Defensible claim: comparable-to-modestly-higher yield than PRG/WC, clearly higher than PRG monoculture, at substantially lower N. Apply utilisation_factor for utilisable/LU."},
+      {"grade": 2, "kg_dm_ha_yr": {"min": 8000, "max": 11000}, "confidence": "medium", "notes": "Estimated — functional-group imbalance beginning to cost yield/quality."},
+      {"grade": 3, "kg_dm_ha_yr": {"min": 6000, "max": 8000}, "confidence": "estimated", "notes": "Estimated — not directly sourced."},
+      {"grade": 4, "kg_dm_ha_yr": {"min": 4000, "max": 6000}, "confidence": "estimated", "notes": "Estimated — grass-dominant, behaving as a simple sward."},
+      {"grade": 5, "kg_dm_ha_yr": {"min": 2500, "max": 4000}, "confidence": "estimated", "notes": "Estimated — reclassify candidate."}
+    ],
+    "forage_yield_literature": {
+      "min": 2500,
+      "max": 13000,
+      "confidence": "medium",
+      "contested": true,
+      "contest_note": "The MSS-vs-PRG yield comparison is actively debated. Vs PRG MONOCULTURE, MSS clearly outyield (e.g. Germinal +33% over 4 yr). Vs PRG+WHITE CLOVER the uplift is modest and mix-dependent (a 'sweet spot' around 6–9 components; very diverse mixes yield less). The robust, agreed finding (TOMS L2; BBSRC SARIC L1; Plant & Soil 2025 L1) is comparable yield at much lower nitrogen — the case rests on nitrogen-use efficiency, season-spread and drought resilience, not raw yield superiority. Both framings stored; not adjudicated.",
+      "sources": [
+        {"ref_id": "TOMS-DUCHY-ROTHAMSTED-2022", "source_level": 2, "source_type": "govt_statutory", "title": "Toolbox of Multi-species Swards (TOMS)", "author_org": "Duchy College / Rothamsted North Wyke", "year": 2022, "url": "https://www.multispeciessward.co.uk/", "accessed_date": "2026-06-27", "specific_claim": "MSS matched PRG biomass at zero N vs PRG at 250 kg N/ha; most robust UK-specific MSS yield dataset.", "confidence": "good"},
+        {"ref_id": "PLANT-SOIL-NUE-2025", "source_level": 1, "source_type": "peer_reviewed", "title": "Multispecies swards improve nitrogen use efficiency and reduce nitrogen surplus", "author_org": "Plant and Soil (Springer)", "year": 2025, "url": "https://link.springer.com/article/10.1007/s11104-025-07568-3", "accessed_date": "2026-06-27", "specific_claim": "6- and 12-species swards (70 kg N/ha) outperformed PRG (170 kg N/ha) on NUE without compromising yield; legume proportion explained ~55% of herbage N yield.", "confidence": "high"},
+        {"ref_id": "GERMINAL-4YR-2025", "source_level": 6, "source_type": "industry_grey", "title": "Multi-species swards outperform monocultures in trials (4-yr, Wiltshire)", "author_org": "Germinal Horizon", "year": 2025, "url": "https://germinal.com/multi-species-swards-outperform-monocultures/", "accessed_date": "2026-06-27", "specific_claim": "4-yr totals: PRG 35.4 t; PRG+WC 44.0 t (+24%); 9-component MSS 47.1 t (+33%); 16-component ~6 t less than grass-clover. Higher N not cost-effective. Industry source — treat yield uplift cautiously.", "confidence": "medium"}
+      ]
+    },
+    "forage_yield_actual": [],
+    "dm_data_source_type": "literature",
+    "dm_basis": "gross",
+    "utilisation_factor": {
+      "by_grade": [
+        {"grade": 1, "factor": 0.75},
+        {"grade": 2, "factor": 0.70},
+        {"grade": 3, "factor": 0.65},
+        {"grade": 4, "factor": 0.55},
+        {"grade": 5, "factor": 0.50}
+      ],
+      "default_factor": 0.72,
+      "confidence": "good",
+      "notes": "As for grassland generally (AHDB: set-stocked <50%; rotational 60–70%; paddock 75–80%). Slightly lower default than a simple ley at grade 1 because herbs persist better under less-tight residuals — chasing maximum utilisation costs the herb component. Ground-truth per farm.",
+      "sources": [
+        {"ref_id": "AHDB-UTILISATION", "source_level": 2, "source_type": "govt_statutory", "title": "Utilisation is key to a successful grazing system; grazing cover targets", "author_org": "AHDB", "year": 2024, "url": "https://ahdb.org.uk/news/utilisation-is-key-to-a-successful-grazing-system", "accessed_date": "2026-06-27", "specific_claim": "Utilisation rises with correct covers/residuals; set-stocked <50%, rotational/paddock higher.", "confidence": "high"}
+      ]
+    },
+    "conservation_lu_ha": null,
+    "conservation_lu_ha_note": "Not applicable — Protect & Restore field. LU/ha for c1b is derived via gross DM × utilisation ÷ 5.5 t/LU.",
+    "palatability_rank": "High",
+    "nutritional_quality_by_grade": [
+      {"grade": 1, "me_mj_kg_dm": {"min": 11.0, "max": 12.0}, "crude_protein_pct_dm": {"min": 14, "max": 22}, "d_value": {"min": 68, "max": 78}, "confidence": "good", "notes": "ME broadly comparable to PRG/WC ley (Cooledge et al 2024, L1: no significant ME difference). CP highly variable and legume-dependent — leys with >30% legume run higher. Herbs slightly lower ME when mature/flowering; legumes compensate."},
+      {"grade": 2, "me_mj_kg_dm": {"min": 10.0, "max": 11.0}, "crude_protein_pct_dm": {"min": 12, "max": 17}, "d_value": {"min": 62, "max": 70}, "confidence": "medium", "notes": "Estimated decline with functional-group imbalance."},
+      {"grade": 3, "me_mj_kg_dm": {"min": 9.0, "max": 10.0}, "crude_protein_pct_dm": {"min": 10, "max": 14}, "d_value": {"min": 56, "max": 64}, "confidence": "estimated", "notes": "Estimated — not directly sourced."},
+      {"grade": 4, "me_mj_kg_dm": {"min": 8.5, "max": 9.5}, "crude_protein_pct_dm": {"min": 9, "max": 12}, "d_value": {"min": 52, "max": 60}, "confidence": "estimated", "notes": "Estimated — behaving as a grass sward."},
+      {"grade": 5, "me_mj_kg_dm": {"min": 8.0, "max": 9.0}, "crude_protein_pct_dm": {"min": 8, "max": 11}, "d_value": {"min": 48, "max": 56}, "confidence": "estimated", "notes": "Estimated — reclassify candidate."}
+    ],
+    "mineral_status_note": "CONTESTED — do not overstate. Cooledge et al 2024 (L1): significantly higher macro- and micronutrients (including copper) in herbal vs grass-clover ley, both seasons. TOMS 2022 (L2): forage minerals relatively similar between MSS and PRG/WC. Both stored; not adjudicated. Deep-rooting mineral access is a sound mechanism but the field evidence is mixed. Full mineral data sits in the Plant Species entity (Phase 2B).",
+    "nutritional_quality_sources": [
+      {"ref_id": "COOLEDGE-2024", "source_level": 1, "source_type": "peer_reviewed", "title": "Cooledge et al. — nutritive value and minerals of herbal vs grass-clover leys", "author_org": "Peer-reviewed (UK)", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "No significant difference in ME or overall CP between herbal and grass-clover ley; significantly higher macro/micro-minerals (incl. Cu) in the herbal ley. Cited from the verified v2.0 sourcing; primary not re-fetched this session.", "confidence": "good"},
+      {"ref_id": "GERMINAL-4YR-2025", "source_level": 6, "source_type": "industry_grey", "title": "Multi-species swards outperform monocultures (ME figures)", "author_org": "Germinal Horizon", "year": 2025, "url": "https://germinal.com/multi-species-swards-outperform-monocultures/", "accessed_date": "2026-06-27", "specific_claim": "4-yr mean ME: PRG 10.69 MJ/kg; clover 11.49 MJ/kg.", "confidence": "medium"}
+    ],
+    "seasonal_forage_curve": {
+      "spring": "Moderate — legumes/herbs slower to start than ryegrass; grass carries early season",
+      "summer": "High — legumes and herbs grow strongly when ryegrass slows (the season-spread advantage); drought resilience from deep roots",
+      "autumn": "Moderate–high — continued legume/herb contribution",
+      "winter": "Low — minimal growth"
+    }
+  },
+  "management": {
+    "optimal_grazing_animals": [
+      {"breed": "Productive cattle (beef, sucklers, dairy)", "species": "cattle", "grade": "A–C", "notes": "Rotational grazing; breed-level matching via the Animal entity."},
+      {"breed": "Sheep, especially lambs/parasite-susceptible stock", "species": "sheep", "grade": "A–C", "notes": "Anthelmintic forage benefit (sainfoin/birdsfoot tannins, chicory) is most valuable for young stock."}
+    ],
+    "unsuitable_animals": [
+      {"breed": "Very hardy upland-only breeds (as sole use)", "species": "cattle/sheep", "reason": "High-output regenerative ground is better deployed on stock that convert it; hardy breeds belong on semi-natural habitat."}
+    ],
+    "timing_windows": {
+      "preferred_season": "Rotational grazing April–October; conservation cuts in the growing season",
+      "rationale": "Match grazing to the season-spread growth; leave adequate residuals so herbs (chicory crowns) persist",
+      "avoid": "Over-tight grazing and high nitrogen — both suppress the herb and legume components",
+      "per_species_notes": "Introduce stock to high-legume swards gradually (bloat risk)."
+    },
+    "intensity_guidance": "Stocking is SCHEME-TIED and never averaged. Derive LU/ha from utilised DM ÷ 5.5 t per LU: at grade 1, gross 10–13 t × ~0.75 utilisation ≈ 7.5–9.75 t utilised ≈ ~1.4–1.8 LU/ha as a planning figure. England: express in GLU (Natural England/ELM definition); Scotland: LU (SAC/FAS TN686). Take each from its own scheme — do not average.",
+    "monitoring_protocol": "Plate meter / sward stick (pre-graze ~2,500–3,000 kg DM/ha; residual ~1,500 kg DM/ha but err looser to protect herbs); track functional-group balance (legume % and herb % as well as total cover); apply the re-grade trigger.",
+    "bng_unit_value": {
+      "value_note": "Low distinctiveness in the Statutory Biodiversity Metric (c1b cropland, same as a simple ley). The herbal ley's greater actual biodiversity value is not captured by BNG — record it via ecological_value_grade and value_axes instead.",
+      "confidence": "good",
+      "sources": [
+        {"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Temporary leys (c1b) are low distinctiveness regardless of species mix. Exact current label to confirm against the live metric.", "confidence": "medium"}
+      ]
+    }
+  },
+  "species_list": {
+    "key_constants": ["Lolium perenne", "Trifolium repens", "Trifolium pratense", "Cichorium intybus", "Plantago lanceolata"],
+    "key_positive_indicators": ["Balanced grass/legume/herb groups", "Sainfoin (Onobrychis viciifolia) / birdsfoot trefoil (Lotus corniculatus) present", "Herbs maintained >~15% cover", "Strong legume presence"],
+    "key_negative_indicators": ["Grass dominance >70%", "Herb and legume loss", "Rumex spp. (docks)", "Cirsium arvense (creeping thistle)"],
+    "target_species_composition": ["Grasses ~40–50%", "Legumes ~30% (clovers, sainfoin)", "Herbs ~20% (chicory, plantain, others)"],
+    "note": "Skeleton only — full species records, anthelmintic secondary-compound data, and the Habitat↔Species join are built in Phase 2B. Sown mix, so the join is agronomic rather than NVC-constancy based."
+  },
+  "data_completeness": {
+    "fields_fully_populated": [
+      "ukhab_identity — code corrected this session: c1b confirmed, 'c1b7' retired as a non-UKHab code; differentiated via wilderculture_subtype (v3.2 composite PK)",
+      "nutritional ME and the nitrogen-saving yield case (L1: Cooledge 2024, Plant & Soil 2025, BBSRC SARIC)",
+      "wild_zone assignment and rationale (Regenerate)"
+    ],
+    "fields_partially_populated": [
+      "forage_yield magnitude — CONTESTED (stored both framings, not adjudicated); grade 1 medium confidence; grades 3–5 ESTIMATED",
+      "crude protein — genuinely variable and legume-dependent (medium)",
+      "mineral status — CONTESTED (Cooledge 2024 higher incl. Cu vs TOMS similar); both stored, not adjudicated; full data in Phase 2B",
+      "wild_assessment.elemental_conditions — Regenerate TARGET-STATE dials, framework-reasoned (not measured)",
+      "secondary_codes — UKHab has no bespoke herbal-ley code; distinction carried by wilderculture_subtype (flagged for review)"
+    ],
+    "fields_pending_research": [
+      "Whether to attach a specific UKHab management-intensity secondary code to c1b records (review against the full UKHab v2.01 secondary-code list)",
+      "Re-fetch of the Cooledge et al 2024 primary (carried from verified v2.0 sourcing this session)",
+      "Anthelmintic/secondary-compound and mineral data per species (Plant Species entity, Phase 2B)",
+      "Per-farm ground-truthing of utilisation and derived LU/ha"
+    ],
+    "overall_confidence": "medium",
+    "notes": "Identity is now correct and honest: one UKHab code (c1b) with two Wilderculture functional subtypes. Yield and mineral claims are contested and handled per the integrity rule (both sources stored, conflict noted, no adjudication). Gross-vs-utilised DM cleanly separated. This is the second of the c1b pair; the sibling ryegrass_clover_ley record is updated to v3.2 to match."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "c1b identity; no c1b7 code.", "confidence": "high"},
+    {"ref_id": "TOMS-DUCHY-ROTHAMSTED-2022", "source_level": 2, "source_type": "govt_statutory", "title": "Toolbox of Multi-species Swards (TOMS)", "author_org": "Duchy College / Rothamsted North Wyke", "year": 2022, "url": "https://www.multispeciessward.co.uk/", "accessed_date": "2026-06-27", "specific_claim": "UK-specific MSS yield/nutrition dataset; yield comparable at much lower N.", "confidence": "good"},
+    {"ref_id": "PLANT-SOIL-NUE-2025", "source_level": 1, "source_type": "peer_reviewed", "title": "Multispecies swards improve nitrogen use efficiency", "author_org": "Plant and Soil (Springer)", "year": 2025, "url": "https://link.springer.com/article/10.1007/s11104-025-07568-3", "accessed_date": "2026-06-27", "specific_claim": "MSS outperform PRG on NUE at lower N without compromising yield.", "confidence": "high"},
+    {"ref_id": "COOLEDGE-2024", "source_level": 1, "source_type": "peer_reviewed", "title": "Cooledge et al. — herbal vs grass-clover ley nutritive value/minerals", "author_org": "Peer-reviewed (UK)", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "No sig ME/CP difference; higher minerals incl. Cu in herbal ley.", "confidence": "good"},
+    {"ref_id": "GERMINAL-4YR-2025", "source_level": 6, "source_type": "industry_grey", "title": "Multi-species swards outperform monocultures (4-yr trial)", "author_org": "Germinal Horizon", "year": 2025, "url": "https://germinal.com/multi-species-swards-outperform-monocultures/", "accessed_date": "2026-06-27", "specific_claim": "4-yr yield/ME figures; industry source.", "confidence": "medium"}
+  ]
+}
