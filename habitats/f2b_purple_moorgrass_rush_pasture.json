@@ -1,0 +1,155 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — grassland group batch; built from field sheet 07 (Rush Pasture) via the Crosswalk. v3.3 keyed on most-specific UKHab code.",
+  "ukhab_identity": {
+    "ukhab_level2": "f", "ukhab_level2_name": "Wetland",
+    "ukhab_level3": "f2", "ukhab_level3_name": "Fen, marsh and swamp",
+    "ukhab_level4": "f2b", "ukhab_level4_name": "Purple moor-grass and rush pastures",
+    "ukhab_level5": null,
+    "ukhab_level5_states": {"f2b5": "Purple moor-grass meadows (Annex I H6410)"},
+    "ukhab_level5_note": "Keyed at f2b (Level 4). f2b5 (Molinia meadows, H6410) is the Annex I Level-5 type recorded per parcel. Note it sits under Wetland (f), not Grassland (g), despite the 'pasture' name.",
+    "wilderculture_subtype": null,
+    "composite_pk": "f2b", "composite_pk_note": "Single Level-4 type; PK = f2b.",
+    "secondary_codes": [], "secondary_codes_notes": "None at type level.",
+    "habitat_name": "Purple moor-grass and rush pastures", "parent_category": "Wetland (fen, marsh and swamp)",
+    "bap_priority": true, "annex1_habitat": "H6410 Molinia meadows (the f2b5 type)",
+    "geographic_tags": ["upland_fringe", "in_bye", "oceanic_west", "rare", "depleted"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (master data sheet + BNG code list + applied surveys)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "f = Wetland, f2 = Fen, marsh and swamp, f2b = Purple moor-grass and rush pastures (f2a lowland fens, f2c upland flushes/fens/swamps, f2e reedbeds). L5 f2b5 = Purple moor-grass meadows (H6410). Confirmed in UKHab master data sheet, BNG code list and applied registers.", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["M23 Juncus effusus/acutiflorus–Galium palustre rush-pasture", "M25 Molinia caerulea–Potentilla erecta mire", "M24 Molinia–Cirsium dissectum fen-meadow (southern — beyond this ground)"],
+    "nvc_communities_notes": "Upland types mainly M23 (rush pasture) and M25 (Molinia mire). NB (NatureScot RR1391): M25 maps to f1 bog and f2b only, but large extents belong in f2f (other wetland) — check the stand before coding. The southern fen-meadow M24 is outside this upland scope.",
+    "phase1_equivalent": "B5 Marsh / marshy grassland (purple moor-grass and rush pasture)",
+    "bng_metric_habitat_name": "Wetland — Purple moor grass and rush pastures",
+    "wild_sheet_ref": "Habitat-07-Rush-Pasture",
+    "sources": [
+      {"ref_id": "JNCC-BAP-PMGRP", "source_level": 2, "source_type": "govt_statutory", "title": "UK BAP Priority Habitat Description — Purple Moor Grass & Rush Pastures", "author_org": "JNCC", "year": 2011, "url": "https://jncc.gov.uk/resources/6fe22f18-fff7-4974-b333-03b0ad819b88", "accessed_date": "2026-06-27", "specific_claim": "Defines the priority habitat, its NVC range and decline.", "confidence": "high"}
+    ]
+  },
+  "ecology": {
+    "description": "Species-rich marshy grassland on poorly drained, damp soils in the high-rainfall west and on the upland fringe — the wet grassland of the uplands. A UK priority habitat with many regional names (culm grassland in Devon/Cornwall, rhôs pasture in Wales, fen/litter meadow in East Anglia). It sits in the damp band between open acid grassland above and enclosed pastures/hay meadows below — the upper in-bye and the ffridd. Rare and badly depleted: only around 8% of its 1900 extent survives, the rest lost mostly to drainage and improvement.",
+    "condition_indicators_good": ["A structural MOSAIC — taller tussocks alongside shorter swards of grasses, sedges and herbs; a patchwork of greens and browns through the year", "High flower diversity; devil's-bit scabious present; orchids; the sedges", "Rushes present but not dominant", "Damp, water table near the surface — the tussock-and-short-turf mosaic is the best sign (what both plants and waders need)"],
+    "condition_indicators_poor": ["Improved/drying: drained, fertilised or reseeded, collapsing to rank or rye-grass, flowers gone", "Abandoned/undergrazed: dense Molinia thatch smothering everything, soft rush taking over, wetland scrub invading", "Either way the diversity and the wader value go"],
+    "ecosystem_functions": ["Prime breeding-wader ground — curlew, snipe, lapwing, redshank, oystercatcher (some of the most important wader habitat in the uplands)", "Habitat of the marsh fritillary, a European protected butterfly entirely dependent on devil's-bit scabious", "Water retention on the damp upland fringe", "Up to 50 plant species in 4 m² at its best — one of the richest swards in the uplands"],
+    "whole_system_role": "A grazing- and mowing-maintained plagioclimax, rich in the right state. Like calcareous grassland, it needs its disturbance regime (timed grazing or cutting) held to keep its diversity and wader value — losses at BOTH ends (improvement and abandonment), so it persists only in the managed middle.",
+    "successional_neighbours": [
+      {"habitat_code": "improved pasture / g4", "direction": "from (drain & improve) — how most was lost", "note": "Drained and improved, it collapses to species-poor rye-grass."},
+      {"habitat_code": "Molinia thatch / soft-rush → wetland scrub → wet woodland", "direction": "toward (if abandoned)", "note": "Left ungrazed/uncut, purple moor-grass builds a dense deciduous thatch that smothers the flowers, then willow scrub moves in, ending in wet woodland."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-07-RUSH-PASTURE", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 07 — Rush Pasture & Purple Moor-grass Mire", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Ecology, the dual-loss framing, wader/marsh-fritillary value, devil's-bit scabious linchpin, the grazing calendar.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel — degrades at BOTH ends (improvement and abandonment).",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Tussock-and-short-turf mosaic; high flower diversity with devil's-bit scabious and orchids; rushes present not dominant; water table near surface."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Grazing calendar / water levels being restored; mosaic and flowers returning."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Rushes or Molinia increasing; flower diversity reduced; mosaic flattening."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Dense Molinia thatch or soft-rush dominance (abandoned) OR drying/improving (drained, fertilised)."},
+      {"grade": 5, "label": "Destroyed", "description": "Drained/reseeded to rye-grass (improved) or scrubbed over — diversity and wader value gone."}
+    ],
+    "grade_field_indicators": ["tussock-and-short-turf mosaic structure", "devil's-bit scabious and flower/orchid diversity", "rush vs Molinia dominance", "water table / damp surface", "drainage or improvement signs", "scrub invasion"],
+    "sources": [
+      {"ref_id": "JNCC-BAP-PMGRP", "source_level": 2, "source_type": "govt_statutory", "title": "UK BAP Priority Habitat Description — Purple Moor Grass & Rush Pastures", "author_org": "JNCC", "year": 2011, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Favourable condition is the species-rich tussock-and-short-turf mosaic; degraded by both improvement and abandonment.", "confidence": "high"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Poorly drained, damp, neutral-to-acidic peaty mineral soils and shallow peats that stay wet most of the year", "base_status": "neutral to acidic (blunt-flowered rush forms are more base-influenced)", "climate": "High rainfall — strongly a habitat of the oceanic west", "altitude_range_m": "Upland fringe and in-bye — lower/middle ground, flat or gently sloping where water gathers", "aspect_exposure": "Flat or gently sloping; seasonally waterlogged but not deep peat", "bioclimate_notes": "All six bioregions on wetter ground; best/most extensive in the west. Northern note: globeflower and marsh hawk's-beard replace the southern meadow thistle."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading. Predominantly Protect & Restore for good species-rich stands; soft-rush/Molinia-dominated parcels read as their degraded state (Regenerate).",
+      "water": {"dial_position": 70, "state": "Poorly drained, damp, seasonally waterlogged", "descriptor": "Damp neutral-to-acid soils; water table near the surface, but not deep peat."},
+      "earth": {"dial_position": 55, "pedogenic_process": "gleying", "descriptor": "Impeded drainage and periodic anaerobism produce mottled gley soils; the mineral cycle partly impeded, moderate organic matter."},
+      "air": {"dial_position": 55, "redox_state": "Fluctuating — anaerobic when wet, aerobic as it dries", "exposure_bioclimate": "Oceanic", "descriptor": "Fluctuating redox with the seasonal water table."},
+      "fire": {"dial_position": 45, "npp_level": "Moderate", "descriptor": "The inter-rush grasses give a fair seasonal bite; the rush and rank Molinia bulk is low-value. Moderate throughput."}
+    },
+    "successional_envelope": {
+      "current_stage": "Grazing- and mowing-maintained plagioclimax — rich in the managed middle, lost at both ends",
+      "range_of_natural_variability": ["Species-rich tussock-and-short-turf mosaic (favourable)", "Soft-rush / rank Molinia thatch (abandoned)", "Rye-grass collapse (drained & improved)", "Wetland scrub → wet woodland (long abandonment)"],
+      "successional_pathway": "improved pasture ← (drain & improve) ← rush pasture → (abandon) → Molinia thatch / soft-rush → wetland scrub (willow) → wet woodland. Holds as open, diverse rush pasture only when grazed or mown; losses at BOTH ends."
+    },
+    "energy_flow_role": "Moderate throughput; the inter-rush grasses a fair seasonal bite. Its standout value is biodiversity — waders and marsh fritillary — held by a timed disturbance regime.",
+    "wild_zone": "Protect & Restore",
+    "wild_zone_rationale": "Good, species-rich rush pasture with marsh fritillary or breeding waders is Protect & Restore — rare and irreplaceable. Species-poor soft-rush-dominated damp pockets and rank Molinia thatch sit in Regenerate, recoverable through water-level and grazing management. The wet-woodland endpoint is a genuine Bioregionally Wilder option on SOME ground — but, like calcareous grassland, the wader and marsh fritillary interest means you do NOT simply let it all go to scrub: wilder here must mean active management, not abandonment.",
+    "disturbance_regime": "Timed and supplied — the grazing CALENDAR is the single most important lever. Cattle or pony (not sheep alone) to make the tussock-and-short-turf mosaic; or cutting and removing a hay/bedding crop where grazing isn't possible (the litter-meadow tradition).",
+    "wild_management_target": {"type": "state_target", "detail": "Hold the species-rich tussock-and-short-turf mosaic via the wader grazing calendar (low/no grazing until July, harder late summer/autumn) with cattle/pony; manage soft-rush by cutting and removing; keep it damp; protect marsh fritillary and wader sites specifically. Do not abandon (Molinia thatch/scrub) and do not improve (drain/fertilise/reseed). Re-grade trigger applies.", "integrity_indicators": ["tussock-and-short-turf mosaic", "devil's-bit scabious abundance (the marsh fritillary linchpin)", "breeding waders present and productive", "flower/orchid diversity; rushes not dominant"]},
+    "ecological_value_grade": 4,
+    "ecological_value_notes": "High — rare and badly depleted (~8% of 1900 extent), carrying two of the biggest conservation prizes in the series: an internationally significant breeding-wader assemblage and the marsh fritillary (a European protected species). The best examples approach the very top of the scale.",
+    "value_axes": {"rarity_irreplaceability": {"score": 5, "notes": "Only ~8% of historic extent survives; the species-rich tussock mosaic and its specialists cannot be recreated quickly."}, "diversity": {"score": 4, "notes": "Up to 50 species/4 m² at its best; the marsh fritillary and wader assemblages are the headline."}, "energy_flow_contribution": {"score": 3, "notes": "Moderate seasonal grazing value; the inter-rush grasses a fair bite (tempered by parasite cost)."}},
+    "naturalistic_lu_ha": null, "naturalistic_lu_ha_note": "Not a 'remove stock' habitat — needs timed grazing/cutting held. The operative figure is an adviser-set conservation density aimed at the mosaic, with the calendar paramount.",
+    "mosaic_role": "wet-meadow / seasonal grazing patch", "mosaic_role_note": "In a wilder mosaic it is the timed-grazing wet patch — grazed harder late season after the nesting window, not a year-round draw.",
+    "preferential_grazing_magnet": false, "preferential_grazing_magnet_note": "Middle of the ladder and seasonal — best spring/early summer; the wet-ground parasite cost (liver fluke) and the nesting window mean it should not be a year-round grazing draw.",
+    "process_indicators": ["mosaic structure (tussock + short turf)", "devil's-bit scabious / marsh fritillary persistence", "breeding-wader productivity", "soft-rush / Molinia control; water-level maintenance"],
+    "process_indicators_note": "The grazing calendar's effect on wader productivity and mosaic structure is the central thing to monitor.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-07-RUSH-PASTURE", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 07 — Rush Pasture", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Elemental reading, zone, the grazing-calendar lever, integrity indicators.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — semi-natural; improvement reclassifies/destroys it",
+    "overall_palatability_score": 3,
+    "overall_palatability_notes": "Middle of the ladder — above bog and the bottom of wet heath, below the dry fescue-bent and calcareous grasslands. The inter-rush grasses give a fair damp bite; the rushes and rank Molinia drag the average down. Like wet heath the value is seasonal (best spring/early summer) and tempered by the parasite cost of wet ground.",
+    "forage_yield_by_grade": [
+      {"grade": 1, "kg_dm_ha_yr": {"min": 2000, "max": 4000}, "confidence": "estimated", "notes": "Species-rich mosaic — moderate yield, much of it (rush/rank Molinia) low-value. Managed by the grazing calendar to a mosaic target, not a DM budget."},
+      {"grade": 4, "kg_dm_ha_yr": {"min": 2500, "max": 5000}, "confidence": "estimated", "notes": "Rank Molinia/soft-rush stands carry bulk but little of value; high bulk is a degradation signal, not a forage asset."}
+    ],
+    "forage_yield_literature": {"min": 1500, "max": 5000, "confidence": "estimated", "notes": "Moderate and seasonal; rush/Molinia bulk misleads. Set stocking by the mosaic target and the calendar, not yield. Figures nominal.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — conservation grazing to a mosaic/calendar target, not DM × utilisation.",
+    "conservation_lu_ha": {
+      "value": "No single figure — stocking depends on sward productivity and is prescribed locally, with the TARGET being the tussock-and-short-turf MOSAIC rather than a number. The grazing CALENDAR matters more than the density: low/no grazing until July, then harder late summer/autumn.",
+      "scheme": "GLU (England) / LU (Scotland) — scheme-tied; but the calendar governs, not the number",
+      "confidence": "moderate",
+      "basis_note": "Timing is the key lever, not density: hold off grazing until July so wader nests are not trampled, then increase through late summer/autumn to bring the sward down for next season. Cattle or pony, not sheep alone. Where grazing isn't possible, cut and remove a hay/bedding crop. Do not leave stock on year-round (liver fluke / foot risk). Set with the adviser. Figures verified June 2026.",
+      "sources": [
+        {"ref_id": "RSPB-WET-GRASSLAND", "source_level": 2, "source_type": "ngo_technical", "title": "RSPB Wet Grassland Guide / Natural England wet-grassland management", "author_org": "RSPB / Natural England", "year": 2024, "url": "https://www.rspb.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Wader-timing prescription (no grazing until July) and cattle/pony preference are well established.", "confidence": "good"},
+        {"ref_id": "SAC-FAS-TN686", "source_level": 2, "source_type": "govt_statutory", "title": "TN686 — Conservation Grazing of Semi-Natural Habitats", "author_org": "SAC / Farm Advisory Service", "year": 2024, "url": "https://www.fas.scot/", "accessed_date": "2026-06-27", "specific_claim": "Rush-pasture/Molinia conservation grazing — site-specific, no single figure.", "confidence": "good"}
+      ]
+    },
+    "palatability_rank": "Moderate (seasonal; inter-rush grasses fair, rush/Molinia poor)",
+    "animal_health_note": "Wet grazing carries a real parasite cost — liver fluke in particular (the mud-snail host lives on exactly this damp ground), plus chronic wet-underfoot foot problems. The forage must be set against this health cost — part of why stock should not sit on it year-round.",
+    "nutritional_quality_note": "Acid forms carry the cobalt/copper deficiency picture of other acid wet ground; the blunt-flowered, lime-influenced forms are better. Verify specifics.",
+    "seasonal_forage_curve": {"spring": "Fair to good (inter-rush grasses, early Molinia) — but the nesting window limits grazing", "summer": "Molinia matures and stems; from July grazing increases", "autumn": "Graze harder to bring the sward down for next season", "winter": "Take stock off — wet-ground parasite and foot risk"}
+  },
+  "management": {
+    "optimal_grazing_animals": [
+      {"breed": "Cattle or pony", "species": "cattle/pony", "grade": "C–E", "notes": "Make the tussock-and-short-turf mosaic the waders and flowers need, and break up rush and thatch."}
+    ],
+    "unsuitable_animals": [
+      {"breed": "Sheep alone", "species": "sheep", "reason": "Graze too tight and too selectively; do not break up the rush and thatch or build the mosaic."},
+      {"breed": "Any stock year-round / through nesting", "species": "all", "reason": "Year-round = liver fluke and foot risk; hard grazing in the nesting season = nest trampling (good habitat becomes a nest trap)."}
+    ],
+    "timing_windows": {"preferred_season": "THE KEY LEVER — low-intensity or no grazing until July (so nests are not trampled), then increased grazing through late summer and autumn to bring the sward down for next season", "rationale": "The wader calendar governs everything; get it wrong and good habitat becomes a nest trap", "avoid": "Hard grazing through the nesting season; year-round grazing; drainage/improvement", "per_species_notes": "Where growth is rapid a little early grazing may hold structure — but the nesting window comes first. Cutting/removing a hay or bedding crop substitutes where grazing isn't possible."},
+    "intensity_guidance": "Target the tussock-and-short-turf MOSAIC, not a number — set with the adviser. The calendar (off until July, harder after) matters more than the density.",
+    "regulatory_note": "Do NOT drain, fertilise or reseed (the route by which most of this habitat was lost). Many good examples are SSSI/SAC and most carry designated-site or agri-environment consents — check before any management change, ESPECIALLY drainage or scrub clearance. Marsh fritillary is a European protected species — protect its sites specifically.",
+    "monitoring_protocol": "Tussock-and-short-turf mosaic, devil's-bit scabious abundance, breeding-wader presence/productivity, flower/orchid diversity, rush/Molinia dominance, water level. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "High distinctiveness — priority habitat (H6410). High BNG value; rare and irreplaceable where marsh fritillary/waders present.", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Purple moor-grass and rush pastures high distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Molinia caerulea", "Juncus effusus", "Juncus acutiflorus", "Holcus lanatus", "Anthoxanthum odoratum", "Agrostis stolonifera", "Carex panicea", "Carex nigra"],
+    "key_positive_indicators": ["Succisa pratensis (devil's-bit scabious) — THE linchpin (only larval food of the marsh fritillary)", "high flower diversity — ragged robin, marsh bedstraw, water mint, marsh violet, meadowsweet, angelica", "orchids — heath-spotted, fragrant, lesser butterfly; globeflower in the north", "tussock-and-short-turf mosaic; rushes present not dominant"],
+    "key_negative_indicators": ["dense Molinia thatch (abandonment)", "soft rush (Juncus effusus) dominance", "rye-grass collapse / flowers gone (improvement)", "wetland scrub invasion"],
+    "integrity_indicators_fauna": ["breeding waders — curlew, snipe, lapwing, redshank, oystercatcher (the tussock/short-turf mosaic gives nesting cover; soft damp soil gives probing-feeding ground)", "marsh fritillary (European protected, entirely dependent on devil's-bit scabious) + small pearl-bordered fritillary", "reed bunting and a rich damp-ground invertebrate fauna"],
+    "animal_health_flags": [{"issue": "liver fluke", "detail": "the mud-snail host lives on this damp ground; do not graze year-round"}],
+    "target_species_composition": ["devil's-bit scabious and high flower diversity", "tussock-and-short-turf mosaic", "rushes/Molinia present not dominant"],
+    "note": "Skeleton only — full species records and joins in Phase 2B. The Succisa pratensis → marsh fritillary dependency is the single most important relationship to capture, alongside the wader/mosaic link."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (f2b verified; under Wetland not Grassland; f2b5 H6410)", "wild_assessment from a high-confidence sheet", "the grazing-calendar lever (no grazing until July)", "wader + marsh fritillary integrity assemblages; devil's-bit scabious linchpin"],
+    "fields_partially_populated": ["conservation_lu_ha — deliberately no single figure (calendar governs); moderate confidence by nature", "forage grades — estimated, rush/Molinia bulk misleads", "species_list/fauna — skeleton"],
+    "fields_pending_research": ["Marsh fritillary and wader site records (Phase 2B)", "Designated-site consents per parcel (check before any change)", "M25 → f2b vs f2f stand-level coding checks"],
+    "overall_confidence": "high",
+    "notes": "Completes the grassland group. Two big conservation prizes — breeding waders and the marsh fritillary — make this, like calcareous grassland, a habitat where walking away is the WRONG move. The grazing CALENDAR (off until July, harder after) is the single most important lever, more than the density. Sits under Wetland (f2b), not Grassland, despite the 'pasture' name. Verify designated-site consents before any management change."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "f2b purple moor-grass and rush pastures; f2b5 H6410.", "confidence": "high"},
+    {"ref_id": "JNCC-BAP-PMGRP", "source_level": 2, "source_type": "govt_statutory", "title": "UK BAP Priority Habitat Description — Purple Moor Grass & Rush Pastures", "author_org": "JNCC", "year": 2011, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Priority habitat, NVC range, decline.", "confidence": "high"},
+    {"ref_id": "RSPB-WET-GRASSLAND", "source_level": 2, "source_type": "ngo_technical", "title": "RSPB Wet Grassland Guide", "author_org": "RSPB / Natural England", "year": 2024, "url": "https://www.rspb.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Wader grazing calendar; cattle/pony preference.", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-07-RUSH-PASTURE", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 07 — Rush Pasture", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Elemental reading, zone, grazing calendar, integrity assemblages.", "confidence": "good"}
+  ]
+}
