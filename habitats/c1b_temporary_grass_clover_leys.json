@@ -1,1 +1,338 @@
-
+{
+  "record_type": "habitat",
+  "schema_version": "3.1",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — fresh v3.1 build, supersedes v2.0 record",
+  "ukhab_identity": {
+    "ukhab_level2": "c",
+    "ukhab_level2_name": "Cropland",
+    "ukhab_level3": "c1",
+    "ukhab_level3_name": "Arable and horticulture",
+    "ukhab_level4": "c1b",
+    "ukhab_level4_name": "Temporary grass and clover leys",
+    "ukhab_level5": null,
+    "secondary_codes": [],
+    "secondary_codes_notes": "None by default. A specific ley may carry a management/condition secondary code in survey; not applied at type level.",
+    "habitat_name": "Ryegrass/clover ley",
+    "parent_category": "Cropland",
+    "bap_priority": false,
+    "geographic_tags": ["lowland", "upland_fringe", "uk_wide"],
+    "sources": [
+      {
+        "ref_id": "UKHAB-v2.01-2023",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "UK Habitat Classification v2.01 (the statutory classification underpinning the Biodiversity Metric)",
+        "author_org": "UKHab Ltd",
+        "year": 2023,
+        "url": "https://ukhab.org/ukhab-documentation/",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "c1b is the UKHab Level 4 code under c1 Arable and horticulture (c Cropland). Canonical Level 4 name 'Temporary grass and clover leys'. Sibling codes c1c Cereal crops, c1d Non-cereal crops, c1f Horticulture.",
+        "confidence": "high"
+      },
+      {
+        "ref_id": "UKHAB-VERIF-NH-A358-2022",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "A358 Taunton to Southfields — Ecological Baseline Report (UK Habitat Classification)",
+        "author_org": "National Highways",
+        "year": 2022,
+        "url": "https://nationalhighways.citizenspace.com/he/a358-taunton-to-southfields-2022-sup-consultation/",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Independent confirmation that UKHab c1b = 'Temporary grass and clover leys' (used in an applied baseline survey alongside c1c/c1d/c1f).",
+        "confidence": "high"
+      }
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["MG7 (agricultural analogue — Lolium perenne leys / rye-grass leys)"],
+    "nvc_communities_notes": "Sown agricultural leys sit outside true semi-natural NVC; MG7 (Lolium perenne leys) is the conventional NVC analogue rather than a classified community of the parcel. No constancy table applied at type level.",
+    "phase1_equivalent": "B4 Improved grassland",
+    "bng_metric_habitat_name": "Cropland — Temporary grass and clover leys",
+    "wild_sheet_ref": null,
+    "wild_sheet_ref_note": "Sheet-less by design: a Regenerate-zone production sward with no semi-natural field sheet. Field guidance comes from the grazing tools, not a habitat sheet.",
+    "sources": [
+      {
+        "ref_id": "NVC-RODWELL-MG7",
+        "source_level": 1,
+        "source_type": "peer_reviewed",
+        "title": "British Plant Communities, Vol. 3 — Grasslands and montane communities (MG7 rye-grass leys)",
+        "author_org": "Rodwell, J.S. (ed.)",
+        "year": 1992,
+        "url": null,
+        "accessed_date": "2026-06-27",
+        "specific_claim": "MG7 is the NVC unit for Lolium perenne leys; used here as analogue only. Standard reference, not independently re-verified this session.",
+        "confidence": "medium"
+      },
+      {
+        "ref_id": "PHASE1-JNCC-B4",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "Handbook for Phase 1 Habitat Survey (B4 Improved grassland)",
+        "author_org": "JNCC",
+        "year": 2010,
+        "url": null,
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Improved/agricultural grassland incl. leys maps to Phase 1 B4. Standard reference, not independently re-verified this session.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "ecology": {
+    "description": "An intensively managed, sown grassland dominated by perennial ryegrass (Lolium perenne) with white clover (Trifolium repens), and in multi-species/herbal variants red clover (Trifolium pratense) and forbs. Established as a short- to medium-term rotational ley (typically 1–5 years) for high dry-matter production and as a soil-fertility/break phase in arable and mixed systems.",
+    "condition_indicators_good": [
+      "Perennial ryegrass dominant (>60–70% cover), dense and leafy",
+      "White clover well established and visible throughout (target ~25–35% DM contribution in grazing season)",
+      "Even, dense sward with high leaf:stem ratio and good ground cover",
+      "Minimal bare ground, docks, thistles or weed-grass ingress"
+    ],
+    "condition_indicators_poor": [
+      "Annual meadow-grass (Poa annua) >20% cover — low yield, low quality",
+      "Yorkshire fog (Holcus lanatus) / creeping bent (Agrostis stolonifera) ingress — low palatability",
+      "Clover declined or absent — loss of nitrogen fixation and protein",
+      "Open sward, poaching, docks (Rumex spp.) or creeping thistle (Cirsium arvense) establishing"
+    ],
+    "ecosystem_functions": [
+      "Very high dry-matter production — the system's primary forage engine",
+      "Biological nitrogen fixation via white/red clover (commonly cited ~150–280 kg N/ha/yr under good clover content)",
+      "Soil-fertility and structure building as an arable break phase (root mass, organic-matter return)",
+      "Rapid ground cover reducing erosion between arable phases"
+    ],
+    "whole_system_role": "Regenerate-zone production sward: the high-output forage base of the grazing system and a soil-regenerating break in the arable rotation. Productive value is high; ecological value is low by design and is managed around, not sacrificed for yield.",
+    "successional_neighbours": [
+      {"habitat_code": "g4", "direction": "toward (if undermanaged)", "note": "Weed-grass ingress and clover loss drift a neglected ley toward modified/semi-improved permanent grassland (g4)."},
+      {"habitat_code": "c1 (arable)", "direction": "from / to", "note": "Reseeded from, and ploughed back into, the arable phase of the rotation."}
+    ],
+    "sources": [
+      {
+        "ref_id": "AHDB-CLOVER-RESEEDING",
+        "source_level": 2,
+        "source_type": "govt_statutory",
+        "title": "Clover species for grassland reseeding",
+        "author_org": "AHDB",
+        "year": 2023,
+        "url": "https://ahdb.org.uk/knowledge-library",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "White clover fixes nitrogen for the companion grass; well-managed clover content supports substantial biological N fixation in grazing leys.",
+        "confidence": "good"
+      }
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null,
+    "condition_grade_note": "Assigned per parcel in survey, not at type level. The 1–5 descriptors below define the production-criteria scale for c1b.",
+    "condition_grade_criteria_type": "production",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Excellent / optimal", "description": "PRG-dominant, dense, leafy; clover ~25–35% DM; high D-value; negligible weed grasses."},
+      {"grade": 2, "label": "Good", "description": "Productive but with minor weed-grass ingress and/or some clover decline."},
+      {"grade": 3, "label": "Moderate", "description": "Notable weed-grass ingress, reduced clover; yield and quality clearly below potential."},
+      {"grade": 4, "label": "Poor", "description": "Weed grasses dominant, clover sparse/absent, open sward; low yield and quality."},
+      {"grade": 5, "label": "Degraded / reclassify", "description": "Sward reverted to semi-improved character; reclassify (commonly to g4 modified grassland)."}
+    ],
+    "grade_field_indicators": [
+      "PRG cover %", "clover cover / DM contribution", "weed-grass cover (Poa annua, Holcus, Agrostis)", "sward density and leaf:stem ratio", "presence of docks/thistles/bare ground"
+    ],
+    "sources": [
+      {
+        "ref_id": "NIAB-FW-SWARD-ASSESSMENT",
+        "source_level": 5,
+        "source_type": "university_extension",
+        "title": "Check swards for forage potential (NIAB figures cited)",
+        "author_org": "NIAB / Farmers Weekly",
+        "year": 2007,
+        "url": "https://www.fwi.co.uk/livestock/grassland-management/check-swards-for-forage-potential",
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Sward composition (PRG vs weed grasses) drives forage potential; weed grasses yield ~7–28% of PRG potential — basis for the production grade descriptors.",
+        "confidence": "good"
+      }
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {
+      "parent_material_geology": "Variable — sown on any cultivable soil; not geology-determined",
+      "base_status": "neutral",
+      "climate": "Temperate oceanic; lowland to upland-fringe",
+      "altitude_range_m": "0–~300",
+      "aspect_exposure": "Sheltered, cultivable ground; not exposed",
+      "bioclimate_notes": "Typically limed and fertilised to near-neutral pH (~6.0–6.5) to favour clover; a managed rather than a site-determined template."
+    },
+    "elemental_conditions": {
+      "convention_note": "REGENERATE TARGET STATE (per Schema v3.1 convention): these dials describe the productive target the layer aims for — the 'productive peak of the humped-back curve' — not a current measured state.",
+      "water": {"dial_position": 60, "state": "Well-drained but moisture-retentive", "descriptor": "Target: aggregated soil holding moisture within its structure without waterlogging; free drainage with good plant-available water."},
+      "earth": {"dial_position": 70, "pedogenic_process": "brunification", "descriptor": "Target: well-structured, aggregated, biologically active fertile topsoil; aerobic mineral cycling."},
+      "air": {"dial_position": 75, "redox_state": "Aerobic / oxidising", "exposure_bioclimate": "Sheltered", "descriptor": "Target: well-aerated soil supporting root respiration and clover nitrogen fixation."},
+      "fire": {"dial_position": 85, "npp_level": "Very high", "descriptor": "Target: high photosynthesis and leaf area; a fast-running mineral cycle and high net primary production."}
+    },
+    "successional_envelope": {
+      "current_stage": "Sown productive sward held at an early, high-production stage (arrested succession)",
+      "range_of_natural_variability": [
+        "Productive PRG/clover ley maintained by grazing/cutting and periodic reseed",
+        "If under-managed: weed-grass ingress toward semi-improved/modified grassland (g4)",
+        "If abandoned: coarse tussocky grassland and scrub colonisation over time"
+      ],
+      "successional_pathway": "Held at the productive stage by supplied disturbance and reseeding. Without management the fork runs toward semi-improved grassland (g4); it does not self-maintain as a productive ley."
+    },
+    "energy_flow_role": "Very high net primary production — the system's primary production engine. Large share of the harvestable energy budget with rapid throughput, but feeds a narrow, simplified food web.",
+    "wild_zone": "Regenerate",
+    "wild_zone_rationale": "A production sward whose purpose is high forage output while rebuilding soil function and fertility. It is treated to lift soil biology, clover content and utilisation — the defining Regenerate aim — rather than protected or handed back to natural process.",
+    "disturbance_regime": "Supplied — grazing/cutting and periodic reseed; the manager holds the dial throughout.",
+    "wild_management_target": {
+      "type": "state_target",
+      "detail": "Maintain the productive target state: PRG/clover balance (clover ~25–35% DM), high utilisation via rotational/paddock grazing, building soil organic matter and structure over the ley phase. Re-grade trigger: two seasons measured a band above/below current grade → re-grade (the grazing plan is the measuring instrument).",
+      "integrity_indicators": []
+    },
+    "ecological_value_grade": 1,
+    "ecological_value_notes": "Low ecological value — near-monoculture with low botanical and invertebrate diversity and no specialist habitat. Per the 'two values' principle this is honestly low ecologically and high productively; design around it rather than sacrifice other habitats for its yield.",
+    "value_axes": {
+      "rarity_irreplaceability": {"score": 1, "notes": "Ubiquitous and fully replaceable; re-sown at will."},
+      "diversity": {"score": 1, "notes": "Very low botanical and structural diversity."},
+      "energy_flow_contribution": {"score": 2, "notes": "High primary productivity but low trophic complexity and transfer; energy is largely harvested, not cycled through a diverse food web."}
+    },
+    "naturalistic_lu_ha": null,
+    "naturalistic_lu_ha_note": "Not applicable — Bioregionally Wilder field only. c1b is a Regenerate production sward.",
+    "mosaic_role": null,
+    "mosaic_role_note": "Not applicable — a managed production sward, not a component patch of a wilder grazing mosaic.",
+    "preferential_grazing_magnet": false,
+    "preferential_grazing_magnet_note": "False in context. (In a hypothetical wilder mosaic a ley-like green oasis would be grazed first; here it is a managed sward, not a mosaic patch.)",
+    "process_indicators": [],
+    "process_indicators_note": "Empty by design — Regenerate uses a state target, not process indicators.",
+    "sources": [
+      {
+        "ref_id": "WILD-METHOD-STATEMENT",
+        "source_level": 7,
+        "source_type": "practitioner_framework",
+        "title": "WILD Method Statement — The Science Behind WILD (elemental conditions, zones, Regenerate target-state convention)",
+        "author_org": "Wilderculture CIC",
+        "year": 2026,
+        "url": null,
+        "accessed_date": "2026-06-27",
+        "specific_claim": "Framework basis for the elemental dials, zone assignment and the Regenerate target-state reading. Overlay/interpretive layer (not L1–L3 core data); recorded transparently as framework-derived.",
+        "confidence": "good"
+      }
+    ]
+  },
+  "forage": {
+    "is_production_sward": true,
+    "is_permanent_pasture": false,
+    "years_unimproved": 0,
+    "overall_palatability_score": 5,
+    "overall_palatability_notes": "Highly palatable to all ruminant classes; leafy PRG with clover is a preferred forage. Bloat risk on high-clover swards for naive/hungry stock — manage introduction.",
+    "forage_yield_by_grade": [
+      {"grade": 1, "kg_dm_ha_yr": {"min": 11000, "max": 14000}, "confidence": "good", "notes": "GROSS production, well-managed farm-scale PRG/WC ley (years 1–3). Below trial maxima of 16–18 t DM/ha (newly sown + high N, not farm-representative). Utilisable ≈ gross × utilisation_factor (~0.80 at grade 1) ≈ 8.8–11.2 t, consistent with AHDB's ~10 t commercial utilisation target."},
+      {"grade": 2, "kg_dm_ha_yr": {"min": 8000, "max": 11000}, "confidence": "medium", "notes": "Estimated from NIAB year-3 decline trajectory and weed-grass ingress (~20–30% reduction on grade 1)."},
+      {"grade": 3, "kg_dm_ha_yr": {"min": 6000, "max": 8000}, "confidence": "estimated", "notes": "Estimated — not directly sourced. Significant weed-grass ingress and clover decline."},
+      {"grade": 4, "kg_dm_ha_yr": {"min": 4000, "max": 6000}, "confidence": "estimated", "notes": "Estimated — not directly sourced. Weed-grass dominant, sparse clover."},
+      {"grade": 5, "kg_dm_ha_yr": {"min": 2500, "max": 4000}, "confidence": "estimated", "notes": "Estimated — reclassify candidate (toward g4)."}
+    ],
+    "forage_yield_literature": {
+      "min": 2500,
+      "max": 18000,
+      "confidence": "good",
+      "notes": "GROSS DM/ha/yr. Commercial farm-scale gross ~10–14 t for a well-managed ley; trial/optimal (RGCL, newly sown, high N, cutting) 16–18 t — not farm-representative. The ~10 t figure widely quoted for commercial systems is UTILISED, not gross; do not conflate (see dm_basis and utilisation_factor).",
+      "sources": [
+        {"ref_id": "RGCL-2025-26", "source_level": 2, "source_type": "govt_statutory", "title": "Recommended Grass and Clover Lists for England and Wales 2025/26", "author_org": "NIAB / BSPB / AFBI / SRUC", "year": 2025, "url": "https://www.bspb.co.uk/wp-content/uploads/RGCL-grass-and-clover-Lists-2025.pdf", "accessed_date": "2026-06-27", "specific_claim": "Top PRG/clover varieties exceed 11 t DM/ha in trials; trial conditions 16–18 t DM/ha under cutting with high N.", "confidence": "high"},
+        {"ref_id": "AHDB-GRASS-LEYS-ARABLE", "source_level": 2, "source_type": "govt_statutory", "title": "Grass leys for the arable rotation", "author_org": "AHDB", "year": 2023, "url": "https://ahdb.org.uk/knowledge-library/grass-leys-for-the-arable-rotation", "accessed_date": "2026-06-27", "specific_claim": "RGCL trial yields 16–18 t DM/ha (newly sown, high N); commercial grazing target ~10 t DM/ha utilised; utilisation varies 50–80%.", "confidence": "high"}
+      ]
+    },
+    "forage_yield_actual": [],
+    "dm_data_source_type": "literature",
+    "dm_basis": "gross",
+    "utilisation_factor": {
+      "by_grade": [
+        {"grade": 1, "factor": 0.80},
+        {"grade": 2, "factor": 0.70},
+        {"grade": 3, "factor": 0.65},
+        {"grade": 4, "factor": 0.55},
+        {"grade": 5, "factor": 0.50}
+      ],
+      "default_factor": 0.75,
+      "confidence": "good",
+      "notes": "AHDB: set-stocked utilisation often <50% (≈6 t DM/ha realised); rotational 60–70%; well-managed paddock/cell grazing 75–80%. Regenerate target assumes rotational/paddock management. First-pass defaults — ground-truth per farm (Update Note: start low and measure up).",
+      "sources": [
+        {"ref_id": "AHDB-UTILISATION", "source_level": 2, "source_type": "govt_statutory", "title": "Utilisation is key to a successful grazing system; Grazing cover targets for rotational grazing", "author_org": "AHDB", "year": 2024, "url": "https://ahdb.org.uk/news/utilisation-is-key-to-a-successful-grazing-system", "accessed_date": "2026-06-27", "specific_claim": "Graze to residual ~1,500 kg DM/ha (4 cm) from pre-graze 2,500–3,000 kg DM/ha; high utilisation from correct covers/residuals.", "confidence": "high"},
+        {"ref_id": "AHDB-ROTATIONAL-2018", "source_level": 4, "source_type": "ngo_technical", "title": "Pasture management (AHDB 2018 utilisation figures cited)", "author_org": "AHDB (via Veterinary Practice Today)", "year": 2018, "url": "http://vetpracticetoday.com", "accessed_date": "2026-06-27", "specific_claim": "Set-stocked utilisation often below 50% with ~6 t DM/ha average annual yield; rotational sheep systems 60–65% utilisation.", "confidence": "good"}
+      ]
+    },
+    "conservation_lu_ha": null,
+    "conservation_lu_ha_note": "Not applicable — Protect & Restore field. For c1b, LU/ha is derived from gross DM × utilisation_factor ÷ 5.5 t/LU, not held as a direct conservation density.",
+    "palatability_rank": "High",
+    "nutritional_quality_by_grade": [
+      {"grade": 1, "me_mj_kg_dm": {"min": 11.5, "max": 12.5}, "crude_protein_pct_dm": {"min": 18, "max": 25}, "d_value": {"min": 70, "max": 80}, "confidence": "high", "notes": "Fresh leafy PRG in active growth. AHDB GrassCheckGB: spring peak ~12.1–12.2 MJ/kg DM, summer dip toward 11.5, autumn recovery ~12. CP peaks ~24% March, ~21% July, ~24% November. Clover lifts overall CP."},
+      {"grade": 2, "me_mj_kg_dm": {"min": 10.5, "max": 11.5}, "crude_protein_pct_dm": {"min": 15, "max": 20}, "d_value": {"min": 64, "max": 72}, "confidence": "medium", "notes": "Estimated decline with weed-grass ingress and reduced clover."},
+      {"grade": 3, "me_mj_kg_dm": {"min": 9.5, "max": 10.5}, "crude_protein_pct_dm": {"min": 12, "max": 16}, "d_value": {"min": 58, "max": 66}, "confidence": "estimated", "notes": "Estimated — not directly sourced."},
+      {"grade": 4, "me_mj_kg_dm": {"min": 8.5, "max": 9.5}, "crude_protein_pct_dm": {"min": 10, "max": 13}, "d_value": {"min": 52, "max": 60}, "confidence": "estimated", "notes": "Estimated — not directly sourced."},
+      {"grade": 5, "me_mj_kg_dm": {"min": 8.0, "max": 9.0}, "crude_protein_pct_dm": {"min": 8, "max": 12}, "d_value": {"min": 48, "max": 56}, "confidence": "estimated", "notes": "Estimated — reclassify candidate."}
+    ],
+    "nutritional_quality_sources": [
+      {"ref_id": "AHDB-GRASSCHECK-2023", "source_level": 2, "source_type": "govt_statutory", "title": "Forage for Knowledge end of year review 2023 (GrassCheckGB)", "author_org": "AHDB / GrassCheckGB", "year": 2023, "url": "https://ahdb.org.uk/news/forage-for-knowledge-end-of-year-review-2023", "accessed_date": "2026-06-27", "specific_claim": "Seasonal ME: spring peak 12.1–12.2 MJ/kg DM; summer <12; autumn recovery to 12. CP: March 24.3%, July 21%, November 24.4%.", "confidence": "high"},
+      {"ref_id": "ADAS-NIAB-NUTRITIONAL-VALUE-GRASS", "source_level": 5, "source_type": "university_extension", "title": "The Nutritional Value of Grass", "author_org": "ADAS / NIAB", "year": 2024, "url": "https://adas.co.uk/wp-content/uploads/2024/08/Nutritional-Value-of-Grass-V2-vJD-QC-002.pdf", "accessed_date": "2026-06-27", "specific_claim": "Leafy ryegrass 16–25% CP in DM; top varieties 75–80 D-value; 1 D-value point = 0.16 MJ/kg ME.", "confidence": "high"}
+    ],
+    "seasonal_forage_curve": {
+      "spring": "High — strong growth, peak quality (ME ~12.1–12.2)",
+      "summer": "Moderate — growth and quality dip if sward stems; manage residuals",
+      "autumn": "Moderate–high — recovery flush in quality and growth",
+      "winter": "Low — minimal growth; deferred grazing only"
+    }
+  },
+  "management": {
+    "optimal_grazing_animals": [
+      {"breed": "Productive cattle (dairy/beef finishing and sucklers)", "species": "cattle", "grade": "A–C", "notes": "Well-matched to high-output sward; breed-level matching via the Animal entity."},
+      {"breed": "Productive/lowland sheep", "species": "sheep", "grade": "A–C", "notes": "Lambs and ewes utilise leafy ley efficiently."}
+    ],
+    "unsuitable_animals": [
+      {"breed": "Very hardy upland-only breeds (as a sole use)", "species": "cattle/sheep", "reason": "Not unsuitable on welfare grounds, but high-output ground is wasted on stock selected for marginal forage; better deployed on semi-natural habitat."}
+    ],
+    "timing_windows": {
+      "preferred_season": "Rotational grazing April–October; conservation cuts (silage) in the growing season",
+      "rationale": "Match grazing to the growth curve; take surplus as silage to maintain quality through flushes",
+      "avoid": "Winter poaching and over-grazing of clover stolons (causes clover death)",
+      "per_species_notes": "Introduce naive/hungry stock to high-clover swards gradually (bloat risk)."
+    },
+    "intensity_guidance": "Stocking is SCHEME-TIED and never averaged across schemes. Derive LU/ha from utilised DM ÷ 5.5 t per LU: at grade 1, gross 11–14 t × ~0.80 utilisation ≈ 8.8–11.2 t utilised ≈ ~1.6–2.0 LU/ha as a planning figure. England: express in GLU per the Natural England/ELM scheme definition; Scotland: express in LU per SAC/FAS TN686. Take each scheme's figure from its own definition — do not average GLU and LU.",
+    "monitoring_protocol": "Plate meter / sward stick (pre-graze 2,500–3,000 kg DM/ha; residual ~1,500 kg DM/ha or 4 cm, AHDB); track clover %; apply the re-grade trigger (two seasons measured a band above/below → re-grade). The grazing plan is the measuring instrument.",
+    "bng_unit_value": {
+      "value_note": "Low distinctiveness in the Statutory Biodiversity Metric (Cropland — temporary leys). Minimal BNG unit value; significance is as a transition/management state, not a BNG asset.",
+      "confidence": "good",
+      "sources": [
+        {"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Cropland/temporary leys carry low distinctiveness. Exact current metric label to be confirmed against the live Statutory Biodiversity Metric.", "confidence": "medium"}
+      ]
+    }
+  },
+  "species_list": {
+    "key_constants": ["Lolium perenne", "Trifolium repens"],
+    "key_positive_indicators": ["High white clover content", "Dense leafy perennial ryegrass", "Trifolium pratense (in multi-species/herbal variants)"],
+    "key_negative_indicators": ["Poa annua", "Holcus lanatus", "Agrostis stolonifera", "Rumex spp. (docks)", "Cirsium arvense (creeping thistle)"],
+    "target_species_composition": ["Perennial ryegrass ~60–70% cover", "White clover ~25–35% of grazing-season DM", "Minimal weed grasses and broadleaf weeds"],
+    "note": "Skeleton only — full species records and the Habitat↔Species join (indicator role, constancy) are built in Phase 2B via the NVC bridge. c1b is sown, so the join is agronomic rather than NVC-constancy based."
+  },
+  "data_completeness": {
+    "fields_fully_populated": [
+      "ukhab_identity (code and Level 4 name verified against UKHab v2.01 this session — name corrected to 'Temporary grass and clover leys')",
+      "forage grade-1 yield (gross) and nutritional quality (L2: RGCL 2025/26, AHDB, GrassCheckGB)",
+      "utilisation_factor (L2: AHDB)",
+      "wild_zone assignment and rationale (Regenerate)"
+    ],
+    "fields_partially_populated": [
+      "cross_references — NVC (MG7 analogue), Phase 1 (B4), BNG label from standard references; not independently re-verified this session (medium confidence)",
+      "forage grades 2–5 and nutritional grades 2–5 — grade 2 reasoned from sourced decline data; grades 3–5 ESTIMATED, not directly sourced",
+      "wild_assessment.elemental_conditions — Regenerate TARGET-STATE dials, framework-reasoned (not measured); transparent per the v3.1 convention",
+      "management.intensity_guidance — LU/ha derivation method given; scheme-specific GLU/LU figures to be drawn from each scheme's definition"
+    ],
+    "fields_pending_research": [
+      "Exact current Statutory Biodiversity Metric label and distinctiveness band for c1b",
+      "Independent verification of MG7 / Phase 1 B4 / BNG crosswalk",
+      "Mineral and anti-nutrient data (Plant Species entity, Phase 2B)",
+      "Breed-level animal matching (Animal entity verification phase)",
+      "Per-farm ground-truthing of utilisation and derived LU/ha"
+    ],
+    "overall_confidence": "medium",
+    "notes": "Core identity and grade-1 forage/nutrition are well-sourced to L1–L3; the WILD overlay is framework-reasoned and labelled as such; grades 3–5 are honest estimates flagged as such — never fabricated. Gross-vs-utilised DM is now cleanly separated (dm_basis: gross + utilisation_factor) so the grazing tools cannot double-count. This record is the v3.1 template for the remaining production swards (c1b7, g4) and Phase 2A."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "c1b identity and hierarchy.", "confidence": "high"},
+    {"ref_id": "RGCL-2025-26", "source_level": 2, "source_type": "govt_statutory", "title": "Recommended Grass and Clover Lists 2025/26", "author_org": "NIAB / BSPB / AFBI / SRUC", "year": 2025, "url": "https://www.bspb.co.uk/wp-content/uploads/RGCL-grass-and-clover-Lists-2025.pdf", "accessed_date": "2026-06-27", "specific_claim": "Variety yields; trial DM ranges.", "confidence": "high"},
+    {"ref_id": "AHDB-GRASS-LEYS-ARABLE", "source_level": 2, "source_type": "govt_statutory", "title": "Grass leys for the arable rotation", "author_org": "AHDB", "year": 2023, "url": "https://ahdb.org.uk/knowledge-library/grass-leys-for-the-arable-rotation", "accessed_date": "2026-06-27", "specific_claim": "Gross vs utilised DM; utilisation 50–80%.", "confidence": "high"},
+    {"ref_id": "AHDB-GRASSCHECK-2023", "source_level": 2, "source_type": "govt_statutory", "title": "Forage for Knowledge 2023 (GrassCheckGB)", "author_org": "AHDB / GrassCheckGB", "year": 2023, "url": "https://ahdb.org.uk/news/forage-for-knowledge-end-of-year-review-2023", "accessed_date": "2026-06-27", "specific_claim": "Seasonal ME and CP.", "confidence": "high"},
+    {"ref_id": "AHDB-UTILISATION", "source_level": 2, "source_type": "govt_statutory", "title": "Utilisation is key to a successful grazing system", "author_org": "AHDB", "year": 2024, "url": "https://ahdb.org.uk/news/utilisation-is-key-to-a-successful-grazing-system", "accessed_date": "2026-06-27", "specific_claim": "Utilisation, covers and residuals.", "confidence": "high"}
+  ]
+}
