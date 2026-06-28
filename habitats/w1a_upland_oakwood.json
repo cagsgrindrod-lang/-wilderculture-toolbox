@@ -1,0 +1,146 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — woodland group batch; built from field sheet 10 (Native Woodland), split per UKHab type. v3.3.",
+  "ukhab_identity": {
+    "ukhab_level2": "w", "ukhab_level2_name": "Woodland and forest",
+    "ukhab_level3": "w1", "ukhab_level3_name": "Broadleaved, mixed and yew woodland",
+    "ukhab_level4": "w1a", "ukhab_level4_name": "Upland oakwood",
+    "ukhab_level5": null,
+    "ukhab_level5_states": {"w1a5": "Western acidic oak woodland (Annex I H91A0) — the Atlantic temperate rainforest oak"},
+    "ukhab_level5_note": "Keyed at w1a (Level 4). w1a5 (Western acidic oak woodland, H91A0) is the Annex I rainforest type recorded per parcel.",
+    "wilderculture_subtype": null,
+    "composite_pk": "w1a", "composite_pk_note": "Single Level-4 type; PK = w1a.",
+    "secondary_codes": [], "secondary_codes_notes": "Temperate rainforest is a concept overlaying w1a (and w1e/hazel), not a separate code — flag via condition/notes.",
+    "habitat_name": "Upland oakwood (incl. Atlantic temperate rainforest)", "parent_category": "Woodland and forest",
+    "bap_priority": true, "annex1_habitat": "H91A0 Old sessile oak woods (the w1a5 type)",
+    "geographic_tags": ["upland", "oceanic_west", "atlantic_rainforest", "internationally_significant", "below_treeline"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (official definitions + master data sheet + applied surveys)", "author_org": "UKHab Ltd / UKHab Working Group", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "w = Woodland and forest, w1 = Broadleaved/mixed/yew, w1a = Upland oakwood, recorded as w1a5 Western acidic oak woodland (H91A0). Confirmed in official UKHab Habitat Definitions, master data sheet and applied surveys.", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["W11 Quercus petraea–Betula pubescens–Oxalis acetosella woodland", "W17 Quercus petraea–Betula pubescens–Dicranum majus woodland (the western/rainforest type)", "Atlantic hazelwoods belong with this group"],
+    "nvc_communities_notes": "W17 is the moss/liverwort/lichen-rich western rainforest oak; W11 the more eastern upland oak. Ash does not predominate (that is w1b).",
+    "phase1_equivalent": "A1.1.1 Broadleaved semi-natural woodland (upland oak)",
+    "bng_metric_habitat_name": "Woodland and forest — Upland oakwood",
+    "wild_sheet_ref": "Habitat-10-Native-Woodland",
+    "sources": [
+      {"ref_id": "JNCC-W-WOODLAND", "source_level": 1, "source_type": "peer_reviewed", "title": "NVC Field Guide to Woodland (W11, W17) / British Plant Communities", "author_org": "Hall, Kirby & Whitbread / Rodwell", "year": 2004, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "W11/W17 are the upland oak-birch communities; W17 the western rainforest type.", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "Sessile oak, downy birch, rowan and holly woodland on acid upland slopes — the natural climax of much acid upland ground below the treeline. In the wet oceanic west it becomes Atlantic temperate rainforest, festooned with mosses, liverworts, lichens and filmy ferns — internationally important and restricted to Britain and Ireland's western seaboard. Not primarily a grazing resource: the question is almost never how to stock it but how to get the browsing level right so it can regenerate and persist.",
+    "condition_indicators_good": ["Full range of tree ages — seedlings, saplings, building and mature trees, old veterans, standing and fallen deadwood (regeneration is the diagnostic)", "Rich, intact ground flora; in the west, abundant mosses, lichens and ferns", "Native species dominant; open glades and a graded woodland edge", "Browsing light enough that regeneration survives — a wood renewing itself"],
+    "condition_indicators_poor": ["Overgrazed (the common failure): closed canopy of old trees, no young ones, ground flora stripped to a billiard-table sward — 'a canopy of pensioners with no heirs'", "Rainforest neglect (rarer): bramble, holly and rhododendron grow up and smother the bryophytes/lichens, shading out seedlings", "Rhododendron invasion; conifer underplanting; deadwood 'tidied' away; even-aged, no continuity"],
+    "ecosystem_functions": ["The fullest energy flow and trophic complexity of any habitat in the series — full canopy light capture, deadwood, a food web to many trophic levels", "Internationally important oceanic moss/liverwort/lichen/filmy-fern communities (the rainforest)", "Soil-builder and carbon store — deep rooting, active litter cycling, carbon in soil and standing timber", "High-value tree browse and mast (acorns) — the basis of historic wood-pasture/pannage"],
+    "whole_system_role": "The climax destination for most acid ground below the treeline and the flagship of the wilder end — the resolution of the grassland→scrub→woodland story.",
+    "successional_neighbours": [
+      {"habitat_code": "scrub (h3) / g1b acid grassland", "direction": "from (the route up)", "note": "Reached via pioneer/thorn scrub nursing tree regeneration on acid grassland — given low browsing."},
+      {"habitat_code": "h1c5 montane (above) / treeline scrub", "direction": "toward (hands over at the treeline)", "note": "Grades up to montane scrub and heath at the natural treeline."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Upland Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Rainforest status, regeneration-as-diagnostic, browsing-not-planting, the rainforest neglect failure mode.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel; the diagnostic is regeneration (is there a next generation of trees?).",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Full age range incl. regeneration and deadwood; rich ground flora and (west) bryophyte/lichen communities; native dominant; glades and graded edge."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Browsing reduced; regeneration beginning; rhododendron/conifer being removed."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Mature canopy with sparse regeneration; some flora loss or invasive ingress."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Overgrazed (no regeneration, stripped flora) OR neglected rainforest (bramble/holly/rhododendron smothering bryophytes)."},
+      {"grade": 5, "label": "Destroyed / converted", "description": "Rhododendron-choked, conifer-replaced, or canopy lost with no continuity."}
+    ],
+    "grade_field_indicators": ["regeneration (seedlings/saplings/young trees present)", "ground flora and bryophyte/lichen richness (west)", "deadwood and veteran trees", "rhododendron/conifer/invasive presence", "browse line / billiard-table sward"],
+    "sources": [
+      {"ref_id": "WCA-SYLVA", "source_level": 2, "source_type": "ngo_technical", "title": "Woodland Condition Assessment (regeneration, age structure, browsing indicators)", "author_org": "Sylva Foundation / Woodland Trust", "year": 2024, "url": "https://sylva.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Regeneration potential (seedlings/saplings/young trees) and browsing pressure are core woodland condition indicators.", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Acid; brown earths and brown-podzolic soils on upland slopes", "base_status": "acid", "climate": "Spans the uplands; the rainforest form needs the wet, mild, oceanic west", "altitude_range_m": "Valley floor up to the natural treeline", "aspect_exposure": "The better, deeper, more sheltered ground the open habitats sit above", "bioclimate_notes": "Rainforest: West Highlands & Islands and wetter western fringes (plus Welsh/SW fragments)."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading. Ancient/rainforest = Protect & Restore; new native oak on degraded ground = Regenerate→Bioregionally Wilder.",
+      "water": {"dial_position": 35, "state": "Better, deeper, sheltered ground", "descriptor": "Free-draining acid slopes; the rainforest form in the high-rainfall oceanic west."},
+      "earth": {"dial_position": 25, "pedogenic_process": "brunification (soil-building under canopy)", "descriptor": "Brown earths/brown-podzolics building under the canopy — deep rooting, active litter cycling, carbon stored in soil and timber. A soil-builder."},
+      "air": {"dial_position": 25, "redox_state": "Aerobic, well-structured", "exposure_bioclimate": "Canopy-buffered sheltered woodland microclimate", "descriptor": "The canopy creates its own humid, sheltered bioclimate — essential to the rainforest lower plants."},
+      "fire": {"dial_position": 90, "npp_level": "Highest in the series", "descriptor": "The fullest light capture and most complete energy flow of any habitat — canopy, deadwood, and a food web to many trophic levels."}
+    },
+    "successional_envelope": {
+      "current_stage": "Climax (the natural top of succession for acid ground below the treeline)",
+      "range_of_natural_variability": ["Multi-aged regenerating oakwood/rainforest (favourable)", "Over-mature, non-regenerating (overgrazed)", "Bramble/holly/rhododendron-smothered (rainforest neglect)", "New native oak colonising degraded open ground"],
+      "successional_pathway": "bare ground → grassland → scrub → oakwood (climax). NOT the right outcome on deep peat, above the treeline, or over open priority habitats. 'The right tree in the right place' — and the right place is most acid upland below the treeline, but emphatically not those exceptions."
+    },
+    "energy_flow_role": "The fullest energy flow and trophic complexity in the series — the flagship of the wilder end.",
+    "wild_zone": "Protect & Restore",
+    "wild_zone_rationale": "Ancient and semi-natural oakwood, and the temperate rainforest above all, are Protect & Restore — irreplaceable, internationally important, the seed sources for everything else. New native oak spreading across degraded open ground (via reduced browsing) is the core Regenerate→Bioregionally Wilder action. Per parcel: ancient/rainforest = P&R; new regeneration = Regenerate/Wilder.",
+    "disturbance_regime": "Browsing-controlled, not stocked. The primary lever is REDUCING deer/sheep browsing so trees regenerate. But managing a wood is not leaving it alone — in the rainforest a low (often winter) conservation-grazing level holds back smothering bramble/holly/rhododendron; too little grazing there is as damaging as too much.",
+    "wild_management_target": {"type": "process_target", "detail": "Achieve and sustain natural regeneration by getting the browsing level right: low enough that seedlings survive, but (in rainforest) not so low that bramble/holly/rhododendron smother the bryophytes. Protect ancient/rainforest remnants; remove rhododendron and conifer; keep deadwood and veterans. Natural regeneration first, planting (native, local-provenance) only where the seed source is gone.", "integrity_indicators": ["regeneration surviving (next generation present)", "oceanic moss/liverwort/lichen/filmy-fern communities intact (the truest rainforest sign)", "western oakwood bird trio (pied flycatcher, wood warbler, redstart)", "absence of rhododendron and conifer"]},
+    "ecological_value_grade": 5,
+    "ecological_value_notes": "Among the very highest — the Atlantic temperate rainforest is internationally important and effectively irreplaceable, with oceanic lower-plant communities found almost nowhere else in Europe. Even non-rainforest upland oak is high value and the climax flagship.",
+    "value_axes": {"rarity_irreplaceability": {"score": 5, "notes": "Temperate rainforest is globally rare and irreplaceable; ancient oakwood seed sources cannot be recreated."}, "diversity": {"score": 5, "notes": "Internationally important lower-plant communities plus type-specific bird/invertebrate/deadwood assemblages."}, "energy_flow_contribution": {"score": 5, "notes": "The fullest energy flow and trophic complexity in the series."}},
+    "naturalistic_lu_ha": {"value": "Near nil to very low — e.g. NRW suggests as little as ~1 sheep/ha over winter in some Atlantic oakwoods to hold back smothering growth", "confidence": "moderate", "basis_note": "A low, often winter, conservation-grazing level (sometimes cattle, sometimes light sheep) — NOT fence-and-forget. Pressures genuinely debated and site-specific. The dominant action is reducing deer/sheep browsing to allow regeneration."},
+    "mosaic_role": "canopy / regeneration destination", "mosaic_role_note": "The wooded climax the scrub mosaic leads to; provides browse and mast but its role is as the destination, not a grazing patch.",
+    "preferential_grazing_magnet": false, "preferential_grazing_magnet_note": "Young trees ARE high-value browse — which is exactly why the wood cannot renew under heavy grazing; the palatability of seedlings is the mechanism that keeps the hill treeless.",
+    "process_indicators": ["regeneration surviving", "bryophyte/lichen community condition", "rhododendron/invasive control", "browse-line / age-structure trend"],
+    "process_indicators_note": "Regeneration is the master indicator; in rainforest, balance against smothering growth.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Elemental reading, zone, browsing/regeneration management, rainforest grazing nuance.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — woodland climax",
+    "overall_palatability_score": 4,
+    "overall_palatability_notes": "Off the top of the open-ground ladder — tree browse is high-value feed and the sheltered ground flora is good grazing. That is the whole tension: a wood is palatable, which is why under heavy grazing it cannot renew itself. Not managed as a forage resource; the aim is regeneration, not offtake.",
+    "forage_yield_by_grade": [{"grade": 1, "kg_dm_ha_yr": {"min": 0, "max": 0}, "confidence": "high", "notes": "NOT a forage/stocking habitat — managed by browsing level for regeneration, not DM offtake. See naturalistic_lu_ha for the low conservation-grazing figure."}],
+    "forage_yield_literature": {"min": 0, "max": 0, "confidence": "high", "notes": "Not a grazing resource; browse value drives the regeneration problem, not a yield budget.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — woodland is managed by browsing level, not DM × utilisation.",
+    "conservation_lu_ha": {
+      "value": "Near nil — the dominant action is REDUCING deer/sheep browsing to allow regeneration. Where conservation grazing is used (esp. rainforest), a low, often winter level — e.g. ~1 sheep/ha over winter (NRW, Atlantic oakwoods).",
+      "scheme": "site-specific; debated — not a standard GLU/LU stocking figure",
+      "confidence": "moderate",
+      "basis_note": "Over 40% of Scotland's rainforest is grazed too heavily for any regeneration. The lever is browsing reduction (deer first in Scotland, sheep elsewhere), then a managed low level to hold back smothering growth without harming the lower plants. Genuinely debated and site-specific — verify with current restoration guidance.",
+      "sources": [
+        {"ref_id": "WOODLAND-TRUST-RAINFOREST", "source_level": 2, "source_type": "ngo_technical", "title": "Woodland Trust / Alliance for Scotland's Rainforest — grazing and regeneration", "author_org": "Woodland Trust / ASR", "year": 2025, "url": "https://www.woodlandtrust.org.uk/", "accessed_date": "2026-06-27", "specific_claim": ">40% of Scotland's rainforest grazed too heavily to regenerate; browsing reduction is the primary action.", "confidence": "good"},
+        {"ref_id": "NRW-OAKWOOD-GRAZING", "source_level": 2, "source_type": "govt_statutory", "title": "Natural Resources Wales Atlantic oakwood grazing guidance", "author_org": "Natural Resources Wales", "year": 2024, "url": "https://naturalresources.wales/", "accessed_date": "2026-06-27", "specific_claim": "As little as ~1 sheep/ha over winter suggested in some Atlantic oakwoods to hold back smothering growth.", "confidence": "moderate"}
+      ]
+    },
+    "palatability_rank": "High (tree browse) — but a regeneration liability, not a grazing asset",
+    "nutritional_quality_note": "No significant toxicity theme; woodland is a soil-builder. Browse and mast are nutritious — the point is keeping browsing low enough to regenerate.",
+    "seasonal_forage_curve": {"spring": "Browse and ground flora (a regeneration risk)", "summer": "Canopy and ground flora", "autumn": "Mast (acorns) — historic pannage", "winter": "Low; the season for any light conservation grazing"}
+  },
+  "management": {
+    "optimal_grazing_animals": [{"breed": "Light cattle or low winter sheep (conservation grazing only)", "species": "cattle/sheep", "grade": "—", "notes": "In rainforest, a low (often winter) level holds back bramble/holly/rhododendron — NRW ~1 sheep/ha winter example. Otherwise the goal is reduced browsing, not stocking."}],
+    "unsuitable_animals": [{"breed": "Deer/sheep at typical hill densities", "species": "deer/sheep", "reason": "The single biggest threat to native woodland survival and expansion — they prevent regeneration."}],
+    "timing_windows": {"preferred_season": "Any conservation grazing usually winter; otherwise reduce year-round browsing", "rationale": "Allow regeneration to survive while holding back smothering growth in rainforest", "avoid": "Heavy deer/sheep browsing year-round (no regeneration)", "per_species_notes": "Deer management is the primary lever in Scotland; sheep elsewhere."},
+    "intensity_guidance": "Reduce browsing first and foremost. Where conservation grazing is used, keep it low and often winter (see naturalistic_lu_ha) — managed low level, not fence-and-forget.",
+    "regulatory_note": "Rhododendron: clear it and keep it out (the great invasive of western oakwoods). Plantation-on-ancient-woodland (PAWS): remove non-native conifer and restore the native wood beneath. Biosecurity underpins all of it. Disease/invasives are a live, moving area — verify current guidance; check designated-site consents (many rainforest sites are SSSI/SAC) before acting.",
+    "monitoring_protocol": "Regeneration (seedlings/saplings/young trees), bryophyte/lichen community condition (rainforest), deadwood/veterans, rhododendron/conifer ingress, browse line. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "Very high distinctiveness — priority habitat (H91A0 rainforest oak). Among the highest BNG values; effectively irreplaceable where ancient/rainforest.", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Upland oakwood very high distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Quercus petraea", "Betula pubescens", "Sorbus aucuparia", "Ilex aquifolium", "Corylus avellana"],
+    "key_positive_indicators": ["regeneration (oak/birch seedlings and saplings surviving)", "abundant oceanic mosses, liverworts, lichens and filmy ferns (the rainforest signature)", "acid-oakwood ground flora — bilberry, wavy hair-grass, bluebell, moss carpets", "deadwood and veteran trees; graded edge and glades"],
+    "key_negative_indicators": ["no regeneration / browse line / billiard-table sward (overgrazed)", "Rhododendron ponticum invasion", "non-native conifer underplanting", "bramble/holly smothering bryophytes (rainforest neglect)"],
+    "integrity_indicators_fauna": ["western oakwood bird trio — pied flycatcher, wood warbler, redstart", "woodcock, tawny owl, woodpeckers; black grouse on the edge", "saproxylic (deadwood) beetles and flies; woodland fritillaries in glades", "bats; recovering pine marten (tips grey→red squirrel balance)"],
+    "integrity_indicators_flora": ["the oceanic moss/liverwort/lichen/filmy-fern communities are of international importance — their presence is the truest sign a rainforest fragment is intact"],
+    "target_species_composition": ["multi-aged native oak-birch with regeneration", "intact bryophyte/lichen communities (west)", "no rhododendron/conifer"],
+    "note": "Skeleton only — full species records and joins in Phase 2B. The oceanic lower-plant assemblage is the key integrity relationship to capture."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (w1a verified; Crosswalk corrected — oak is w1a, separate from birch w1e)", "wild_assessment from a high-confidence sheet", "browsing/regeneration management and the rainforest grazing nuance", "rhododendron/PAWS/ash context"],
+    "fields_partially_populated": ["naturalistic_lu_ha / conservation grazing — genuinely debated and site-specific (moderate confidence)", "species_list/lower-plant assemblage — skeleton"],
+    "fields_pending_research": ["Site rainforest lower-plant records (Phase 2B)", "Current rhododendron/biosecurity guidance — verify before works", "Designated-site consents per parcel"],
+    "overall_confidence": "high",
+    "notes": "First of five per-type woodland records. The flagship of Bioregionally Wilder and, in its rainforest form, an irreplaceable Protect & Restore jewel. The master management truth: getting woodland back is about REDUCING browsing so it regenerates, not planting — but rainforest needs a managed low grazing level, not abandonment."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "w1a upland oakwood; w1a5 H91A0.", "confidence": "high"},
+    {"ref_id": "WOODLAND-TRUST-RAINFOREST", "source_level": 2, "source_type": "ngo_technical", "title": "Woodland Trust / Alliance for Scotland's Rainforest", "author_org": "Woodland Trust / ASR", "year": 2025, "url": "https://www.woodlandtrust.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Rainforest status, browsing as chief constraint.", "confidence": "good"},
+    {"ref_id": "JNCC-W-WOODLAND", "source_level": 1, "source_type": "peer_reviewed", "title": "NVC Field Guide to Woodland", "author_org": "Hall, Kirby & Whitbread", "year": 2004, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "W11/W17 communities.", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Ecology, zone, management.", "confidence": "good"}
+  ]
+}
