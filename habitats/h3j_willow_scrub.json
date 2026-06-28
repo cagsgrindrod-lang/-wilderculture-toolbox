@@ -1,0 +1,135 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — scrub group batch; field sheet 09 split per type. v3.3.",
+  "ukhab_identity": {
+    "ukhab_level2": "h", "ukhab_level2_name": "Heathland and shrub",
+    "ukhab_level3": "h3", "ukhab_level3_name": "Scrub",
+    "ukhab_level4": "h3j", "ukhab_level4_name": "Willow scrub",
+    "ukhab_level5": null,
+    "wilderculture_subtype": null,
+    "composite_pk": "h3j",
+    "composite_pk_note": "Keyed at h3j (Willow scrub) — the willow-dominated lowland-to-midslope and wet scrub. Distinct from h1c6 montane willow scrub (the Annex I sub-arctic treeline willows) and from h3h mixed scrub.",
+    "secondary_codes": [], "secondary_codes_notes": "Grades to wet woodland (w1d) at the wet end as willows mature into carr.",
+    "habitat_name": "Willow scrub", "parent_category": "Heathland and shrub",
+    "bap_priority": false, "annex1_habitat": "None at this (lowland/wet) willow-scrub level; the sub-arctic montane willow scrub is the Annex I type (h1c6, H4080).",
+    "geographic_tags": ["upland", "pioneer", "wet_ground", "pollinator_resource", "missing_middle"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (master data sheet + BNG code list)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "h3j = Willow scrub (confirmed in the UKHab master data sheet and BNG code list: 'Willow scrub h3j').", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["W1–W3 Salix cinerea / grey willow scrub and carr (the scrub end)", "(grading into W4/W7 wet woodland as it matures)"],
+    "nvc_communities_notes": "Willow scrub is the scrub/early-carr end of the wet-woodland series; matures into W4/W7 wet woodland (w1d).",
+    "phase1_equivalent": "A2.1 Dense scrub (willow); wet willow carr",
+    "bng_metric_habitat_name": "Heathland and shrub — Willow scrub",
+    "wild_sheet_ref": "Habitat-09-Upland-Scrub",
+    "sources": [
+      {"ref_id": "NE-SCRUB-PROFILES", "source_level": 2, "source_type": "govt_statutory", "title": "Natural England — scrub community and shrub species profiles", "author_org": "Natural England", "year": 2013, "url": "https://publications.naturalengland.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Willow scrub communities and their value.", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "Willow-dominated scrub — grey, eared and goat willow, with rowan, birch, holly, bird cherry and aspen — the pioneer scrub that runs up the fell above the thorn-and-hazel ground, and the wet scrub of valley floors and flushes. The single most important part of the scrub family for two reasons: willow is the most nutritious, most palatable browse on the hill, and its early catkins are among the first and most important nectar and pollen sources of the upland spring. A pollinator engine and an invertebrate powerhouse.",
+    "condition_indicators_good": ["A multi-age, structurally diverse willow mosaic with regeneration", "Mixed with rowan/birch and integrated with open ground/wet flush", "Browsing light enough that regeneration survives", "Abundant spring catkins (the pollinator resource)"],
+    "condition_indicators_poor": ["Absent — grazed off the hill (the usual state)", "Geriatric: old willows with no young coming through", "Drained/dried where it should be wet willow", "Rank single-species thicket (rarely, from abandonment)"],
+    "ecosystem_functions": ["The best browse on the hill (willow shoots high in nutrition and palatability)", "A critical and under-appreciated EARLY pollinator resource — willow catkins sustain the bilberry bumblebee and other early bees", "An invertebrate powerhouse — willow alone supports a vast community (leaf beetles, moths, host-specific galling sawflies incl. a Scottish endemic)", "Soil-builder; water retention and the route to wet woodland on wet ground"],
+    "whole_system_role": "The pioneer and pollinator engine of the scrub mosaic, and the wet-ground bridge from open habitats to wet woodland (w1d).",
+    "successional_neighbours": [
+      {"habitat_code": "g1b acid grassland / f2b rush pasture / h1b6 wet heath (open ground)", "direction": "from (colonises when browsing drops)", "note": "Pioneers onto released open and wet ground."},
+      {"habitat_code": "w1d wet woodland", "direction": "toward (matures into)", "note": "On wet ground willow scrub matures into willow/alder/birch carr (wet woodland)."},
+      {"habitat_code": "h1c6 montane willow scrub", "direction": "distinct (do not confuse)", "note": "The high sub-arctic willows (downy/woolly/whortle-leaved) are the separate Annex I montane type."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-09-SCRUB", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 09 — Upland Scrub", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Willow as the best browse and the early-catkin pollinator engine; the willow invertebrate community.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel; regeneration is the diagnostic.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Multi-age willow mosaic with regeneration and abundant catkins; integrated with open/wet ground."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Browsing reduced; willow regenerating."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Mature willow, limited regeneration."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Geriatric (no young), drying where it should be wet, or rank thicket."},
+      {"grade": 5, "label": "Absent", "description": "Grazed off — no willow where it should occur."}
+    ],
+    "grade_field_indicators": ["regeneration", "age/structural diversity", "catkin abundance", "wet character (wet willow)", "integration with open ground"],
+    "sources": [
+      {"ref_id": "WILD-SHEET-09-SCRUB", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 09 — Upland Scrub", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Regeneration diagnostic for scrub.", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Spans the gradient; often wetter ground and flushes", "base_status": "variable", "climate": "Spans the uplands", "altitude_range_m": "Valley floor up the fell toward the treeline (below the montane willows)", "aspect_exposure": "Pioneers on a range of ground; willow/carr at the wet end", "bioclimate_notes": "Throughout the uplands; wet willow on valley floors and flushes."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading. Bioregionally Wilder; new willow on released ground = Regenerate→Wilder.",
+      "water": {"dial_position": 55, "state": "Spans to the wet end", "descriptor": "Pioneer willow on a range of ground; wet willow on flushes/valley floors (grades to wet woodland)."},
+      "earth": {"dial_position": 25, "pedogenic_process": "soil-building (deep rooting, mineral cycling)", "descriptor": "Deep-rooted soil-builder; improves degraded ground."},
+      "air": {"dial_position": 35, "redox_state": "Aerobic to fluctuating (wet willow)", "exposure_bioclimate": "Creates a sheltered microclimate", "descriptor": "Aerobic on dry ground; fluctuating in wet willow."},
+      "fire": {"dial_position": 65, "npp_level": "High and rising", "descriptor": "High production and high-quality energy — the best browse and the key early pollinator resource; energy flows strongly up the web."}
+    },
+    "successional_envelope": {
+      "current_stage": "Pioneer/transitional (wet willow matures to carr)",
+      "range_of_natural_variability": ["Pioneer willow colonising released ground", "Multi-age willow mosaic (favourable)", "Wet willow carr maturing to wet woodland", "Absent (overgrazed)"],
+      "successional_pathway": "open/wet ground → pioneer willow scrub → (wet) willow scrub → wet woodland (w1d) / mixed woodland. A fast colonist where browsing drops."
+    },
+    "energy_flow_role": "The pollinator engine and best browse of the scrub family; the wet-ground bridge to wet woodland.",
+    "wild_zone": "Bioregionally Wilder",
+    "wild_zone_rationale": "Bioregionally Wilder — willow is the fastest, richest part of the scrub return; new willow across released open and wet ground is the core Regenerate→Wilder action. Established wet willow carr links into Protect & Restore wet woodland (w1d).",
+    "disturbance_regime": "Herbivore-pressure managed. Reduce deer/sheep and willow returns fast where a seed source survives (willow is among the readiest colonists).",
+    "wild_management_target": {"type": "process_target", "detail": "Let willow colonise and form a multi-age mosaic by reducing browsing; protect the early-catkin pollinator resource; allow wet willow to mature to carr/wet woodland on wet ground. Protect remnants as seed sources.", "integrity_indicators": ["willow regeneration", "abundant spring catkins (pollinator resource)", "bilberry bumblebee and the willow invertebrate community", "maturation to wet woodland on wet ground"]},
+    "ecological_value_grade": 4,
+    "ecological_value_notes": "High — the pollinator powerhouse and invertebrate richest part of the scrub family, and the best browse on the hill. Strategic value as the fastest scrub colonist of degraded/wet ground.",
+    "value_axes": {"rarity_irreplaceability": {"score": 3, "notes": "Willow returns readily where pressure drops; not rare in potential, though currently scarce on the overgrazed hill."}, "diversity": {"score": 5, "notes": "Willow supports a vast invertebrate community and is a critical early pollinator resource."}, "energy_flow_contribution": {"score": 4, "notes": "Best browse and key early nectar/pollen; high-quality energy up the web."}},
+    "naturalistic_lu_ha": {"value": "No single figure — reduce herbivore pressure for regeneration; not a stocking rate", "confidence": "good", "basis_note": "As for all scrub: manage herbivore pressure, not a stocking number. Willow is among the fastest to return when browsing drops."},
+    "mosaic_role": "pioneer / pollinator engine / nurse", "mosaic_role_note": "The fastest pioneer and the pollinator engine of the mosaic; nurses other regeneration and bridges to wet woodland.",
+    "preferential_grazing_magnet": true, "preferential_grazing_magnet_note": "TRUE and the strongest case — willow is the best browse on the hill, eaten first and recovering last; its quality is exactly why it is absent.",
+    "process_indicators": ["willow regeneration / advance", "catkin/pollinator resource", "willow invertebrate community", "maturation to wet woodland"],
+    "process_indicators_note": "Pollinator resource and regeneration are the key measures.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-09-SCRUB", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 09 — Upland Scrub", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Willow browse/pollinator value, zone, management.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — successional scrub",
+    "overall_palatability_score": 5,
+    "overall_palatability_notes": "The single most palatable, most nutritious browse on the hill — willow shoots above all. That quality is its undoing: eaten first, recovering last. NOT a forage resource to stock; the aim is regeneration via REMOVING pressure.",
+    "forage_yield_by_grade": [{"grade": 1, "kg_dm_ha_yr": {"min": 0, "max": 0}, "confidence": "high", "notes": "Not a forage/stocking habitat — high browse value is the regeneration constraint. Managed by reducing herbivore pressure."}],
+    "forage_yield_literature": {"min": 0, "max": 0, "confidence": "high", "notes": "Not a grazing resource.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — herbivore-pressure managed.",
+    "conservation_lu_ha": {"value": "No single figure — reduce herbivore pressure until willow regenerates", "scheme": "n/a — regeneration management, not stocked", "confidence": "good", "basis_note": "No single grazing figure; willow returns fast when browsing drops.", "sources": [{"ref_id": "WILD-SHEET-09-SCRUB", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 09 — Upland Scrub", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "No single grazing figure; reduce pressure for regeneration.", "confidence": "good"}]},
+    "palatability_rank": "Very High (best browse on the hill) — a regeneration liability",
+    "nutritional_quality_note": "Highly nutritious browse; soil-builder. No toxicity theme.",
+    "seasonal_forage_curve": {"spring": "Catkins (key pollinator resource) and fresh high-value browse — eaten first", "summer": "Foliage browse", "autumn": "Senescing", "winter": "Standing browse"}
+  },
+  "management": {
+    "optimal_grazing_animals": [{"breed": "None for production — reduce deer/sheep", "species": "deer/sheep (reduce)", "grade": "—", "notes": "Willow is the readiest colonist when pressure drops; light fluctuating disturbance can maintain an established mosaic."}],
+    "unsuitable_animals": [{"breed": "Deer/sheep at hill densities", "species": "deer/sheep", "reason": "Strip the best browse before it can establish — the reason willow is absent."}],
+    "timing_windows": {"preferred_season": "Reduce year-round browsing", "rationale": "Willow returns fast when pressure drops", "avoid": "Overgrazing; burning; draining wet willow", "per_species_notes": "Deer in Scotland, sheep elsewhere."},
+    "intensity_guidance": "Reduce herbivore pressure (no stocking figure). Protect catkin/pollinator resource; let wet willow mature to carr/wet woodland.",
+    "regulatory_note": "Do not burn or drain wet willow. Where willow scrub borders watercourses, note natural flood-storage value. Check designated-site consents.",
+    "monitoring_protocol": "Willow regeneration/advance, catkin abundance, willow invertebrate community, wet character, maturation to wet woodland. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "Medium distinctiveness as willow scrub; high functional/pollinator value.", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Willow scrub distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Salix cinerea (grey willow)", "Salix aurita (eared willow)", "Salix caprea (goat willow)", "Betula pubescens", "Sorbus aucuparia"],
+    "key_positive_indicators": ["willow regeneration and a multi-age mosaic", "abundant spring catkins", "integration with open/wet ground", "rich willow invertebrate community"],
+    "key_negative_indicators": ["absence (overgrazed)", "geriatric willows (no young)", "drained/dried wet willow", "rank single-species thicket (abandonment)"],
+    "integrity_indicators_fauna": ["bilberry bumblebee Bombus monticola and other early bees on the catkins (the pollinator-engine signal)", "the vast willow invertebrate community — leaf beetles, moths, host-specific galling sawflies incl. a Scottish endemic", "willow warbler, lesser redpoll, whinchat; black grouse using the mosaic"],
+    "target_species_composition": ["multi-age willow mosaic with regeneration", "abundant catkins", "wet willow maturing to carr where wet"],
+    "note": "Skeleton only — full records in Phase 2B. The willow→pollinator and willow→invertebrate relationships are the key integrity links."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (h3j verified)", "wild_assessment from a high-confidence sheet", "the willow browse/pollinator/invertebrate value; herbivore-pressure management", "the link to wet woodland (w1d) and the distinction from montane willow (h1c6)"],
+    "fields_partially_populated": ["wet vs dry willow distinction — per parcel", "species_list — skeleton"],
+    "fields_pending_research": ["Site willow-scrub inventory (Phase 2B)", "Willow invertebrate records incl. the Scottish endemic sawfly"],
+    "overall_confidence": "high",
+    "notes": "Split from the scrub sheet because the sheet so strongly emphasises willow's distinct role — the best browse and the key EARLY pollinator resource (catkins → bilberry bumblebee), plus a vast invertebrate community. Bioregionally Wilder; the fastest scrub colonist and the wet-ground bridge to wet woodland (w1d). Distinct from the Annex I montane willow scrub (h1c6)."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "h3j willow scrub.", "confidence": "high"},
+    {"ref_id": "NE-SCRUB-PROFILES", "source_level": 2, "source_type": "govt_statutory", "title": "Natural England scrub profiles", "author_org": "Natural England", "year": 2013, "url": "https://publications.naturalengland.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Willow scrub communities/value.", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-09-SCRUB", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 09 — Upland Scrub", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Willow ecology, zone, management.", "confidence": "good"}
+  ]
+}
