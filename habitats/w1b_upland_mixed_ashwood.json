@@ -1,0 +1,135 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — woodland group batch; field sheet 10 split per type. v3.3.",
+  "ukhab_identity": {
+    "ukhab_level2": "w", "ukhab_level2_name": "Woodland and forest",
+    "ukhab_level3": "w1", "ukhab_level3_name": "Broadleaved, mixed and yew woodland",
+    "ukhab_level4": "w1b", "ukhab_level4_name": "Upland mixed ashwoods",
+    "ukhab_level5": null,
+    "ukhab_level5_states": {"w1b5": "Lime-maple woodlands of rocky slopes (Annex I H9180)", "w1b6": "Other upland mixed ashwoods"},
+    "ukhab_level5_note": "Keyed at w1b. w1b5 (H9180 Tilio-Acerion) is the Annex I type; w1b6 other upland mixed ashwoods.",
+    "wilderculture_subtype": null,
+    "composite_pk": "w1b", "composite_pk_note": "Single Level-4 type; PK = w1b.",
+    "secondary_codes": [], "secondary_codes_notes": "None at type level.",
+    "habitat_name": "Upland mixed ashwood", "parent_category": "Woodland and forest",
+    "bap_priority": true, "annex1_habitat": "H9180 Tilio-Acerion forests of slopes/screes (the w1b5 type)",
+    "geographic_tags": ["upland", "base_rich_limestone", "below_treeline", "ash_dieback_affected"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (official definitions + master data sheet + applied surveys)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "w1b = Upland mixed ashwoods (w1b5 lime-maple H9180, w1b6 other). Confirmed in official UKHab definitions and applied surveys (e.g. SSEN Kintore 'w1b Upland mixed ashwoods').", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["W9 Fraxinus excelsior–Sorbus aucuparia–Mercurialis perennis woodland (upland)"],
+    "nvc_communities_notes": "W9 is the upland mixed ashwood; the woodland of base-rich and limestone ground, with the richest woodland ground flora in the uplands.",
+    "phase1_equivalent": "A1.1.1 Broadleaved semi-natural woodland (ash)",
+    "bng_metric_habitat_name": "Woodland and forest — Upland mixed ashwoods",
+    "wild_sheet_ref": "Habitat-10-Native-Woodland",
+    "sources": [
+      {"ref_id": "JNCC-W9", "source_level": 1, "source_type": "peer_reviewed", "title": "NVC Field Guide to Woodland (W9) / UK BAP Upland Mixed Ashwoods", "author_org": "Hall/Kirby/Whitbread; JNCC", "year": 2004, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "W9 is the upland mixed ashwood community on base-rich ground.", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "Woodland of base-rich and limestone ground — ash with wych elm, hazel, field maple over the richest woodland ground flora in the uplands. The wooded climax on the limestone country that the upland calcareous grassland (g2b) succeeds towards. Now being reshaped by ash dieback. As with all the woodland, the management question is browsing/regeneration, not stocking.",
+    "condition_indicators_good": ["Full age range incl. regeneration and deadwood", "The rich base-rich ground flora — dog's mercury, ramsons, wood anemone, herb-paris", "Native species dominant; glades and graded edge", "Browsing light enough that regeneration survives"],
+    "condition_indicators_poor": ["Overgrazed: no regeneration, ground flora stripped", "Ash-dieback gaps left unmanaged or over-felled", "Sycamore invasion; deadwood tidied away; even-aged with no continuity"],
+    "ecosystem_functions": ["The richest woodland ground flora in the uplands", "Soil-builder and carbon store on base-rich ground", "High energy flow and deadwood/saproxylic habitat", "Mast and browse (a regeneration constraint, not a grazing asset)"],
+    "whole_system_role": "The wooded climax of the base-rich/limestone uplands — the destination the calcareous grassland leads to if released, and a high-diversity flagship.",
+    "successional_neighbours": [
+      {"habitat_code": "g2b calcareous grassland / scrub (h3 hawthorn-juniper-ash)", "direction": "from (the route up)", "note": "Calcareous grassland → tall herb & scrub (hawthorn, juniper, ash) → upland mixed ashwood (the limestone climax)."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Ashwood ground flora, ash dieback, regeneration diagnostic.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel; regeneration is the diagnostic.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Full age range with regeneration; rich base-rich ground flora; native dominant; deadwood retained."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Browsing reduced; regeneration and dieback-resistant ash retained; sycamore controlled."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Mature canopy, sparse regeneration; flora reduced."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Overgrazed (no regeneration) or dieback-gapped and over-felled; sycamore invading."},
+      {"grade": 5, "label": "Destroyed / converted", "description": "Canopy lost with no continuity, or replaced."}
+    ],
+    "grade_field_indicators": ["regeneration", "base-rich ground flora richness", "ash-dieback severity and resistant-tree retention", "sycamore ingress", "deadwood/veterans", "browse line"],
+    "sources": [
+      {"ref_id": "WCA-SYLVA", "source_level": 2, "source_type": "ngo_technical", "title": "Woodland Condition Assessment", "author_org": "Sylva Foundation", "year": 2024, "url": "https://sylva.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Regeneration and tree-health (incl. disease) are core condition indicators.", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Base-rich rock — limestone, calcareous substrates", "base_status": "base-rich/calcareous", "climate": "Spans the uplands", "altitude_range_m": "Valley floor to the natural treeline", "aspect_exposure": "Base-rich slopes and screes; rocky ground for the H9180 type", "bioclimate_notes": "Yorkshire Dales and limestone country above all."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading. Protect & Restore (rich, but reshaped by dieback).",
+      "water": {"dial_position": 30, "state": "Free-draining base-rich ground", "descriptor": "Thin to moderate soils over base-rich rock."},
+      "earth": {"dial_position": 20, "pedogenic_process": "brunification on base-rich parent (soil-building)", "descriptor": "Calcium-rich, biologically active, freely cycling — the richest woodland soils."},
+      "air": {"dial_position": 25, "redox_state": "Aerobic, well-structured", "exposure_bioclimate": "Canopy-buffered", "descriptor": "Sheltered woodland microclimate."},
+      "fire": {"dial_position": 85, "npp_level": "High", "descriptor": "High light capture and energy flow; rich ground flora and deadwood community."}
+    },
+    "successional_envelope": {
+      "current_stage": "Climax (limestone/base-rich climax)",
+      "range_of_natural_variability": ["Multi-aged regenerating ashwood (favourable)", "Over-mature non-regenerating (overgrazed)", "Dieback-gapped (now widespread)", "New ash/mixed woodland on released calcareous grassland"],
+      "successional_pathway": "calcareous grassland → tall herb & scrub → upland mixed ashwood (the limestone climax). NOT to displace species-rich calcareous grassland (g2b) where that open habitat is the priority."
+    },
+    "energy_flow_role": "High energy flow with the richest ground flora — a base-rich woodland flagship, now in flux from ash dieback.",
+    "wild_zone": "Protect & Restore",
+    "wild_zone_rationale": "Protect & Restore — high-diversity, base-rich, often ancient. New ashwood/mixed woodland regenerating on released calcareous ground is Regenerate→Bioregionally Wilder. But do NOT let woodland displace species-rich calcareous grassland (g2b) where the open habitat is the priority — the classic 'right tree, right place' tension here.",
+    "disturbance_regime": "Browsing-controlled. Reduce deer/sheep so regeneration survives; retain potentially dieback-resistant ash; control sycamore.",
+    "wild_management_target": {"type": "process_target", "detail": "Sustain natural regeneration by reducing browsing; manage ash dieback FOR natural resistance (retain potentially resistant trees, fell only for genuine safety, keep the deadwood); control sycamore; keep deadwood and veterans. Balance with the calcareous grassland it succeeds from.", "integrity_indicators": ["regeneration surviving", "base-rich ground flora intact", "dieback-resistant ash retained", "deadwood/saproxylic community"]},
+    "ecological_value_grade": 4,
+    "ecological_value_notes": "High — the richest woodland ground flora in the uplands and an Annex I type (H9180), though currently reshaped and uncertain because of ash dieback.",
+    "value_axes": {"rarity_irreplaceability": {"score": 4, "notes": "Base-rich/limestone woodland is geology-restricted; ancient stands irreplaceable; dieback adds uncertainty."}, "diversity": {"score": 5, "notes": "The richest woodland ground flora in the uplands."}, "energy_flow_contribution": {"score": 4, "notes": "High woodland energy flow and deadwood habitat."}},
+    "naturalistic_lu_ha": {"value": "Near nil — reduce browsing; any conservation grazing low and site-specific", "confidence": "moderate", "basis_note": "As for all native woodland: reduce deer/sheep to allow regeneration; light conservation grazing only where needed for structure."},
+    "mosaic_role": "canopy / regeneration destination", "mosaic_role_note": "The base-rich wooded climax; browse/mast a regeneration constraint, not a grazing patch.",
+    "preferential_grazing_magnet": false, "preferential_grazing_magnet_note": "Browse is high-value — the reason regeneration fails under heavy grazing.",
+    "process_indicators": ["regeneration surviving", "ground flora condition", "ash-dieback resistance management", "sycamore control"],
+    "process_indicators_note": "Ash dieback makes resistance-led management central here.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Ashwood ecology, dieback management, zone.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — woodland climax",
+    "overall_palatability_score": 4,
+    "overall_palatability_notes": "Tree browse and the rich ground flora are high-value — which is exactly why regeneration fails under heavy grazing. Not a managed forage resource.",
+    "forage_yield_by_grade": [{"grade": 1, "kg_dm_ha_yr": {"min": 0, "max": 0}, "confidence": "high", "notes": "Not a forage/stocking habitat — managed by browsing level for regeneration."}],
+    "forage_yield_literature": {"min": 0, "max": 0, "confidence": "high", "notes": "Not a grazing resource.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — browsing-managed, not DM × utilisation.",
+    "conservation_lu_ha": {"value": "Near nil — reduce browsing to allow regeneration; light, site-specific conservation grazing only where needed", "scheme": "site-specific; not a standard stocking figure", "confidence": "moderate", "basis_note": "Reduce deer/sheep first; the base-rich ground flora is vulnerable to overgrazing.", "sources": [{"ref_id": "WOODLAND-TRUST-GRAZING", "source_level": 2, "source_type": "ngo_technical", "title": "Woodland Trust grazing/regeneration guidance", "author_org": "Woodland Trust", "year": 2025, "url": "https://www.woodlandtrust.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Browsing reduction is the primary action for native woodland regeneration.", "confidence": "good"}]},
+    "palatability_rank": "High (browse + ground flora) — a regeneration liability",
+    "nutritional_quality_note": "Soil-builder; no toxicity theme. Browse nutritious — keep browsing low for regeneration.",
+    "seasonal_forage_curve": {"spring": "Rich ground flora (a grazing risk)", "summer": "Browse and flora", "autumn": "Mast", "winter": "Low"}
+  },
+  "management": {
+    "optimal_grazing_animals": [{"breed": "Light cattle (conservation only)", "species": "cattle", "grade": "—", "notes": "Reduced browsing is the goal; light conservation grazing only where structure needs it."}],
+    "unsuitable_animals": [{"breed": "Deer/sheep at hill densities", "species": "deer/sheep", "reason": "Prevent regeneration and strip the rich ground flora."}],
+    "timing_windows": {"preferred_season": "Reduce year-round browsing; any conservation grazing low and site-specific", "rationale": "Allow regeneration; protect ground flora", "avoid": "Heavy browsing; premature felling of dieback ash", "per_species_notes": "Deer management primary in Scotland; sheep elsewhere."},
+    "intensity_guidance": "Reduce browsing first. Manage ash dieback FOR resistance — retain possibly resistant trees, fell only for genuine safety, keep deadwood.",
+    "regulatory_note": "Ash dieback (Hymenoscyphus fraxineus) expected to kill 50–75% of ash — do NOT fell prematurely; retain potentially resistant trees, manage for safety only, keep the deadwood. Control sycamore. Biosecurity matters. Live, moving disease area — verify current Forest Research / GOV.UK guidance; check designated-site consents.",
+    "monitoring_protocol": "Regeneration, ground flora, ash-dieback severity and resistant-tree retention, sycamore ingress, deadwood. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "Very high distinctiveness — priority habitat (H9180). High BNG value; ancient stands irreplaceable.", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Upland mixed ashwood very high distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Fraxinus excelsior", "Ulmus glabra (wych elm)", "Corylus avellana", "Acer campestre (field maple)", "Sorbus aucuparia"],
+    "key_positive_indicators": ["regeneration surviving", "rich base-rich ground flora — Mercurialis perennis (dog's mercury), Allium ursinum (ramsons), Anemone nemorosa, Paris quadrifolia (herb-paris)", "deadwood and veterans"],
+    "key_negative_indicators": ["no regeneration (overgrazed)", "Acer pseudoplatanus (sycamore) invasion", "unmanaged ash-dieback collapse or over-felling", "ground flora stripped"],
+    "integrity_indicators_fauna": ["woodland birds (woodpeckers, tawny owl, woodcock)", "saproxylic deadwood beetles and flies; the rich snail fauna of base-rich woods", "woodland fritillaries in glades"],
+    "integrity_indicators_flora": ["the rich base-rich ground flora is itself the headline integrity indicator — among the richest woodland floras in the uplands"],
+    "target_species_composition": ["multi-aged ash/elm/hazel with regeneration", "rich base-rich ground flora", "dieback-resistant ash retained; no sycamore"],
+    "note": "Skeleton only — full records in Phase 2B. Ash-dieback resistance status is a key tree-level attribute to track."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (w1b verified — the code the Crosswalk omitted)", "wild_assessment from a high-confidence sheet", "ash-dieback resistance-led management", "the g2b→w1b succession and 'right tree right place' tension"],
+    "fields_partially_populated": ["conservation grazing — near-nil/site-specific (moderate confidence)", "species_list — skeleton"],
+    "fields_pending_research": ["Ash-dieback resistance/management current guidance — verify", "Site ground-flora records (Phase 2B)", "Designated-site consents per parcel"],
+    "overall_confidence": "high",
+    "notes": "The base-rich woodland the Crosswalk missed (it listed w1a/w1d/w1e but not w1b). Richest woodland ground flora in the uplands; Protect & Restore; reshaped by ash dieback (manage for resistance, not pre-emptive felling). The wooded climax of the calcareous-grassland succession — but not to displace species-rich g2b where that open habitat is the priority."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "w1b upland mixed ashwoods; w1b5 H9180.", "confidence": "high"},
+    {"ref_id": "FR-ASH-DIEBACK", "source_level": 2, "source_type": "govt_statutory", "title": "Forest Research / GOV.UK — ash dieback (Hymenoscyphus fraxineus)", "author_org": "Forest Research", "year": 2025, "url": "https://www.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "50–75% ash mortality predicted; manage for natural resistance, retain resistant trees.", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Ecology, dieback, zone, management.", "confidence": "good"}
+  ]
+}
