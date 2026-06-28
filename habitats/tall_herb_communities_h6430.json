@@ -1,0 +1,150 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-28",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — priority-gap batch. Built from agency/scientific sources (JNCC SAC H6430, NVC U17, Averis upland vegetation). NO dedicated UKHab primary code and NO field sheet — both flagged. v3.3.",
+  "overlay_provenance": {
+    "has_wilderculture_field_sheet": false,
+    "has_dedicated_ukhab_code": false,
+    "note": "Two flags. (1) No source_level-7 practitioner field sheet exists; the wild_assessment is Claude-derived PROVISIONAL by analogy to the sheet-backed records (esp. g2b calcareous grassland, h1c5/h1c6 montane, f2c flushes — all of which already reference this tall-herb ledge flora). (2) UKHab v2.01 has NO dedicated primary code for tall-herb communities — see ukhab_identity.code_status. Identity/ecology rest on JNCC/NVC (high confidence); the overlay is moderate confidence, for review/replacement."
+  },
+  "ukhab_identity": {
+    "ukhab_level2": "g", "ukhab_level2_name": "Grassland (loosely — see code_status; physically a montane ledge community)",
+    "ukhab_level3": null, "ukhab_level3_name": null,
+    "ukhab_level4": null, "ukhab_level4_name": null,
+    "ukhab_level5": null,
+    "wilderculture_subtype": null,
+    "composite_pk": "H6430",
+    "composite_pk_note": "Keyed on the ANNEX I code H6430 because UKHab provides no dedicated primary code (see code_status). Unique across the dataset. This is the one non-UKHab-keyed habitat record so far — a deliberate, flagged exception.",
+    "code_status": {
+      "issue": "STRUCTURAL FLAG: UKHab v2.01 has NO dedicated primary code for tall-herb communities. The Grassland Level-4 list runs g3a, g3b, g3c, g4 — no tall-herb letter.",
+      "how_ukhab_records_it": "Per UKHab/metric guidance: the Annex I tall-herb community is named 'Grassland - Tall herb communities (H6430)' in the Statutory Metric (an Annex I type elevated in the metric), but in UKHab proper it is recorded against the HOST grassland (commonly g3c 'Other neutral grassland' for non-Annex tall-herb) and/or via the 'Tall forbs' SECONDARY code. Explicit guidance: 'Tall herb habitat that does not meet the Annex 1 definition should be recorded as Other neutral grassland (g3c).' The 'Tall forbs' secondary code is DISTINCT from the Annex I 'Tall herb communities (H6430)' — do not conflate.",
+      "recommendation": "Treat like juniper: record on the host habitat (g3c, or the montane/calcareous grassland it sits in) with the H6430 Annex flag and/or Tall forbs secondary code. Verify against the full UKHab v2.01 workbook in case a primary code is added."
+    },
+    "secondary_codes": ["Tall forbs (secondary code — DISTINCT from H6430; see code_status)"], "secondary_codes_notes": "The 'Tall forbs' secondary code applies to tall-forb stands generally; it is NOT the Annex I tall-herb community. Use with care.",
+    "habitat_name": "Tall herb communities (montane tall-herb ledge / hydrophilous tall-herb fringe)", "parent_category": "Grassland / montane ledge (no clean UKHab parent)",
+    "bap_priority": true, "annex1_habitat": "H6430 Hydrophilous tall herb fringe communities of plains and of the montane to alpine levels",
+    "geographic_tags": ["montane", "base_rich_ledges", "ungrazed_refugia", "near_natural", "grazing_sensitive", "internationally_significant"],
+    "sources": [
+      {"ref_id": "JNCC-SAC-H6430", "source_level": 2, "source_type": "govt_statutory", "title": "JNCC SAC habitat account — H6430 Tall herb communities (hydrophilous tall-herb fringe)", "author_org": "JNCC", "year": 2019, "url": "https://sac.jncc.gov.uk/habitat/H6430/", "accessed_date": "2026-06-28", "specific_claim": "H6430 = NVC U17 (Luzula sylvatica–Geum rivale); ungrazed base-rich upland cliff ledges; refuge for rare grazing-sensitive montane plants; one of the few near-natural habitats remaining in Britain.", "confidence": "high"},
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 + Statutory Metric condition sheets", "author_org": "UKHab Ltd / Natural England", "year": 2024, "url": "https://ukhab.org/", "accessed_date": "2026-06-28", "specific_claim": "No dedicated UKHab primary code for tall-herb communities; metric names 'Grassland - Tall herb communities (H6430)'; non-Annex tall-herb recorded as g3c; 'Tall forbs' is a distinct secondary code.", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["U17 Luzula sylvatica–Geum rivale tall-herb community"],
+    "nvc_communities_notes": "U17 is the defining community — a species-rich mix of tall broad-leaved herbs, most otherwise rare in the uplands because of their sensitivity to grazing.",
+    "phase1_equivalent": "Montane tall-herb ledge vegetation (no exact Phase 1 unit)",
+    "bng_metric_habitat_name": "Grassland — Tall herb communities (H6430)",
+    "wild_sheet_ref": null,
+    "wild_sheet_ref_note": "No Wilderculture field sheet; but this flora is already referenced inside the g2b, h1c5, h1c6 and f2c records as the ungrazed ledge community.",
+    "sources": [
+      {"ref_id": "AVERIS-UPLAND-VEG", "source_level": 1, "source_type": "peer_reviewed", "title": "An Illustrated Guide to British Upland Vegetation (U17 tall-herb)", "author_org": "Averis et al. / JNCC", "year": 2004, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-28", "specific_claim": "U17 tall-herb ledge vegetation composition and ecology.", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "The ungrazed tall-herb vegetation of base-rich upland cliff ledges and steep inaccessible slopes — a species-rich mix of tall broad-leaved herbs (wood crane's-bill, water avens, globeflower, common valerian, meadowsweet, marsh hawk's-beard, great wood-rush, roseroot) that are otherwise rare in the uplands precisely because they are so sensitive to grazing. One of the few near-natural habitats remaining in Britain, it survives mainly where stock and deer cannot reach, and is a living indicator of what much richer upland vegetation could be under low grazing. Already referenced across the calcareous-grassland, montane and flush records as 'the tall-herb ledge flora'.",
+    "condition_indicators_good": ["A rich, tall, structurally diverse herb community on base-rich ledges/steep ground", "The full grazing-sensitive specialist assemblage present", "Ungrazed or very lightly grazed; tall structure intact", "Often in intimate mosaic with other Annex I montane habitats"],
+    "condition_indicators_poor": ["Browsed/grazed down — reduced to grasses with the tall herbs lost (the usual fate wherever reachable)", "Confined to ever-smaller inaccessible ledge fragments", "Shaded out or invaded; trampling damage"],
+    "ecosystem_functions": ["A refuge and gene pool for rare, grazing-sensitive montane plants", "A near-natural reference community — the benchmark for ungrazed upland vegetation", "A distinct invertebrate and pollinator resource on the tall herbs", "Part of intimate Annex I montane mosaics"],
+    "whole_system_role": "The grazing-relief indicator of the uplands — the flora that persists only out of reach of herbivores, and so the clearest sign of what reduced grazing could restore more widely.",
+    "successional_neighbours": [
+      {"habitat_code": "g2b calcareous grassland / h1c5 montane heath / f2c base-rich flush", "direction": "neighbour / mosaic", "note": "Forms intimate mosaics with these on base-rich montane ground; the records already cross-reference this ledge flora."},
+      {"habitat_code": "grazed upland grassland (open ground)", "direction": "from (would spread if grazing reduced)", "note": "Where browsing is removed from base-rich ground, tall-herb can extend off the ledges — the WILD restoration signal."}
+    ],
+    "sources": [
+      {"ref_id": "JNCC-SAC-H6430", "source_level": 2, "source_type": "govt_statutory", "title": "JNCC SAC H6430 account", "author_org": "JNCC", "year": 2019, "url": "https://sac.jncc.gov.uk/habitat/H6430/", "accessed_date": "2026-06-28", "specific_claim": "Ungrazed base-rich ledges; grazing-sensitive specialist herbs; near-natural refuge; intimate Annex I mosaics.", "confidence": "high"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel; the tall-herb specialist assemblage and ungrazed tall structure are the diagnostics.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Rich, tall U17 herb community on base-rich ground; full specialist assemblage; ungrazed structure intact; extending where ground allows."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Browsing reduced; tall herbs recovering/spreading from ledge refugia."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Persisting on ledges but not spreading; some specialist loss."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Browsed down to grasses; specialists lost where reachable."},
+      {"grade": 5, "label": "Near-absent", "description": "Reduced to tiny inaccessible fragments only."}
+    ],
+    "grade_field_indicators": ["tall-herb specialist assemblage", "vegetation height/structure (ungrazed = tall)", "browsing/grazing impact", "base-rich ledge substrate", "extent beyond inaccessible ledges"],
+    "sources": [
+      {"ref_id": "JNCC-SAC-H6430", "source_level": 2, "source_type": "govt_statutory", "title": "JNCC SAC H6430 account", "author_org": "JNCC", "year": 2019, "url": "https://sac.jncc.gov.uk/habitat/H6430/", "accessed_date": "2026-06-28", "specific_claim": "Specialist assemblage and ungrazed structure define favourable condition; grazing is the threat.", "confidence": "high"}
+    ]
+  },
+  "wild_assessment": {
+    "overlay_status": "PROVISIONAL — Claude-derived (no practitioner field sheet); review/replace before operational use.",
+    "abiotic_template": {"parent_material_geology": "Base-rich rock — cliff ledges, steep slopes, often with soil seepage", "base_status": "base-rich", "climate": "Upland, cool, often montane; sheltered ledge situations", "altitude_range_m": "Montane to alpine levels, on ledges and steep ground", "aspect_exposure": "Ungrazed/inaccessible base-rich ledges and steep slopes; sheltered", "bioclimate_notes": "Best stands on the bigger base-rich cliffs — e.g. the largest UK U17 stand on Torridonian sandstone at Beinn Bhan (Coire na Poite); Breadalbane, the Pennine cliffs, Snowdonia."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading. PROVISIONAL — Claude-derived, no field sheet.",
+      "water": {"dial_position": 50, "state": "Base-rich ledges, often with soil seepage", "descriptor": "Sheltered, often seepage-moistened ledges (the 'hydrophilous' in the Annex name); spans drier to wetter forms."},
+      "earth": {"dial_position": 25, "pedogenic_process": "base-rich, biologically active ledge soils", "descriptor": "Base-rich, fertile ledge soils — rich enough to carry tall, lush herb growth."},
+      "air": {"dial_position": 30, "redox_state": "Aerobic", "exposure_bioclimate": "Sheltered ledge microclimate within an exposed montane setting", "descriptor": "Sheltered pockets that let tall herbs grow where the open hill cannot."},
+      "fire": {"dial_position": 60, "npp_level": "Locally high (tall lush growth)", "descriptor": "Tall, productive herb growth per unit area — but tiny in extent; high-quality near-natural production released from grazing."}
+    },
+    "successional_envelope": {
+      "current_stage": "Near-natural climax of ungrazed base-rich ledges — held by inaccessibility, not management",
+      "range_of_natural_variability": ["Rich tall-herb ledge community (favourable, near-natural)", "Browsed-down relict where partially reachable", "Spreading off ledges where grazing removed (the restoration direction)"],
+      "successional_pathway": "Held as a climax by being out of reach of herbivores. Reduce grazing on the surrounding base-rich ground and tall-herb can extend beyond the ledges — the clearest demonstration of grazing relief in the uplands."
+    },
+    "energy_flow_role": "A tiny but near-natural, high-quality herb community — the benchmark for ungrazed upland vegetation and a refuge for grazing-sensitive specialists.",
+    "wild_zone": "Protect & Restore",
+    "wild_zone_rationale": "PROVISIONAL. Rare, near-natural, Annex I, irreplaceable refugia → Protect & Restore. Its wider significance is as the grazing-relief signal for the whole WILD map: reducing grazing on base-rich ground lets this flora spread off the ledges (a Regenerate→Wilder outcome), which is why it is referenced across the calcareous, montane and flush records.",
+    "disturbance_regime": "Grazing-defined by ABSENCE — it survives because ungrazed. Protect from browsing; the wider lever is reducing grazing on surrounding base-rich ground so it can extend.",
+    "wild_management_target": {"type": "state_target", "detail": "Protect surviving ledge stands from any increase in browsing; where feasible, reduce grazing on adjacent base-rich ground so the tall-herb flora can spread off the ledges. Do not burn. Treat as a near-natural reference and refuge. Re-grade trigger applies.", "integrity_indicators": ["tall-herb specialist assemblage intact", "ungrazed tall structure", "extension beyond inaccessible ledges where grazing reduced"]},
+    "ecological_value_grade": 5,
+    "ecological_value_notes": "Among the highest — a rare, near-natural Annex I habitat and a refuge for grazing-sensitive montane specialists found almost nowhere else; effectively irreplaceable.",
+    "value_axes": {"rarity_irreplaceability": {"score": 5, "notes": "Rare, near-natural, confined to ungrazed base-rich ledges; irreplaceable refugia and gene pool."}, "diversity": {"score": 5, "notes": "A species-rich tall-herb assemblage of otherwise-rare montane plants."}, "energy_flow_contribution": {"score": 2, "notes": "Tiny in extent; value is as refuge and reference, not throughput."}},
+    "naturalistic_lu_ha": {"value": "Nil — an ungrazed habitat by definition; protect from browsing", "confidence": "good", "basis_note": "It exists because it is out of reach of herbivores; the management is non-grazing/grazing-reduction, not a stocking figure."},
+    "mosaic_role": "ungrazed refuge / near-natural reference", "mosaic_role_note": "The grazing-relief refugium of base-rich montane mosaics — what the wider ground could be without heavy grazing.",
+    "preferential_grazing_magnet": true, "preferential_grazing_magnet_note": "TRUE in principle — the tall herbs are highly palatable and grazing-sensitive, which is exactly why they survive ONLY where herbivores cannot reach. Its confinement to ledges is the proof.",
+    "process_indicators": ["tall-herb specialist assemblage", "ungrazed structure", "spread off ledges where grazing reduced"],
+    "process_indicators_note": "PROVISIONAL overlay. The clearest landscape indicator of grazing relief.",
+    "sources": [
+      {"ref_id": "JNCC-SAC-H6430", "source_level": 2, "source_type": "govt_statutory", "title": "JNCC SAC H6430 account", "author_org": "JNCC", "year": 2019, "url": "https://sac.jncc.gov.uk/habitat/H6430/", "accessed_date": "2026-06-28", "specific_claim": "Ungrazed, near-natural, grazing-sensitive refuge; Annex I mosaics.", "confidence": "high"},
+      {"ref_id": "CLAUDE-DERIVED-OVERLAY", "source_level": 0, "source_type": "model_derived", "title": "Claude-derived WILD overlay (no field sheet)", "author_org": "WILD Toolbox session", "year": 2026, "url": null, "accessed_date": "2026-06-28", "specific_claim": "Elemental dials/zone/value axes inferred by analogy to sheet-backed records — PROVISIONAL.", "confidence": "moderate"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — near-natural ungrazed ledge community",
+    "overall_palatability_score": 5,
+    "overall_palatability_notes": "The tall herbs are highly palatable and grazing-sensitive — which is the whole point: they survive only where herbivores cannot reach. NOT a forage resource; it is the ungrazed refuge, and its palatability is precisely why it is confined to ledges (the same logic as scrub and the calcareous-grassland tall herbs).",
+    "forage_yield_by_grade": [{"grade": 1, "kg_dm_ha_yr": {"min": 0, "max": 0}, "confidence": "high", "notes": "Not a forage/stocking habitat — an ungrazed refuge to protect, not graze."}],
+    "forage_yield_literature": {"min": 0, "max": 0, "confidence": "high", "notes": "Not a grazing resource.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — ungrazed by definition.",
+    "conservation_lu_ha": {"value": "Nil — protect from grazing/browsing; reduce grazing on adjacent ground so it can spread", "scheme": "n/a — ungrazed refuge, not stocked", "confidence": "good", "basis_note": "Survives because ungrazed; management is protection and grazing reduction on surrounding ground.", "sources": [{"ref_id": "JNCC-SAC-H6430", "source_level": 2, "source_type": "govt_statutory", "title": "JNCC SAC H6430 account", "author_org": "JNCC", "year": 2019, "url": "https://sac.jncc.gov.uk/habitat/H6430/", "accessed_date": "2026-06-28", "specific_claim": "Ungrazed/very lightly grazed; grazing is the threat.", "confidence": "high"}]},
+    "palatability_rank": "Very High (grazing-sensitive) — an ungrazed refuge, not a resource",
+    "nutritional_quality_note": "Highly palatable tall herbs; no toxicity theme. Relevant only as the reason for grazing sensitivity.",
+    "seasonal_forage_curve": {"spring": "Lush growth (protected by inaccessibility)", "summer": "Tall flowering herbs", "autumn": "Senescing", "winter": "Dormant"}
+  },
+  "management": {
+    "optimal_grazing_animals": [{"breed": "None — protect from grazing", "species": "—", "grade": "—", "notes": "Ungrazed by definition; the surrounding ground is where grazing reduction helps it spread."}],
+    "unsuitable_animals": [{"breed": "Deer/sheep with access to the ledges", "species": "deer/sheep", "reason": "Browse out the grazing-sensitive tall herbs — the reason the habitat is confined to inaccessible ground."}],
+    "timing_windows": {"preferred_season": "Protect from grazing year-round; reduce grazing on adjacent base-rich ground", "rationale": "Allow the grazing-sensitive flora to persist and spread", "avoid": "Any increase in browsing access; burning", "per_species_notes": "Deer management on surrounding ground in Scotland; sheep elsewhere."},
+    "intensity_guidance": "Protection, not grazing. The active lever is reducing grazing on the surrounding base-rich ground (links to the calcareous-grassland and montane records).",
+    "regulatory_note": "Many stands are SSSI/SAC (H6430) and several tall-herb specialists are notable/protected — check designation and consents. Do not burn. NO field sheet and NO dedicated UKHab code — confirm practitioner detail with Wilderculture and verify coding against the full UKHab v2.01 workbook before operational use.",
+    "monitoring_protocol": "Tall-herb specialist assemblage, vegetation height/structure, browsing impact, extent beyond ledges. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "Very high distinctiveness — Annex I priority (H6430). Among the highest; irreplaceable refugia. (Recorded in the metric as 'Tall herb communities (H6430)'.)", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-28", "specific_claim": "Tall herb communities (H6430) very high distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Geum rivale (water avens)", "Luzula sylvatica (great wood-rush)", "Angelica sylvestris (wild angelica)", "Filipendula ulmaria (meadowsweet)", "Valeriana officinalis (common valerian)"],
+    "key_positive_indicators": ["Trollius europaeus (globeflower), Geranium sylvaticum (wood crane's-bill), Cirsium heterophyllum (melancholy thistle)", "Crepis paludosa (marsh hawk's-crepis/hawk's-beard), Sedum rosea (roseroot), Caltha palustris (marsh marigold)", "tall, ungrazed, structurally rich herb sward on base-rich ground"],
+    "key_negative_indicators": ["browsed-down sward (tall herbs lost to grasses)", "confinement to ever-smaller ledges", "trampling/shading damage"],
+    "integrity_indicators_fauna": ["tall-herb invertebrate and pollinator community", "the broader near-natural montane invertebrate fauna of inaccessible ground"],
+    "integrity_indicators_flora": ["the U17 tall-herb specialist assemblage itself IS the integrity indicator — a refuge of grazing-sensitive montane plants found almost nowhere else"],
+    "target_species_composition": ["full U17 tall-herb assemblage, ungrazed and structurally rich", "specialists spreading off the ledges where grazing reduced"],
+    "note": "Skeleton only — full records in Phase 2B. This flora is the integrity indicator cross-referenced in the g2b, h1c5, h1c6 and f2c records; the species joins should link there."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["identity & code_status (H6430/U17 verified; NO dedicated UKHab code — flagged like juniper)", "ecology/condition from high-confidence JNCC/NVC sources", "the grazing-relief / near-natural-reference framing and cross-links to the built records"],
+    "fields_partially_populated": ["wild_assessment — PROVISIONAL, Claude-derived (no field sheet; moderate confidence)", "species_list — skeleton"],
+    "fields_pending_research": ["A Wilderculture field sheet (or a decision to keep tall-herb as a cross-cutting theme rather than a standalone record)", "Confirm UKHab coding approach against the full v2.01 workbook (host-habitat g3c + H6430 flag, or Tall forbs secondary code)", "Site stand inventory (Phase 2B)"],
+    "overall_confidence": "good (identity/ecology high; overlay provisional; coding flagged)",
+    "notes": "The tall-herb ledge flora finally given its own record. TWO honest flags: no dedicated UKHab primary code (record on host g3c + H6430 Annex flag / Tall forbs secondary code — verify the workbook), and no practitioner field sheet (overlay provisional). H6430/U17 is a rare, near-natural, Annex I refuge for grazing-sensitive montane plants — the clearest single indicator of grazing relief, and already referenced across the calcareous (g2b), montane (h1c5/h1c6) and flush (f2c) records."
+  },
+  "sources": [
+    {"ref_id": "JNCC-SAC-H6430", "source_level": 2, "source_type": "govt_statutory", "title": "JNCC SAC habitat account — H6430 Tall herb communities", "author_org": "JNCC", "year": 2019, "url": "https://sac.jncc.gov.uk/habitat/H6430/", "accessed_date": "2026-06-28", "specific_claim": "H6430/U17; ungrazed base-rich ledges; grazing-sensitive near-natural refuge.", "confidence": "high"},
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 + Statutory Metric", "author_org": "UKHab Ltd / Natural England", "year": 2024, "url": "https://ukhab.org/", "accessed_date": "2026-06-28", "specific_claim": "No dedicated tall-herb primary code; recorded as g3c / via Tall forbs secondary code; metric names 'Tall herb communities (H6430)'.", "confidence": "high"},
+    {"ref_id": "AVERIS-UPLAND-VEG", "source_level": 1, "source_type": "peer_reviewed", "title": "An Illustrated Guide to British Upland Vegetation (U17)", "author_org": "Averis et al.", "year": 2004, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-28", "specific_claim": "U17 tall-herb composition and ecology.", "confidence": "good"},
+    {"ref_id": "CLAUDE-DERIVED-OVERLAY", "source_level": 0, "source_type": "model_derived", "title": "Claude-derived WILD overlay (no field sheet)", "author_org": "WILD Toolbox session", "year": 2026, "url": null, "accessed_date": "2026-06-28", "specific_claim": "Provisional WILD overlay by analogy to sheet-backed records.", "confidence": "moderate"}
+  ]
+}
