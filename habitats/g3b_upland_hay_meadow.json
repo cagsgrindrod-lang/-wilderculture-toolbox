@@ -1,0 +1,156 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-28",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — priority-gap batch. NO Wilderculture field sheet exists for this habitat: the record is built from agency/scientific sources (JNCC BAP, NVC MG3, NE/NatureScot), and the WILD-overlay fields are Claude-derived PROVISIONAL (see overlay_provenance), to be reviewed or replaced by a practitioner sheet. v3.3.",
+  "overlay_provenance": {
+    "has_wilderculture_field_sheet": false,
+    "note": "Unlike the 11 sheet-backed records, there is no source_level-7 practitioner field sheet for g3b. The ukhab_identity / ecology / cross_references / forage / management blocks rest on agency and scientific sources (high confidence). The wild_assessment block (elemental dials, zone, value axes) is Claude's reasoned interpretation by analogy to the sheet-backed records — flagged provisional, moderate confidence — and should be reviewed and, ideally, replaced by a Wilderculture field sheet before operational use."
+  },
+  "ukhab_identity": {
+    "ukhab_level2": "g", "ukhab_level2_name": "Grassland",
+    "ukhab_level3": "g3", "ukhab_level3_name": "Neutral grassland",
+    "ukhab_level4": "g3b", "ukhab_level4_name": "Upland hay meadows",
+    "ukhab_level5": null,
+    "ukhab_level5_states": {"g3b5": "Mountain hay meadows (Annex I H6520) — the NVC MG3 priority type"},
+    "ukhab_level5_note": "Keyed at g3b. g3b5 (Mountain hay meadows, H6520) is the Annex I type recorded per parcel where the MG3 community qualifies.",
+    "wilderculture_subtype": null,
+    "composite_pk": "g3b",
+    "composite_pk_note": "Single Level-4 type; PK = g3b. Sibling of g3a (lowland meadows, H6510) and g3c (other neutral grassland). Verified: UKHab master data sheet, Land App BNG list, applied BNG registers.",
+    "secondary_codes": [], "secondary_codes_notes": "None at type level.",
+    "habitat_name": "Upland hay meadow", "parent_category": "Grassland (neutral)",
+    "bap_priority": true, "annex1_habitat": "H6520 Mountain hay meadows (the g3b5 / MG3 type)",
+    "geographic_tags": ["upland", "above_300m", "pennine_dales", "hay_meadow", "rarest_grassland", "traditionally_managed"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (master data sheet + BNG list)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-28", "specific_claim": "g3 = Neutral grassland; g3b = Upland hay meadows; g3b5 = Mountain hay meadows (H6520). g3a = lowland meadows (H6510), g3c = other neutral grassland.", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["MG3 Anthoxanthum odoratum–Geranium sylvaticum grassland (the upland hay meadow)", "transitions to MG3b / MG8 / MG6 on wetter or improved ground"],
+    "nvc_communities_notes": "MG3 is the defining community — the most species-rich British mesotrophic grassland, effectively confined to traditionally-managed upland hay meadows.",
+    "phase1_equivalent": "B2.1 Neutral grassland — unimproved (upland hay meadow)",
+    "bng_metric_habitat_name": "Grassland — Upland hay meadows",
+    "wild_sheet_ref": null,
+    "wild_sheet_ref_note": "No Wilderculture field sheet exists (priority-habitat gap). See overlay_provenance.",
+    "sources": [
+      {"ref_id": "JNCC-BAP-UHM", "source_level": 2, "source_type": "govt_statutory", "title": "UK BAP Priority Habitat Description — Upland Hay Meadows", "author_org": "JNCC", "year": 2011, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-28", "specific_claim": "Upland hay meadows = NVC MG3, Annex I H6520; restricted, highly threatened; traditionally managed by late hay cut + aftermath grazing + low inputs.", "confidence": "high"}
+    ]
+  },
+  "ecology": {
+    "description": "The most species-rich mesotrophic grassland in Britain and one of its rarest — traditionally-managed upland hay meadows (NVC MG3) on neutral soils (pH ~5.5–6.5) above ~300 m, effectively confined to the northern Pennine dales (Teesdale, Weardale, Swaledale, Wensleydale) with small amounts in Scotland and Wales. A semi-natural priority habitat held in being by a centuries-old management cycle: a single LATE hay cut, aftermath and light spring grazing, and very low inputs. Estimated to cover under ~1,000 ha in England and to have declined dramatically (much of the resource lost to agricultural improvement).",
+    "condition_indicators_good": ["The MG3 indicator assemblage present and frequent — wood crane's-bill, globeflower, lady's-mantles, melancholy thistle, great burnet, pignut, yellow-rattle", "A diverse, herb-rich sward with no rye-grass dominance; flowering and seed-set achieved before the cut", "Low fertility maintained — no inorganic fertiliser, slurry or reseeding", "Traditional cycle intact: late hay cut, aftermath grazing, light spring grazing"],
+    "condition_indicators_poor": ["Agricultural improvement — inorganic fertiliser/slurry, early silage cutting, reseeding (the dominant cause of loss; collapses MG3 to g4)", "Loss of indicator herbs; rye-grass/white-clover or rank grass dominance", "Under-management/abandonment — rank grass, scrub encroachment", "Drainage; early/repeated cutting preventing seed-set"],
+    "ecosystem_functions": ["An exceptionally diverse plant community and the invertebrate/pollinator resource it supports", "A genetic and cultural reservoir of traditional hay-meadow flora (incl. rare lady's-mantles)", "Hay and aftermath grazing within a low-input farming system", "Pollinator forage and seed source for meadow restoration elsewhere"],
+    "whole_system_role": "A farmed priority habitat — the high point of the traditionally-managed neutral-grassland gradient, sustained by management rather than abandonment, and a seed source for wider meadow restoration.",
+    "successional_neighbours": [
+      {"habitat_code": "g4 modified grassland / g3c other neutral", "direction": "toward (if improved or under-managed)", "note": "Fertiliser/silage/reseeding collapses MG3 to g4; abandonment drifts to rank g3c then scrub."},
+      {"habitat_code": "g2b calcareous / g1b acid grassland", "direction": "neighbour (on the dale sides)", "note": "Sits within the dale mosaic alongside upland calcareous and acid grassland and flushes."}
+    ],
+    "sources": [
+      {"ref_id": "NE-HAYTIME", "source_level": 2, "source_type": "govt_statutory", "title": "Natural England / Hay Time — upland hay meadow restoration and management", "author_org": "Natural England / Yorkshire Dales Millennium Trust", "year": 2020, "url": "https://publications.naturalengland.org.uk/", "accessed_date": "2026-06-28", "specific_claim": "MG3 distribution, decline, and the late-cut/aftermath-grazing/low-input management; green-hay restoration practice.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel; the MG3 indicator assemblage and low fertility are the diagnostics.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Full MG3 indicator assemblage, herb-rich, no rye-grass dominance; traditional late-cut + aftermath-grazing cycle; low fertility; seed-set achieved."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Indicators returning under reinstated traditional management / green-hay restoration."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Some indicator loss; slightly enriched or cut a little early; recoverable."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Improvement (fertiliser/silage/reseed) eroding MG3, OR abandonment to rank grass/scrub."},
+      {"grade": 5, "label": "Destroyed / converted", "description": "Reseeded/fertilised to g4 or otherwise lost — MG3 gone."}
+    ],
+    "grade_field_indicators": ["MG3 indicator herbs (wood crane's-bill, globeflower, lady's-mantles, etc.)", "rye-grass / white-clover cover (low = good)", "fertility signs (rank, lush = bad)", "cut timing / seed-set", "scrub or rank-grass encroachment"],
+    "sources": [
+      {"ref_id": "JNCC-BAP-UHM", "source_level": 2, "source_type": "govt_statutory", "title": "UK BAP — Upland Hay Meadows", "author_org": "JNCC", "year": 2011, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-28", "specific_claim": "MG3 indicator assemblage and low inputs define favourable condition; improvement is the principal threat.", "confidence": "high"}
+    ]
+  },
+  "wild_assessment": {
+    "overlay_status": "PROVISIONAL — Claude-derived (no practitioner field sheet); review/replace before operational use.",
+    "abiotic_template": {"parent_material_geology": "Neutral mesotrophic soils (pH ~5.5–6.5) on dale floors and lower slopes", "base_status": "neutral", "climate": "Upland, cool and moist; short growing season", "altitude_range_m": "~300 m and above (the upland/lowland split from g3a)", "aspect_exposure": "Dale floors and sheltered lower slopes; often valley-bottom meadows", "bioclimate_notes": "Northern Pennine dales above all (Teesdale, Weardale, Swaledale, Wensleydale); small amounts in Scotland/Wales."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading for a semi-natural priority habitat (NOT a Regenerate production-sward target). PROVISIONAL — Claude-derived, no field sheet.",
+      "water": {"dial_position": 40, "state": "Free-draining to seasonally moist neutral soils", "descriptor": "Dale-floor meadows; moist but not waterlogged (wet ground tends toward rush/MG8)."},
+      "earth": {"dial_position": 30, "pedogenic_process": "neutral mesotrophic cycling at LOW fertility", "descriptor": "Moderately fertile but deliberately kept low-nutrient by removing the hay crop and minimal manure only — low fertility is what sustains the diversity."},
+      "air": {"dial_position": 25, "redox_state": "Aerobic, well-structured", "exposure_bioclimate": "Open meadow, upland-cool", "descriptor": "Aerobic neutral soils; a productive but unforced sward."},
+      "fire": {"dial_position": 55, "npp_level": "Moderate (a real hay crop, far below improved swards)", "descriptor": "A genuinely productive meadow, but the productivity is modest and channelled into a diverse hay crop, not maximised — high diversity per unit production."}
+    },
+    "successional_envelope": {
+      "current_stage": "Plagioclimax — held by the traditional hay-cut + grazing cycle",
+      "range_of_natural_variability": ["Species-rich MG3 under traditional management (favourable)", "Enriched/rye-grass-shifted (improving)", "Rank/abandoned (under-managed)", "Reseeded to g4 (destroyed)"],
+      "successional_pathway": "Maintained by management: late hay cut + aftermath grazing + low inputs holds MG3. Improve it (fertiliser/silage/reseed) → collapses to g4; abandon it → rank grass → scrub. Like calcareous grassland, it is a managed equilibrium, not a free-running succession."
+    },
+    "energy_flow_role": "A high-diversity, modest-production farmed meadow — diversity and a hay crop coexisting under low-input management; a seed source for wider restoration.",
+    "wild_zone": "Protect & Restore",
+    "wild_zone_rationale": "PROVISIONAL. A rare, Annex I, semi-natural priority habitat → Protect & Restore: maintain the traditional management of surviving meadows (the resource is too rare and too easily lost to do otherwise). Restoration of species-poor/improved meadows toward MG3 (green-hay strewing, reduced inputs, correct cut timing) is the Regenerate action. Note the interface: this is a FARMED priority habitat, so it sits where Protect & Restore meets working agriculture — distinct from the Regenerate production swards (c1b/g4), which are improved leys, not priority habitat.",
+    "disturbance_regime": "A precise management cycle, not a stocking rate: ONE late hay cut (allow flowering/seed-set, traditionally not before mid-July), aftermath grazing (cattle especially) to remove regrowth and create gaps, light spring grazing then shut up for hay; very low farmyard-manure inputs only.",
+    "wild_management_target": {"type": "state_target", "detail": "Maintain (or restore) the MG3 community by keeping the traditional cycle: late hay cut after seed-set, aftermath + light spring grazing, NO inorganic fertiliser/slurry/silage/reseeding/herbicides. For restoration, reduce fertility, correct cut timing, and add seed via green hay from a good donor meadow. Re-grade trigger applies.", "integrity_indicators": ["MG3 indicator herbs present and flowering", "low fertility (no rye-grass dominance)", "seed-set achieved before cut", "aftermath grazing maintaining structure"]},
+    "ecological_value_grade": 5,
+    "ecological_value_notes": "Among the highest — the most species-rich British mesotrophic grassland, an Annex I priority habitat reduced to a tiny, fragmented resource largely in the northern Pennine dales; effectively irreplaceable once improved.",
+    "value_axes": {"rarity_irreplaceability": {"score": 5, "notes": "One of the rarest grasslands in the UK (under ~1,000 ha in England); MG3 cannot be quickly recreated once lost to improvement."}, "diversity": {"score": 5, "notes": "The most species-rich mesotrophic grassland in Britain, incl. rare lady's-mantles."}, "energy_flow_contribution": {"score": 3, "notes": "Modest production (a hay crop), but exceptional diversity and a pollinator/seed resource per unit area."}},
+    "naturalistic_lu_ha": null, "naturalistic_lu_ha_note": "Not a 'remove stock' habitat — it requires its management cycle. Operative grazing is aftermath + light spring grazing at a conservation level (see conservation_lu_ha); the hay cut is the main offtake.",
+    "mosaic_role": "farmed meadow / seed source", "mosaic_role_note": "The herb-rich hay meadow of the dale floor; a pollinator and seed-source hub within the dale mosaic.",
+    "preferential_grazing_magnet": false, "preferential_grazing_magnet_note": "Not relevant in the open-hill sense — this is an enclosed, cut-and-aftermath-grazed meadow, not free-range hill grazing. The risk is mistimed/over-intensive grazing or cutting, not a grazing-magnet effect.",
+    "process_indicators": ["MG3 indicator assemblage", "fertility (low = good)", "cut timing / seed-set", "aftermath grazing structure"],
+    "process_indicators_note": "PROVISIONAL overlay. The diagnostic is the MG3 assemblage sustained by the management cycle.",
+    "sources": [
+      {"ref_id": "JNCC-BAP-UHM", "source_level": 2, "source_type": "govt_statutory", "title": "UK BAP — Upland Hay Meadows", "author_org": "JNCC", "year": 2011, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-28", "specific_claim": "Traditional late-cut/aftermath-grazing/low-input management sustains MG3; improvement destroys it.", "confidence": "high"},
+      {"ref_id": "CLAUDE-DERIVED-OVERLAY", "source_level": 0, "source_type": "model_derived", "title": "Claude-derived WILD overlay (no practitioner field sheet)", "author_org": "WILD Toolbox session", "year": 2026, "url": null, "accessed_date": "2026-06-28", "specific_claim": "Elemental dials, zone placement and value axes inferred by analogy to the sheet-backed records — PROVISIONAL, for review/replacement.", "confidence": "moderate"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": true, "years_unimproved": "Traditionally unimproved (decades to centuries) — improvement destroys the habitat",
+    "overall_palatability_score": 4,
+    "overall_palatability_notes": "A genuine hay crop plus nutritious aftermath grazing — palatable and productive, but the conservation point is to take a MODEST crop late and graze the aftermath, not to maximise yield. Treated under the semi-natural convention (offtake via the hay cut + light grazing), NOT as a Regenerate production sward.",
+    "forage_yield_by_grade": [
+      {"grade": 1, "kg_dm_ha_yr": {"min": 1500, "max": 3500}, "confidence": "low", "notes": "Indicative LOW-INPUT hay yield (roughly 1.5–3.5 t DM/ha) — well below improved meadows; figure is literature-class and PROVISIONAL, verify against scheme/site data. Plus aftermath grazing."}
+    ],
+    "forage_yield_literature": {"min": 1500, "max": 3500, "confidence": "low", "notes": "Low-input upland hay meadow yields are modest and variable; quoted ranges vary widely. Treat as indicative only.", "sources": [{"ref_id": "NE-HAYTIME", "source_level": 2, "source_type": "govt_statutory", "title": "NE / Hay Time upland hay meadow guidance", "author_org": "Natural England / YDMT", "year": 2020, "url": "https://publications.naturalengland.org.uk/", "accessed_date": "2026-06-28", "specific_claim": "Upland hay meadows are low-yielding low-input systems relative to improved grassland.", "confidence": "moderate"}]},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Semi-natural convention — not modelled as gross DM × utilisation. Offtake is the hay cut plus conservation aftermath/spring grazing.",
+    "conservation_lu_ha": {
+      "value": "Aftermath + light spring grazing at a conservation level — scheme-tied and site-specific; commonly cattle aftermath grazing in late summer/autumn and light spring grazing before shutting up for hay. No single year-round stocking figure (it is a cut meadow, not a grazed pasture).",
+      "scheme": "GLU (England — CS/SFI meadow options) / LU (Scotland — AECS) — scheme-tied; verify current option prescriptions",
+      "confidence": "moderate",
+      "basis_note": "Grazing is the aftermath/spring component of a hay-meadow cycle, not continuous pasture stocking. Cattle aftermath grazing is favoured (tread, gap creation, no tight sheep grazing of the sward). Agri-environment options set the detail. Verified June 2026 — re-check scheme options before contracts.",
+      "sources": [
+        {"ref_id": "JNCC-BAP-UHM", "source_level": 2, "source_type": "govt_statutory", "title": "UK BAP — Upland Hay Meadows", "author_org": "JNCC", "year": 2011, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-28", "specific_claim": "Aftermath and light spring grazing within the hay cycle; cattle favoured.", "confidence": "good"},
+        {"ref_id": "AGRI-ENV-SCHEMES", "source_level": 2, "source_type": "govt_statutory", "title": "England CS/SFI and Scotland AECS species-rich/hay-meadow options", "author_org": "Defra/RPA; Scottish Govt", "year": 2026, "url": null, "accessed_date": "2026-06-28", "specific_claim": "Hay-meadow options prescribe cut dates, aftermath grazing and input limits; details change between scheme rounds.", "confidence": "medium"}
+      ]
+    },
+    "palatability_rank": "High (hay + aftermath) — but managed for diversity, not yield",
+    "nutritional_quality_note": "Diverse herb-rich hay is good-quality traditional fodder; the meadow is kept at low fertility deliberately. No toxicity theme.",
+    "seasonal_forage_curve": {"spring": "Light spring grazing, then shut up for hay", "summer": "Grown for hay; LATE cut after seed-set (traditionally mid-July onward)", "autumn": "Aftermath grazing (cattle especially)", "winter": "Rested / light"}
+  },
+  "management": {
+    "optimal_grazing_animals": [{"breed": "Cattle (aftermath grazing); light spring grazing", "species": "cattle", "grade": "1", "notes": "Cattle aftermath grazing creates gaps and treads seed in without tight-grazing the sward; native/traditional breeds suit the low-input system."}],
+    "unsuitable_animals": [{"breed": "Heavy/continuous sheep grazing of the meadow", "species": "sheep", "reason": "Tight continuous sheep grazing selects against the tall herbs and erodes MG3; sheep better used lightly and seasonally only."}],
+    "timing_windows": {"preferred_season": "Light spring graze → shut up → LATE hay cut (after seed-set) → aftermath graze", "rationale": "Allow flowering and seed-set before cutting; aftermath grazing maintains structure and low fertility", "avoid": "Early/silage cutting; fertiliser/slurry; reseeding; herbicides; heavy continuous grazing", "per_species_notes": "Cattle for aftermath; sheep only light/seasonal."},
+    "intensity_guidance": "Maintain the traditional low-input cycle precisely (see timing). For restoration: reduce fertility, correct cut timing, add seed via green hay from a good local donor meadow.",
+    "regulatory_note": "Many upland hay meadows are SSSI/SAC (H6520) and depend on agri-environment funding (England CS/SFI; Scotland AECS; Wales) — option prescriptions set cut dates, aftermath grazing and input limits and change between scheme rounds; verify current options and any designated-site consents before changing management. NO field sheet exists — confirm practitioner detail with Wilderculture before operational use.",
+    "monitoring_protocol": "MG3 indicator assemblage, rye-grass/fertility signs, cut timing and seed-set, aftermath grazing structure, scrub/rank-grass encroachment. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "Very high distinctiveness — priority habitat (H6520 / MG3). Among the highest BNG values; effectively irreplaceable once improved.", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-28", "specific_claim": "Upland hay meadows very high distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Anthoxanthum odoratum (sweet vernal-grass)", "Geranium sylvaticum (wood crane's-bill — the MG3 signature)", "Alchemilla spp. (lady's-mantles, incl. rare species)", "Conopodium majus (pignut)", "Sanguisorba officinalis (great burnet)"],
+    "key_positive_indicators": ["wood crane's-bill, globeflower (Trollius europaeus), melancholy thistle (Cirsium heterophyllum)", "lady's-mantles (incl. rare Alchemilla), pignut, great burnet, sweet vetch (Hippocrepis/Vicia), yellow-rattle (Rhinanthus minor)", "a herb-rich sward with flowering and seed-set; no rye-grass dominance"],
+    "key_negative_indicators": ["Lolium perenne (rye-grass) / Trifolium repens dominance (improvement)", "rank grasses, docks, nettles (enrichment/abandonment)", "loss of indicator herbs; scrub encroachment"],
+    "integrity_indicators_fauna": ["meadow pollinators (bumblebees, hoverflies) and the broader meadow invertebrate community", "seed-eating/farmland birds using the meadow and aftermath"],
+    "integrity_indicators_flora": ["the MG3 indicator assemblage itself is the headline integrity indicator — wood crane's-bill + globeflower + lady's-mantles + melancholy thistle signal intact upland hay meadow"],
+    "target_species_composition": ["full MG3 assemblage with the signature herbs flowering", "low rye-grass; low fertility", "rare lady's-mantles where present"],
+    "note": "Skeleton only — full records and the rare-lady's-mantle/pollinator joins in Phase 2B. NB built WITHOUT a practitioner field sheet."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (g3b verified; g3b5 H6520; MG3)", "ecology / condition / management from high-confidence agency sources", "the traditional management cycle and improvement-as-threat"],
+    "fields_partially_populated": ["wild_assessment — PROVISIONAL, Claude-derived (no field sheet; moderate confidence)", "forage hay-yield figure — indicative/low confidence", "conservation grazing — scheme-tied, verify current options", "species_list — skeleton"],
+    "fields_pending_research": ["A Wilderculture field sheet for g3b (the proper source of the WILD overlay)", "Current CS/SFI/AECS hay-meadow option prescriptions", "Site MG3 condition and rare-Alchemilla records (Phase 2B)"],
+    "overall_confidence": "good (identity/ecology high; WILD overlay provisional)",
+    "notes": "FIRST record built without a practitioner field sheet — the flagged priority gap. g3b is among the rarest grasslands in the UK (MG3, Annex I H6520), a FARMED priority habitat sustained by a precise low-input cycle (late hay cut + aftermath grazing) and destroyed by improvement. Protect & Restore, sitting where conservation meets working agriculture — and distinct from the Regenerate production swards (c1b/g4). The WILD overlay is provisional pending a Wilderculture sheet."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-28", "specific_claim": "g3b upland hay meadows; g3b5 H6520.", "confidence": "high"},
+    {"ref_id": "JNCC-BAP-UHM", "source_level": 2, "source_type": "govt_statutory", "title": "UK BAP Priority Habitat Description — Upland Hay Meadows", "author_org": "JNCC", "year": 2011, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-28", "specific_claim": "MG3/H6520; rarity and decline; traditional management.", "confidence": "high"},
+    {"ref_id": "NE-HAYTIME", "source_level": 2, "source_type": "govt_statutory", "title": "Natural England / Hay Time upland hay meadow management & restoration", "author_org": "Natural England / YDMT", "year": 2020, "url": "https://publications.naturalengland.org.uk/", "accessed_date": "2026-06-28", "specific_claim": "Management cycle, decline, green-hay restoration.", "confidence": "good"},
+    {"ref_id": "CLAUDE-DERIVED-OVERLAY", "source_level": 0, "source_type": "model_derived", "title": "Claude-derived WILD overlay (no field sheet)", "author_org": "WILD Toolbox session", "year": 2026, "url": null, "accessed_date": "2026-06-28", "specific_claim": "Provisional WILD overlay by analogy to sheet-backed records.", "confidence": "moderate"}
+  ]
+}
