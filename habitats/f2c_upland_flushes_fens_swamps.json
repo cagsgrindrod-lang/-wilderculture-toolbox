@@ -1,0 +1,152 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-28",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — fens/flushes batch; built from field sheet 11 (Flushes, Springs & Fens) via the Crosswalk. v3.3. NOTE: code corrected from the Crosswalk — this is f2c (upland), not f2a (lowland fens).",
+  "ukhab_identity": {
+    "ukhab_level2": "f", "ukhab_level2_name": "Wetland",
+    "ukhab_level3": "f2", "ukhab_level3_name": "Fen, marsh and swamp",
+    "ukhab_level4": "f2c", "ukhab_level4_name": "Upland flushes, fens and swamps",
+    "ukhab_level5": null,
+    "ukhab_level5_states": {
+      "f2c5": "Alpine pioneer formations (Annex I H7240) — montane/alpine springs and flushes",
+      "f2c6": "Hard-water springs depositing lime; upland (Annex I H7220) — tufa springs",
+      "f2c7": "Calcium-rich springwater-fed fens; upland (Annex I H7230) — the base-rich flush / alkaline fen jewel",
+      "f2c8": "Transition mires and quaking bogs; upland (Annex I H7140)"
+    },
+    "ukhab_level5_note": "Keyed at f2c. The four Level-5 types are all Annex I and map onto the sheet's 'three kinds': base-rich/calcareous flush & alkaline fen = f2c7 (+ f2c6 tufa springs); montane/alpine springs = f2c5; upland fen/transition mire = f2c8. Acid flushes have no specific Annex type (general f2c). Recorded per parcel.",
+    "wilderculture_subtype": null,
+    "composite_pk": "f2c",
+    "composite_pk_note": "Single Level-4 type; PK = f2c. CROSSWALK CORRECTION: the Crosswalk mapped this sheet to f2a, but f2a is Lowland fens. Upland flushes, fens and swamps is f2c (verified: UKHab master data sheet, Land App BNG list, Derbyshire register, JNCC BAP, NatureScot RR1391). f2b = purple moor-grass & rush pastures (separate record).",
+    "secondary_codes": [], "secondary_codes_notes": "None at type level. NB the English BNG metric merges f2a (lowland) + f2c (upland) into one 'Fens (upland and lowland)' category — keep the UKHab f2c code in the backend regardless.",
+    "habitat_name": "Upland flushes, fens and swamps", "parent_category": "Wetland (fen, marsh and swamp)",
+    "bap_priority": true, "annex1_habitat": "H7230 alkaline fen (f2c7), H7220 petrifying/tufa springs (f2c6), H7240 alpine pioneer formations (f2c5), H7140 transition mires (f2c8)",
+    "geographic_tags": ["upland", "groundwater_fed", "base_rich_where_lime", "spring_fed", "linear_mosaic_feature", "rare_specialists"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (master data sheet + BNG list + applied registers)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-28", "specific_claim": "f = Wetland, f2 = Fen/marsh/swamp, f2c = Upland flushes, fens and swamps (f2a = Lowland fens; f2b = purple moor-grass & rush pastures). L5: f2c5 alpine pioneer (H7240), f2c6 hard-water/tufa springs (H7220), f2c7 calcium-rich springwater fens (H7230), f2c8 transition mires (H7140).", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["M10 Carex dioica–Pinguicula vulgaris (base-rich flush — the jewel)", "M11 Carex–Saxifraga aizoides montane base-rich flush", "M9 / alkaline fen communities (where very calcareous → tufa)", "M32 Philonotis fontana–Saxifraga stellaris spring", "M37/M38 (acid/base spring communities)"],
+    "nvc_communities_notes": "M10/M11 the base-rich flush jewels; M32/M37/M38 the springs; acid flushes are Sphagnum-led seepage versions of the bog. Tall-herb-fen NVC communities feature on richer lower ground.",
+    "phase1_equivalent": "Flush / spring / fen (mire and spring categories)",
+    "bng_metric_habitat_name": "Wetland — Fens (upland and lowland) [English metric merges f2a + f2c]",
+    "wild_sheet_ref": "Habitat-11-Flushes-Springs-Fens",
+    "sources": [
+      {"ref_id": "JNCC-BAP-UFFS", "source_level": 2, "source_type": "govt_statutory", "title": "UK BAP Priority Habitat Description — Upland Flushes, Fens & Swamps", "author_org": "JNCC", "year": 2011, "url": "https://data.jncc.gov.uk/data/6fe22f18-fff7-4974-b333-03b0ad819b88/UKBAP-BAPHabitats-59-UplandFlushesFensSwamps.pdf", "accessed_date": "2026-06-28", "specific_claim": "Defines the upland priority habitat; includes montane/alpine springs and flushes (but not snowbeds U11–14, which are montane heaths/willow scrub); critical food source for upland breeding birds; usually grazed lightly with surrounding ground, springs sometimes ungrazed; too wet to burn.", "confidence": "high"}
+    ]
+  },
+  "ecology": {
+    "description": "The small spring-fed wetlands that thread through the upland mosaic wherever groundwater emerges and seeps over thin peat or mineral soil — springheads, soakways and seepage lines. Tiny in extent, out of all proportion to their size in value. The single defining fact: they are GROUNDWATER-fed (minerotrophic/soligenous), not rain-fed. Where the blanket bog is ombrotrophic (rain-fed, therefore acid and poor), a flush is fed by water that has moved through rock and picked up minerals — so, depending on the geology, it can be base-rich, and a base-rich flush is among the most species-rich ground in the entire uplands. The water chemistry is the whole story.",
+    "condition_indicators_good": ["Intact hydrology first and foremost — water still emerging and seeping freely", "Short, open, diverse vegetation with the specialist flora present", "Healthy bryophyte carpet; tufa forming where very calcareous (alkaline fen)", "No poaching, erosion or rush-and-scrub takeover — a living, flowing, flowery seep"],
+    "condition_indicators_poor": ["Above all, a CUT water supply — drained, ditched, or robbed by ploughing/abstraction upslope (the fatal change)", "Poached to bare mud by concentrated stock", "Rush, Molinia or scrub encroachment from undergrazing or drying", "Nutrient enrichment from feeding/dunging on or above it; trampled springhead mats"],
+    "ecosystem_functions": ["The larder of the breeding hill — wet, invertebrate-rich seepages produce the craneflies and other insects that wader chicks (golden plover, dunlin, curlew, snipe) depend on in their first weeks", "A mineral oasis — base-rich flushes are a calcium and trace-element source in deficient country", "A botanical high point — the base-rich flushes are among the richest refuges of rare upland specialists", "Local water storage and an outsized energy contribution per unit area"],
+    "whole_system_role": "Groundwater-fed wet threads and mineral oases — jewels in the matrix rather than a creation target. Protect the hydrology above all and they look after themselves.",
+    "successional_neighbours": [
+      {"habitat_code": "f1a blanket bog (contrast)", "direction": "contrast (not a neighbour)", "note": "The defining contrast: bog is ombrotrophic (rain-fed, acid, poor); flushes are minerotrophic (groundwater-fed, often base-rich, rich). Same wetness, opposite chemistry."},
+      {"habitat_code": "rush / Molinia / scrub", "direction": "toward (if undergrazed/dried)", "note": "Remove grazing and rushes, Molinia or scrub close over; cut the water and the flush is simply gone."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-11-FLUSHES", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 11 — Flushes, Springs & Fens", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-28", "specific_claim": "Groundwater-fed defining fact, the three kinds, hydrology-is-everything, the wader-larder role, the green-oasis grazing risk.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel; the FIRST question is always 'is the water still there and moving?'",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Intact hydrology; short open diverse vegetation with specialist flora; healthy bryophyte carpet (tufa where calcareous); no poaching/rush/scrub."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Hydrology and/or grazing balance being restored; specialists returning."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Some rush/Molinia ingress or light poaching; flora reduced; hydrology still intact."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Poached to mud, or rush/Molinia/scrub closing over, or enriched; hydrology compromised."},
+      {"grade": 5, "label": "Destroyed", "description": "Water supply cut (drained/ditched/abstracted/intercepted upslope) — the flush gone beyond easy recovery."}
+    ],
+    "grade_field_indicators": ["hydrology — water emerging and flowing (the master indicator)", "specialist flora presence", "bryophyte carpet / tufa", "poaching / bare mud", "rush / Molinia / scrub encroachment", "nutrient enrichment signs"],
+    "sources": [
+      {"ref_id": "JNCC-BAP-UFFS", "source_level": 2, "source_type": "govt_statutory", "title": "UK BAP — Upland Flushes, Fens & Swamps", "author_org": "JNCC", "year": 2011, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-28", "specific_claim": "Intact hydrology and specialist flora define favourable condition; drainage is the principal threat.", "confidence": "high"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Thin peat or mineral soil over the seepage; chemistry set by the rock the groundwater has passed through (base-rich over lime/calc-schist; acid elsewhere)", "base_status": "VARIABLE — the whole point: base-rich where lime, acid where not", "climate": "Spans the uplands; includes cold montane/alpine springs", "altitude_range_m": "From the in-bye up to the alpine springs of the summits", "aspect_exposure": "Springheads, seepage lines and soakways threaded through grassland/heath/bog — linear/patchy features, not blocks", "bioclimate_notes": "Richest base-rich flushes where geology gives lime — Yorkshire Dales, North Pennines/Teesdale limestone, Breadalbane calc-schist; acid flushes everywhere wet."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading. Base-rich flushes/alkaline fens/spring specialists = Protect & Restore; drained/poached/rush-choked = Regenerate. Not a Bioregionally Wilder creation target.",
+      "water": {"dial_position": 80, "state": "Permanently wet but FLOWING/seeping — minerotrophic (groundwater-fed)", "descriptor": "The key contrast with rain-fed bog: the water moves and carries minerals with it. Hydrology is the entire habitat."},
+      "earth": {"dial_position": 40, "pedogenic_process": "minerotrophic cycling (variable by chemistry)", "descriptor": "Highly variable by water chemistry: base-rich flushes mineral-rich and biologically active (tufa where very calcareous); acid flushes poor. Thin peat or mineral soil over the seepage."},
+      "air": {"dial_position": 60, "redox_state": "Wet, often low-redox, but flowing water carries oxygen", "exposure_bioclimate": "Spans to cold montane springs", "descriptor": "Wetter and lower-redox than dry ground, but the moving water keeps base-rich flushes more active than still bog."},
+      "fire": {"dial_position": 50, "npp_level": "Small in area but locally productive, disproportionately rich", "descriptor": "A green, growing oasis that feeds the invertebrates wader chicks depend on — an outsized energy contribution per unit area."}
+    },
+    "successional_envelope": {
+      "current_stage": "Not a successional stage but a PERMANENT FEATURE — tied to where water emerges and held by that supply (as the bog is held by rainfall)",
+      "range_of_natural_variability": ["Intact, flowing, diverse flush (favourable)", "Rush/Molinia/scrub closing over (undergrazed/drying)", "Poached to mud (overgrazed/concentrated)", "Gone (water cut)"],
+      "successional_pathway": "intact hydrology → stable flush; cut the water → flush gone (the destroying change); remove grazing → rush/Molinia/scrub closes over. Movement comes only when the water or the grazing changes."
+    },
+    "energy_flow_role": "A green, growing, mineral oasis and the invertebrate larder of the breeding hill — an outsized contribution per unit area despite tiny extent.",
+    "wild_zone": "Protect & Restore",
+    "wild_zone_rationale": "The base-rich flushes, alkaline fens and spring specialist communities are Protect & Restore — rare, irreplaceable, hydrologically specific jewels in the matrix. Drained, poached or rush-choked flushes sit in Regenerate, recovered by restoring the hydrology and the grazing balance, not by planting. Flushes are NOT a Bioregionally Wilder creation target like woodland — they are features to safeguard within the mosaic. The most powerful thing the WILD map does for them is the landscape-scale rewetting on the bog and wet-heath sheets, which brings the whole network of wet threads back to life.",
+    "disturbance_regime": "Hydrology-led, then a light grazing BALANCE (like calcareous grassland — a floor and a ceiling, not a direction). Usually grazed lightly with the surrounding ground; fragile springs and montane seeps are best ungrazed.",
+    "wild_management_target": {"type": "state_target", "detail": "PROTECT THE HYDROLOGY above all — keep water emerging and flowing (no drainage/ditching/abstraction, and guard against upslope ploughing/forestry/tracks intercepting the flow). Graze lightly to keep flushes open without poaching; leave fragile springs/montane seeps at the minimal-or-no-grazing end. Keep feeders, licks, tracks and gateways well away. Protect base-rich flushes and their specialist flora specifically. Re-grade trigger applies — but hydrology first.", "integrity_indicators": ["intact, flowing hydrology", "specialist flush flora (the base-rich assemblage)", "cranefly/invertebrate production feeding wader chicks", "healthy bryophyte carpet / tufa where calcareous"]},
+    "ecological_value_grade": 4,
+    "ecological_value_notes": "High, and genuinely split: base-rich flushes and alkaline fens are a botanical high point alongside calcareous grassland (value 5 — rare specialists, Annex I, the wader larder); acid flushes are as poor as their surroundings (~3). The disproportionate importance-per-area and the rare-specialist refugia justify a high overall grade, with the base-rich/alkaline-fen high end among the very highest in the series.",
+    "value_axes": {"rarity_irreplaceability": {"score": 5, "notes": "Base-rich flushes/alkaline fens are rare, geology-and-hydrology-specific, and effectively irreplaceable once the water is cut; refuges for rare upland specialists."}, "diversity": {"score": 4, "notes": "Base-rich flushes among the richest ground in the uplands; acid flushes poor — a wide spread."}, "energy_flow_contribution": {"score": 4, "notes": "Outsized per unit area — the green oasis and invertebrate larder for breeding waders."}},
+    "naturalistic_lu_ha": null, "naturalistic_lu_ha_note": "Not a 'remove stock' nor a stocked habitat in its own right — grazed lightly with the surrounding ground; springs ungrazed. Operative figure is a light, balanced, adviser-set density (floor and ceiling), with hydrology the overriding control.",
+    "mosaic_role": "mineral oasis / green flush / wader larder", "mosaic_role_note": "The green, mineral-rich oasis of the mosaic — draws stock and deer as wet greens, and feeds wader chicks; its value is local and concentrated, and so is its vulnerability.",
+    "preferential_grazing_magnet": true, "preferential_grazing_magnet_note": "TRUE and a key risk — the green-oasis effect: nutritious, mineral-rich, green when all around is brown, so stock and deer concentrate on it and poach it. The very attraction that makes it valuable makes it vulnerable.",
+    "process_indicators": ["hydrology intact (water emerging/flowing)", "specialist flush flora", "cranefly/invertebrate production (wader-chick food)", "absence of poaching / rush-scrub / enrichment"],
+    "process_indicators_note": "Hydrology is the master process; the wader-larder (cranefly) thread links to the bog sheet.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-11-FLUSHES", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 11 — Flushes, Springs & Fens", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-28", "specific_claim": "Elemental reading, zone, hydrology-first management, the green-oasis grazing balance, wader larder.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — permanent groundwater-fed feature",
+    "overall_palatability_score": 3,
+    "overall_palatability_notes": "A green-OASIS effect rather than a place on the bulk-forage ladder. The base-rich flushes punch well above their size — nutritious, mineral-rich and green when all around is brown — which makes them disproportionately attractive and therefore disproportionately vulnerable to being hammered and poached. Acid flushes are as poor as their surroundings. The value is local and concentrated, and the risk is exactly that concentration.",
+    "forage_yield_by_grade": [{"grade": 1, "kg_dm_ha_yr": {"min": 0, "max": 0}, "confidence": "high", "notes": "Not a bulk-forage/stocking habitat — minor in quantity, fragile, and managed by light balance + hydrology protection, not a DM budget. The green-oasis attraction is a poaching RISK, not a forage resource to plan around."}],
+    "forage_yield_literature": {"min": 0, "max": 0, "confidence": "high", "notes": "Tiny in bulk; not a grazing resource to budget. Quality (mineral oasis) and the poaching risk are the points.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — light balanced conservation grazing, hydrology-led; not DM × utilisation.",
+    "conservation_lu_ha": {
+      "value": "No single figure — light, balanced, site-specific and adviser-set, with BOTH a floor (keep open, stop rush/scrub) and a ceiling (avoid poaching). Fragile springs and montane seeps at the minimal-or-no-grazing end. Hydrology protection overrides any stocking decision.",
+      "scheme": "GLU (England) / LU (Scotland) — scheme-tied; but hydrology and balance govern, not a number",
+      "confidence": "moderate",
+      "basis_note": "Same dual over-/under-grazing logic as calcareous grassland. Usually grazed lightly along with the surrounding grassland/heath (deer/sheep, sometimes cattle); some types (springs) best ungrazed. No single stocking figure applies. Figures/guidance verified June 2026.",
+      "sources": [
+        {"ref_id": "JNCC-BAP-UFFS", "source_level": 2, "source_type": "govt_statutory", "title": "UK BAP — Upland Flushes, Fens & Swamps", "author_org": "JNCC", "year": 2011, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-28", "specific_claim": "Usually grazed lightly with surrounding ground; some types (springs) ungrazed; too wet to burn.", "confidence": "high"},
+        {"ref_id": "SAC-FAS-TN686", "source_level": 2, "source_type": "govt_statutory", "title": "TN686 — Conservation Grazing of Semi-Natural Habitats", "author_org": "SAC / Farm Advisory Service", "year": 2024, "url": "https://www.fas.scot/", "accessed_date": "2026-06-28", "specific_claim": "Flush/fen conservation grazing is light, balanced and site-specific.", "confidence": "good"}
+      ]
+    },
+    "palatability_rank": "Green oasis — High quality (base-rich) but minor quantity; Low (acid flush)",
+    "nutritional_quality_note": "The base-rich flushes are genuinely mineral-rich — a calcium and trace-element source in deficient country (the calcareous-grassland note again). This is real quality, but in tiny quantity, and the attraction is the poaching risk.",
+    "seasonal_forage_curve": {"spring": "Green and growing early — draws stock as wet greens", "summer": "Stays green when the hill has dried (the oasis effect, peak poaching risk)", "autumn": "Still green", "winter": "Wet — keep stock off fragile ground"}
+  },
+  "management": {
+    "optimal_grazing_animals": [{"breed": "Light grazing with the surrounding ground (deer/sheep, sometimes cattle)", "species": "sheep/cattle/deer", "grade": "—", "notes": "Grazed lightly along with the surrounding grassland/heath to keep open; fragile springs and montane seeps best ungrazed."}],
+    "unsuitable_animals": [{"breed": "Concentrated stock on the green flush", "species": "all", "reason": "The green-oasis attraction concentrates animals and poaches the small fragile ground to mud."}],
+    "timing_windows": {"preferred_season": "Light grazing through the season to keep open; minimal/none on fragile springs", "rationale": "Keep flushes open without poaching; protect springhead mats", "avoid": "Concentrating stock on flushes; poaching; nutrient run-in; BURNING (too wet, and never appropriate)", "per_species_notes": "Site feeders, licks, tracks and gateways well AWAY from flushes so dung/nutrients/traffic do not run in."},
+    "intensity_guidance": "Light balance — floor and ceiling (see conservation_lu_ha). But the FIRST principle is hydrology: protect the water before any grazing decision.",
+    "regulatory_note": "PROTECT THE HYDROLOGY — do NOT drain, ditch or abstract the water, and ensure upslope ploughing, forestry or track-building does not intercept the flow; this is the single fatal error. Too wet to burn — never burn. Many good flushes/alkaline fens are SSSI/SAC and several rare flush plants are legally protected — check designation and consents before ANY works, especially anything affecting drainage or water supply.",
+    "monitoring_protocol": "Hydrology (water emerging/flowing) first; specialist flora; bryophyte carpet / tufa; poaching/bare mud; rush/Molinia/scrub; enrichment signs; cranefly/wader-chick food. Apply the re-grade trigger, hydrology foremost.",
+    "bng_unit_value": {"value_note": "High distinctiveness — priority habitat (Annex I H7230/H7220/H7240/H7140 per type). Among the highest BNG values for the base-rich/alkaline-fen forms; irreplaceable where hydrology-specific.", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-28", "specific_claim": "Fens high distinctiveness (English metric merges upland f2c + lowland f2a); confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Carex dioica (dioecious sedge)", "Carex pulicaris (flea sedge)", "Pinguicula vulgaris (common butterwort)", "Saxifraga aizoides (yellow saxifrage)", "Cratoneuron / Palustriella commutata (tufa moss)", "Philonotis fontana (fountain apple-moss)", "Sphagnum spp. (acid flush)"],
+    "key_positive_indicators": ["the base-rich specialist flora — Primula farinosa (bird's-eye primrose), Parnassia palustris (grass-of-Parnassus), Thalictrum alpinum (alpine meadow-rue), Triglochin palustris (marsh arrowgrass), Anagallis tenella (bog pimpernel)", "tufa-forming mosses (Cratoneuron/Campylium) — alkaline fen", "globeflower, valerian and tall herbs on richer lower ground", "intact flowing hydrology and a healthy bryophyte carpet"],
+    "key_negative_indicators": ["dry/cut flush (no flowing water)", "poaching to bare mud", "rush / Molinia / scrub encroachment", "nutrient enrichment (rank growth)"],
+    "integrity_indicators_fauna": ["craneflies and wet-seepage invertebrates — the food that wader chicks (golden plover, dunlin, curlew, snipe) depend on in their first weeks (the larder of the breeding hill; the same cranefly thread as the bog sheet)", "rich seepage invertebrate fauna generally"],
+    "integrity_indicators_flora": ["a base-rich flush flora is itself a genuine integrity indicator of intact, base-rich, well-watered ground — a botanical high point alongside calcareous grassland"],
+    "target_species_composition": ["base-rich specialist flora with intact bryophyte carpet (tufa where calcareous)", "short open diverse vegetation", "no rush/scrub/poaching"],
+    "note": "Skeleton only — full records and the cranefly→wader food relationship in Phase 2B. Several flush specialists are legally protected — flag at site level."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (f2c verified — CORRECTED from the Crosswalk's f2a; four Annex I L5 types mapped to the sheet's three kinds)", "wild_assessment from a high-confidence sheet", "hydrology-first management; the green-oasis grazing balance", "the wader-larder (cranefly) integrity role"],
+    "fields_partially_populated": ["conservation_lu_ha — no single figure, light balance, adviser-set (moderate confidence by nature)", "base-rich vs acid flush split — per parcel", "species_list — skeleton"],
+    "fields_pending_research": ["Site hydrological catchment mapping (what feeds each flush) — essential and site-specific", "Protected flush-plant records and consents per parcel", "Tall-herb-fen overlap on richer lower ground (see scoping note)"],
+    "overall_confidence": "high",
+    "notes": "Completes field sheet 11 and the upland wetland set (f1a bog, f2b rush pasture, f2c flushes/fens/swamps). KEY CORRECTION: f2c (upland), not the Crosswalk's f2a (lowland fens). Defined by groundwater feeding (minerotrophic) vs the rain-fed bog — which is why base-rich flushes can be jewels. Hydrology is the master control: cut the water and the habitat is gone. A Protect & Restore feature to safeguard, not a creation target; the bog/wet-heath rewetting brings the whole flush network back."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-28", "specific_claim": "f2c upland flushes/fens/swamps; f2c5/6/7/8 Annex I types; f2a = lowland fens.", "confidence": "high"},
+    {"ref_id": "JNCC-BAP-UFFS", "source_level": 2, "source_type": "govt_statutory", "title": "UK BAP Priority Habitat Description — Upland Flushes, Fens & Swamps", "author_org": "JNCC", "year": 2011, "url": "https://data.jncc.gov.uk/data/6fe22f18-fff7-4974-b333-03b0ad819b88/UKBAP-BAPHabitats-59-UplandFlushesFensSwamps.pdf", "accessed_date": "2026-06-28", "specific_claim": "Priority habitat definition, montane springs included, wader food role, light grazing, too wet to burn.", "confidence": "high"},
+    {"ref_id": "NATURESCOT-RR1391", "source_level": 2, "source_type": "govt_statutory", "title": "NatureScot RR1391 — habitat classification review", "author_org": "NatureScot", "year": 2025, "url": "https://www.nature.scot/", "accessed_date": "2026-06-28", "specific_claim": "f2a lowland fens and f2c upland flushes/fens/swamps merged into one English-metric 'Fens' category; f2c8 transition mires.", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-11-FLUSHES", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 11 — Flushes, Springs & Fens", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-28", "specific_claim": "Ecology, elemental reading, hydrology-first management, zone.", "confidence": "good"}
+  ]
+}
