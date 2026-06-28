@@ -1,0 +1,135 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — scrub group batch; field sheet 09 (treeline scrub) + parked from the montane record (h1c5). v3.3.",
+  "ukhab_identity": {
+    "ukhab_level2": "h", "ukhab_level2_name": "Heathland and shrub",
+    "ukhab_level3": "h1", "ukhab_level3_name": "Dwarf shrub heath",
+    "ukhab_level4": "h1c", "ukhab_level4_name": "Mountain heaths and willow scrub",
+    "ukhab_level5": "h1c6", "ukhab_level5_name": "Mountain willow scrub (Annex I H4080)",
+    "wilderculture_subtype": null,
+    "composite_pk": "h1c6",
+    "composite_pk_note": "v3.3 Level-5 keyed. Sibling of h1c5 (alpine/subalpine heaths, the montane heath record); h1c6 is the sub-arctic montane WILLOW scrub. Distinct from lowland/wet willow scrub (h3j).",
+    "secondary_codes": [], "secondary_codes_notes": "Dwarf birch (Betula nana) and montane juniper occur with the montane willows — recorded with this type / cross-ref the montane heath h1c5.",
+    "habitat_name": "Montane willow scrub (treeline scrub)", "parent_category": "Heathland and shrub",
+    "bap_priority": true, "annex1_habitat": "H4080 Sub-Arctic Salix spp. scrub",
+    "geographic_tags": ["montane", "treeline_ecotone", "scottish_highlands", "rarest_scrub", "internationally_significant"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (Level-5 list per CIEEM guidance + master data sheet)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "h1c = Mountain heaths and willow scrub; h1c6 = Mountain willow scrub (Annex I H4080), the sibling of h1c5 alpine/subalpine heaths.", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["W20 Salix lapponum–Luzula sylvatica scrub (the montane willow community)"],
+    "nvc_communities_notes": "W20 sub-arctic willow scrub — downy willow (Salix lapponum) with the other montane willows; among the rarest vegetation in Britain.",
+    "phase1_equivalent": "Montane scrub (no exact Phase 1 unit)",
+    "bng_metric_habitat_name": "Heathland and shrub — Mountain heaths and willow scrub",
+    "wild_sheet_ref": "Habitat-09-Upland-Scrub (with Habitat-08-Montane)",
+    "sources": [
+      {"ref_id": "MONTANE-SCRUB-LIT", "source_level": 1, "source_type": "peer_reviewed", "title": "Montane willow scrub restoration literature (Watts 2023–2025; Cairngorms Nature; montane scrub action group)", "author_org": "Various (Scottish Forestry Trust / Cairngorms Nature)", "year": 2025, "url": null, "accessed_date": "2026-06-27", "specific_claim": "W20 montane willow scrub is a rare Annex I treeline habitat; restoration practice now established (downy willow most-planted).", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "The rarest scrub in Britain — the sub-arctic willow scrub of the treeline ecotone, dwarf birch, the montane willows (downy, woolly, whortle-leaved, mountain) and montane juniper that should grade between the high woodland and the montane heath above. Almost entirely grazed and burnt away, it survives mainly on ungrazed ledges and crags out of reach of stock and deer. An Annex I habitat and, with the missing treeline ecotone, the great Bioregionally Wilder restoration prize flagged on the montane sheet.",
+    "condition_indicators_good": ["Stands of montane willows/dwarf birch with a range of ages and signs of regeneration (or successful establishment)", "Both sexes present (the willows are dioecious — both needed for seed)", "Associated montane tall-herb ledge flora", "On harsh treeline ground, a stable self-maintaining climax scrub"],
+    "condition_indicators_poor": ["Tiny relict patches on inaccessible ledges only — grazed/browsed out everywhere reachable", "Single-sex or single-age relict clones with no regeneration", "Browsing/trampling damage; absence across the whole treeline where it should form a band"],
+    "ecosystem_functions": ["The missing treeline ecotone — the structural transition from woodland up to montane heath", "Refuge for montane tall-herb and specialist invertebrate communities", "On harsh ground, a stable climax scrub (a destination, not just a route)", "Soil/shelter building at the treeline"],
+    "whole_system_role": "The treeline scrub belt — both the structural link between woodland and montane heath and, on the harshest ground, a climax in its own right. Its near-total loss is one of the defining wounds of the British uplands (the abrupt, unnatural moor/woodland edge).",
+    "successional_neighbours": [
+      {"habitat_code": "w2a/w1e woodland (below)", "direction": "from (the treeline ecotone above woodland)", "note": "Should grade up from high pinewood/birchwood at the natural treeline."},
+      {"habitat_code": "h1c5 montane heath (above)", "direction": "toward (grades up to)", "note": "Grades up into the alpine/subalpine montane heath — the two are the h1c pair."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-09-SCRUB", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 09 — Upland Scrub & Treeline Scrub", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Treeline/montane scrub as the rarest, the missing ecotone, restoration practice, climax-on-harsh-ground.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel; presence/regeneration of montane willows is the diagnostic (most stands are tiny relicts).",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Multi-age montane willow/dwarf-birch stand, both sexes, regenerating or establishing; associated ledge flora; forming a treeline band where ground allows."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Browsing excluded/reduced; planting establishing; regeneration beginning."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Relict stand persisting but not regenerating."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Single-sex/single-age relict clones; browsing/trampling damage."},
+      {"grade": 5, "label": "Near-absent", "description": "Reduced to inaccessible-ledge fragments, or gone — the usual state across the treeline."}
+    ],
+    "grade_field_indicators": ["montane willow/dwarf-birch presence and extent", "regeneration/establishment and both sexes present", "browsing/trampling impact", "associated montane ledge flora", "treeline-band continuity"],
+    "sources": [
+      {"ref_id": "MONTANE-SCRUB-LIT", "source_level": 1, "source_type": "peer_reviewed", "title": "Montane willow scrub restoration literature", "author_org": "Cairngorms Nature / montane scrub action group", "year": 2025, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Most stands are tiny relicts; both sexes and regeneration define favourable condition.", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Thin montane soils and ledges, often base-influenced; rocky/crag ground", "base_status": "often base-influenced (the willows favour richer ledges)", "climate": "Cold, exposed, snow-affected treeline ecotone", "altitude_range_m": "The treeline ecotone, ~600 m and above", "aspect_exposure": "Exposed; surviving mainly on ungrazed ledges and crags", "bioclimate_notes": "The great remnants are in the Eastern Highlands (Cairngorms — the UK's most natural treeline at Creag Fhiaclach) and West Highlands; tiny fragments elsewhere."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading. Protect & Restore (rare, Annex I, irreplaceable remnants); restoration across the treeline = Bioregionally Wilder.",
+      "water": {"dial_position": 40, "state": "Thin montane soils; base-influenced ledges", "descriptor": "Exposure, snow-lie and ledge refugia matter more than simple moisture."},
+      "earth": {"dial_position": 45, "pedogenic_process": "slow cold pedogenesis; ledge soil-building", "descriptor": "Thin cold soils; the willows build a little shelter and soil at the treeline."},
+      "air": {"dial_position": 30, "redox_state": "Aerobic, thin", "exposure_bioclimate": "Extreme treeline exposure, wind and frost", "descriptor": "The defining control is above-ground exposure at the treeline."},
+      "fire": {"dial_position": 25, "npp_level": "Low (cold, short season)", "descriptor": "Low, slow production — but real woody structure and a high-value refuge at the very top of the scrub gradient."}
+    },
+    "successional_envelope": {
+      "current_stage": "Climax on harsh treeline ground (a destination, not transitional)",
+      "range_of_natural_variability": ["Treeline montane willow/dwarf-birch band (the natural state, now almost gone)", "Relict ledge fragments (the usual survival)", "Restored/planted stands establishing", "Absent across the treeline"],
+      "successional_pathway": "On harsh treeline/thin-soil ground this is a STABLE CLIMAX — the top of the scrub gradient and the natural cap between woodland and montane heath. It does not mature to forest; it IS the treeline."
+    },
+    "energy_flow_role": "Low production but high conservation and structural value — the rarest scrub and the missing treeline cap of the whole successional story.",
+    "wild_zone": "Protect & Restore",
+    "wild_zone_rationale": "Protect & Restore — the surviving montane willow/treeline remnants are rare, precious, Annex I, and irreplaceable seed sources and gene pool. Re-establishing the treeline scrub ecotone across the high ground is the prime Bioregionally Wilder restoration prize (the same one flagged on the montane heath sheet). Per parcel: remnants P&R; new establishment Regenerate→Wilder.",
+    "disturbance_regime": "Browsing-controlled — exclude/greatly reduce deer (and sheep) to allow establishment. Because the seed source has mostly gone, this is the one scrub type where PLANTING is usually needed, often behind fences excluding large herbivores while plants establish.",
+    "wild_management_target": {"type": "process_target", "detail": "Protect and expand the surviving remnants; re-establish the treeline scrub band by excluding/reducing browsing and, where the seed source is gone, planting montane willows (downy willow most-planted), dwarf birch and the rarer willows — both sexes — often behind temporary fencing. Strict juniper/Phytophthora biosecurity where montane juniper is involved. A long, deer-management-dependent project.", "integrity_indicators": ["montane willow/dwarf-birch establishment and regeneration", "both sexes present (seed set)", "treeline-band continuity re-forming", "associated montane tall-herb ledge flora"]},
+    "ecological_value_grade": 5,
+    "ecological_value_notes": "Among the very highest — the rarest scrub in Britain, an Annex I sub-arctic habitat reduced to ledge relicts, and the missing treeline cap of the whole upland successional story. Irreplaceable remnants; a flagship restoration prize.",
+    "value_axes": {"rarity_irreplaceability": {"score": 5, "notes": "The rarest scrub in Britain; Annex I; ledge relicts effectively irreplaceable and the only seed source."}, "diversity": {"score": 4, "notes": "Distinct montane willow/tall-herb assemblage and specialist invertebrates."}, "energy_flow_contribution": {"score": 2, "notes": "Low production at the treeline; value is structural and as the missing ecotone, not throughput."}},
+    "naturalistic_lu_ha": {"value": "Near nil — exclude/greatly reduce browsing; this is a restoration, not a grazing, habitat", "confidence": "moderate", "basis_note": "Establishment usually needs herbivore EXCLUSION (fencing) and planting; deer management is the long-term lever. Not stocked."},
+    "mosaic_role": "treeline cap / refuge", "mosaic_role_note": "The top of the scrub gradient — the structural cap between woodland and montane heath, not a grazing patch.",
+    "preferential_grazing_magnet": false, "preferential_grazing_magnet_note": "Browsed out wherever reachable — its survival only on inaccessible ledges is the proof; restoration depends on removing that pressure.",
+    "process_indicators": ["willow/dwarf-birch establishment and regeneration", "both sexes / seed set", "treeline-band re-formation", "deer pressure at the treeline"],
+    "process_indicators_note": "The treeline-band re-formation is the headline Bioregionally-Wilder measure (shared with the montane heath record).",
+    "sources": [
+      {"ref_id": "WILD-SHEET-09-SCRUB", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 09 — Upland Scrub", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Treeline scrub as climax-on-harsh-ground; restoration by exclusion + planting; the missing ecotone.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — montane climax scrub",
+    "overall_palatability_score": 4,
+    "overall_palatability_notes": "Montane willows are high-value browse like all willow — which, with deer pressure at the treeline, is exactly why this is the rarest scrub of all. NOT a forage resource: a restoration habitat requiring browsing exclusion.",
+    "forage_yield_by_grade": [{"grade": 1, "kg_dm_ha_yr": {"min": 0, "max": 0}, "confidence": "high", "notes": "Not a forage/stocking habitat — restoration by browsing exclusion and planting."}],
+    "forage_yield_literature": {"min": 0, "max": 0, "confidence": "high", "notes": "Not a grazing resource.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — restoration habitat, browsing excluded.",
+    "conservation_lu_ha": {"value": "Near nil — exclude/greatly reduce browsing (often fenced); deer management the long-term lever", "scheme": "n/a — restoration habitat, not stocked", "confidence": "moderate", "basis_note": "Establishment usually behind fences excluding large herbivores; not a stocked habitat.", "sources": [{"ref_id": "MONTANE-SCRUB-LIT", "source_level": 1, "source_type": "peer_reviewed", "title": "Montane willow scrub restoration literature", "author_org": "Cairngorms Nature", "year": 2025, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Restoration behind herbivore-exclusion fencing; deer management the lever.", "confidence": "good"}]},
+    "palatability_rank": "High (willow browse) — browsed out wherever reachable",
+    "nutritional_quality_note": "Not relevant as a grazing resource — restoration habitat.",
+    "seasonal_forage_curve": {"spring": "Catkins (montane pollinator resource) — but a deer-browse target", "summer": "Foliage", "autumn": "Senescing", "winter": "Dormant"}
+  },
+  "management": {
+    "optimal_grazing_animals": [{"breed": "None — exclude browsing", "species": "deer (reduce/exclude)", "grade": "—", "notes": "This is a restoration habitat; establishment needs herbivore exclusion."}],
+    "unsuitable_animals": [{"breed": "Deer/sheep at the treeline", "species": "deer/sheep", "reason": "Browse out the montane willows — the reason this is the rarest scrub."}],
+    "timing_windows": {"preferred_season": "Exclude browsing during establishment; long-term deer management", "rationale": "Allow montane willows/dwarf birch to establish and set seed", "avoid": "Any browsing of establishing stands; burning; moving potentially infected juniper material", "per_species_notes": "Deer management is the long-term lever; fencing during establishment."},
+    "intensity_guidance": "Exclude/greatly reduce browsing; plant where the seed source is gone (downy willow most-planted; both sexes), often behind temporary fences. Protect and expand remnants first.",
+    "regulatory_note": "Juniper/Phytophthora austrocedri biosecurity where montane juniper is involved (clean kit, careful sourcing, no moving infected material). Do not burn at this altitude. Most sites are SSSI/SAC/SPA — check consents; deer-fence collision risk for montane birds (e.g. ptarmigan) to be managed.",
+    "monitoring_protocol": "Montane willow/dwarf-birch establishment and regeneration, both sexes/seed set, treeline-band continuity, deer pressure, associated ledge flora. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "Very high distinctiveness — priority, Annex I (H4080), among the rarest habitats. Irreplaceable remnants.", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Mountain heaths and willow scrub very high distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Salix lapponum (downy willow)", "Salix lanata (woolly willow)", "Salix myrsinites (whortle-leaved willow)", "Betula nana (dwarf birch)", "Juniperus communis ssp. nana (montane juniper)"],
+    "key_positive_indicators": ["montane willow/dwarf-birch stands with both sexes and regeneration/establishment", "associated montane tall-herb ledge flora", "a re-forming treeline band"],
+    "key_negative_indicators": ["relict single-sex/single-age clones with no regeneration", "browsing/trampling damage", "absence across the treeline"],
+    "integrity_indicators_fauna": ["montane willow-associated invertebrates and specialist pollinators", "ring ouzel and montane birds using the scrub ecotone", "black grouse winter shelter where montane juniper is present"],
+    "integrity_indicators_flora": ["the montane willows themselves (downy/woolly/whortle-leaved) and the associated tall-herb ledge community ARE the headline integrity indicator — among the rarest vegetation in Britain"],
+    "target_species_composition": ["multi-age montane willow/dwarf-birch with both sexes", "associated montane ledge flora", "a continuous treeline band where ground allows"],
+    "note": "Skeleton only — full records in Phase 2B. Montane juniper biosecurity and the deer-management/treeline-restoration link to the montane heath (h1c5) record are key cross-refs."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (h1c6 verified — the Annex I montane willow scrub parked from the montane record)", "wild_assessment from a high-confidence sheet + restoration literature", "climax-on-harsh-ground succession; restoration-by-exclusion-and-planting", "the treeline-ecotone link to h1c5 and the woodland below"],
+    "fields_partially_populated": ["conservation/establishment figures — restoration-specific, site-by-site (moderate confidence)", "species_list — skeleton"],
+    "fields_pending_research": ["Site remnant inventory and restoration records (Phase 2B)", "Montane juniper biosecurity specifics", "Deer-management plans linking to h1c5 treeline restoration"],
+    "overall_confidence": "high",
+    "notes": "Completes the scrub group and resolves the montane willow scrub parked from h1c5. The rarest scrub in Britain (Annex I H4080), reduced to ledge relicts; Protect & Restore for remnants, Bioregionally Wilder for treeline restoration — the prime wilder prize flagged on the montane sheet. The one scrub type where PLANTING (behind exclusion fencing) is usually needed because the seed source has gone."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "h1c6 mountain willow scrub; H4080.", "confidence": "high"},
+    {"ref_id": "MONTANE-SCRUB-LIT", "source_level": 1, "source_type": "peer_reviewed", "title": "Montane willow scrub restoration literature", "author_org": "Watts / Cairngorms Nature / montane scrub action group", "year": 2025, "url": null, "accessed_date": "2026-06-27", "specific_claim": "W20 rarity, restoration practice (downy willow most-planted, exclusion fencing).", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-09-SCRUB", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 09 — Upland Scrub", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Treeline scrub ecology, zone, restoration.", "confidence": "good"}
+  ]
+}
