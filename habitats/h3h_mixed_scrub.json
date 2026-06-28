@@ -1,0 +1,139 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — scrub group batch; built from field sheet 09 (Upland Scrub), split per type. v3.3.",
+  "ukhab_identity": {
+    "ukhab_level2": "h", "ukhab_level2_name": "Heathland and shrub",
+    "ukhab_level3": "h3", "ukhab_level3_name": "Scrub (dense/scattered scrub)",
+    "ukhab_level4": "h3h", "ukhab_level4_name": "Mixed scrub",
+    "ukhab_level5": null,
+    "wilderculture_subtype": null,
+    "composite_pk": "h3h",
+    "composite_pk_note": "Keyed at h3h (Mixed scrub) as the representative code for the diverse thorn/hazel/pioneer upland scrub 'missing middle'. Single-species stands take the specific code per parcel: h3a blackthorn, h3b hazel, h3d bramble, h3e gorse, h3f hawthorn (h3g rhododendron is the invasive to remove). Willow-dominated scrub = h3j (separate record). Montane treeline scrub = h1c6 (separate record).",
+    "secondary_codes": [], "secondary_codes_notes": "Scattered scrub over another habitat is recorded as a secondary code on that habitat; dense scrub is the primary h3 code.",
+    "habitat_name": "Mixed / upland scrub (the 'missing middle')", "parent_category": "Heathland and shrub",
+    "bap_priority": false,
+    "annex1_habitat": "None at type level. NB JUNIPER (see species_list / management) is a priority/Annex I habitat (H5130 Juniperus communis formations) but has NO dedicated UKHab primary code — see juniper_note.",
+    "juniper_note": "STRUCTURAL FLAG: UKHab v2.01 has no dedicated juniper-scrub primary code (the h3 series runs h3a–h3h, h3j willow, with no juniper letter). Juniper is recorded as mixed scrub (h3h) or as a feature of its host habitat (h1b heath, g2b calcareous grassland, h1c montane), carrying the H5130 priority/Annex I flag and NVC W19. The Crosswalk's 'juniper scrub' implied a code that does not exist in the verified list — verify against the full UKHab v2.01 workbook before assigning any juniper-specific code.",
+    "geographic_tags": ["upland", "in_bye_margins", "treeline_ecotone", "depleted", "missing_middle"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (master data sheet + BNG code list)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "h3 Dense scrub: h3a blackthorn, h3b hazel, h3c sea buckthorn, h3d bramble, h3e gorse, h3f hawthorn, h3g rhododendron, h3h mixed scrub, h3j willow scrub. No dedicated juniper primary code in the verified list.", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["Scrub facies / edges of the W-series (W21–W25 scrub communities)", "W19 Juniperus communis–Oxalis acetosella (where juniper dominates — see juniper_note)"],
+    "nvc_communities_notes": "Scrub is under-represented in the NVC; it appears largely as the scrub edges/facies of the woodland (W) series. Juniper-dominated stands are W19.",
+    "phase1_equivalent": "A2.1 Dense/continuous scrub; A2.2 scattered scrub",
+    "bng_metric_habitat_name": "Heathland and shrub — Mixed scrub",
+    "wild_sheet_ref": "Habitat-09-Upland-Scrub",
+    "sources": [
+      {"ref_id": "NE-SCRUB-PROFILES", "source_level": 2, "source_type": "govt_statutory", "title": "Natural England — scrub community and shrub species profiles", "author_org": "Natural England", "year": 2013, "url": "https://publications.naturalengland.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Reviews British scrub community types and their value.", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "The 'missing middle' of the British uplands — the band of scrub and low trees that should grade between open ground and high forest, and which has been almost entirely grazed and burnt out. Not one community but a family: on the lower ground and in-bye margins, thorn-and-hazel scrub (hawthorn, blackthorn, hazel, rose, bramble, gorse, broom); up the fell, pioneer scrub (rowan, birch, holly, bird cherry, aspen, willow). Long dismissed as waste, now understood as one of the richest habitats there is — the dynamic engine of succession and the connective tissue of the whole WILD map. The defining paradox: scrub is high-value browse, the first thing a hungry animal eats, which is exactly why overgrazing has wiped it out.",
+    "condition_indicators_good": ["A structurally diverse, multi-age mosaic — seedlings, building bushes, mature plants and open glades together", "A mix of species; integrated with grassland and heath as a mosaic, not a solid block", "Browsing light enough that regeneration survives", "Dynamic and self-renewing"],
+    "condition_indicators_poor": ["Most often: NO scrub at all — the bare, overgrazed hill where it should be (the overwhelming problem is far too little scrub, not too much)", "The geriatric trap: old bushes with nothing coming up beneath them — a dying habitat easy to mistake for health", "Rarely: rank, impenetrable single-species thicket from total abandonment"],
+    "ecosystem_functions": ["High-value browse and a pollinator powerhouse (catkins and blossom) — energy genuinely flows up the web", "Soil-builder — deep-rooted, mines minerals from depth and cycles them through litter; gorse/broom fix nitrogen (the reverse of the leaching open habitats)", "The nurse function — a thorn bush protects a tree seedling until it is away", "The edge effect — scrub mosaics are richer than either pure open ground or closed woodland"],
+    "whole_system_role": "Succession caught in the act and the connective tissue of the WILD map — the transitional matrix that should link every open habitat to the woodland, whose near-total absence is one of the defining wounds of the British uplands.",
+    "successional_neighbours": [
+      {"habitat_code": "g1b acid grassland / h1b heath (open ground)", "direction": "from (colonises when browsing drops)", "note": "Open ground → pioneer scrub → scrub → woodland; the engine of the Regenerate zone."},
+      {"habitat_code": "w1a/w1e/w2a woodland", "direction": "toward (matures into)", "note": "On most ground scrub is transitional, nursing tree regeneration and maturing to woodland given time and low browsing."},
+      {"habitat_code": "h1c6 montane willow scrub (treeline)", "direction": "toward (at the treeline, becomes climax)", "note": "On harsh treeline/thin-soil ground scrub is a stable climax, not transitional."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-09-SCRUB", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 09 — Upland Scrub & Treeline Scrub", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "The 'missing middle', the browse paradox, the geriatric trap, edge effect, soil-building, connective-tissue framing.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel; the single diagnostic is regeneration (is anything young coming through?).",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Structurally diverse multi-age mosaic of mixed species, integrated with open ground; regeneration surviving; dynamic."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Browsing reduced; young plants coming through; mosaic developing."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Mature scrub with limited regeneration; species-poor or blocky."},
+      {"grade": 4, "label": "Unfavourable declining (geriatric trap)", "description": "Old bushes with no regeneration beneath — dying habitat; OR rank single-species thicket (abandonment)."},
+      {"grade": 5, "label": "Absent", "description": "No scrub where it should be — the bare overgrazed hill (the commonest 'condition' of all)."}
+    ],
+    "grade_field_indicators": ["regeneration (young plants present)", "structural and species diversity", "integration with open ground (mosaic vs block)", "geriatric (old, no young) signal", "absence where it should occur"],
+    "sources": [
+      {"ref_id": "WILD-SHEET-09-SCRUB", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 09 — Upland Scrub", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Regeneration as the single diagnostic; the geriatric trap; absence as the norm.", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "The full range — typically better-drained slopes where pioneers establish", "base_status": "variable (gorse/broom fix nitrogen; soil-building)", "climate": "Spans the uplands", "altitude_range_m": "Valley floor to the treeline ecotone (~600 m)", "aspect_exposure": "By rights everywhere as a transitional band; in reality reduced to gully sides and crags out of reach of stock and deer", "bioclimate_notes": "All six bioregions should carry the full sweep; the ground is almost always capable — what is missing is release from browsing, not soil or climate."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading. Bioregionally Wilder is the signature zone; new scrub on degraded ground = Regenerate→Wilder; surviving remnants (juniper) = Protect & Restore.",
+      "water": {"dial_position": 35, "state": "Spans the gradient; typically better-drained slopes", "descriptor": "Pioneers establish on the better-drained ground; willow/carr at the wet end (see h3j/w1d)."},
+      "earth": {"dial_position": 25, "pedogenic_process": "soil-building (deep rooting, mineral cycling, N-fixation)", "descriptor": "Deep-rooted woody plants mine minerals from depth and cycle them through litter; gorse/broom fix nitrogen — scrub actively builds soil and fertility, the reverse of the leaching open habitats."},
+      "air": {"dial_position": 25, "redox_state": "Aerobic and improving as organic matter builds", "exposure_bioclimate": "Creates its own sheltered microclimate", "descriptor": "Aerobic; the scrub shelters and warms the ground beneath."},
+      "fire": {"dial_position": 65, "npp_level": "High and rising", "descriptor": "High and rising production and high-quality energy — browse and the catkin-and-blossom resource feed herbivores and pollinators, so energy genuinely flows up the web."}
+    },
+    "successional_envelope": {
+      "current_stage": "Transitional (succession in action) — and a stable climax only on harsh treeline ground (see h1c6)",
+      "range_of_natural_variability": ["Pioneer scrub colonising open ground", "Diverse multi-age scrub mosaic (favourable)", "Maturing to woodland (transitional)", "Absent (overgrazed) — the commonest state"],
+      "successional_pathway": "open ground → pioneer scrub (gorse, birch, willow, thorn) → scrub → woodland. The engine of the Regenerate zone; on harsh ground (treeline, thin soils) montane scrub is a stable climax instead."
+    },
+    "energy_flow_role": "The dynamic engine that carries open ground toward woodland, and the connective tissue knitting the WILD map into one continuous gradient. Its high browse value is also its undoing under overgrazing.",
+    "wild_zone": "Bioregionally Wilder",
+    "wild_zone_rationale": "Scrub is the very signature of Bioregionally Wilder — the habitat that appears when the WILD map's wilder ambitions are realised. Establishing new scrub across degraded open ground is the core Regenerate→Bioregionally Wilder action. Surviving remnants (especially juniper) are Protect & Restore — rare, precious, irreplaceable seed sources. The treeline scrub ecotone flagged on the montane sheet lives here (and in h1c6).",
+    "disturbance_regime": "Herbivore-pressure managed, not stocked. The central action is almost always the same: reduce herbivore pressure (deer across Scotland, sheep elsewhere) enough to let scrub regenerate. Get browsing right and scrub returns largely on its own where a seed source survives (e.g. Ben Lawers). No burning — muirburn destroys scrub.",
+    "wild_management_target": {"type": "process_target", "detail": "Re-establish a structurally and species-diverse scrub mosaic woven through open ground by reducing herbivore pressure; protect and expand existing remnants (seed sources/gene pool); natural regeneration where a seed source survives, planting where it has gone. Treat as a dynamic regenerating mosaic, not a block to plant once. Apply strict juniper biosecurity.", "integrity_indicators": ["regeneration / young plants coming through", "black grouse on the moor-scrub-woodland transition (the flagship)", "early willow-catkin pollinator resource and the bilberry bumblebee", "structural/species diversity and mosaic integration"]},
+    "ecological_value_grade": 4,
+    "ecological_value_notes": "High — one of the richest wildlife habitats in the uplands because of its structural diversity and edge position (browse, pollinators, black grouse, a huge invertebrate community). Held back only by its near-absence; surviving remnants and juniper rate higher still. The most undervalued habitat in the series relative to its importance.",
+    "value_axes": {"rarity_irreplaceability": {"score": 4, "notes": "The habitat itself is the most depleted in the uplands ('missing middle'); surviving remnants are precious seed sources."}, "diversity": {"score": 5, "notes": "The edge effect makes scrub mosaics richer than either open ground or closed woodland; a pollinator and invertebrate powerhouse."}, "energy_flow_contribution": {"score": 4, "notes": "High-quality energy flows up the web via browse and blossom; the successional engine."}},
+    "naturalistic_lu_ha": {"value": "No single figure — manage herbivore PRESSURE for regeneration, not a stocking rate; reduce deer/sheep until scrub returns", "confidence": "good", "basis_note": "The sheet and sources are explicit: no single grazing figure applies; management is about herbivore pressure and regeneration. Reduce browsing (deer Scotland, sheep elsewhere); a light fluctuating disturbance can maintain a mosaic, but the dominant need is far LESS pressure than the hill currently carries."},
+    "mosaic_role": "connective tissue / nurse", "mosaic_role_note": "The transitional matrix knitting open ground to woodland; nurses tree regeneration; provides the most browse and pollinator resource on the hill.",
+    "preferential_grazing_magnet": true, "preferential_grazing_magnet_note": "TRUE and decisive — scrub is the highest-value browse, the first thing eaten and the last to recover. Its position at the top of the palatability ladder is the direct cause of its near-absence.",
+    "process_indicators": ["regeneration / young plants present", "black grouse presence on the transition", "willow-catkin pollinator resource", "advance of scrub across open ground"],
+    "process_indicators_note": "Regeneration and the advance of the mosaic are the key Bioregionally-Wilder measures.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-09-SCRUB", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 09 — Upland Scrub", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Zone, browse paradox, herbivore-pressure management, edge effect, black grouse.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — successional scrub",
+    "overall_palatability_score": 5,
+    "overall_palatability_notes": "Off the top of the open-ground ladder entirely — scrub is the high-value browse above all the grasses, and the most palatable thing on the hill. Which is precisely the problem: it is grazed out first and recovers last, so its palatability is the direct mechanism of its near-absence. NOT to be managed as a forage resource — the aim is regeneration, achieved by REMOVING pressure.",
+    "forage_yield_by_grade": [{"grade": 1, "kg_dm_ha_yr": {"min": 0, "max": 0}, "confidence": "high", "notes": "Not a forage/stocking habitat — high browse value is the regeneration constraint, not an offtake budget. Managed by reducing herbivore pressure."}],
+    "forage_yield_literature": {"min": 0, "max": 0, "confidence": "high", "notes": "Not a grazing resource; the browse paradox, not a yield figure, is the point.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — managed by herbivore pressure, not DM × utilisation.",
+    "conservation_lu_ha": {"value": "No single figure — REDUCE herbivore pressure (deer Scotland, sheep elsewhere) until scrub regenerates; not a stocking rate", "scheme": "n/a — herbivore-pressure / regeneration management, not a stocked habitat", "confidence": "good", "basis_note": "The defining management truth of the sheet: no single grazing figure applies. Get browsing low enough for regeneration to survive; at Ben Lawers, reducing grazing brought abundant natural regeneration. A light fluctuating disturbance can maintain an established mosaic, but the overwhelming upland problem is far too MUCH pressure.", "sources": [{"ref_id": "WILD-SHEET-09-SCRUB", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 09 — Upland Scrub", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "No single grazing figure; reduce herbivore pressure for regeneration.", "confidence": "good"}]},
+    "palatability_rank": "Very High (top browse) — a regeneration liability, not a grazing asset",
+    "nutritional_quality_note": "Soil-builder; gorse/broom fix nitrogen (gorse was historically bruised and fed as winter forage). No toxicity theme. The browse value is the management story.",
+    "seasonal_forage_curve": {"spring": "Early willow catkins (key pollinator resource) and fresh browse — high-value, the first thing eaten", "summer": "Foliage browse", "autumn": "Haws/sloes/berries (wildlife)", "winter": "Standing browse; gorse historically fed"}
+  },
+  "management": {
+    "optimal_grazing_animals": [{"breed": "None for production — REDUCE deer/sheep", "species": "deer/sheep (reduce)", "grade": "—", "notes": "A light, fluctuating diverse-herbivore presence can maintain an established mosaic, but re-establishment needs far less pressure than the hill carries."}],
+    "unsuitable_animals": [{"breed": "Deer/sheep at hill densities", "species": "deer/sheep", "reason": "The single biggest killer of scrub — graze out the high-value browse before it can establish."}],
+    "timing_windows": {"preferred_season": "Reduce year-round browsing to let scrub regenerate", "rationale": "Scrub is the first thing eaten; it returns when pressure drops", "avoid": "Overgrazing (the single biggest killer); BURNING (muirburn destroys scrub and prevents regeneration)", "per_species_notes": "Deer dominate in Scotland; sheep elsewhere."},
+    "intensity_guidance": "Reduce herbivore pressure — that is the whole game (no stocking figure). Protect and expand remnants; natural regeneration where a seed source survives, planting where gone. Treat as a dynamic mosaic, not a one-off planting block.",
+    "regulatory_note": "JUNIPER biosecurity: Phytophthora austrocedri (root/collar rot, confirmed GB 2012, now widespread; UK uniquely has confirmed juniper infection) spreads in soil and water — clean boots/tools/vehicles between sites, careful stock sourcing, no moving potentially infected material; verify current guidance before any juniper works (juniper management guidance, Defra/Forest Research/Plant Health Centre). Do NOT burn. Check designated-site consents.",
+    "monitoring_protocol": "Regeneration/young plants, structural and species diversity, mosaic integration, black grouse, willow-catkin/pollinator resource, geriatric-remnant signal. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "Medium distinctiveness as mixed scrub (higher for species-rich/priority forms; juniper formations are high/priority — but recorded via host habitat, see juniper_note).", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Mixed scrub medium distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Crataegus monogyna (hawthorn)", "Prunus spinosa (blackthorn)", "Corylus avellana (hazel)", "Ulex europaeus (gorse, N-fixer)", "Cytisus scoparius (broom, N-fixer)", "Rosa spp.", "Sorbus aucuparia (rowan)", "Betula spp."],
+    "key_positive_indicators": ["regeneration / a multi-age mosaic", "species mix and integration with open ground", "blossom and berry/mast resource", "juniper where present (priority — see juniper_note)"],
+    "key_negative_indicators": ["absence (overgrazed bare hill)", "geriatric stands (old, no young)", "Rhododendron ponticum (h3g — invasive, remove)", "rank single-species thicket (abandonment)"],
+    "juniper_priority_note": "JUNIPER (Juniperus communis): a priority/Annex I habitat (H5130) and the main upland scrub species, in serious decline (dioecious; seed viability falls from ~80% in young to ~5% in old plants; continuous sheep grazing prevents regeneration; >40 fungi depend on it). Aromatic, little-browsed (prickle), berries and important cover (winter shelter for black grouse; food for fieldfare/song thrush/ring ouzel). Recorded as mixed scrub (h3h) or on its host habitat with the H5130 flag — no dedicated UKHab code (see ukhab_identity.juniper_note). Montane prostrate juniper (ssp. nana) sits with the montane records.",
+    "integrity_indicators_fauna": ["black grouse — THE flagship (moor-scrub-woodland transition; lekking on open ground, depending on the scrub mosaic; declining as the mosaic vanished)", "ring ouzel (montane scrub), whinchat, stonechat, tree pipit, willow/grasshopper warbler, lesser redpoll, twite, yellowhammer", "willow invertebrate powerhouse (leaf beetles, moths, host-specific galling sawflies incl. a Scottish endemic — see h3j); bilberry bumblebee Bombus monticola on catkins/blossom; juniper's own host-specific species"],
+    "target_species_composition": ["diverse multi-age scrub mosaic woven through open ground", "regeneration surviving", "juniper/remnants protected; no rhododendron"],
+    "note": "Skeleton only — full records in Phase 2B. The willow detail is carried in the h3j record; juniper as a priority theme here and in the montane records."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (h3h verified; full h3 sub-code list; JUNIPER structural flag — no dedicated UKHab code)", "wild_assessment from a high-confidence sheet", "the browse paradox / herbivore-pressure management; no single grazing figure", "edge effect, black grouse, soil-building, connective-tissue framing"],
+    "fields_partially_populated": ["per-parcel single-species sub-codes (h3a/b/d/e/f) — assigned in the field", "juniper — carried as a flagged priority theme pending a verified UKHab code", "species_list — skeleton"],
+    "fields_pending_research": ["Whether the full UKHab v2.01 workbook adds a juniper-specific code — verify", "Site scrub-type mapping and remnant inventory (Phase 2B)", "Current juniper biosecurity guidance"],
+    "overall_confidence": "high",
+    "notes": "The 'missing middle' and the connective tissue of the WILD map — the most depleted and undervalued upland habitat. Bioregionally Wilder signature; remnants P&R. Managed by REDUCING herbivore pressure, not stocking (no single figure). Willow scrub split to h3j; montane treeline scrub to h1c6. JUNIPER flagged: priority/Annex I (H5130) but no dedicated UKHab primary code — recorded here / on host habitat, verify against the full workbook."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "h3 scrub sub-codes; no dedicated juniper code.", "confidence": "high"},
+    {"ref_id": "JUNIPER-MGMT-2017", "source_level": 2, "source_type": "govt_statutory", "title": "Juniper: Management Guidelines / Phytophthora austrocedri biosecurity", "author_org": "Defra / Forest Research / Plant Health Centre", "year": 2017, "url": "https://www.planthealthcentre.scot/", "accessed_date": "2026-06-27", "specific_claim": "H5130 priority habitat; W19; decline drivers (grazing, ageing seed viability); P. austrocedri biosecurity; UK uniquely has confirmed juniper infection.", "confidence": "good"},
+    {"ref_id": "NE-SCRUB-PROFILES", "source_level": 2, "source_type": "govt_statutory", "title": "Natural England scrub community/species profiles", "author_org": "Natural England", "year": 2013, "url": "https://publications.naturalengland.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "British scrub community types and value.", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-09-SCRUB", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 09 — Upland Scrub", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Ecology, zone, management, integrity indicators.", "confidence": "good"}
+  ]
+}
