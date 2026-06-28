@@ -1,0 +1,133 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — woodland group batch; field sheet 10 split per type. v3.3.",
+  "ukhab_identity": {
+    "ukhab_level2": "w", "ukhab_level2_name": "Woodland and forest",
+    "ukhab_level3": "w1", "ukhab_level3_name": "Broadleaved, mixed and yew woodland",
+    "ukhab_level4": "w1e", "ukhab_level4_name": "Upland birchwoods",
+    "ukhab_level5": null,
+    "wilderculture_subtype": null,
+    "composite_pk": "w1e", "composite_pk_note": "Single Level-4 type; PK = w1e. NB the Crosswalk listed w1e under 'broadleaved' alongside w1a/w1d but mislabelled it — w1e is specifically Upland birchwoods (oak is w1a).",
+    "secondary_codes": [], "secondary_codes_notes": "None at type level.",
+    "habitat_name": "Upland birchwood", "parent_category": "Woodland and forest",
+    "bap_priority": true, "annex1_habitat": "None specific (birchwoods are not a distinct Annex I type; value is as native woodland and the regeneration frontier)",
+    "geographic_tags": ["upland", "pioneer", "regeneration_frontier", "below_treeline"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (official definitions + master data sheet + applied surveys)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "w1e = Upland birchwoods (distinct from w1a Upland oakwood). Confirmed in official UKHab definitions and applied surveys (e.g. SSEN Kintore 'w1e Upland birchwoods').", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["W11 / W17 (birch-dominated forms of the upland oak-birch communities)", "W4 Betula pubescens–Molinia (wetter birch — overlaps wet woodland)"],
+    "nvc_communities_notes": "Birch-dominated upland woodland; lower canopy/underwood diversity than oak, but the classic pioneer and regeneration species of the wilder frontier.",
+    "phase1_equivalent": "A1.1.1 Broadleaved semi-natural woodland (birch)",
+    "bng_metric_habitat_name": "Woodland and forest — Upland birchwoods",
+    "wild_sheet_ref": "Habitat-10-Native-Woodland",
+    "sources": [
+      {"ref_id": "JNCC-W-WOODLAND", "source_level": 1, "source_type": "peer_reviewed", "title": "NVC Field Guide to Woodland", "author_org": "Hall/Kirby/Whitbread", "year": 2004, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "Birch-dominated upland woodland communities (W11/W17/W4 forms).", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "Birch-dominated upland woodland — downy birch with rowan, often the pioneer/regeneration phase of the upland wood and the fastest colonist of released open ground. Lower canopy/underwood diversity than oak or ash, but ecologically central as the regeneration frontier of the wilder uplands. Managed by browsing level, not stocked.",
+    "condition_indicators_good": ["Active regeneration and a range of ages; standing/fallen deadwood", "Native birch/rowan dominant; a developing understorey and ground flora", "Open glades and a graded edge advancing onto former open ground", "Browsing light enough that the front keeps advancing"],
+    "condition_indicators_poor": ["Overgrazed: an even-aged stand with no young trees; advance halted", "Non-native conifer or invasive ingress; deadwood removed", "Stalled at a thin even-aged cohort"],
+    "ecosystem_functions": ["The pioneer that builds shelter and soil and nurses other tree regeneration", "Soil-builder and carbon store; fast early carbon capture", "Habitat for birch-associated invertebrates and birds", "The leading edge of natural woodland expansion across degraded open ground"],
+    "whole_system_role": "The regeneration frontier — usually the first woodland to return when browsing is reduced, and the nurse for richer woodland to follow.",
+    "successional_neighbours": [
+      {"habitat_code": "g1b acid grassland / h1b5 dry heath / scrub (h3)", "direction": "from (colonises these when browsing drops)", "note": "Birch is the classic fast colonist of released acid grassland, heath and scrub."},
+      {"habitat_code": "w1a oakwood / w2a pinewood", "direction": "toward (matures/nurses into)", "note": "Often a seral phase nursing richer oak or pine woodland over time."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Birch as pioneer/regeneration species; lower diversity than oak; regeneration diagnostic.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel; regeneration/advance is the diagnostic.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Multi-aged birch/rowan with active regeneration advancing onto open ground; deadwood present."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Browsing reduced; regeneration resuming."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Even-aged cohort, limited regeneration."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Overgrazed, no young trees, advance halted; invasive/conifer ingress."},
+      {"grade": 5, "label": "Destroyed", "description": "Canopy lost or replaced."}
+    ],
+    "grade_field_indicators": ["regeneration and advancing front", "age structure", "native dominance", "browse line", "deadwood"],
+    "sources": [
+      {"ref_id": "WCA-SYLVA", "source_level": 2, "source_type": "ngo_technical", "title": "Woodland Condition Assessment", "author_org": "Sylva Foundation", "year": 2024, "url": "https://sylva.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Regeneration and age structure are core indicators.", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Acid brown earths and podzols", "base_status": "acid", "climate": "Spans the uplands", "altitude_range_m": "Valley floor to the treeline (birch reaches high)", "aspect_exposure": "A wide range; the fast colonist of open slopes", "bioclimate_notes": "Throughout the uplands; increases north-west in the oakwoods."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading. Bioregionally Wilder (the regeneration frontier); Regenerate where actively colonising degraded ground.",
+      "water": {"dial_position": 35, "state": "Free-draining acid ground (wetter forms grade to w1d)", "descriptor": "Mostly free-draining; wet birch grades into wet woodland."},
+      "earth": {"dial_position": 30, "pedogenic_process": "brunification (soil-building pioneer)", "descriptor": "Birch litter improves and builds soil quickly — a pioneer soil-builder."},
+      "air": {"dial_position": 25, "redox_state": "Aerobic", "exposure_bioclimate": "Canopy beginning to buffer the microclimate", "descriptor": "Developing woodland microclimate."},
+      "fire": {"dial_position": 80, "npp_level": "High (fast early growth)", "descriptor": "Fast pioneer growth and early carbon capture; energy flow building toward full woodland."}
+    },
+    "successional_envelope": {
+      "current_stage": "Pioneer/seral woodland (often nursing richer woodland)",
+      "range_of_natural_variability": ["Advancing multi-aged birchwood (favourable)", "Even-aged stalled cohort (overgrazed/halted)", "Maturing toward oak/pine woodland", "New birch colonising released open ground"],
+      "successional_pathway": "open ground (grassland/heath/scrub) → birch pioneer woodland → (nurses) oak/pine/mixed woodland. The leading edge of woodland return."
+    },
+    "energy_flow_role": "The regeneration frontier — fast pioneer carbon capture and the nurse phase for richer woodland.",
+    "wild_zone": "Bioregionally Wilder",
+    "wild_zone_rationale": "The regeneration frontier — birch returning across degraded open ground (via reduced browsing) is the core Regenerate→Bioregionally Wilder action made visible. Established native birchwood is Bioregionally Wilder; ancient birch stands Protect & Restore. The same 'right tree, right place' exclusions apply (not deep peat, not above the treeline, not over open priority habitats).",
+    "disturbance_regime": "Browsing-controlled. Reduce deer/sheep and birch returns largely on its own where a seed source survives.",
+    "wild_management_target": {"type": "process_target", "detail": "Let birch colonise and advance by reducing browsing; protect the advancing front and the seed source; allow it to nurse richer woodland over time. Keep deadwood.", "integrity_indicators": ["advancing regeneration front", "multi-aged structure developing", "transition toward richer woodland", "deadwood"]},
+    "ecological_value_grade": 3,
+    "ecological_value_notes": "Moderate as a woodland type (lower canopy/underwood diversity than oak or ash), but high STRATEGIC value as the regeneration frontier and soil-building nurse of the wilder uplands.",
+    "value_axes": {"rarity_irreplaceability": {"score": 2, "notes": "Widespread and fast to return; not rare, though ancient birch stands have value."}, "diversity": {"score": 3, "notes": "Lower canopy/underwood diversity; still a full woodland food web developing."}, "energy_flow_contribution": {"score": 4, "notes": "High pioneer productivity; the leading edge of woodland energy flow returning."}},
+    "naturalistic_lu_ha": {"value": "Near nil — reduce browsing to let it advance", "confidence": "moderate", "basis_note": "Birch returns largely unaided where browsing is low and a seed source survives (e.g. Ben Lawers); the action is browsing reduction, not stocking."},
+    "mosaic_role": "pioneer / nurse canopy", "mosaic_role_note": "The advancing pioneer of the wilder mosaic; nurses richer woodland.",
+    "preferential_grazing_magnet": false, "preferential_grazing_magnet_note": "Young birch is palatable browse — heavy grazing halts the advance.",
+    "process_indicators": ["advancing regeneration front", "age structure developing", "transition toward oak/pine", "seed-source protection"],
+    "process_indicators_note": "The advancing front is the key Bioregionally-Wilder measure.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Birch as the regeneration frontier; browsing reduction brings it back.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — woodland",
+    "overall_palatability_score": 4,
+    "overall_palatability_notes": "Young birch is sought-after browse — which is why the advance halts under heavy grazing. Not a managed forage resource.",
+    "forage_yield_by_grade": [{"grade": 1, "kg_dm_ha_yr": {"min": 0, "max": 0}, "confidence": "high", "notes": "Not a forage/stocking habitat — managed by browsing level for regeneration/advance."}],
+    "forage_yield_literature": {"min": 0, "max": 0, "confidence": "high", "notes": "Not a grazing resource.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — browsing-managed.",
+    "conservation_lu_ha": {"value": "Near nil — reduce browsing to allow the front to advance", "scheme": "site-specific; not a standard stocking figure", "confidence": "moderate", "basis_note": "At Ben Lawers, reducing grazing brought abundant natural regeneration of pine and birch — browsing reduction is the lever.", "sources": [{"ref_id": "WOODLAND-TRUST-GRAZING", "source_level": 2, "source_type": "ngo_technical", "title": "Woodland Trust / NatureScot regeneration guidance", "author_org": "Woodland Trust / NatureScot", "year": 2025, "url": "https://www.woodlandtrust.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Reduced browsing brings natural birch/pine regeneration where a seed source survives.", "confidence": "good"}]},
+    "palatability_rank": "High (young birch browse) — a regeneration liability",
+    "nutritional_quality_note": "Soil-builder; no toxicity theme.",
+    "seasonal_forage_curve": {"spring": "Browse (a regen risk)", "summer": "Foliage", "autumn": "Senescing", "winter": "Low"}
+  },
+  "management": {
+    "optimal_grazing_animals": [{"breed": "None for production — reduce browsing", "species": "—", "grade": "—", "notes": "Let birch advance by lowering deer/sheep."}],
+    "unsuitable_animals": [{"breed": "Deer/sheep at hill densities", "species": "deer/sheep", "reason": "Halt the advancing regeneration front."}],
+    "timing_windows": {"preferred_season": "Reduce year-round browsing", "rationale": "Allow colonisation and advance", "avoid": "Heavy browsing of the front", "per_species_notes": "Deer management primary in Scotland."},
+    "intensity_guidance": "Reduce browsing; protect the seed source and advancing front. Planting only where seed source is gone (native, local provenance).",
+    "regulatory_note": "Apply the 'right tree, right place' exclusions (not deep peat, not above the treeline, not over open priority habitats). Control invasives; keep deadwood. Check designated-site consents where relevant.",
+    "monitoring_protocol": "Advancing front/regeneration, age structure, native dominance, transition toward richer woodland, deadwood. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "Medium-high distinctiveness as native upland woodland. Strategic value as the regeneration frontier.", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Upland birchwood distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Betula pubescens", "Sorbus aucuparia", "Betula pendula (drier ground)"],
+    "key_positive_indicators": ["active regeneration / advancing front", "developing understorey and ground flora", "deadwood", "transition species toward oak/pine"],
+    "key_negative_indicators": ["even-aged stalled cohort (overgrazed)", "no young trees", "non-native conifer/invasive ingress"],
+    "integrity_indicators_fauna": ["birch-associated invertebrates (a large community) and birds", "black grouse on the woodland-moor edge", "developing woodland bird assemblage"],
+    "target_species_composition": ["multi-aged advancing birch/rowan", "developing understorey", "transition toward richer woodland"],
+    "note": "Skeleton only — full records in Phase 2B. Capture the seral nurse role into w1a/w2a."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (w1e verified; clarified vs w1a oak — the Crosswalk had conflated the broadleaved codes)", "wild_assessment from a high-confidence sheet", "the regeneration-frontier framing and browsing-reduction lever"],
+    "fields_partially_populated": ["conservation grazing — near-nil/site-specific (moderate confidence)", "species_list — skeleton"],
+    "fields_pending_research": ["Stand-level NVC distinction (W11/W17/W4 birch forms)", "Site records (Phase 2B)"],
+    "overall_confidence": "high",
+    "notes": "The pioneer/regeneration frontier — usually the first woodland to return when browsing drops, nursing richer oak/pine woodland to follow. Lower canopy diversity than oak/ash but high strategic value. Bioregionally Wilder; the visible leading edge of the Regenerate→Wilder story."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "w1e upland birchwoods.", "confidence": "high"},
+    {"ref_id": "WOODLAND-TRUST-GRAZING", "source_level": 2, "source_type": "ngo_technical", "title": "Woodland Trust / NatureScot regeneration guidance", "author_org": "Woodland Trust / NatureScot", "year": 2025, "url": "https://www.woodlandtrust.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Reduced browsing brings natural birch regeneration.", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Birch ecology, zone, management.", "confidence": "good"}
+  ]
+}
