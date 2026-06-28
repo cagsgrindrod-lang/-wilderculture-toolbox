@@ -1,0 +1,133 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — woodland group batch; field sheet 10 split per type. v3.3.",
+  "ukhab_identity": {
+    "ukhab_level2": "w", "ukhab_level2_name": "Woodland and forest",
+    "ukhab_level3": "w2", "ukhab_level3_name": "Coniferous woodland",
+    "ukhab_level4": "w2a", "ukhab_level4_name": "Native pine woodlands",
+    "ukhab_level5": null,
+    "wilderculture_subtype": null,
+    "composite_pk": "w2a", "composite_pk_note": "Single Level-4 type; PK = w2a. Native pinewood sits under Coniferous woodland (w2), distinct from non-native conifer (w2b Other Scots pine, w2c Other coniferous).",
+    "secondary_codes": [], "secondary_codes_notes": "None at type level.",
+    "habitat_name": "Native pinewood (Caledonian)", "parent_category": "Woodland and forest",
+    "bap_priority": true, "annex1_habitat": "H91C0 Caledonian forest",
+    "geographic_tags": ["upland", "eastern_highlands", "caledonian", "below_treeline", "internationally_significant"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (official definitions + BNG code list + applied surveys)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "w2 = Coniferous woodland; w2a = Native pine woodlands (Caledonian); w2b Other Scots pine; w2c Other coniferous. Native pinewood = Annex I H91C0 Caledonian forest.", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["W18 Pinus sylvestris–Hylocomium splendens woodland"],
+    "nvc_communities_notes": "Caledonian Scots pine forest of the Highlands (Glen Affric, Abernethy, Loch Arkaig), with juniper and birch and its own specialist wildlife.",
+    "phase1_equivalent": "A1.2.1 Coniferous semi-natural woodland (native pine)",
+    "bng_metric_habitat_name": "Woodland and forest — Native pine woodlands",
+    "wild_sheet_ref": "Habitat-10-Native-Woodland",
+    "sources": [
+      {"ref_id": "NATURESCOT-PINEWOOD", "source_level": 2, "source_type": "govt_statutory", "title": "NatureScot / Forestry & Land Scotland — Caledonian pinewood", "author_org": "NatureScot / FLS", "year": 2025, "url": "https://www.nature.scot/", "accessed_date": "2026-06-27", "specific_claim": "W18 Caledonian Scots pine forest with its specialist wildlife (capercaillie, crested tit, Scottish crossbill, red squirrel).", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "Caledonian Scots pine forest of the Highlands — Scots pine with birch and juniper on free-draining sands and podzols, more continental and eastern than the oceanic broadleaved woods. An internationally important native woodland with its own specialist wildlife. Managed by browsing level for regeneration, not stocked.",
+    "condition_indicators_good": ["Full age range incl. pine regeneration and standing/fallen deadwood (a key pinewood feature)", "Native pine with birch, rowan and a juniper understorey", "Intact ground flora — heather, bilberry, cowberry, mosses", "Browsing light enough that pine seedlings survive"],
+    "condition_indicators_poor": ["Overgrazed (deer): no pine regeneration, even-aged 'granny pines' with no heirs", "Non-native conifer planting/underplanting; deadwood removed", "Lost juniper understorey"],
+    "ecosystem_functions": ["Internationally important native conifer forest with endemic-level specialists", "Soil-building and long-term carbon store in soil and timber", "Deadwood/saproxylic habitat and a distinct pinewood food web", "Pine seed mast and a juniper understorey"],
+    "whole_system_role": "The native conifer climax of the eastern/continental Highlands — and, with its juniper and birch, the wooded top of that successional gradient.",
+    "successional_neighbours": [
+      {"habitat_code": "scrub (juniper/birch) / g1b acid grassland / heath", "direction": "from (the route up)", "note": "Juniper and birch scrub nurse pine regeneration on acid ground when browsing is low (e.g. Ben Lawers pine/birch regeneration)."},
+      {"habitat_code": "h1c5 montane (above)", "direction": "toward (hands over at the treeline)", "note": "Grades up to montane scrub/heath at the treeline — the Cairngorms hold the UK's most natural treeline (Creag Fhiaclach)."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Caledonian pinewood, specialist wildlife, regeneration diagnostic.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel; pine regeneration is the diagnostic.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Full age range with pine regeneration; juniper understorey; deadwood; native dominant."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Deer reduced; pine regeneration appearing; non-native conifer being removed."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Mature pine, sparse regeneration; juniper declining."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "'Granny pines' with no regeneration (deer overgrazing); non-native conifer ingress."},
+      {"grade": 5, "label": "Destroyed / converted", "description": "Replaced by plantation or lost with no continuity."}
+    ],
+    "grade_field_indicators": ["pine regeneration", "age structure / granny pines", "juniper understorey", "deadwood", "non-native conifer ingress", "deer browse impact"],
+    "sources": [
+      {"ref_id": "WCA-SYLVA", "source_level": 2, "source_type": "ngo_technical", "title": "Woodland Condition Assessment", "author_org": "Sylva Foundation", "year": 2024, "url": "https://sylva.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Regeneration and age structure are core indicators.", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Free-draining sands and podzols", "base_status": "acid", "climate": "More continental and eastern than the oceanic broadleaved woods", "altitude_range_m": "Valley floor up to the treeline (highest natural treeline in the Cairngorms)", "aspect_exposure": "Free-draining slopes and straths", "bioclimate_notes": "Eastern Highlands above all — Glen Affric, Abernethy, Loch Arkaig, the Cairngorms."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading. Protect & Restore (ancient Caledonian remnants irreplaceable); expansion = Bioregionally Wilder.",
+      "water": {"dial_position": 25, "state": "Free-draining sands/podzols", "descriptor": "Dry, free-draining ground."},
+      "earth": {"dial_position": 35, "pedogenic_process": "podzolisation under pine (slow soil-building)", "descriptor": "Acid podzols under pine; slow but real carbon storage in soil and long-lived timber."},
+      "air": {"dial_position": 25, "redox_state": "Aerobic", "exposure_bioclimate": "Continental, canopy-buffered", "descriptor": "Drier, more continental woodland microclimate."},
+      "fire": {"dial_position": 80, "npp_level": "High (long-lived)", "descriptor": "High light capture and a long-lived carbon store; a distinct pinewood food web incl. deadwood specialists."}
+    },
+    "successional_envelope": {
+      "current_stage": "Climax (native conifer climax of the continental Highlands)",
+      "range_of_natural_variability": ["Multi-aged regenerating pinewood with juniper (favourable)", "Granny pines with no regeneration (deer-overgrazed)", "New pine/birch colonising released ground", "Plantation-degraded (non-native conifer)"],
+      "successional_pathway": "acid ground/heath → juniper-birch scrub → native pinewood (climax) → grades to montane at the treeline. NOT to displace deep peat or open priority habitats."
+    },
+    "energy_flow_role": "The native conifer climax with a distinct specialist food web; a long-term carbon store and an internationally important woodland.",
+    "wild_zone": "Protect & Restore",
+    "wild_zone_rationale": "Ancient Caledonian pinewood remnants are Protect & Restore — internationally important and irreplaceable, the seed sources and gene pool for expansion. New native pinewood expanding via reduced deer browsing is Bioregionally Wilder. Same 'right tree right place' exclusions apply.",
+    "disturbance_regime": "Browsing-controlled — DEER are the primary lever here. Reduce deer and pine/juniper/birch regenerate largely on their own where a seed source survives.",
+    "wild_management_target": {"type": "process_target", "detail": "Achieve sustained pine and juniper regeneration by reducing deer; protect and expand ancient remnants; remove non-native conifer; keep deadwood and granny pines. Natural regeneration first, planting (native, local-provenance) only where seed source is gone. Mind juniper biosecurity (Phytophthora austrocedri).", "integrity_indicators": ["pine regeneration surviving", "juniper understorey health", "capercaillie / crested tit / Scottish crossbill presence", "red squirrel (and recovering pine marten tipping grey→red)"]},
+    "ecological_value_grade": 5,
+    "ecological_value_notes": "Among the very highest — internationally important Caledonian forest (H91C0) with specialists found almost nowhere else (capercaillie, crested tit, Scottish crossbill) and irreplaceable ancient remnants.",
+    "value_axes": {"rarity_irreplaceability": {"score": 5, "notes": "Ancient Caledonian remnants are rare and effectively irreplaceable; the gene pool for all expansion."}, "diversity": {"score": 4, "notes": "Distinct specialist assemblage (birds, deadwood invertebrates, red squirrel)."}, "energy_flow_contribution": {"score": 4, "notes": "Full woodland energy flow plus a long-lived carbon store."}},
+    "naturalistic_lu_ha": {"value": "Near nil — reduce DEER to allow regeneration", "confidence": "moderate", "basis_note": "Deer management is the whole game in the pinewood; at Ben Lawers reduced grazing brought abundant pine/birch regeneration. Not a stocked habitat."},
+    "mosaic_role": "canopy / regeneration destination", "mosaic_role_note": "The native conifer climax; juniper/birch scrub nurse it. Not a grazing patch.",
+    "preferential_grazing_magnet": false, "preferential_grazing_magnet_note": "Pine seedlings and juniper are browsed by deer — the reason regeneration fails at high deer density.",
+    "process_indicators": ["pine regeneration surviving", "juniper understorey health (mind P. austrocedri)", "capercaillie/specialist presence", "deer browse impact / non-native conifer removal"],
+    "process_indicators_note": "Deer impact is the master variable; capercaillie is in genuine crisis.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Pinewood ecology, deer as the lever, specialist wildlife, zone.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — woodland climax",
+    "overall_palatability_score": 3,
+    "overall_palatability_notes": "Pine itself is low browse, but the juniper, birch and ground flora are browsed, and deer pressure prevents pine regeneration. Not a managed forage resource — the issue is deer, not stocking.",
+    "forage_yield_by_grade": [{"grade": 1, "kg_dm_ha_yr": {"min": 0, "max": 0}, "confidence": "high", "notes": "Not a forage/stocking habitat — managed by deer/browsing level for regeneration."}],
+    "forage_yield_literature": {"min": 0, "max": 0, "confidence": "high", "notes": "Not a grazing resource.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — deer/browsing-managed.",
+    "conservation_lu_ha": {"value": "Near nil — reduce DEER to allow pine/juniper/birch regeneration", "scheme": "site-specific deer management; not a standard livestock stocking figure", "confidence": "moderate", "basis_note": "Deer management is the primary action; reduced grazing brings natural regeneration where a seed source survives (Ben Lawers). Not stocked with livestock.", "sources": [{"ref_id": "NATURESCOT-PINEWOOD", "source_level": 2, "source_type": "govt_statutory", "title": "NatureScot / FLS Caledonian pinewood and deer management", "author_org": "NatureScot / FLS", "year": 2025, "url": "https://www.nature.scot/", "accessed_date": "2026-06-27", "specific_claim": "Deer reduction is the primary lever for pinewood regeneration.", "confidence": "good"}]},
+    "palatability_rank": "Low (pine) — but juniper/birch/ground flora browsed; deer the constraint",
+    "nutritional_quality_note": "Soil-builder; no toxicity theme. The constraint is deer browsing of regeneration, not nutrition.",
+    "seasonal_forage_curve": {"spring": "Ground flora and seedling browse (a regen risk)", "summer": "Ground flora", "autumn": "Pine mast (for wildlife)", "winter": "Low; deer browse pressure year-round"}
+  },
+  "management": {
+    "optimal_grazing_animals": [{"breed": "None for production — manage DEER down", "species": "deer (reduce)", "grade": "—", "notes": "Deer management is the whole game; livestock are not the tool here."}],
+    "unsuitable_animals": [{"breed": "Red deer at density", "species": "deer", "reason": "Prevent pine and juniper regeneration — the chief threat to the pinewood."}],
+    "timing_windows": {"preferred_season": "Year-round deer management to a regeneration-permitting density", "rationale": "Allow pine/juniper/birch seedlings to survive", "avoid": "High deer density; non-native conifer planting", "per_species_notes": "Deer is the primary herbivore; livestock generally not used."},
+    "intensity_guidance": "Reduce deer to a density that permits regeneration. Protect and expand ancient remnants; remove non-native conifer; keep granny pines and deadwood.",
+    "regulatory_note": "Juniper faces Phytophthora austrocedri (root/collar rot, confirmed in Britain 2012, now widespread; UK uniquely has confirmed juniper infection) — BIOSECURITY matters: clean boots/tools/vehicles, careful stock sourcing, no moving potentially infected material; check current guidance before any juniper works. Capercaillie is in genuine crisis — manage sensitively (e.g. deer-fence collision risk). Many pinewoods are SSSI/SAC/SPA — check consents.",
+    "monitoring_protocol": "Pine regeneration, age structure/granny pines, juniper understorey (and P. austrocedri), deadwood, non-native conifer, capercaillie and specialist presence, deer impact. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "Very high distinctiveness — priority habitat (H91C0 Caledonian forest). Among the highest BNG values; ancient remnants irreplaceable.", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Native pine woodland very high distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Pinus sylvestris (native)", "Betula pubescens", "Juniperus communis", "Sorbus aucuparia"],
+    "key_positive_indicators": ["pine regeneration surviving", "juniper understorey present and healthy", "ground flora — heather, bilberry, cowberry, mosses", "granny pines and abundant deadwood"],
+    "key_negative_indicators": ["no pine regeneration (deer overgrazing)", "non-native conifer ingress/underplanting", "lost juniper understorey", "P. austrocedri in juniper"],
+    "integrity_indicators_fauna": ["capercaillie (in genuine crisis — one of Britain's most threatened birds), crested tit, Scottish crossbill (found almost nowhere else)", "black grouse on the edge; woodcock, woodpeckers", "red squirrel (recovering pine marten tips grey→red); deadwood/saproxylic specialists"],
+    "target_species_composition": ["multi-aged native pine with juniper/birch and regeneration", "granny pines and deadwood retained", "no non-native conifer"],
+    "note": "Skeleton only — full records in Phase 2B. Capercaillie sensitivity and juniper biosecurity are key management attributes; juniper also belongs to the scrub batch (h3/h1c6)."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (w2a verified — under Coniferous woodland, distinct from non-native w2b/w2c)", "wild_assessment from a high-confidence sheet", "deer as the management lever; juniper biosecurity; capercaillie crisis", "the pinewood specialist assemblage"],
+    "fields_partially_populated": ["conservation/deer figures — site-specific (moderate confidence)", "species_list — skeleton"],
+    "fields_pending_research": ["Current juniper P. austrocedri biosecurity guidance — verify", "Capercaillie management specifics per site", "Designated-site consents per parcel"],
+    "overall_confidence": "high",
+    "notes": "Completes the five-record woodland group. Internationally important Caledonian forest (H91C0); Protect & Restore for ancient remnants, Bioregionally Wilder for expansion. DEER are the management lever, not livestock. Juniper biosecurity (P. austrocedri) and capercaillie sensitivity flagged. Juniper also features in the scrub batch (next)."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "w2a native pine woodlands; H91C0.", "confidence": "high"},
+    {"ref_id": "NATURESCOT-PINEWOOD", "source_level": 2, "source_type": "govt_statutory", "title": "NatureScot / FLS Caledonian pinewood", "author_org": "NatureScot / FLS", "year": 2025, "url": "https://www.nature.scot/", "accessed_date": "2026-06-27", "specific_claim": "W18 Caledonian forest; deer as the regeneration lever; specialist wildlife.", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Pinewood ecology, deer lever, zone, management.", "confidence": "good"}
+  ]
+}
