@@ -1,0 +1,135 @@
+{
+  "record_type": "habitat",
+  "schema_version": "3.3",
+  "created": "2026-06-27",
+  "created_by": "Wilderculture WILD Toolbox session (Claude) — woodland group batch; field sheet 10 split per type. v3.3.",
+  "ukhab_identity": {
+    "ukhab_level2": "w", "ukhab_level2_name": "Woodland and forest",
+    "ukhab_level3": "w1", "ukhab_level3_name": "Broadleaved, mixed and yew woodland",
+    "ukhab_level4": "w1d", "ukhab_level4_name": "Wet woodland",
+    "ukhab_level5": null,
+    "ukhab_level5_states": {"w1d5": "Alder woodland on floodplains (Annex I H91E0)", "w1d6": "Bog woodland (Annex I H91D0)"},
+    "ukhab_level5_note": "Keyed at w1d. w1d5 (alluvial alder/willow/ash, H91E0) and w1d6 (bog woodland, H91D0) are the Annex I Level-5 types. NB bog woodland (w1d6) is a special case — on shallow peat, NOT a licence to afforest deep blanket bog (f1a).",
+    "wilderculture_subtype": null,
+    "composite_pk": "w1d", "composite_pk_note": "Single Level-4 type; PK = w1d.",
+    "secondary_codes": [], "secondary_codes_notes": "None at type level.",
+    "habitat_name": "Wet woodland", "parent_category": "Woodland and forest",
+    "bap_priority": true, "annex1_habitat": "H91E0 Alluvial alder/willow/ash forests (w1d5); H91D0 Bog woodland (w1d6)",
+    "geographic_tags": ["upland", "valley_floor", "flush", "wet", "below_treeline"],
+    "sources": [
+      {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01 (official definitions + master data sheet + applied surveys)", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "w1d = Wet woodland (w1d5 alder on floodplains H91E0, w1d6 bog woodland H91D0). Confirmed in official UKHab definitions and applied surveys.", "confidence": "high"}
+    ]
+  },
+  "cross_references": {
+    "nvc_communities": ["W4 Betula pubescens–Molinia caerulea woodland", "W7 Alnus glutinosa–Fraxinus excelsior–Lysimachia nemorum woodland", "(W1–W3 willow carr at the wettest end)"],
+    "nvc_communities_notes": "Willow, alder and birch carr on wet valley floors and flushes — the wooded end of the rush-pasture and wet-heath succession.",
+    "phase1_equivalent": "A1.1.1 Broadleaved semi-natural woodland (wet/carr)",
+    "bng_metric_habitat_name": "Woodland and forest — Wet woodland",
+    "wild_sheet_ref": "Habitat-10-Native-Woodland",
+    "sources": [
+      {"ref_id": "JNCC-W4-W7", "source_level": 1, "source_type": "peer_reviewed", "title": "NVC Field Guide to Woodland (W4, W7)", "author_org": "Hall/Kirby/Whitbread", "year": 2004, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "W4 birch-Molinia and W7 alder-ash are the wet woodland communities.", "confidence": "good"}
+    ]
+  },
+  "ecology": {
+    "description": "Willow, alder and birch carr on wet valley floors and flushes — the wooded end of the rush-pasture (f2b) and wet-heath (h1b6) succession. A high-productivity tangle of swampy vegetation and dense underwood. As with all the woodland, managed by browsing level for regeneration, not stocked.",
+    "condition_indicators_good": ["Full age range with regeneration; standing and fallen deadwood", "Intact wet-woodland ground flora and bryophytes; damp surface maintained", "Native willow/alder/birch dominant; structurally diverse", "Browsing light enough that regeneration survives"],
+    "condition_indicators_poor": ["Overgrazed: no regeneration; poached wet ground", "Drained/dried — the wet character lost", "Non-native conifer or invasive ingress; deadwood tidied away"],
+    "ecosystem_functions": ["High productivity and dense structure — rich invertebrate and bird habitat", "Water storage and flood attenuation on valley floors and flushes", "Soil-builder and carbon store (incl. peat in bog woodland)", "The wooded successional endpoint for wet open habitats"],
+    "whole_system_role": "The wet-end woodland climax — where rush pasture and wet heath go when released on suitable (non-deep-peat) ground.",
+    "successional_neighbours": [
+      {"habitat_code": "f2b rush pasture / h1b6 wet heath", "direction": "from (the wet succession)", "note": "Rush pasture → wetland scrub (willow) → wet woodland; wet heath on suitable non-peat margins → bog myrtle/willow → wet woodland."},
+      {"habitat_code": "f1a blanket bog", "direction": "NOT toward (critical exclusion)", "note": "Bog woodland (w1d6) is on shallow peat; do NOT extend it onto deep blanket bog — afforesting deep peat dries and oxidises the carbon store."}
+    ],
+    "sources": [
+      {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Wet woodland as the carr endpoint of wet-habitat succession; the deep-peat exclusion.", "confidence": "good"}
+    ]
+  },
+  "ukhab_condition": {
+    "condition_grade": null, "condition_grade_note": "Assigned per parcel; regeneration and wet character are the diagnostics.",
+    "condition_grade_criteria_type": "semi-natural",
+    "condition_grade_descriptors": [
+      {"grade": 1, "label": "Favourable", "description": "Multi-aged wet woodland with regeneration; damp surface; native dominant; deadwood retained."},
+      {"grade": 2, "label": "Unfavourable recovering", "description": "Browsing reduced and/or hydrology restored; regeneration returning."},
+      {"grade": 3, "label": "Unfavourable no change", "description": "Sparse regeneration; partial drying."},
+      {"grade": 4, "label": "Unfavourable declining", "description": "Overgrazed/poached or drying out; invasive/conifer ingress."},
+      {"grade": 5, "label": "Destroyed", "description": "Drained and lost, or replaced."}
+    ],
+    "grade_field_indicators": ["regeneration", "water table / wet character", "native willow/alder/birch dominance", "poaching/drainage", "deadwood"],
+    "sources": [
+      {"ref_id": "WCA-SYLVA", "source_level": 2, "source_type": "ngo_technical", "title": "Woodland Condition Assessment", "author_org": "Sylva Foundation", "year": 2024, "url": "https://sylva.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Regeneration and age structure are core indicators.", "confidence": "good"}
+    ]
+  },
+  "wild_assessment": {
+    "abiotic_template": {"parent_material_geology": "Wet valley floors, flushes and floodplains; alluvium and shallow peat", "base_status": "variable (neutral to acid; alder fixes N)", "climate": "Spans the uplands", "altitude_range_m": "Valley floor and flushes, below the treeline", "aspect_exposure": "Wet, low-lying, sheltered", "bioclimate_notes": "Throughout the uplands wherever ground stays wet."},
+    "elemental_conditions": {
+      "convention_note": "CURRENT-STATE reading. Bioregionally Wilder / Protect & Restore (the wet wooded endpoint).",
+      "water": {"dial_position": 75, "state": "Wet — valley floors, flushes, floodplains", "descriptor": "The wet exception among the woodlands; damp to waterlogged."},
+      "earth": {"dial_position": 45, "pedogenic_process": "alluvial / gleying / shallow-peat with litter cycling", "descriptor": "Soil-building under the canopy; carbon in soil, timber and (bog woodland) shallow peat. Alder fixes nitrogen."},
+      "air": {"dial_position": 55, "redox_state": "Fluctuating/low in the wet surface", "exposure_bioclimate": "Canopy-buffered, humid", "descriptor": "Wet, sheltered woodland microclimate."},
+      "fire": {"dial_position": 80, "npp_level": "High", "descriptor": "High productivity and dense underwood; energy flows to a rich invertebrate/bird community."}
+    },
+    "successional_envelope": {
+      "current_stage": "Climax (wet-end woodland)",
+      "range_of_natural_variability": ["Multi-aged regenerating carr (favourable)", "Over-mature non-regenerating (overgrazed)", "Dried/drained (degraded)", "New willow/alder colonising released wet ground"],
+      "successional_pathway": "rush pasture / wet heath → wetland (willow) scrub → wet woodland. On deep peat the answer is REWETTING to bog, not woodland — bog woodland (w1d6) is shallow-peat only."
+    },
+    "energy_flow_role": "High-productivity wet woodland; the wooded resolution of the wet-habitat succession and a flood/water-storage asset.",
+    "wild_zone": "Bioregionally Wilder",
+    "wild_zone_rationale": "The wet wooded endpoint — Bioregionally Wilder where new carr develops on released wet ground; ancient wet woodland is Protect & Restore. CRITICAL exclusion: not on deep blanket bog (f1a), where rewetting, not woodland, is the wilder move.",
+    "disturbance_regime": "Browsing-controlled and hydrology-led. Reduce deer/sheep for regeneration; maintain the wet character (do not drain).",
+    "wild_management_target": {"type": "process_target", "detail": "Sustain natural regeneration by reducing browsing while keeping the ground wet (do not drain). Allow willow/alder carr to develop on released rush pasture/wet heath margins. Keep deadwood. Do NOT extend onto deep peat.", "integrity_indicators": ["regeneration surviving", "wet character maintained", "native willow/alder/birch dominance", "deadwood/invertebrate community"]},
+    "ecological_value_grade": 4,
+    "ecological_value_notes": "High — an Annex I priority type (H91E0/H91D0), high-productivity, structurally rich, and a flood/water-storage and carbon asset; variable by stand.",
+    "value_axes": {"rarity_irreplaceability": {"score": 4, "notes": "Priority/Annex I; alluvial and bog woodland are restricted and ancient stands irreplaceable."}, "diversity": {"score": 4, "notes": "Dense structure and rich invertebrate/bird habitat."}, "energy_flow_contribution": {"score": 4, "notes": "High woodland productivity plus water-regulation function."}},
+    "naturalistic_lu_ha": {"value": "Near nil — reduce browsing; keep stock off the soft wet surface", "confidence": "moderate", "basis_note": "Reduce deer/sheep for regeneration; wet ground poaches easily, so grazing pressure is doubly damaging."},
+    "mosaic_role": "wet canopy / regeneration destination", "mosaic_role_note": "The wet wooded endpoint of the valley-floor mosaic; not a grazing patch.",
+    "preferential_grazing_magnet": false, "preferential_grazing_magnet_note": "Willow browse is high-value (see scrub) — regeneration fails under heavy grazing.",
+    "process_indicators": ["regeneration surviving", "water table / wet character", "willow/alder establishment on released wet ground", "deadwood"],
+    "process_indicators_note": "Hydrology and browsing together govern the outcome.",
+    "sources": [
+      {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Wet woodland ecology, zone, deep-peat exclusion.", "confidence": "good"}
+    ]
+  },
+  "forage": {
+    "is_production_sward": false, "is_permanent_pasture": false, "years_unimproved": "n/a — woodland climax",
+    "overall_palatability_score": 4,
+    "overall_palatability_notes": "Willow/alder browse is high-value (see the scrub sheet) — the reason wet woodland fails to regenerate under heavy grazing. Not a managed forage resource, and the wet surface poaches.",
+    "forage_yield_by_grade": [{"grade": 1, "kg_dm_ha_yr": {"min": 0, "max": 0}, "confidence": "high", "notes": "Not a forage/stocking habitat — browsing-managed for regeneration."}],
+    "forage_yield_literature": {"min": 0, "max": 0, "confidence": "high", "notes": "Not a grazing resource.", "sources": []},
+    "forage_yield_actual": [], "dm_data_source_type": "literature", "dm_basis": "gross",
+    "utilisation_factor": null, "utilisation_factor_note": "Not applicable — browsing-managed.",
+    "conservation_lu_ha": {"value": "Near nil — reduce browsing; keep stock off the soft wet surface", "scheme": "site-specific; not a standard stocking figure", "confidence": "moderate", "basis_note": "Reduce deer/sheep for regeneration; wet ground is especially vulnerable to poaching.", "sources": [{"ref_id": "WOODLAND-TRUST-GRAZING", "source_level": 2, "source_type": "ngo_technical", "title": "Woodland Trust grazing/regeneration guidance", "author_org": "Woodland Trust", "year": 2025, "url": "https://www.woodlandtrust.org.uk/", "accessed_date": "2026-06-27", "specific_claim": "Browsing reduction is the primary regeneration action.", "confidence": "good"}]},
+    "palatability_rank": "High (willow/alder browse) — a regeneration liability",
+    "nutritional_quality_note": "Soil-builder; alder fixes nitrogen. No toxicity theme.",
+    "seasonal_forage_curve": {"spring": "Willow catkins/browse (a regen risk)", "summer": "Dense growth", "autumn": "Senescing", "winter": "Low — keep off the soft surface"}
+  },
+  "management": {
+    "optimal_grazing_animals": [{"breed": "None for production — reduce browsing", "species": "—", "grade": "—", "notes": "Keep stock off the soft wet surface; manage deer/sheep down."}],
+    "unsuitable_animals": [{"breed": "Deer/sheep at hill densities; cattle on the wet surface", "species": "deer/sheep/cattle", "reason": "Prevent regeneration and poach the wet ground."}],
+    "timing_windows": {"preferred_season": "Reduce year-round browsing; keep off the soft surface", "rationale": "Allow regeneration; protect hydrology and soil structure", "avoid": "Browsing pressure; drainage", "per_species_notes": "Deer management primary in Scotland."},
+    "intensity_guidance": "Reduce browsing; maintain wet character. Do not drain. Do not extend onto deep peat (rewet that instead).",
+    "regulatory_note": "Do not drain. Bog woodland (w1d6) is shallow-peat only — NOT a route to afforest deep blanket bog (f1a), which would dry/oxidise the carbon store and breach peat policy. Keep deadwood; control invasives. Many wet woods are SSSI/SAC — check consents.",
+    "monitoring_protocol": "Regeneration, water table/wet character, native dominance, poaching/drainage, deadwood. Apply the re-grade trigger.",
+    "bng_unit_value": {"value_note": "Very high distinctiveness — priority habitat (H91E0/H91D0). High BNG value; ancient/alluvial stands irreplaceable.", "confidence": "good", "sources": [{"ref_id": "BNG-STATUTORY-METRIC", "source_level": 2, "source_type": "govt_statutory", "title": "Statutory Biodiversity Metric", "author_org": "Natural England / Defra", "year": 2024, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Wet woodland very high distinctiveness; confirm exact label.", "confidence": "medium"}]}
+  },
+  "species_list": {
+    "key_constants": ["Alnus glutinosa", "Salix cinerea", "Salix caprea", "Betula pubescens", "Fraxinus excelsior (in W7)"],
+    "key_positive_indicators": ["regeneration surviving", "wet-woodland ground flora and bryophytes; damp surface", "structural diversity and deadwood", "native willow/alder/birch dominance"],
+    "key_negative_indicators": ["no regeneration (overgrazed)", "drying/drainage", "non-native conifer or invasive ingress", "poached wet ground"],
+    "integrity_indicators_fauna": ["rich damp-woodland invertebrate community (incl. deadwood/saproxylic species)", "willow/alder-associated birds and invertebrates", "amphibians and wetland species on the wet floor"],
+    "target_species_composition": ["multi-aged willow/alder/birch carr with regeneration", "wet character maintained", "no drainage/invasives"],
+    "note": "Skeleton only — full records in Phase 2B. Capture the f2b/h1b6 → w1d succession link and the deep-peat exclusion."
+  },
+  "data_completeness": {
+    "fields_fully_populated": ["ukhab_identity (w1d verified; w1d5/w1d6 Annex I types; deep-peat exclusion flagged)", "wild_assessment from a high-confidence sheet", "the wet-succession link from f2b/h1b6", "hydrology-and-browsing management"],
+    "fields_partially_populated": ["conservation grazing — near-nil/site-specific (moderate confidence)", "species_list — skeleton"],
+    "fields_pending_research": ["Stand-level W4/W7/carr distinction and bog-woodland peat-depth checks", "Site records (Phase 2B)", "Designated-site/drainage consents"],
+    "overall_confidence": "high",
+    "notes": "The wet wooded endpoint of the rush-pasture/wet-heath succession. Bioregionally Wilder where new carr develops; ancient wet woodland Protect & Restore. CRITICAL: bog woodland (w1d6) is shallow-peat — never a justification to afforest deep blanket bog (f1a), where rewetting is the wilder move."
+  },
+  "sources": [
+    {"ref_id": "UKHAB-v2.01-2023", "source_level": 2, "source_type": "govt_statutory", "title": "UK Habitat Classification v2.01", "author_org": "UKHab Ltd", "year": 2023, "url": "https://ukhab.org/ukhab-documentation/", "accessed_date": "2026-06-27", "specific_claim": "w1d wet woodland; w1d5 H91E0, w1d6 H91D0.", "confidence": "high"},
+    {"ref_id": "JNCC-W4-W7", "source_level": 1, "source_type": "peer_reviewed", "title": "NVC Field Guide to Woodland", "author_org": "Hall/Kirby/Whitbread", "year": 2004, "url": "https://jncc.gov.uk/", "accessed_date": "2026-06-27", "specific_claim": "W4/W7 wet woodland communities.", "confidence": "good"},
+    {"ref_id": "WILD-SHEET-10-WOODLAND", "source_level": 7, "source_type": "practitioner_framework", "title": "Wilderculture field sheet 10 — Native Woodland", "author_org": "Wilderculture CIC", "year": 2026, "url": null, "accessed_date": "2026-06-27", "specific_claim": "Wet woodland ecology, zone, deep-peat exclusion.", "confidence": "good"}
+  ]
+}
